@@ -1,0 +1,11 @@
+#commentaires .in {margin:-60px 0 0 0; z-index:1000}
+#commentaires .bas { display:none }
+
+.billets .date { margin-left:43px; }
+.billets .infos { margin-left:90px; margin-top:-14px }
+.billets .coms { margin-right:8px; margin-top:-11px }
+
+.billets .infos span a { text-decoration:underline }
+.billets .infos span a:hover { color:#FF9900 }
+.billets .coms a { text-decoration:underline }
+.billets .coms a:hover { color:#FF9900 }

@@ -1,0 +1,23 @@
+#{extends 'layout-complet.html' /}
+#{set title:'Derniers flashs' /}
+
+<div data-role="page">
+	<div data-role="header">
+		#{header lang:lang /}
+	</div>
+
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" class="ui-listview-first">
+			<li  data-role="list-divider">&{'DerniersVinsFlashes'}</li>
+			#{list items:liste, as: 'vin'}
+				#{vin vin:vin /}
+			#{/list}
+			#{else}
+			<li>&{'AucunVinFlashe'}</li>
+			#{/else}
+		</ul>
+
+		<a href="@{Annuaire.index}" data-role="button" data-icon="grid">&{'AnnuaireDesVins'}</a>
+	</div>
+
+</div>

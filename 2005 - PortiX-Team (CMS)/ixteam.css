@@ -1,0 +1,113 @@
+/* STYLE DES TITRE */
+.titreBS { 
+	font-size:15px; 
+	color:#FFFFFF; 
+	border-left:2px solid #73BEF7; 
+	border-bottom:2px solid #73BEF7; 
+	padding:4px; 
+	font-weight:bold;
+	margin:15px 50px 35px 20px 
+}
+.ajouter_centre	{ 
+	background-color:#FFFFFF; 
+	border:1px solid #333333; 
+	text-align:center; 
+	height:20px;
+	width:50%; 
+	margin-top:25px; 
+	padding-top:6px; 
+	font-size:12px; 
+	font-weight:bold; 
+	margin-left:auto; 
+	margin-right:auto
+}
+
+/* STYLES FORMULAIRES */
+.case_inscript { 
+	text-align:center; 
+	background-color:#FFFFFF; 
+	color:#0066FF; 
+	font-family:Verdana; 
+	font-size:12px; 
+	border:1px solid #666666; 
+	padding-left:2px
+}
+
+/* STYLES TEXTES */
+.soulignpoint { 
+	font-size:12px; 
+	font-weight:bold; 
+	border-bottom:1px dotted #F60 ; 
+	color:#FFFFFF
+}
+
+.textexplicatifadmin { 
+	margin-left: 20px;
+	padding-left: 7px;
+	border-left:1px dashed #FFFFFF; 
+}
+
+/* AUTRES */
+#barresouligner { 
+	height:1px; 
+	border-bottom:1px dashed #FFFFFF; 
+	width:90%; 
+	margin-left:auto; 
+	margin-right:auto
+}
+
+#caseadmin { 
+	width:95%; 
+	margin-right:auto; 
+	margin-left:auto; 
+	font-size:11px; 
+	text-align:center
+}
+#tdadmin { 
+	width:20% ;
+}
+#caseadmin a:link, #caseadmin a:visited { 
+	color:#FFFFFF; 
+	text-decoration:none
+}
+#caseadmin a:hover { 
+	color:#FF9900;
+}
+
+.menu-spe { 
+	list-style-image:url(images/fleche1.gif);
+	padding-left:70px;
+}
+
+.liste_table { 
+	width:98%; 
+	border:1px solid #000000; 
+	background-color:#FFFFFF; 
+	padding:1px
+}
+
+.liste_titre { 
+	font-weight:bold; 
+	text-align:center; 
+	color:#333333; 
+	padding:2px
+}
+
+.liste_txt { 
+	color:#444444; 
+	text-align:center; 
+	font-size:12px ; 
+	padding:1px; 
+}
+
+.table_news { width:95%; border:1px solid #000000; margin-left:auto; margin-right:auto; margin-top:10px; background-color:#FFFFFF; color:#0066FF; font-size:11px}
+	.table_news a:link, .table_news a:visited  { color:#0099FF}
+	.table_news a:hover { color:#0066FF}
+#poster_com { width:95%; border:1px solid #000000; margin-left:auto; margin-right:auto; margin-top:10px; background-color:#FFFFFF; color:#000000; padding:4px}
+
+.bbcode_comnews { border:1px solid #000000; background-color:#FFFFFF; color:#0066FF; width:28px; height:20px; vertical-align:middle}
+.txt_comnews { border:1px dashed #555555; color:#0099FF; margin-bottom:5px; margin-top:5px;  padding:5px; }
+
+.smileys { background-color:#FFFFFF; border:1px solid #000000 ; width:90%; margin:5px 0px 0px 1px; padding:3px; text-align:justify}
+
+blockquote.stats { border-left:1px dashed #FF9900; padding:0px 0px 0px 5px}

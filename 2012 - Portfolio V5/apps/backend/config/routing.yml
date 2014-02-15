@@ -1,0 +1,138 @@
+tagging:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                tagging
+    module:               tagging
+    prefix_path:          /tagging
+    column:               id
+    with_wildcard_routes: true
+
+tag:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                tag
+    module:               tag
+    prefix_path:          /tag
+    column:               id
+    with_wildcard_routes: true
+
+reltechnocreation:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                reltechnocreation
+    module:               reltechnocreation
+    prefix_path:          /reltechnocreation
+    column:               id
+    with_wildcard_routes: true
+
+techno:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                techno
+    module:               techno
+    prefix_path:          /techno
+    column:               id
+    with_wildcard_routes: true
+
+commentaire:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Commentaire
+    module:               commentaire
+    prefix_path:          /commentaires
+    column:               id
+    with_wildcard_routes: true
+
+categorie_folio:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                CategorieFolio
+    module:               categorie_folio
+    prefix_path:          /categories-folio
+    column:               id
+    with_wildcard_routes: true
+
+categorie:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Categorie
+    module:               categorie
+    prefix_path:          /categories-news
+    column:               id
+    with_wildcard_routes: true
+
+articles_lies:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ArticlesLies
+    module:               articles_lies
+    prefix_path:          /articles-lies
+    column:               Array
+    with_wildcard_routes: true
+
+article:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Article
+    module:               article
+    prefix_path:          /articles
+    column:               id
+    with_wildcard_routes: true
+
+rel_image_creation:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                RelImageCreation
+    module:               rel_image_creation
+    prefix_path:          /Relation Image-Creation
+    column:               Array
+    with_wildcard_routes: true
+
+image:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Image
+    module:               image
+    prefix_path:          /images
+    column:               id
+    with_wildcard_routes: true
+
+creation:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Creation
+    module:               creation
+    prefix_path:          /creations
+    column:               id
+    with_wildcard_routes: true
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: creation, action: index }
+
+
+sf_guard_signin:
+  url:   /login
+  param: { module: sfGuardAuth, action: signin }
+
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
+
+sf_guard_password:
+  url:   /request_password
+  param: { module: sfGuardAuth, action: password }
+  
+  
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

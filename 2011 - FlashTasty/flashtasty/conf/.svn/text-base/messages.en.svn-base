@@ -1,0 +1,44 @@
+# Général
+
+domaine  = vineyard
+Domaine  = Vineyard
+dégustation = tasting
+Dégustation = Tasting
+Cépages = Cépages[en]
+Appellation = Appellation[en]
+Visuel = Visuel[en]
+ArômesEtSaveur = Aromes[en]
+MetsEtVins = Mets & Vins[en]
+Producteur = Producteur[en]
+Adresse = Address
+PointDeVente = Point de vente[en]
+Tel = Phone
+Email = Email
+Contact = Contact
+Retour = Back
+Etiquette = Etiquette[en]
+OuvrirPlan = Open map
+Insolite = Insolite[en]
+Fermer = Close
+
+DerniersVinsFlashes = Derniers vins flashés[en]
+
+AucunVinFlashe = Nous n'avez encore flashé aucun vin[en]
+AucunCepage = Aucun cépage[en]
+AucunVignoble = Aucun vignoble[en]
+AucunDomaine = Aucun domaine[en]
+AucunVin = Aucun vin[en]
+
+TitreAnnuaire = Annuaire des vins FlashTasty[en]
+AnnuaireDesVins = Annuaire des vins[en]
+AnnuaireDesCepages = Annuaire des cépages[en]
+AnnuaireDesVignobles = Annuaire des vignobles[en]
+AnnuaireDesDomaines = Annuaire des domaine[en]
+
+ListeVins = Liste des vins[en]
+ListeDomaines = Liste des domaines[en]
+ListeCepages = Liste des cépages[en]
+ListeVignobles = Liste des vignobles[en]
+
+RechercherUnVin = Rechercher un vin[en]
+ChercherUnVinPPP = Chercher un vin ...[en]

@@ -1,0 +1,15 @@
+=> Utilisés pour l'affichage principal du site
+
+Accueil.tpl.php
+contenu.tpl.php
+infos.tpl.php
+photo.tpl.php
+simple.tpl.php
+images/
+
+=> Utilisés pour l'administration du site
+
+admin.tpl.php
+css/
+img/
+

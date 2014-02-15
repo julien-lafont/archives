@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr\">
+<head>
+	<title>{#titre}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link href="theme/-- ix-team/style.css" rel="stylesheet" type="text/css" />
+	<link href="ixteam.css" rel="stylesheet" type="text/css" />
+	<script language="javascript" src="include/scripts.js"></script>
+	{#header}
+	</head>
+<body>
+<table width="780" cellspacing="0" cellpadding="0" align="center">
+	<tr>
+		<td width="32" height="176" rowspan="2">
+			<img id="header_gauche" src="theme/-- ix-team/images/header_gauche.jpg" width="32" height="176" alt="" /></td>
+		<td width="158" height="24">
+			<img id="header_haut" src="theme/-- ix-team/images/header_haut.jpg" width="158" height="24" alt="" /></td>
+		<td width="590" height="176" rowspan="2">
+			<img id="header_droite" src="theme/-- ix-team/images/header_droite.jpg" width="590" height="176" alt="" /></td>
+	</tr>
+	<tr>
+		<td width="158" height="152" valign="top" background="theme/-- ix-team/images/header_contenu.jpg">
+		<div class="txt_header">
+		    <br />
+		    <center><b>{#nomsite}</b><br />
+            <br />		    
+          	{#slogan}<br /></center>
+		  </div>
+		</td>
+	</tr>
+	<tr>
+		<td width="780" height="34" colspan="3">
+			<img id="barre_menu" src="theme/-- ix-team/images/barre_menu.jpg" width="780" height="34" alt="" /></td>
+	</tr>
+</table>
+<table width="780" cellspacing="0" cellpadding="0" align="center">
+	<tr>
+		<td width="16" background="theme/-- ix-team/images/bordure_g.jpg"></td>
+		<td width="190" valign="top" bgcolor="#3F403C">
+			<table width="158"  align="center" cellspacing="0" bgcolor="#666666" style="border-left:1px solid #2A2A28; border-right:1px solid #2A2A28; padding:3px; height:400px">
+          <tr>
+            <td valign="top" id="menu">	
+			
+			<!--VTP_menug--> <br>  
+            &nbsp;<img src="theme/-- ix-team/images/puce1.png" width="9" height="9" align="absbottom"> <span class="titre_menu">{#titre}<br></span>
+			{#texte}<br>
+            <div class="barremenu"></div>
+			<!--/VTP_menug-->
+			</td>
+          </tr>
+        </table></td>
+		
+		
+		<td width="558" valign="top" bgcolor="#3F403C">
+		
+		  <!--VTP_news-->
+		  <table width="549" border="0" cellpadding="0" cellspacing="0" style="margin-top:10px ">
+            <tr>
+              <td width="549" height="19" colspan="3" background="theme/-- ix-team/images/module_haut.jpg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>{#news_cathegorie}</i> <b>{#news_titre} </b></td>
+            </tr>
+            <tr>
+              <td width="5" background="theme/-- ix-team/images/module_g1.jpg"></td>
+              <td width="539" valign="top" bgcolor="#757575">{#news_texte}</td>
+              <td width="5" background="theme/-- ix-team/images/module_droite1.jpg"></td>
+            </tr>
+            <tr>
+              <td width="549" height="6" colspan="3"><img id="module_barre_c" src="theme/-- ix-team/images/module_barre_c.jpg" width="549" height="6" alt="" /></td>
+            </tr>
+            <tr>
+              <td width="5" height="15"><img id="module_g2" src="theme/-- ix-team/images/module_g2.jpg" width="5" height="15" alt="" /></td>
+              <td width="539" height="15" bgcolor="#565656"><div align="right">Post&eacute;e par {#news_auteur} le {#news_date} - {#news_commentaires}</div></td>
+              <td width="5" height="15"><img id="module_d2" src="theme/-- ix-team/images/module_d2.jpg" width="5" height="15" alt="" /></td>
+            </tr>
+            <tr>
+              <td width="549" height="10" colspan="3"><img id="module_bas" src="theme/-- ix-team/images/module_bas.jpg" width="549" height="10" alt="" /></td>
+            </tr>
+          </table>
+		  <!--/VTP_news-->
+		  
+		  <!--VTP_contenu-->
+		  <table width="549" border="0" cellpadding="0" cellspacing="0" style="margin-top:10px ">
+            <tr>
+              <td width="549" height="19" colspan="3" background="theme/-- ix-team/images/module_haut.jpg" class="titre_contenu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{#module_titre}</td>
+            </tr>
+            <tr>
+              <td width="5" background="theme/-- ix-team/images/module_g1.jpg"></td>
+              <td width="539" valign="top" bgcolor="#757575">{#module_texte}</td>
+              <td width="5" background="theme/-- ix-team/images/module_droite1.jpg"></td>
+            </tr>
+            <tr>
+              <td width="549" height="6" colspan="3"><img id="module_barre_c" src="theme/-- ix-team/images/module_barre_c.jpg" width="549" height="6" alt="" /></td>
+            </tr>
+            <tr>
+              <td width="5" height="15"><img id="module_g2" src="theme/-- ix-team/images/module_g2.jpg" width="5" height="15" alt="" /></td>
+              <td width="539" height="15" bgcolor="#565656"></td>
+              <td width="5" height="15"><img id="module_d2" src="theme/-- ix-team/images/module_d2.jpg" width="5" height="15" alt="" /></td>
+            </tr>
+            <tr>
+              <td width="549" height="10" colspan="3"><img id="module_bas" src="theme/-- ix-team/images/module_bas.jpg" width="549" height="10" alt="" /></td>
+            </tr>
+          </table>
+		  <!--/VTP_contenu-->
+		 
+		  		  
+		  <p>&nbsp;</p></td>
+		<td width="16" background="theme/-- ix-team/images/bordure_d.jpg"></td>
+	</tr>
+	<tr>
+		<td width="780" height="19" colspan="4">
+			<div align="center"><img id="footer" src="theme/-- ix-team/images/footer.jpg" width="780" height="19" alt="" /><br />
+		  </div>
+		  <div align="center">{#copyright}</div></td>
+	</tr>
+
+</table>
+<br /><center>
+</body>
+</html>

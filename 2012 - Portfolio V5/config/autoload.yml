@@ -1,0 +1,5 @@
+autoload:
+  ckeditor:
+    name:       CKEditor
+    path:       "%SF_WEB_DIR%/js/ckeditor"
+    recursive:  on

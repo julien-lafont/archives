@@ -1,0 +1,18 @@
+# # Populate this file with data to be loaded by your ORM's *:data-load task.
+# # You can create multiple files in this directory (i.e. 010_users.yml,
+# # 020_articles.yml, etc) which will be loaded in alphabetical order.
+# #
+# # See documentation for your ORM's *:data-load task for more information.
+#
+
+Categorie:
+  c0:
+    titre: "Actu Studio-dev"
+  c1:
+    titre: "Développement"
+  c2:
+    titre: "Symfony"
+  c3:
+    titre: "Gestion de projet"
+  c4:
+    titre: "Open-Source"

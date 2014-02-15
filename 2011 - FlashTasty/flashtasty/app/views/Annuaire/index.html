@@ -1,0 +1,20 @@
+#{extends 'layout-complet.html' /}
+#{set title:'Annuaire des vins' /}
+
+<div data-role="page">
+	<div data-role="header" >
+		#{header lang:lang, retour:true /}
+	</div>
+
+	<div data-role="content">
+		<h3>&{'TitreAnnuaire'}</h3>
+		<a href="@{Annuaire.vins}" data-role="button" data-theme="b">&{'ListeVins'}</a>
+		<a href="@{Annuaire.domaines}" data-role="button" data-theme="b">&{'ListeDomaines'}</a>
+		<a href="@{Annuaire.cepages}" data-role="button" data-theme="b">&{'ListeCepages'}</a>
+		<a href="@{Annuaire.vignobles}" data-role="button" data-theme="b">&{'ListeVignobles'}</a>
+
+		<h3>&{'RechercherUnVin'}</h3>
+		<input type="search" name="vin" id="search" value="not yet implemented" />
+	</div>
+
+</div>

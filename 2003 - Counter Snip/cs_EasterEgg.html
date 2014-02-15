@@ -1,0 +1,309 @@
+<HTML>
+<HEAD>
+<TITLE>Counter Snip</TITLE>
+<META NAME="TITLE" CONTENT="Counter-Snip">
+<META NAME="identifer-URL" CONTENT="http://sniperman.free.fr">
+<META NAME="AUTHOR" lang="fr" CONTENT="Sniperman">
+<META NAME="OWNER" CONTENT="snake.spm@laposte.net">
+<META NAME="SUBJECT" CONTENT="Counter Strike">
+<META NAME="Category" CONTENT="Internet - Jeux - Cs">
+<META NAME="DESRIPTION" CONTENT="Tout sur Counter Strike et plus">
+<META NAME="KEYWORDS" CONTENT="sniperman,kirikiri,countersnip,counter-snip,cs,counter strike,counterstrike,wallpapers,fond d'écran,sms,loto,prizee,astuces,armes,skins,binds,alias,half life,maps,download,téléchargement,patchs,guide,dossier,aide,ping,fps,optimisation,mms,loteries,Orange,LAN,réseau,France,fr,hl key fr,1.5,1.3,1.4,Forum,Astuces,Console,commandes,Cheat,Hack,OGL,wallhack,liens,GBA,rom,Annuaire,">
+<META NAME="LANGUAGE" CONTENT="FR">
+<META NAME="robots" CONTENT="All">
+<STYLE TYPE=text/css>
+TD { font-family:Verdana;font-size:11px;color:white } 
+.menu { font-family:Verdana;font-size:12px;color:white } 
+.titre { font-family:Verdana;font-size:20px;color:white } 
+A.menu { font-family:Verdana;font-size:12px;color:white;text-decoration:none } 
+A:hover.menu { font-family:Verdana;font-size:12px;color:#FFCC00;font-weight:normal;text-decoration:none } 
+A { font-family:Verdana;font-size:11px;color:#FFFFFF;text-decoration:none } 
+A:hover { font-family:Verdana;font-size:11px;color:#FFCC00} 
+BODY {SCROLLBAR-FACE-COLOR: #ffa534; SCROLLBAR-HIGHLIGHT-COLOR: #ffd756; SCROLLBAR-SHADOW-COLOR: #ff8312; SCROLLBAR-3DLIGHT-COLOR: #000000; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #8E908D; SCROLLBAR-DARKSHADOW-COLOR: #000000}.Style7 {font-size: 10px;
+	color: #FFFFFF;
+}
+.Style8 {color: #FFFFFF}
+.parent {font-family: verdana;font-weight: bold ;color: #CCCCCC;font-size: 12px;margin-top: 10;cursor: hand;margin-left: 6pt}
+.child {font-size: 9px;decoration: none;font-weight: normal;margin-left:10pt}
+</STYLE>
+<script language="javascript">
+<!--
+var intCount = 1;
+function DynamicMenu_addParent(strName) {
+	var strID = 'ID' + intCount++;
+	var strTemp = '<DIV ID="' + strID + '" CLASS="parent"';
+        strTemp += ' onClick="expandCollapse(this);">';
+	    strTemp += '<B>' + strName + '</B>'  
+        strTemp += '<DIV CLASS="child"></DIV>';
+        strTemp += '</DIV>';
+		this.div.innerHTML += strTemp;
+        this.currentChild = document.getElementById(strID);
+}
+
+function DynamicMenu_addChild(strName,strURL) {
+
+	var strTemp = '<A HREF="' + strURL + '"' + ' onClick="cancelBubble(arguments[0]);">' + strName + '</A><BR>';
+	if (document.all) {
+        	this.currentChild.children[1].innerHTML += strTemp;
+	} else {
+        	this.currentChild.childNodes[1].innerHTML += strTemp;
+	}
+	
+}
+
+function cancelBubble(netEvent) {
+	if (document.all) {
+		window.event.cancelBubble = true;
+	} else {
+        	netEvent.cancelBubble = true;
+	}
+}
+
+function expandCollapse(objElement) {
+
+	if (document.all) {
+        	var imgIcon = objElement.children[0];
+                objElement = objElement.children[1];
+	} else {
+        	var imgIcon = objElement.childNodes[0];
+                objElement = objElement.childNodes[2];
+	}
+	if (objElement.style.display == "none") {
+        	objElement.style.display = "block" ;
+                imgIcon.src = "bottomb.gif" ;
+	} else {
+        	objElement.style.display = "none" ;
+                imgIcon.src = "leftb.gif" ;
+	}
+}
+
+function DynamicMenu() {
+
+	var id = "Menu" + intCount++;
+        document.write('<DIV Id="' + id + '"></DIV>');		
+	this.div = document.getElementById(id);
+        this.currentChild = null;
+		
+	this.addParent = DynamicMenu_addParent;
+	
+        this.addChild = DynamicMenu_addChild;
+		
+}
+// -->
+
+</script>
+
+
+</HEAD>
+<BODY BGCOLOR=#000000 TEXT=#FFFFFF LINK=#0000FF VLINK=#800080 ALINK=#FF0000>
+
+<CENTER>
+
+<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH=774>
+  <TR>
+    <TD WIDTH=175><IMG SRC="images/haut3a.jpg" BORDER=0 WIDTH=175 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+      <TD WIDTH=579 BACKGROUND=images/top_cs.gif CLASS=titre> 
+        <!-- ICI, LE TITRE DEVOTRE SITE -->
+        Dossier Easter - Eggs<BR>
+        <IMG SRC="images/pixel.gif" BORDER=0 WIDTH=1 HEIGHT=13 HSPACE=0 VSPACE=0></TD>
+    <TD WIDTH=20><IMG SRC="images/top_d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+      	
+      	<!-- !!!!!!!!! DEBUT MENU !!!!!!!!!!! -->
+	  <TD WIDTH=175 BACKGROUND=images/fond_menu.gif VALIGN=top CLASS=menu> <IMG SRC="images/haut3b.jpg" BORDER=0 WIDTH=175 HEIGHT=115 HSPACE=0 VSPACE=0><BR>
+
+	<!-- DEBUT MENU 1 -->
+    <!-- DEBUT MENU 1 -->
+    <p><span class="parent"><img src="images/Puces/arrow2b.gif" width="10" height="13" align="absmiddle"> <a href="index.htm">Accueil</a></span><br>
+        <script language=Javascript type=text/javascript>
+var menu = new DynamicMenu();
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Site'); 
+menu.addChild('- Me contacter', 'site_contact.html');
+menu.addChild('- Livre d&acute;or', 'http://www.maxiservices.net/livre/livre.php3?id=2810 ');		
+menu.addChild('- Chat', 'site_chat.html'); 
+menu.addChild('- Qui suis-je', 'site_quisuisje.html');
+menu.addChild('- Pubs', 'site_pub.html');
+      
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Counter Strike'); 
+menu.addChild(' ', ' ');
+menu.addChild('- Pr&eacute;sentation', 'cs_presentation.html');
+menu.addChild('- <b>Downloads</b>', 'cs_Downloads.html');
+menu.addChild('- Astuces', 'cs_Astuces.html');
+menu.addChild('- Armes', 'cs_armes.html');
+menu.addChild('- Binds & Alias', 'cs_Binds_&_Alias.html'); 
+menu.addChild('- PodBot', 'cs_Podbot.html');
+menu.addChild('- <b>Réduire son Ping</b>', 'cs_Ping.html');
+menu.addChild('- Dossier CS - Xbox', 'cs_xbox.html');
+menu.addChild('- Servers', 'cs_server.html');
+menu.addChild('- Easter Eggs', 'cs_EasterEgg.html');
+menu.addChild('- Counter Mania', 'cs_counterMania.html');
+menu.addChild('- Commandes', 'cs_console.html');
+menu.addChild('- Cheats', 'cs_cheats.html');
+menu.addChild('- Tag', 'cs_tag2.html');
+menu.addChild('- Liens', 'cs_liens.html');
+menu.addChild('- Wallpapers', 'cs_wallpapers.html');
+menu.addChild('- Tarte à la Fraise', 'cs_tarte.html');
+
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Steam'); 
+menu.addChild('- T&eacute;l&eacute;chargement', 'steam_telechargement.html');
+menu.addChild('- <b>Pack LAN + BOT</b>', 'steam_nosteam.html'); 				 				
+menu.addChild('- Installation', 'steam_install.html');
+menu.addChild('- Utilitaires', 'steam_util.html');
+menu.addChild('- Binder 1.6', 'cs_Binder1.html');
+menu.addChild('- Lecteur MP3', 'steam_mp3.html');
+menu.addChild('- FAQ', 'steam_faq.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Half Life 2'); 
+menu.addChild('- News', 'hl_news.html');
+menu.addChild('- Histoire', 'hl_hist.html');
+menu.addChild('- Armes', 'hl_armes.html'); 
+menu.addChild('- Personnages', 'hl_pers.html');
+menu.addChild('- Packs', 'hl_pack.html');			
+menu.addChild('- Screenshot', 'hl_screen.html');
+menu.addChild('- Art-Works', 'hl_screen3.html');
+menu.addChild('- Fond d&acute;&eacute;cran', 'hl_wallpapers.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Petits +'); 
+menu.addChild('- Dossier Virus', 'plus_virus.html'); 				
+menu.addChild('- SMS & MMS gratuits', 'plus_sms.html');
+menu.addChild('- Mail Anonyme', '');
+menu.addChild('- M&eacute;t&eacute;o 48h', 'plus_meteo.html');
+menu.addChild('- Programme Cin&eacute; et TV', 'plus_cine.html');
+menu.addChild('- Annuaire Invers&eacute;', 'plus_annuaire.html');
+menu.addChild('- Traduction en ligne', 'plus_trans.html');
+menu.addChild('- Horoscope', 'plus_horoscopes.html');
+menu.addChild('- Auto-Biographie ;-)', 'plus_bio.html');
+menu.addChild('- Cartes et Itin&eacute;raires', 'plus_cartes.html');
+menu.addChild('- Loteries Gratuites', 'plus_loteries.html');
+menu.addChild('- Convertisseur', 'plus_calcu.html');
+          </script>
+        <br>
+    </p>
+    <TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+      <TR>
+        <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp; T&eacute;l&eacute;chargement &nbsp;&nbsp;</B></div></TD>
+      </TR>
+    </TABLE>
+    <p align="center">
+    <MARQUEE behavior= "scroll" align= "center" direction= "up" height="80" scrollamount= "2" scrolldelay= "10" onmouseover='this.stop()' onmouseout='this.start()'>
+    <table align=center>
+      <tr>
+        <td align=center>
+          <p>- <a href="ftp://ftpclubic2.clubic.com/temp-clubic-rx1740/jeux/Counter-Strike_Mod_1.5_en_version_complete.exe"><strong>Counter Strike 1.5</strong></a> - <br>
+        127 mo </p>
+          <p>- <a href="steam_nosteam.html"><strong>Pack CS 1.6 OFFline</strong> -<br>
+              Dossier</a></p>
+          <p>- <a href="http://www.filemirrors.com/search.src?file=steaminstall_cs.exe&size=397857244" target="_blank"><strong>Counter Strike 1.6</strong></a> - <br>
+        Full 388 mo </p>
+          <p>- <a href="ftp://ftp.vugames.fr/pub/half-life/fhl1110.exe"><strong>Half life 1.1.1.0</strong></a> - <br>
+        Full 84 mo </p>
+          <p>- <a href="ftp://ftp.trusted-network.de/pub/games/pod25ins.exe"><strong>Pod Bot 2.5</strong></a> - <br>
+        2 mo</p>
+          <p>- <a href="http://akimbot.nuclearbox.com/akimbot030.zip"><strong>Akimbot Bot 3.0</strong></a> - <br>
+        0.3 mo </p>
+          <p>- <a href="Fichiers/SteamCustomizerv104.rar"><strong>Steam Customizer</strong></a> - <br>
+        0.3 mo </p>
+          <p class="Style8"><strong>- <a href="http://www.udpsoft.com/eye/download/newer/EyeInstaller.exe">All-Seeing Eyes</a> -</strong></p></td>
+      </tr>
+    </table>
+    </MARQUEE>
+    <br>
+    <br>
+    <TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+      <TR>
+        <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp; Wallpapers : &nbsp;&nbsp;</B></div></TD>
+      </TR>
+    </TABLE>
+    <p align="center"><a href="images/Wallpapers/cs_74.jpg"><img src="images/Wallpapers/small/TN_cs_74.JPG" width="128" height="96" border="0"></a> <br>
+        <span class="Style7"><a href="cs_wallpapers.html">Tous les Wallpapers</a></span></p>
+    <p align="center">&nbsp; 
+        </p></TD>
+    <TD WIDTH=579 BGCOLOR=#364132 VALIGN=top ALIGN=center>
+	
+	<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=575>
+  		<TR>
+    		<TD WIDTH=25><IMG SRC="images/cad_bleu_hg.gif" BORDER=0 WIDTH=25 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+    		<TD BACKGROUND=images/cad_bleue_h.gif WIDTH=523 CLASS=menu><B>Map ayant
+    		    des Easter Eggs</B></TD>
+    		<TD WIDTH=27><IMG SRC="images/cad_bleu_hd.gif" BORDER=0 WIDTH=27 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  		<TR>
+    		<TD WIDTH=25 BACKGROUND=images/cad_g.gif><IMG SRC="images/cad_g.gif" BORDER=0 WIDTH=25 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+    		<TD BGCOLOR=#4D574A WIDTH=523><p><img src="images/Puces/sniper.gif" width="65" height="40" align="absmiddle"><strong><font color="#FFFF00">Cs_italy</font></strong></p>
+    		  <p>Pour trouver cette salle o&ugrave; vous pourrez admirer ce tableau,
+                volez vers la tour en face du premier screenshot.</p>
+              <p align="center"><img src="images/Easter%20Eggs/cs_italy_b1.jpg" width="200" height="150"> &nbsp;&nbsp;<img src="images/Easter%20Eggs/cs_italy_b2.jpg" width="200" height="150"></p>
+              <p><img src="images/Puces/sniper.gif" width="65" height="40" align="absmiddle"> <strong><font color="#FFFF00">Cs_siege</font></strong></p>
+              <p>Dans le camp des anti-terroristes, descendez par le tunnel,
+                en spectateur allez dans la galerie bouch&eacute;e et retournez-vous
+                pour &ecirc;tre face &agrave; la map. <br>
+              Voici le message qui appara&icirc;tra.</p>
+              <p align="center"><img src="images/Easter%20Eggs/cs_siege_b1.jpg" width="200" height="150"> &nbsp;&nbsp;<img src="images/Easter%20Eggs/cs_siege_b2.jpg" width="200" height="150"></p>
+              <p align="left"><strong><font color="#FFFF00"><img src="images/Puces/sniper.gif" width="65" height="40" align="absmiddle"> De_aztec</font></strong></p>
+              <p>En &eacute;tant spectateur, prenez le pont c&ocirc;t&eacute; anti-terroriste
+                et volez vers le mur de gauche. Vous trouverez un endroit plein
+                de d&eacute;dicaces, d'inscriptions et de remerciements.</p>
+              <p align="center"><img src="images/Easter%20Eggs/de_aztec_b1.jpg" width="200" height="150"> &nbsp;&nbsp;<img src="images/Easter%20Eggs/de_aztec_b2.jpg" width="200" height="150"></p>
+              <p align="left"><strong><font color="#FFFF00"><img src="images/Puces/sniper.gif" width="65" height="40" align="absmiddle">De_dust</font></strong></p>
+              <p>Dans la version de la b&ecirc;ta 1 de CS, en mode spectateur,
+              partez du camp anti-terroriste.</p>
+              <p align="center"><img src="images/Easter%20Eggs/de_dust0001p.jpg" width="200" height="150"> &nbsp;&nbsp;<img src="images/Easter%20Eggs/de_dust0002p.jpg" width="200" height="150"></p>
+              <p align="left"><strong><font color="#FFFF00"><img src="images/Puces/sniper.gif" width="65" height="40" align="absmiddle">De_dust2</font></strong></p>
+              <p>Dans le camp des anti-terroristes, 180&deg; vers le mur. Vous
+                trouverez d'un c&ocirc;t&eacute; l'hommage &agrave; Justin DeJong
+                et de l'autre des remerciements de DaveJ.</p>
+              <p align="center"><img src="images/Easter%20Eggs/de_dust2_b2.jpg" width="200" height="150"> &nbsp;&nbsp;<img src="images/Easter%20Eggs/de_dust2_b1.jpg" width="200" height="150"></p>
+              <p align="left"><strong><font color="#FFFF00"><img src="images/Puces/sniper.gif" width="65" height="40" align="absmiddle"></font> <font color="#FFFF00">De_inferno</font></strong></p>
+              <p>Prenez la rampe (c&ocirc;t&eacute; anti-terroriste), derri&egrave;re
+              la porte avec un signe de non-fumeur. </p>
+              <p><br>
+              </p>              <p align="center"><img src="images/Easter%20Eggs/de_inferno_b1.jpg" width="200" height="150"> &nbsp;&nbsp;<img src="images/Easter%20Eggs/de_inferno_b3.jpg" width="200" height="150"></p>
+              <p align="left"><strong><font color="#FFFF00"><img src="images/Puces/sniper.gif" width="65" height="40" align="absmiddle"></font> <font color="#FFFF00">De_prodigy</font></strong></p>
+              <p align="left">Dans le camp des terroristes, sur une caisse
+                on peut lire :<br>
+&quot;
+              Thanks to Guerro, CS Team, Anarchy Design&quot;.</p>
+              <p align="center"><img src="images/Easter%20Eggs/de_prodigy_b1.jpg" width="200" height="150"></p>
+              <p align="left"><strong><font color="#FFFF00"><img src="images/Puces/sniper.gif" width="65" height="40" align="absmiddle">De_survivor</font></strong></p>
+              <p>Il faut casser un mur dans la ville. (Petit chemin qui descend)</p>
+              <p align="center"> <img src="images/Easter%20Eggs/de_survivor0013p.jpg" width="200" height="150"> &nbsp;&nbsp;<img src="images/Easter%20Eggs/de_survivor0010p.jpg" width="200" height="150"><br>
+              </p>
+              <p align="center"><br>
+              </p>              <p align="center"><br>
+              </p>
+            <p>&nbsp;</p></TD><TD WIDTH=27 BACKGROUND=images/cad_d.gif><IMG SRC="images/cad_d.gif" BORDER=0 WIDTH=27 HEIGHT=12 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  		<TR>
+    		<TD COLSPAN=3><IMG SRC="images/cad_b.gif" BORDER=0 WIDTH=575 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  	</TABLE>
+	<p><a href="http://www.xiti.com/xiti.asp?s=98910" TARGET="_top">
+<script language="JavaScript1.1">
+<!--
+hsh = new Date();
+hsd = document;
+hsr = hsd.referrer.replace(/[<>]/g, '');
+hsi = '<img width="39" height="25" border=0 ';
+hsi += 'src="http://logv20.xiti.com/hit.xiti?s=98910';
+hsi += '&p=Egg';
+hsi += '&hl=' + hsh.getHours() + 'x' + hsh.getMinutes() + 'x' + hsh.getSeconds();
+if(parseFloat(navigator.appVersion)>=4)
+{Xiti_s=screen;hsi += '&r=' + Xiti_s.width + 'x' + Xiti_s.height + 'x' + Xiti_s.pixelDepth + 'x' + Xiti_s.colorDepth;}
+hsd.writeln(hsi + '&ref=' + hsr.replace(/&/g, '$') + '" title="Mesurez votre audience"><\!--');
+//-->
+</script>
+<noscript>
+<img width="39" height="25" border=0 src="http://logv20.xiti.com/hit.xiti?s=98910&p=Egg&" title="Mesurez votre audience">
+</noscript><!--//--></a></TD>
+    <TD WIDTH=20 BACKGROUND=images/d.gif><IMG SRC="images/d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+  	<TD COLSPAN=3><IMG SRC="images/bas.jpg" BORDER=0 WIDTH=774 HEIGHT=32 USEMAP="#bas"></TD>
+  </TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>
+<!-- FIN FOOTER -->

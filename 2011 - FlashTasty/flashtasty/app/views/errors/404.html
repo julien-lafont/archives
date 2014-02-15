@@ -1,0 +1,17 @@
+#{extends 'layout-complet.html' /}
+#{set title:'Erreur 404' /}
+
+<div data-role="page" id="error404">
+	<div data-role="header">
+		<h1>#{get 'title' /}</h1>
+		<a class="ui-btn-right" data-icon="home" href="/" rel="external">Accueil</a>
+	</div>
+	<div data-role="content">
+		<div class="ui-body ui-body-b">
+			<h2>Page introuvable</h2>
+			<p>La page que vous tentez d'atteindre n'a pas été trouvée.</p>
+			<p>Merci de vérifier l'URL. Autrement, vous pouvez utiliser le bouton ci-dessous pour retourner sur la page d'accueil. </p>
+			<a href="/" data-role="button" rel="external">Retour à l'accueil</a>
+	   </div>
+	</div>
+</div>

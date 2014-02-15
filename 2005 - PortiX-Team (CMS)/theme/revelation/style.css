@@ -1,0 +1,50 @@
+/* Spécial Revelation */
+.txt2 { color:#FFFFFF }
+
+
+body {
+	background-image:url(images/bg.gif);
+	background-repeat:repeat-x repeat-y;
+	margin:0px; }
+	
+td, div, p {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#CCCCCC; }
+	
+#menu a:link {
+	color:#00A8FF}
+#menu a:visited {
+	color:#00A8FF}
+#menu a:hover { 
+	color:#66CCFF }
+	
+a:link, a:visited { 
+	color:#73BEF7;
+	text-decoration:none }
+a:hover {
+	color:#234A95; }
+
+.txt_header {
+	color:#FFFFFF;
+	padding:2px }
+	
+.titre_contenu {
+	font-weight:bold;
+	font-size:12px;
+	vertical-align:middle }
+	
+.barremenu {
+	width:100%; height:0px;
+	border-bottom:1px solid #AAAAAA;
+	border-top:1px solid #1E1E1E;
+	}
+	
+.titre_menu{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold; }
+	
+.orange					 { color:#FFCC00; font-weight:bold}
+.txt_slogan2			 { color:#FFFFFF; font-size:12px }
+

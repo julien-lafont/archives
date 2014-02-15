@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head><body><div id="class"><h1>Classe calendar</h1><dl><dt>Version 1.0</dt><dt>Auteur: Fablezouave</dt><dt>Derniere modification: 26-04-2003</dt></dl><h2>La classe  HDAcalendar permet de créer simplement des calendriers.</h2><p>La classe HDAcalendar fournit des options avancées pour la création de calendrier.
+    Vous avez la possibilité d' insérer des liens, tous les styles possibles(couleur, police, etc etc).
+    Les calendriers sont multilingues, Anglais et Francais pour l' instant, mais d' autres langues ne sauraient tarder.</p><ul xmlns="">
+<li class="item">
+<h3>Nouvelle Instance</h3>
+<Func_name>HDAcalendar(int month, int year)</Func_name><p><Desc>constructeur des instances du Calendrier. Il initialise les variable de 
+        la classe, et definit le mois et l' année pour le calendrier.</Desc></p>
+<ul class="Params">
+<li name="month"> : <Params name="month">Détermine le mois.</Params>
+</li>
+<li name="year"> : <Params name="year">Détermine l' année.</Params>
+</li>
+</ul>
+<ul class="code"><li><Code>$Calendar = new HDAcalendar(04, 2003);</Code></li></ul>
+</li>
+<li class="item">
+<h3>Spécifier la Langue</h3>
+<Func_name>Set_lang(string Lang)</Func_name><p><Desc>Spécifie la langue dans laquelle sera affcihé le Calendrier, Anglais ou Francais , par défaut, sont
+      disponibles a l' heure actuelle.</Desc></p>
+<ul class="Params"><li name="Lang"> : <Params name="Lang">Détermine la langue fr ou en.</Params>
+</li></ul>
+<ul class="code"><li><Code>$Calendar -&gt; Set_lang('en');</Code></li></ul>
+</li>
+<li class="item">
+<h3>Afficher le Calendrier.</h3>
+<Func_name>Output()</Func_name><p><Desc>Envoie le Calendrier sous la forme d' un tableau HTML vers la sortie.</Desc></p>
+<ul class="Params"></ul>
+<ul class="code"><li><Code>$Calendar -&gt; Output();</Code></li></ul>
+</li>
+<li class="item">
+<h3>Insérer un ou plusieurs liens</h3>
+<Func_name>link(void Link , string Page [, string Params])</Func_name><p><Desc>Insére un ou plusieurs liens sur la (les) date(s) concernées.
+      La date sur lquelle est mise un lien est automatiquement passée en paramètre d' URL, sous la forme : date=YYYY-MM-DD .
+      Pour plus de détails sur cette methode, reportez vous à l' exemple : Insérer un ou plusieurs liens.
+      </Desc></p>
+<ul class="Params">
+<li name="Link"> : <Params name="Link">La ou les dates ou l' ont souhaite insérer un lien. Il y a 3 utilisations possibles :
+      , En specifiant simplement le Jour en question (ex : 12).
+      , En spécifiant plusieurs dates d' un seul coup (ex : array(12,13,14) ).
+      , En utilisant la Constante ALL pour insérer des liens sur TOUTES les dates.
+      </Params>
+</li>
+<li name="Page"> : <Params name="Page">Détermine la page vers laquelle pointront les liens.</Params>
+</li>
+<li name="Params"> : <Params name="Params">Cet argument est optionnel, si il est spécifié, son contenu sera rajouté dans l' URL comme parametre.</Params>
+</li>
+</ul>
+<ul class="code"><li><Code>$Calendar -&gt; link(12, 'page.php', 'paramletre=Kool');</Code></li></ul>
+</li>
+<li class="item">
+<h3>Mettre une ou plusieurs dates en gras</h3>
+<Func_name>Set_bold(void Date)</Func_name><p><Desc>Spécifie la ou les dates qu' on souhaite mettre en gras. Il y a 2 utilisations possibles :
+      en specifiant simplement une date (ex : 25) 
+      , en specifiant plusieurs dates d' un coup (ex : array(24,25,26) ). 
+      Pour plus de détails, reportez vous à l' exemple, Mettre une ou plusieurs dates en gras</Desc></p>
+<ul class="Params"><li name="Date"> : <Params name="Date">Votre ou vos dates. </Params>
+</li></ul>
+<ul class="code"><li><Code>$Calendar -&gt; Set_bold(25);</Code></li></ul>
+</li>
+<li class="item">
+<h3>Insérer un Titre</h3>
+<Func_name>Set(string Title)</Func_name><p><Desc>Spécifie un Titre pour le Calendrier. Cette methode sert uniquement à l' objet title</Desc></p>
+<ul class="Params"><li name="Title"> : <Params name="Title">Votre titre.</Params>
+</li></ul>
+<ul class="code"><li><Code>$Calendar -&gt; title -&gt; Set('Un Titre Cool');</Code></li></ul>
+</li>
+<li class="item">
+<h3>Spécifier une Couleur</h3>
+<Func_name>Set_color(string Color)</Func_name><p><Desc>Spécifie la couleur de l' object associé.
+      Cette methode peut être utilisée avec les Objets suivants :
+      tab (tableau général), 
+      title (le titre), 
+      LetterDays (les Jours en lettres), 
+      days (les jours numériques), 
+      YearMonth (le mois et l' année)
+      </Desc></p>
+<ul class="Params"><li name="Color"> : <Params name="Color">Votre couleur.</Params>
+</li></ul>
+<ul class="code">
+<li><Code>$Calendar -&gt; days -&gt; Set_color('blue');</Code></li>
+<li><Code>$Calendar -&gt; title -&gt; Set_color('#FFFFFF');</Code></li>
+</ul>
+</li>
+<li class="item">
+<h3>Spécifier une Police de Caractère</h3>
+<Func_name>Set_font(string Font)</Func_name><p><Desc>Spécifie la Police de l' object associé.
+	  Cette methode peut être utilisée avec les Objets suivants :
+	  tab (tableau général), 
+      title (le titre), 
+      LetterDays (les Jours en lettres), 
+      days (les jours numériques), 
+      YearMonth (le mois et l' année)
+      </Desc></p>
+<ul class="Params"><li name="Font"> : <Params name="Font">Votre Police.</Params>
+</li></ul>
+<ul class="code"><li><Code>$Calendar -&gt; days -&gt; Set_font('Verdana');</Code></li></ul>
+</li>
+<li class="item">
+<h3>Spécifier la taille de la Police</h3>
+<Func_name>Set_size(void Size)</Func_name><p><Desc>Spécifie la taille de la Police de l' object associé.
+      Cette methode peut être utilisée avec les Objets suivants :
+      tab (tableau général), 
+      title (le titre), 
+      LetterDays (les Jours en lettres), 
+      days (les jours numériques), 
+      YearMonth (le mois et l' année)
+      </Desc></p>
+<ul class="Params"><li name="Size"> : <Params name="Size">La taille de votre police.</Params>
+</li></ul>
+<ul class="code"><li><Code>$Calendar -&gt; YearMonth -&gt; Set_size(12);</Code></li></ul>
+</li>
+<li class="item">
+<h3>Spécifier le style du texte (gras ou normal) -- ??? --</h3>
+<Func_name>Set_weight(string Weight)</Func_name><p><Desc>Indique si l' object associé doit être mis en gras.
+      Cette methode peut être utilisée avec les Objets suivants :
+      tab (tableau général), 
+      title (le titre), 
+      LetterDays (les Jours en lettres), 
+      days (les jours numériques), 
+      YearMonth (le mois et l' année)
+      </Desc></p>
+<ul class="Params"><li name="Weight"> : <Params name="Weight"> bold ou normal.</Params>
+</li></ul>
+<ul class="code"><li><Code>$Calendar -&gt; LetterDays -&gt; Set_weight('bold');</Code></li></ul>
+</li>
+<li class="item">
+<h3>Souligner un texte</h3>
+<Func_name>Set_underline()</Func_name><p><Desc>Souligne l' objet associé.
+      Cette methode peut être utilisée avec les Objets suivants :
+      tab (tableau général), 
+      title (le titre), 
+      LetterDays (les Jours en lettres), 
+      days (les jours numériques), 
+      YearMonth (le mois et l' année)
+      </Desc></p>
+<ul class="Params"></ul>
+<ul class="code"><li><Code>$Calendar -&gt; days -&gt; Set_underline();</Code></li></ul>
+</li>
+<li class="item">
+<h3>Spécifier une bordure</h3>
+<Func_name>Set_border(string Border)</Func_name><p><Desc>Spécifie la bordure de l' objet associé.
+      Cette methode peut être utilisée avec les Objets suivants :
+      tab (tableau général), 
+      title (le titre), 
+      LetterDays (les Jours en lettres), 
+      days (les jours numériques), 
+      YearMonth (le mois et l' année)
+      </Desc></p>
+<ul class="Params"><li name="Border"> : <Params name="Border"> Votre bordure : couleur, largeur, style, ...</Params>
+</li></ul>
+<ul class="code"><li><Code>$Calendar -&gt; LetterDays -&gt; Set_border('black 1px outset');</Code></li></ul>
+</li>
+<li class="item">
+<h3>Spécifier un Fond (Background)</h3>
+<Func_name>Set_background(string Background)</Func_name><p><Desc>Spécifie le fond (background) de l' objet associé.
+      Cette methode peut être utilisée avec les Objets suivants :
+      tab (tableau général), 
+      title (le titre), 
+      LetterDays (les Jours en lettres), 
+      days (les jours numériques), 
+      YearMonth (le mois et l' année)
+      </Desc></p>
+<ul class="Params"><li name="Background"> : <Params name="Background"> Votre Couleur de fond, une image ?.</Params>
+</li></ul>
+<ul class="code"><li><Code>$Calendar -&gt; tab -&gt; Set_background('darkred');</Code></li></ul>
+</li>
+<li class="item">
+<h3>Spécifier un style de votre choix</h3>
+<Func_name>Set_style(string Style, string Value)</Func_name><p><Desc>Spécifie un style de votre choix pour l' objet associé.
+      Cette methode peut être utilisée avec les Objets suivants :
+      tab (tableau général), 
+      title (le titre), 
+      LetterDays (les Jours en lettres), 
+      days (les jours numériques), 
+      YearMonth (le mois et l' année)
+      </Desc></p>
+<ul class="Params">
+<li name="Style"> : <Params name="Style">Le style qu' on va appliquer.</Params>
+</li>
+<li name="Value"> : <Params name="Value">La valeur qu' on va associer a ce style.</Params>
+</li>
+</ul>
+<ul class="code"><li><Code>$Calendar -&gt; tab -&gt; Set_style('margin', '1px');</Code></li></ul>
+</li>
+<li class="item">
+<h3>Faire un rollover (Couleur qui change au passage de la souris)</h3>
+<Func_name>Rollover(string Color1 [, string color2])</Func_name><p><Desc>Fais un rollover (change la couleur de fond) sur l' objet associé.
+      Cette methode peut être utilisée avec les Objets suivants :
+      tab (tableau général), 
+      title (le titre), 
+      LetterDays (les Jours en lettres), 
+      days (les jours numériques), 
+      YearMonth (le mois et l' année)
+      </Desc></p>
+<ul class="Params">
+<li name="Color1"> : <Params name="Color1">La couleur que va prendre le texte au passage de la souris.</Params>
+</li>
+<li name="Color2"> : <Params name="Color2">La couleur que va reprendre le texte quand la souris aura quitté sa zone.
+      Ce parametre est Optionnel, si il est omis, le texte restera avec la couleur de début.</Params>
+</li>
+</ul>
+<ul class="code"><li><Code>$Calendar -&gt; tab -&gt; Rollover('#FFCC00', 'FFFFFF');</Code></li></ul>
+</li>
+<li class="item">
+<h3>Une erreur est survenue ?</h3>
+<Func_name> Var error_log</Func_name><p><Desc>Votre Calendrier ne s' affcihe pas ? Vous pouvez aisemment cerner le problème grâce l' error_log.
+      Exemple d' utilisation :
+      </Desc></p>
+<ul class="Params"></ul>
+<ul class="code"><li><Code>if(!$Calendar -&gt; Output() ) echo $Calendar -&gt; error_log;</Code></li></ul>
+</li>
+</ul></div></body></html>

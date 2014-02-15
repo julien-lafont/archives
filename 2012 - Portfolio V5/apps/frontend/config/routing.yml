@@ -1,0 +1,110 @@
+homepage:
+  url:   /
+  param: { module: accueil, action: index }
+
+init:
+  url: /init
+  param: { module: blog, action: init }
+  
+####################
+## BLOG
+####################
+
+blog:
+  url: /blog/
+  param: { module: blog, action: index }
+  
+
+blog_tag:
+  url: /blog/tag/:tag/
+  param: { module: blog, action: tag }
+  requirements:
+    sf_method: [get]
+    tag: \w+
+    
+blog_categorie:
+  url: /blog/:slug/
+  class: sfDoctrineRoute
+  param: { module: blog, action: categorie }
+  options: { model: Categorie, type: object }
+  requirements:
+    sf_method: [get]
+
+  
+article:
+  url: /blog/:categorieSlug/:slug.htm
+  class: sfDoctrineRoute
+  param: { module: blog, action: show }
+  options: { model: Article, type: object }
+  requirements:
+    sf_method: [get, put, post]
+    
+blog_rss:
+  url: /blog/rss
+  param: { module: rss, action: derniersArticles }
+    
+####################
+## CONTACT
+####################    
+  
+contact:
+  url: /contactons-nous.htm
+  param: { module: contact, action: index }
+    
+####################
+## CV
+####################
+
+cv:
+  url: /CV-Julien-Lafont-Ingenieur-Etude-Developpement.htm
+  param: { module: cv, action: index }
+  
+recommandations:
+  url: /recommandations-professionnelles.htm
+  param: { module: cv, action: references }
+
+####################
+## Simple
+####################
+ 
+
+competences:
+  url: /domaines-de-competences.htm
+  param: { module: simple, action: books }
+
+####################
+## Folio  
+####################
+
+folio: 
+  url: /portfolio/
+  param: { module: folio, action: index }
+  
+creation:
+  url: /portfolio/:annee/:slug/
+  class: sfDoctrineRoute
+  param: { module: folio, action: show }
+  options: { model: Creation, type: object }
+  requirements:
+    sf_method: [get, put, post]
+    
+####################
+## sfGuard
+####################
+  
+sf_guard_signin:
+  url:   /login
+  param: { module: sfGuardAuth, action: signin }
+
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

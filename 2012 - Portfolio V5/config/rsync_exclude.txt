@@ -1,0 +1,28 @@
+# Project files
+/cache/*
+/log/*
+#/web/*_dev.php
+*/gen/*
+
+# Database
+/config/databases.yml
+
+# Design/doc
+/design/*
+/doc/*
+
+
+sf.bat
+.settings/*
+
+# SCM files
+.arch-params
+.bzr
+_darcs
+.git
+.hg
+.monotone
+.svn
+CVS
+rsync.bat
+deploy.sh

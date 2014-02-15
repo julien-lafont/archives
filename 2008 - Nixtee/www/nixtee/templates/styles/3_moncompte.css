@@ -1,0 +1,110 @@
+.case {
+	width: 252px;
+	height: 102px;
+	background-image:url(templates/images/box.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+
+.case .img {
+	position:absolute;
+	width:48px ;
+	height: 48px;
+	top: 25px;
+	left:15px
+	
+} .case .img a:hover { border:0 !important }
+
+.case h2 {
+	position:absolute;
+	width: 170px;
+	height: 20px;
+	top: 10px;
+	left: 72px;
+	
+
+}
+	.case h2 a {
+		font-size:13px !important;
+		color: #333 !important;
+		font-family:Helvetica !important;	
+		border-bottom:1px dotted #999
+	}
+	
+	.case h2 a:hover {
+		border-bottom:1px solid #0099FF !important
+		
+	}
+
+.case p {
+	position: absolute;
+	width: 170px;
+	height:45px;
+	top:35px;
+	left:72px;
+	font-size: 12px !important;
+	
+}
+
+
+.tiers {
+	width: 100%;
+}
+.tiers tr td {
+	width: 33%;
+}
+
+
+ul.liste_form {margin-top: 20px ;}
+
+ul.liste_form li {
+	border-bottom: 1px dashed #CCC;
+	margin-bottom:20px;
+	padding-bottom: 10px;
+}
+
+ul.liste_form li h2 {
+	font-size: 18px;
+	border-bottom: 1px solid #999;
+	width: 90%;
+	padding: 0 0 2px 15px;
+	margin: 0 0 10px 0;
+	color:#333;
+}
+
+
+.bouton a {
+	background-color: #333;
+	color:#FFF !important;
+	padding: 3px 10px 3px 10px;
+	float:left;
+	margin-left: 30px;
+	border:0
+} 
+
+.bouton a:hover {
+	border:0 !important;
+	background-color:#09F
+}
+
+
+.apercu h3 {
+	font-size: 15px;
+	font-weight: normal;
+	/*border-bottom: 1px dashed #999;*/
+	margin:10px 0 10px 0;
+	width: 50%;
+}
+
+.apercu strong {
+	padding-left:20px;
+	padding-right:20px
+}
+
+.apercu span {
+	font-size:11px;
+	color: #666;
+	
+}

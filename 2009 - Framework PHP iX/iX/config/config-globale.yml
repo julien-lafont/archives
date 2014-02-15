@@ -1,0 +1,90 @@
+#
+# Fichier de configuration Ix Core
+#
+
+#
+# Configuration de la base de donnée
+#
+BaseDeDonnee:
+  Hote: localhost
+  Login: root
+  Pass: ""
+  Base: test2
+  Prefixe: _ix
+  
+  
+#
+# Environnements 
+#
+# @ Types : firebug, fichier, email, direct
+# @ Niveaux : [info, debug, alertex, erreur, securite]
+#
+# Cas particuliers :
+#  Type: fichier
+#  Fichier: monfichier.log [ sera dans /log/ ]
+#  
+#  Type: email
+#  Configurer Emails.TDestinataire.Logs
+#
+#
+Environnements:
+  Actif: Developpement
+
+  Developpement:
+    Debug:
+      Actif: 1
+      Type: direct
+      Fichier: monfichier.log
+      Niveau: [info, debug, alerte, erreur, securite]
+    Cache: 0
+
+  Production:
+    Debug:
+      Actif: 1
+      Type: fichier
+      Fichier: monfichier.log
+      Niveau: [securite]
+    Cache:1
+
+#
+# Configuration générale
+# * = vide
+#
+Site:
+  General:
+    Nom: Site de test
+    Url: 127.0.0.1/2009/iX/
+  Applications:
+    frontend: [*, www]
+    backend: [admin]
+  Themes:
+    - design1
+    - design2
+    - design3
+  Theme-defaut: design2
+
+
+#
+# Gestion des emails
+#
+Emails:
+  Destinataire:
+    Webmasteur:yotsumi.fx@gmail.com
+    Logs:erreurs@studio-dev.fr
+    Erreurs:erreurs@studio-dev.fr
+    
+  Envoyeur:
+    Inscription:inscription.noreply@monsite.fr
+
+
+#
+# Routage perso
+#
+
+
+
+#
+# Autres fichiers de config
+#
+
+FichiersConfigurations: [ config-test2.yml]

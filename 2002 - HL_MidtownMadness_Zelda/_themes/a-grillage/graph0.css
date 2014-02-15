@@ -1,0 +1,96 @@
+.mstheme
+{
+	separator-image: url(urbhorsd.gif);
+	list-image-1: url(urbbul1d.gif);
+	list-image-2: url(urbbul2d.gif);
+	list-image-3: url(urbbul3d.gif);
+	nav-banner-image: url(urbbannd.gif);
+	navbutton-horiz-normal: url(urbhbudd.gif);
+	navbutton-horiz-hovered: url(urbhbudd.gif);
+	navbutton-horiz-pushed: url(urbhbusd.gif);
+	navbutton-vert-normal: url(urbvbudd.gif);
+	navbutton-vert-hovered: url(urbvbudd.gif);
+	navbutton-vert-pushed: url(urbvbusd.gif);
+	navbutton-home-normal: url(urbhombd.gif);
+	navbutton-home-hovered: url(urbhombd.gif);
+	navbutton-home-pushed: url(urbhombd.gif);
+	navbutton-next-normal: url(urbnexbd.gif);
+	navbutton-next-hovered: url(urbnexbd.gif);
+	navbutton-next-pushed: url(urbnexbd.gif);
+	navbutton-prev-normal: url(urbprebd.gif);
+	navbutton-prev-hovered: url(urbprebd.gif);
+	navbutton-prev-pushed: url(urbprebd.gif);
+	navbutton-up-normal: url(urbupbd.gif);
+	navbutton-up-hovered: url(urbupbd.gif);
+	navbutton-up-pushed: url(urbupbd.gif);
+}
+.mstheme-bannertxt
+{
+	font-family: Impact, Arial, Helvetica;
+	color: rgb(0, 0, 0);
+	font-size: 6;
+	font-style: normal;
+	font-weight: normal;
+}
+.mstheme-horiz-navtxt
+{
+	font-family: Arial, Helvetica;
+	color: rgb(0, 0, 0);
+	font-size: 2;
+	font-style: normal;
+	font-weight: bold;
+}
+.mstheme-vert-navtxt
+{
+	font-family: Arial, Helvetica;
+	color: rgb(0, 0, 0);
+	font-size: 2;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+.mstheme-navtxthome
+{
+	font-family: Arial, Helvetica;
+	color: rgb(0, 0, 0);
+	font-size: 1;
+	font-style: normal;
+	font-weight: normal;
+}
+.mstheme-navtxtnext
+{
+	font-family: Arial, Helvetica;
+	color: rgb(0, 0, 0);
+	font-size: 1;
+	font-style: normal;
+	font-weight: normal;
+}
+.mstheme-navtxtprev
+{
+	font-family: Arial, Helvetica;
+	color: rgb(0, 0, 0);
+	font-size: 1;
+	font-style: normal;
+	font-weight: normal;
+}
+.mstheme-navtxtup
+{
+	font-family: Arial, Helvetica;
+	color: rgb(0, 0, 0);
+	font-size: 1;
+	font-style: normal;
+	font-weight: normal;
+}
+ul
+{
+	list-style-image: url(urbbul1d.gif);
+}
+ul ul
+{
+	list-style-image: url(urbbul2d.gif);
+}
+ul ul ul
+{
+	list-style-image: url(urbbul3d.gif);
+}

@@ -1,0 +1,365 @@
+<HTML>
+<HEAD>
+<TITLE>Counter Snip</TITLE>
+<META NAME="TITLE" CONTENT="Counter-Snip">
+<META NAME="identifer-URL" CONTENT="http://sniperman.free.fr">
+<META NAME="AUTHOR" lang="fr" CONTENT="Sniperman">
+<META NAME="OWNER" CONTENT="snake.spm@laposte.net">
+<META NAME="SUBJECT" CONTENT="Counter Strike">
+<META NAME="Category" CONTENT="Internet - Jeux - Cs">
+<META NAME="DESRIPTION" CONTENT="Tout sur Counter Strike et plus">
+<META NAME="KEYWORDS" CONTENT="sniperman,kirikiri,countersnip,counter-snip,cs,counter strike,counterstrike,wallpapers,fond d'écran,sms,loto,prizee,astuces,armes,skins,binds,alias,half life,maps,download,téléchargement,patchs,guide,dossier,aide,ping,fps,optimisation,mms,loteries,Orange,LAN,réseau,France,fr,hl key fr,1.5,1.3,1.4,Forum,Astuces,Console,commandes,Cheat,Hack,OGL,wallhack,liens,GBA,rom,Annuaire,">
+<META NAME="LANGUAGE" CONTENT="FR">
+<META NAME="robots" CONTENT="All">
+<STYLE TYPE=text/css>
+TD { font-family:Verdana;font-size:11px;color:white } 
+.menu { font-family:Verdana;font-size:12px;color:white } 
+.titre { font-family:Verdana;font-size:20px;color:white } 
+A.menu { font-family:Verdana;font-size:12px;color:white;text-decoration:none } 
+A:hover.menu { font-family:Verdana;font-size:12px;color:#FFCC00;font-weight:normal;text-decoration:none } 
+A.liens {color:#FFCC00;decoration:none;}
+A:hover.liens {color:#FFFFCC;text-decoration:underline;font-weight:Bolder } 
+A { font-family:Verdana;font-size:11px;color:#FFFFFF;text-decoration:none } 
+A:hover { font-family:Verdana;font-size:11px;color:#FFCC00} 
+BODY {SCROLLBAR-FACE-COLOR: #ffa534; SCROLLBAR-HIGHLIGHT-COLOR: #ffd756; SCROLLBAR-SHADOW-COLOR: #ff8312; SCROLLBAR-3DLIGHT-COLOR: #000000; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #8E908D; SCROLLBAR-DARKSHADOW-COLOR: #000000}
+.parent {font-family: verdana;font-weight: bold ;color: #CCCCCC;font-size: 12px;margin-top: 10;cursor: hand;margin-left: 6pt}
+.child {font-size: 9px;decoration: none;font-weight: normal;margin-left:10pt}
+</STYLE>
+<script language="javascript">
+<!--
+var intCount = 1;
+function DynamicMenu_addParent(strName) {
+	var strID = 'ID' + intCount++;
+	var strTemp = '<DIV ID="' + strID + '" CLASS="parent"';
+        strTemp += ' onClick="expandCollapse(this);">';
+	    strTemp += '<B>' + strName + '</B>'  
+        strTemp += '<DIV CLASS="child"></DIV>';
+        strTemp += '</DIV>';
+		this.div.innerHTML += strTemp;
+        this.currentChild = document.getElementById(strID);
+}
+
+function DynamicMenu_addChild(strName,strURL) {
+
+	var strTemp = '<A HREF="' + strURL + '"' + ' onClick="cancelBubble(arguments[0]);">' + strName + '</A><BR>';
+	if (document.all) {
+        	this.currentChild.children[1].innerHTML += strTemp;
+	} else {
+        	this.currentChild.childNodes[1].innerHTML += strTemp;
+	}
+	
+}
+
+function cancelBubble(netEvent) {
+	if (document.all) {
+		window.event.cancelBubble = true;
+	} else {
+        	netEvent.cancelBubble = true;
+	}
+}
+
+function expandCollapse(objElement) {
+
+	if (document.all) {
+        	var imgIcon = objElement.children[0];
+                objElement = objElement.children[1];
+	} else {
+        	var imgIcon = objElement.childNodes[0];
+                objElement = objElement.childNodes[2];
+	}
+	if (objElement.style.display == "none") {
+        	objElement.style.display = "block" ;
+                imgIcon.src = "bottomb.gif" ;
+	} else {
+        	objElement.style.display = "none" ;
+                imgIcon.src = "leftb.gif" ;
+	}
+}
+
+function DynamicMenu() {
+
+	var id = "Menu" + intCount++;
+        document.write('<DIV Id="' + id + '"></DIV>');		
+	this.div = document.getElementById(id);
+        this.currentChild = null;
+		
+	this.addParent = DynamicMenu_addParent;
+	
+        this.addChild = DynamicMenu_addChild;
+		
+}
+// -->
+
+</script>
+
+</HEAD>
+<BODY BGCOLOR=#000000 TEXT=#FFFFFF LINK=#0000FF VLINK=#800080 ALINK=#FF0000>
+<CENTER>
+
+<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH=774>
+  <TR>
+    <TD WIDTH=175><IMG SRC="images/haut6a.jpg" BORDER=0 WIDTH=175 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+      <TD WIDTH=579 BACKGROUND=images/top_cs.gif CLASS=titre> 
+        <!-- ICI, LE TITRE DEVOTRE SITE -->
+        Dossier Half Life&sup2;</TD>
+      <TD WIDTH=20><IMG SRC="images/top_d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+      	
+      	<!-- !!!!!!!!! DEBUT MENU !!!!!!!!!!! -->
+	  <TD WIDTH=175 BACKGROUND=images/fond_menu.gif VALIGN=top CLASS=menu> <IMG SRC="images/haut6b.jpg" BORDER=0 WIDTH=175 HEIGHT=115 HSPACE=0 VSPACE=0><BR>
+
+	<!-- DEBUT MENU 1 -->
+	<!-- DEBUT MENU 1 -->
+    <p><span class="parent"><img src="images/Puces/arrow2b.gif" width="10" height="13" align="absmiddle"> <a href="index.htm">Accueil</a></span><br>
+        <script language=Javascript type=text/javascript>
+var menu = new DynamicMenu();
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Site'); 
+//menu.addChild(' ', ' ');
+menu.addChild('- Me contacter', 'site_contact.html');
+menu.addChild('- Livre d&acute;or', 'http://www.maxiservices.net/livre/livre.php3?id=2810 ');		
+menu.addChild('- Chat', 'site_chat.html'); 
+menu.addChild('- Qui suis-je', 'site_quisuisje.html');
+menu.addChild('- Pubs', 'site_pub.html');
+      
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Counter Strike'); 
+menu.addChild(' ', ' ');
+//menu.addChild('- <b><font color=66CCFF>QuiZZzzz</font></b>', 'cs_quiz.php');
+//menu.addChild(' ', ' ');				
+menu.addChild('- Pr&eacute;sentation', 'cs_presentation.html');
+menu.addChild('- <b> Downloads</b>', 'cs_Downloads.html');
+menu.addChild('- Astuces', 'cs_Astuces.html');
+menu.addChild('- Armes', 'cs_armes.html');
+menu.addChild('- Binds & Alias', 'cs_Binds_&_Alias.html'); 
+menu.addChild('- PodBot', 'cs_Podbot.html');
+menu.addChild('- <b>R&eacute;duire son Ping</b>', 'cs_Ping.html');
+menu.addChild('- Dossier CS - Xbox', 'cs_xbox.html');
+menu.addChild('- Servers', 'cs_server.html');
+menu.addChild('- Easter Eggs', 'cs_EasterEgg.html');
+menu.addChild('- Counter Mania', 'cs_counterMania.html');
+menu.addChild('- Commandes', 'cs_console.html');
+menu.addChild('- Cheats', 'cs_cheats.html');
+menu.addChild('- Tag', 'cs_tag2.html');
+menu.addChild('- Liens', 'cs_liens.html');
+menu.addChild('- Wallpapers', 'cs_wallpapers.html');
+menu.addChild('- Tarte à la Fraise', 'cs_tarte.html');
+
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Steam'); 
+//menu.addChild(' ', ' ');
+menu.addChild('- T&eacute;l&eacute;chargement', 'steam_telechargement.html');
+menu.addChild('- <b>Pack LAN + BOT</b>', 'steam_nosteam.html'); 				 				
+menu.addChild('- Installation', 'steam_install.html');
+menu.addChild('- Utilitaires', 'steam_util.html');
+menu.addChild('- Binder 1.6', 'cs_Binder1.html');
+menu.addChild('- Lecteur MP3', 'steam_mp3.html');
+menu.addChild('- FAQ', 'steam_faq.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Half Life 2'); 
+//menu.addChild(' ', ' ');
+menu.addChild('- News', 'hl_news.html');
+menu.addChild('- Histoire', 'hl_hist.html');
+menu.addChild('- Armes', 'hl_armes.html'); 
+menu.addChild('- Personnages', 'hl_pers.html');
+menu.addChild('- Packs', 'hl_pack.html');			
+menu.addChild('- Screenshot', 'hl_screen.html');
+menu.addChild('- Art-Works', 'hl_screen3.html');
+menu.addChild('- Fond d&acute;&eacute;cran', 'hl_wallpapers.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Petits +'); 
+//menu.addChild(' ', ' ');
+menu.addChild('- Dossier Virus', 'plus_virus.html'); 				
+menu.addChild('- SMS & MMS gratuits', 'plus_sms.html');
+menu.addChild('- Mail Anonyme', '');
+menu.addChild('- M&eacute;t&eacute;o 48h', 'plus_meteo.html');
+menu.addChild('- Programme Cin&eacute; et TV', 'plus_cine.html');
+menu.addChild('- Annuaire Invers&eacute;', 'plus_annuaire.html');
+menu.addChild('- Traduction en ligne', 'plus_trans.html');
+menu.addChild('- Horoscope', 'plus_horoscopes.html');
+menu.addChild('- Auto-Biographie ;-)', 'plus_bio.html');
+menu.addChild('- Cartes et Itin&eacute;raires', 'plus_cartes.html');
+menu.addChild('- Loteries Gratuites', 'plus_loteries.html');
+menu.addChild('- Convertisseur', 'plus_calcu.html');
+
+
+
+          </script>
+        <br>
+    </p>
+    <TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+      <TR>
+        <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp;Jour J : &nbsp;&nbsp;</B></div></TD>
+      </TR>
+    </TABLE>
+    <p>
+      <script language="JavaScript">
+instantpresent = new Date();
+anniversaire = new Date("april 09 00:00:00 2004");/*entrez ici votre date de naissance sous la forme Mois(ex : Jan) jour (ex 31) hh:mm:ss aaaa. Ce qui peut donner par exemple : "Jan 31 12:30:00 1980") */
+secondes = ( anniversaire - instantpresent ) / 1000;
+minutes = secondes / 60;
+heures = minutes / 60;
+jours = heures / 24;
+jours = Math.round(jours);
+document.write ("<center>Hl 2 sortira dans : <br><strong>" + jours + " jours !</strong></center>");
+                    </script>
+      <br>
+      <br>
+    </p>
+    <TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+      <TR>
+        <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp; Cadeaux de No&euml;l : </B></div></TD>
+      </TR>
+    </TABLE>
+    <p align="center"><a href="http://www.alapage.com/mx/?type=5&tp=F&donnee_appel=ALAPAGE&REF_NOVA=621702"><img src="images/hl2/acheter.jpg" width="100" height="140" border="0"><br>
+          <br>
+          <font color="#00FF00">Pr&eacute;commandez HL&sup2; et <br>
+  gagnez 10&euro;</font> </a>
+        <MARQUEE behavior= "scroll" align= "center" direction= "up" height="120" scrollamount= "1" scrolldelay= "10" onmouseover='this.stop()' onmouseout='this.start()'>
+        </MARQUEE>
+    <p>&nbsp;</p></TD>
+    <TD WIDTH=579 BGCOLOR=#364132 VALIGN=top ALIGN=center>
+	
+<!-- FIN HEADER -->
+	
+
+	<!-- DEBUT CADRE DE CONTENU 1 -->
+	<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=575>
+  		<TR>
+    		<TD WIDTH=25><IMG SRC="images/cad_bleu_hg.gif" BORDER=0 WIDTH=25 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+    		<TD BACKGROUND=images/cad_bleue_h.gif WIDTH=523 CLASS=menu><b>Quelques
+    		    News importantes :</b></TD>
+    		<TD WIDTH=27><IMG SRC="images/cad_bleu_hd.gif" BORDER=0 WIDTH=27 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  		<TR>
+    		<TD WIDTH=25 BACKGROUND=images/cad_g.gif bgcolor="#FFFFCC"><IMG SRC="images/cad_g.gif" BORDER=0 WIDTH=25 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+    		<TD BGCOLOR=#4D574A WIDTH=523><p align="center"><strong><img src="images/Puces/hl2.gif" width="38" height="31" align="absmiddle"> Les
+    		      News de HL&sup2;</strong> <img src="images/Puces/hl2.gif" width="38" height="31" align="absmiddle"></p>
+    		  <table width="98%" border="0" align="center">
+                <tr>
+                  <td><table width="220" border="1" align="center" cellspacing="0" bordercolor="#FF9900" bgcolor="#000000">
+                    <tr>
+                      <td><div align="center">
+                          <p><strong><font color="#FFFF00">
+                            <script language="JavaScript">
+instantpresent = new Date();
+anniversaire = new Date("april 09 00:00:00 2004");/*entrez ici votre date de naissance sous la forme Mois(ex : Jan) jour (ex 31) hh:mm:ss aaaa. Ce qui peut donner par exemple : "Jan 31 12:30:00 1980") */
+secondes = ( anniversaire - instantpresent ) / 1000;
+minutes = secondes / 60;
+heures = minutes / 60;
+jours = heures / 24;
+jours = Math.round(jours);
+document.write ("Hl 2 sortira dans : " + jours + " jours !");
+                    </script>
+                          </font></strong></p>
+                          <p><a href="http://www.alapage.com/mx/?type=5&tp=F&donnee_appel=ALAPAGE&REF_NOVA=621702"><img src="images/hl2/acheter.jpg" width="100" height="140" border="0"></a><br>
+                              <a href="http://www.alapage.com/mx/?type=5&tp=F&donnee_appel=ALAPAGE&REF_NOVA=621702"><br>
+                              <font color="#00FF00">Pr&eacute;commandez HL&sup2; et gagnez 10&euro;</font> </a></p>
+                      </div></td>
+                    </tr>
+                  </table></td>
+                  <td><table width="290" border="1" align="center" cellspacing="0" bordercolor="#FF9900" bgcolor="#000000">
+                    <tr>
+                      <td><div align="center">
+                          <p align="left"><font color="#00FF00">
+                            <script type="text/javascript" src="http://www.game-bazar.com/hl2/news/backend/javascript/lite.js"></script>
+                          </font> </p>
+                      </div></td>
+                    </tr>
+                  </table></td>
+                </tr>
+              </table>
+    		       		      <p align="center"><img src="images/Autres/ligne%20sang.gif" width="500" height="24"></p>
+    		  <p align="left"><img src="images/Puces/hl2.gif" width="38" height="31" align="absmiddle">Une rumeur court au moment m&ecirc;me o&ugrave; vous lisez cette news : <br>
+    		    <br>
+                Half-life 2 ne sortirai en faite que sur Xbox .<br>
+                Tout ceci ne concerne que (vous avez eu peur hein!) la version console qui ne <br>
+    sortirai que sur Xbox! La console aurait l'exclusivit&eacute; sur le jeu. <br>
+              </p>
+    		  <p align="center"><img src="images/Autres/ligne%20sang.gif" width="500" height="24"></p>
+    		  <p align="left"> <a href="images/hl2/news/grodon2.jpg"><img src="images/hl2/news/grodon2small.jpg" width="200" height="150" border="0" align="left"></a>Nous vous en avions parl&eacute; il y a quelques jours, notre confr&egrave;re <a href="http://www.halflifefusion.com/" class="liens">HL Fusion </a> a r&eacute;alis&eacute; l'interview des deux personnes qui composent l'&eacute;quipe de d&eacute;veloppement de ce jeu. <br>
+    		    <br>
+              Cet interview est disponible <a href="http://www.halflifefusion.com/dossier.php?e=14#blank8" class="liens"><strong>ici </strong></a> en fran&ccedil;ais et est muni de quelques screens.</p>
+    		  <p align="left">Ainsi que d'une nouvelle <strong>vid&eacute;o</strong> : <a href="http://mikemth.de:1337/downloads.php?d_op=getit&lid=702" target="_blank"><img src="images/Autres/down017.gif" width="16" height="22" border="0" align="absmiddle"></a> (20mo) 
+    		  <p align="center"><br>
+    		  <p align="center">&nbsp; <img src="images/Autres/ligne%20sang.gif" width="500" height="24">  		    <p align="left"><img src="images/hl2/news/Gordon.jpg" width="200" height="150" align="left"><strong>L'&eacute;quipe
+    		        du jeu ''Codename: Gordon'' vient de sortir un mini-film sur une
+    		        partie du
+    		      jeu. </strong>
+  		    <p>Pour information, 'Codename: Gordon' est un jeu de plate-formes (2D)
+    		    qui met en sc&egrave;ne notre h&eacute;ros barbu &agrave; lunettes
+    		    pr&eacute;f&eacute;r&eacute;. Je vous en avais d&eacute;j&agrave; parl&eacute;,
+    		    si vous n'avez pas suivi, honte sur vous !</p>
+    		  <p>Pour finir, l'&eacute;quipe du jeu est &agrave; 96% de la finition,
+    		    ils s'occupent maintenant des bugs pour que le gameplay soit le plus
+    		    parfait possible.</p>
+    		  <p>Voil&agrave; voil&agrave;, pour vous procurer la vid&eacute;o, &ccedil;a
+    		    se passe par ici:<br>
+    		    Codename: Gordon vid&eacute;o (1.7MB)  &nbsp;<a href="Fichiers/gordon.exe"><img src="images/Autres/down017.gif" width="16" height="22" border="0" align="absmiddle"></a></p>
+    		  <p align="center"><img src="images/Autres/ligne%20sang.gif" width="500" height="24"></p>
+    		  <p align="center"> <img src="images/hl2/news/wmp.jpg" width="308" height="180"><br>
+    		    <br>
+    		    Microsoft viens de mettre en ligne son nouveau portail
+    		    portant le doux nom de Microsoft Windows XP Games. En ouvrant ce site
+    		    web, ils ont mis &agrave; la disposition des utilisateurs un skin pour
+    		    le logiciel Windows Media Player sur le th&ecirc;me de Half-Life 2.
+   		    Vu qu'une image parle d'elle-m&ecirc;me, voici une image de ce skin:</p>
+    		  <p align="center">T&eacute;l&eacute;charger
+   		      :&nbsp;<a href="http://www.microsoft.com/windowsxp/games/downloads/halflife2.asp" target="_blank"><img src="images/Autres/down017.gif" width="16" height="22" border="0" align="absmiddle"></a></p>
+    		  <p align="center"><img src="images/Autres/ligne%20sang.gif" width="500" height="24"><br>
+   		      <img src="images/hl2/news/ati.jpg" width="522" height="188">   		      </p>
+    		  <p align="left">En effet, on le savait qu'Half-Life serait vendu avec
+    		    les cartes graphiques d'ATI. <br>
+    		    Et bien l'op&eacute;ration est en place
+    		    !</p>
+    		  <p>En achetant la RADEON&#8482; 9800 XT ou RADEON&#8482; 9600 XT, vous
+    		    obtiendrez un ticket vous permettant de recevoir Half-Life 2 :<br>
+    		    - soit en le t&eacute;l&eacute;chargeant via Steam<br>
+    		    - soit en le recevant par la Poste (avec une participation aux
+    		    frais)</p>
+    		  <p align="left">A noter que vous devez acheter la version boite (et non pas la version
+    		    OEM).<br>
+    		    On peut &eacute;galement voir Dell Dimension XPS : c'est le nouveau
+    		    PC de Dell &agrave; destination des joueurs qui contient des cartes
+   		    graphiques ATI.</p>
+    		  <p align="right">Source : Presence-PC </p>
+    		  <p align="center">&nbsp;		            </p>
+    		  <p align="center"><br>
+            </TD>
+    		<TD WIDTH=27 BACKGROUND=images/cad_d.gif><IMG SRC="images/cad_d.gif" BORDER=0 WIDTH=27 HEIGHT=12 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  		<TR>
+    		<TD COLSPAN=3><IMG SRC="images/cad_b.gif" BORDER=0 WIDTH=575 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  	</TABLE>
+	<a href="http://www.xiti.com/xiti.asp?s=98910" TARGET="_top">
+	<script language="JavaScript1.1">
+<!--
+hsh = new Date();
+hsd = document;
+hsr = hsd.referrer.replace(/[<>]/g, '');
+hsi = '<img width="39" height="25" border=0 ';
+hsi += 'src="http://logv20.xiti.com/hit.xiti?s=98910';
+hsi += '&p=HL_news';
+hsi += '&hl=' + hsh.getHours() + 'x' + hsh.getMinutes() + 'x' + hsh.getSeconds();
+if(parseFloat(navigator.appVersion)>=4)
+{Xiti_s=screen;hsi += '&r=' + Xiti_s.width + 'x' + Xiti_s.height + 'x' + Xiti_s.pixelDepth + 'x' + Xiti_s.colorDepth;}
+hsd.writeln(hsi + '&ref=' + hsr.replace(/&/g, '$') + '" title="Mesurez votre audience"><\!--');
+//-->
+    
+</script>
+    <noscript>
+    <img width="39" height="25" border=0 src="http://logv20.xiti.com/hit.xiti?s=98910&p=HL_news&" title="Mesurez votre audience">
+        </noscript>
+    <!--//-->
+	</a><BR>
+      </TD>
+    <TD WIDTH=20 BACKGROUND=images/d.gif><IMG SRC="images/d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+  	<TD COLSPAN=3><IMG SRC="images/bas.jpg" BORDER=0 WIDTH=774 HEIGHT=32 USEMAP="#bas"></TD>
+  </TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>
+<!-- FIN FOOTER -->

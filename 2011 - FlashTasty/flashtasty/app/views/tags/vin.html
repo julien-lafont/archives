@@ -1,0 +1,7 @@
+<li class="listNoButtonLink">
+	<a href="@{Degustation.fiche(_vin.id)}" data-ajax="false">
+		<img src="@{Photo.photoVinVignette(_vin.id)}" />
+		<h3>${_vin.nom}</h3>
+		<p><span class="couleurVin" style="background-color:${_vin.couleur.code}"></span> ${_vin.appelation}</p>
+	</a>
+</li>

@@ -1,0 +1,375 @@
+<HTML>
+<HEAD>
+<TITLE>Counter Snip</TITLE>
+<META NAME="TITLE" CONTENT="Counter-Snip">
+<META NAME="identifer-URL" CONTENT="http://sniperman.free.fr">
+<META NAME="AUTHOR" lang="fr" CONTENT="Sniperman">
+<META NAME="OWNER" CONTENT="snake.spm@laposte.net">
+<META NAME="SUBJECT" CONTENT="Counter Strike">
+<META NAME="Category" CONTENT="Internet - Jeux - Cs">
+<META NAME="DESRIPTION" CONTENT="Tout sur Counter Strike et plus">
+<META NAME="KEYWORDS" CONTENT="sniperman,kirikiri,countersnip,counter-snip,cs,counter strike,counterstrike,wallpapers,fond d'écran,sms,loto,prizee,astuces,armes,skins,binds,alias,half life,maps,download,téléchargement,patchs,guide,dossier,aide,ping,fps,optimisation,mms,loteries,Orange,LAN,réseau,France,fr,hl key fr,1.5,1.3,1.4,Forum,Astuces,Console,commandes,Cheat,Hack,OGL,wallhack,liens,GBA,rom,Annuaire,">
+<META NAME="LANGUAGE" CONTENT="FR">
+<META NAME="robots" CONTENT="All">
+<STYLE TYPE=text/css>
+TD { font-family:Verdana;font-size:11px;color:white } 
+.menu { font-family:Verdana;font-size:12px;color:white } 
+.titre { font-family:Verdana;font-size:20px;color:white } 
+A.menu { font-family:Verdana;font-size:12px;color:white;text-decoration:none } 
+A:hover.menu { font-family:Verdana;font-size:12px;color:#FFCC00;font-weight:normal;text-decoration:none } 
+A { font-family:Verdana;font-size:11px;color:#FFFFFF;text-decoration:none } 
+A:hover { font-family:Verdana;font-size:11px;color:#FFCC00} 
+BODY {SCROLLBAR-FACE-COLOR: #ffa534; SCROLLBAR-HIGHLIGHT-COLOR: #ffd756; SCROLLBAR-SHADOW-COLOR: #ff8312; SCROLLBAR-3DLIGHT-COLOR: #000000; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #8E908D; SCROLLBAR-DARKSHADOW-COLOR: #000000}.Style1 {color: #FFFFFF}
+.parent {font-family: verdana;font-weight: bold ;color: #CCCCCC;font-size: 12px;margin-top: 10;cursor: hand;margin-left: 6pt}
+.child {font-size: 9px;decoration: none;font-weight: normal;margin-left:10pt}
+.Style6 {	color: #FFFF00;
+	font-weight: bold;
+}
+.Style2 {color: #99FF66}
+.Style3 {color: #CCFF66}
+.Style4 {color: #CCFFCC}
+.Style10 {color: #99FF33}
+.Style11 {color: #99FF99}
+.Style12 {color: #CCFF99}
+.Style13 {color: #D7FFD7}
+.Style15 {color: #66FFFF}
+.Style7 {	color: #00FF00;
+	font-weight: bold;
+}
+.Style9 {color: #00FF99}
+</STYLE>
+
+<script language="javascript">
+<!--
+var intCount = 1;
+function DynamicMenu_addParent(strName) {
+	var strID = 'ID' + intCount++;
+	var strTemp = '<DIV ID="' + strID + '" CLASS="parent"';
+        strTemp += ' onClick="expandCollapse(this);">';
+	    strTemp += '<B>' + strName + '</B>'  
+        strTemp += '<DIV CLASS="child"></DIV>';
+        strTemp += '</DIV>';
+		this.div.innerHTML += strTemp;
+        this.currentChild = document.getElementById(strID);
+}
+
+function DynamicMenu_addChild(strName,strURL) {
+
+	var strTemp = '<A HREF="' + strURL + '"' + ' onClick="cancelBubble(arguments[0]);">' + strName + '</A><BR>';
+	if (document.all) {
+        	this.currentChild.children[1].innerHTML += strTemp;
+	} else {
+        	this.currentChild.childNodes[1].innerHTML += strTemp;
+	}
+	
+}
+
+function cancelBubble(netEvent) {
+	if (document.all) {
+		window.event.cancelBubble = true;
+	} else {
+        	netEvent.cancelBubble = true;
+	}
+}
+
+function expandCollapse(objElement) {
+
+	if (document.all) {
+        	var imgIcon = objElement.children[0];
+                objElement = objElement.children[1];
+	} else {
+        	var imgIcon = objElement.childNodes[0];
+                objElement = objElement.childNodes[2];
+	}
+	if (objElement.style.display == "none") {
+        	objElement.style.display = "block" ;
+                imgIcon.src = "bottomb.gif" ;
+	} else {
+        	objElement.style.display = "none" ;
+                imgIcon.src = "leftb.gif" ;
+	}
+}
+
+function DynamicMenu() {
+
+	var id = "Menu" + intCount++;
+        document.write('<DIV Id="' + id + '"></DIV>');		
+	this.div = document.getElementById(id);
+        this.currentChild = null;
+		
+	this.addParent = DynamicMenu_addParent;
+	
+        this.addChild = DynamicMenu_addChild;
+		
+}
+// -->
+
+</script>
+
+</HEAD>
+<BODY BGCOLOR=#000000 TEXT=#FFFFFF LINK=#0000FF VLINK=#800080 ALINK=#FF0000>
+
+<CENTER>
+
+<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH=774>
+  <TR>
+    <TD WIDTH=175><IMG SRC="images/haut8a.jpg" BORDER=0 WIDTH=175 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+      <TD WIDTH=579 BACKGROUND=images/top_cs.gif CLASS=titre> 
+        <!-- ICI, LE TITRE DEVOTRE SITE -->
+        Archive news du site :<BR>
+      <IMG SRC="images/pixel.gif" BORDER=0 WIDTH=1 HEIGHT=13 HSPACE=0 VSPACE=0></TD>
+    <TD WIDTH=20><IMG SRC="images/top_d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+      	
+      	<!-- !!!!!!!!! DEBUT MENU !!!!!!!!!!! -->
+	  <TD WIDTH=175 BACKGROUND=images/fond_menu.gif VALIGN=top CLASS=menu> <IMG SRC="images/haut8b.jpg" BORDER=0 WIDTH=175 HEIGHT=115 HSPACE=0 VSPACE=0><BR>
+
+	<!-- DEBUT MENU 1 -->
+	<p><span class="parent"><img src="images/Puces/arrow2b.gif" width="10" height="13" align="absmiddle"> <a href="index.htm">Accueil</a></span><br>
+        <script language=Javascript type=text/javascript>
+var menu = new DynamicMenu();
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Site'); 
+menu.addChild('- Me contacter', 'site_contact.html');
+menu.addChild('- Livre d&acute;or', 'http://www.maxiservices.net/livre/livre.php3?id=2810 ');		
+menu.addChild('- Chat', 'site_chat.html'); 
+menu.addChild('- Qui suis-je', 'site_quisuisje.html');
+menu.addChild('- Pubs', 'site_pub.html');
+      
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Counter Strike'); 
+menu.addChild(' ', ' ');
+menu.addChild('- Pr&eacute;sentation', 'cs_presentation.html');
+menu.addChild('- <b> Downloads</b>', 'cs_Downloads.html');
+menu.addChild('- Astuces', 'cs_Astuces.html');
+menu.addChild('- Armes', 'cs_armes.html');
+menu.addChild('- Binds & Alias', 'cs_Binds_&_Alias.html'); 
+menu.addChild('- PodBot', 'cs_Podbot.html');
+menu.addChild('- <b>R&eacute;duire son Ping</b>', 'cs_Ping.html');
+menu.addChild('- Dossier CS - Xbox', 'cs_xbox.html');
+menu.addChild('- Servers', 'cs_server.html');
+menu.addChild('- Easter Eggs', 'cs_EasterEgg.html');
+menu.addChild('- Counter Mania', 'cs_counterMania.html');
+menu.addChild('- Commandes', 'cs_console.html');
+menu.addChild('- Cheats', 'cs_cheats.html');
+menu.addChild('- Tag', 'cs_tag2.html');
+menu.addChild('- Liens', 'cs_liens.html');
+menu.addChild('- Wallpapers', 'cs_wallpapers.html');
+menu.addChild('- Tarte à la Fraise', 'cs_tarte.html');
+
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Steam'); 
+menu.addChild('- T&eacute;l&eacute;chargement', 'steam_telechargement.html');
+menu.addChild('- <b>Pack LAN + BOT</b>', 'steam_nosteam.html'); 				 				
+menu.addChild('- Installation', 'steam_install.html');
+menu.addChild('- Utilitaires', 'steam_util.html');
+menu.addChild('- Binder 1.6', 'cs_Binder1.html');
+menu.addChild('- Lecteur MP3', 'steam_mp3.html');
+menu.addChild('- FAQ', 'steam_faq.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Half Life 2'); 
+menu.addChild('- News', 'hl_news.html');
+menu.addChild('- Histoire', 'hl_hist.html');
+menu.addChild('- Armes', 'hl_armes.html'); 
+menu.addChild('- Personnages', 'hl_pers.html');
+menu.addChild('- Packs', 'hl_pack.html');			
+menu.addChild('- Screenshot', 'hl_screen.html');
+menu.addChild('- Art-Works', 'hl_screen3.html');
+menu.addChild('- Fond d&acute;&eacute;cran', 'hl_wallpapers.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Petits +'); 
+menu.addChild('- Dossier Virus', 'plus_virus.html'); 				
+menu.addChild('- SMS & MMS gratuits', 'plus_sms.html');
+menu.addChild('- Mail Anonyme', '');
+menu.addChild('- M&eacute;t&eacute;o 48h', 'plus_meteo.html');
+menu.addChild('- Programme Cin&eacute; et TV', 'plus_cine.html');
+menu.addChild('- Annuaire Invers&eacute;', 'plus_annuaire.html');
+menu.addChild('- Traduction en ligne', 'plus_trans.html');
+menu.addChild('- Horoscope', 'plus_horoscopes.html');
+menu.addChild('- Auto-Biographie ;-)', 'plus_bio.html');
+menu.addChild('- Cartes et Itin&eacute;raires', 'plus_cartes.html');
+menu.addChild('- Loteries Gratuites', 'plus_loteries.html');
+menu.addChild('- Convertisseur', 'plus_calcu.html');
+          </script>
+        <br>
+    </p>
+	<TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+      <TR>
+        <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp; T&eacute;l&eacute;chargement &nbsp;&nbsp;</B></div></TD>
+      </TR>
+    </TABLE>
+	<p align="center">
+    <MARQUEE behavior= "scroll" align= "center" direction= "up" height="80" scrollamount= "2" scrolldelay= "10" onmouseover='this.stop()' onmouseout='this.start()'>
+    <table align=center>
+      <tr>
+        <td align=center>
+          <p>- <a href="ftp://ftpclubic2.clubic.com/temp-clubic-rx1740/jeux/Counter-Strike_Mod_1.5_en_version_complete.exe"><strong>Counter Strike 1.5</strong></a> - <br>
+        127 mo </p>
+          <p>- <a href="steam_nosteam.html"><strong>Pack CS 1.6 OFFline</strong> -<br>
+              Dossier</a></p>
+          <p>- <a href="http://www.filemirrors.com/search.src?file=steaminstall_cs.exe&size=397857244" target="_blank"><strong>Counter Strike 1.6</strong></a> - <br>
+        Full 388 mo </p>
+          <p>- <a href="ftp://ftp.vugames.fr/pub/half-life/fhl1110.exe"><strong>Half life 1.1.1.0</strong></a> - <br>
+        Full 84 mo </p>
+          <p>- <a href="ftp://ftp.trusted-network.de/pub/games/pod25ins.exe"><strong>Pod Bot 2.5</strong></a> - <br>
+        2 mo</p>
+          <p>- <a href="http://akimbot.nuclearbox.com/akimbot030.zip"><strong>Akimbot Bot 3.0</strong></a> - <br>
+        0.3 mo </p>
+          <p>- <a href="Fichiers/SteamCustomizerv104.rar"><strong>Steam Customizer</strong></a> - <br>
+        0.3 mo </p>
+          <p class="Style1"><strong>- <a href="http://www.udpsoft.com/eye/download/newer/EyeInstaller.exe">All-Seeing Eyes</a> -<br>
+            </strong><a href="http://www.hl2-games.net/" target="_blank"><br>
+        </a></p></td>
+      </tr>
+    </table>
+    </MARQUEE>
+    <br>
+    <br>
+    <TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+      <TR>
+        <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp; Partenaires&nbsp;&nbsp;</B></div></TD>
+      </TR>
+    </TABLE>
+    <p align="center">
+    <MARQUEE behavior= "scroll" align= "center" direction= "up" height="180" scrollamount= "1" scrolldelay= "10" onmouseover='this.stop()' onmouseout='this.start()'>
+    <table align=center>
+      <tr>
+        <td align=center> <a href="http://www.game-bazar.net"><span class="Style6">NEW</span><br>
+              <img src="images/partenaires/bazard.gif" alt="Un putain de site avec encore mieux que le mien ;-) ! Pleins de dossier sur CS et HL&sup2; mais aussi sur pleins d'autre jeux !" width="88" height="33" border="0"></a><br>
+              <br>
+              <a href="http://www.vossey.com"><img src="images/partenaires/vossey.gif" width="88" height="31" border="0"></a><br>
+              <br>
+              <a href="http://www.counter-strike.com.fr/" target="_blank"><img src="images/partenaires/csComfr.gif" width="88" height="31" border="0"><br>
+              </a><a href="http://faqcs.djeyl.net/" target="_blank"><br>
+              <img src="images/partenaires/FAQ.jpg" width="88" height="31" border="0"><br>
+              </a> <br>
+              <a href="http://www.hl-ftp.fr.tc/" target="_blank"><img src="images/partenaires/hl-ftp.gif" width="88" height="31" border="0"></a><br>
+              <br>
+              <a href="http://weakor.free.fr/" target="_blank"><img src="images/partenaires/csdownloadz.gif" width="88" height="31" border="0"></a><br>
+              <br>
+              <a href="http://www.cs-amx.com/" target="_blank"><img src="images/partenaires/amx2.jpg" width="88" height="31" border="0"><br>
+              <br>
+              <img src="images/partenaires/csServer.jpg" width="88" height="31" border="0"><br>
+              <br>
+              </a><a href="http://www.counterstrikefrance.com" target="_blank"><img src="images/partenaires/CS%20France.gif" alt="Jouer en Ligne" width="88" height="31" border="0"></a><br>
+              <br>
+              <a href="http://www.hl2-games.net/" target="_blank"><img src="images/partenaires/hl2-games.gif" width="88" height="31" border="0"></a></td>
+      </tr>
+    </table>
+    </MARQUEE>
+    <p></p></TD>
+    <TD WIDTH=579 BGCOLOR=#364132 VALIGN=top ALIGN=center>
+	
+<!-- FIN HEADER -->
+	
+	<!-- DEBUT CADRE DE CONTENU 1 -->
+	<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=575>
+  		<TR>
+    		<TD WIDTH=25><IMG SRC="images/cad_bleu_hg.gif" BORDER=0 WIDTH=25 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+    		<TD BACKGROUND=images/cad_bleue_h.gif WIDTH=523 CLASS=menu><B>.:. 
+              je me demande qui sa int&eacute;resse vraiment cette page :-) .:.</B></TD>
+    		<TD WIDTH=27><IMG SRC="images/cad_bleu_hd.gif" BORDER=0 WIDTH=27 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  		<TR>
+    		<TD WIDTH=25 BACKGROUND=images/cad_g.gif><IMG SRC="images/cad_g.gif" BORDER=0 WIDTH=25 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+    		<TD BGCOLOR=#4D574A WIDTH=523><p><strong><font color="#00FF00"><img src="images/Puces/cs.gif" width="16" height="16" align="absmiddle"></font></strong> <span class="Style7">Pl<span class="Style9">us<span class="Style10"> Au<span class="Style11">cu<span class="Style12">ne<span class="Style4"> P</span>ub</span> 'P</span>aya</span><span class="Style4"><span class="Style13">n</span>t</span></span>e' </span>
+              </p>
+    		  <p align="left">Comme vous aviez peut &ecirc;tre pu le remarquer, j'avais mis sur mon site quelques banni&egrave;res de pubs dans le but de pouvoir payer un server &agrave; ma team mais comme personne ne clique dessus, j'ai d&eacute;cid&eacute; de toutes les virer. C'est mieux ainsi !
+              <blockquote>
+                <p align="left"><img src="images/Puces/pucebleue.gif" width="10" height="10"> Dossier CS - XBox <a href="cs_xbox.html" class="Style15">Go</a> <br>
+                    <img src="images/Puces/pucebleue.gif" width="10" height="10"> Dossier tarte &agrave; la fraise&nbsp;<a href="cs_tarte.html" class="Style15">Go</a><br>
+                    <img src="images/Puces/pucebleue.gif" width="10" height="10"> Nouveaux Liens mirroirs pour CS 1.6 Lan + Bots <a href="steam_nosteam.html" class="Style15">Go</a></p>
+              </blockquote>
+              <p><strong><font color="#00FF00"><img src="images/Puces/cs.gif" width="16" height="16" align="absmiddle"> M<font color="#33FF66">&eacute;<font color="#99FF66">g<font color="#CCFF66">a <font color="#CCFFCC">M<font color="#99FFCC">is<font color="#00FF00">e </font>&agrave;</font> J</font>o</font>u</font>r</font> : C</font><span class="Style2">'e<span class="Style3">s<span class="Style4">t N</span></span>o&euml;</span><font color="#00FF00">l ! </font></strong></p>
+    		  <blockquote>
+    		    <p><img src="images/Puces/pucebleue.gif" width="10" height="10"> <strong>Counter Strike</strong> : Pr&eacute;sentation, Servers, Ping, Tags, Easter Eggs ... <br>
+                  <img src="images/Puces/pucebleue.gif" width="10" height="10"> Des dossiers complets sur <strong>Steam</strong> et <strong>HL&sup2;</strong> <br>
+                  <img src="images/Puces/pucebleue.gif" width="10" height="10"> Plus de <strong>t&eacute;l&eacute;chargements</strong>, de <strong>Wallpapers</strong><br>
+                  <img src="images/Puces/pucebleue.gif" width="10" height="10"> Une mise &agrave; jour du Design<br>
+                <img src="images/Puces/pucebleue.gif" width="10" height="10"> Exlusivit&eacute; Counter Snip : Un pack <strong>CS 1.6 LAN + BOT </strong></p>
+  		    </blockquote>    		  <p><strong><font color="#00FF00"><img src="images/Puces/cs.gif" width="16" height="16" align="absmiddle"> D<font color="#00FF66">u
+    		          re<font color="#33FF99">t<font color="#99FF99">ard<font color="#00FF00"> c<font color="#99FF99">o</font>m</font>me</font> H</font>L </font>2
+    		          : <br>
+              </font></strong><font color="#FFFFFF">C'est pour &ccedil;a que les
+            quizz auront du retard, je pense les mettres en ligne dans environ
+            1 mois ! D&eacute;sol&eacute; .......</font> <br>
+            Ah oui, au fait, j'ai gagn&eacute; un <strong>AWARD</strong> de <strong>&quot;Site
+de qualit&eacute;&quot; </strong>(<a href="site_pub.html">ici</a>) </p>
+    		  <p><strong><font color="#00FF00"><img src="images/Puces/cs.gif" width="16" height="16" align="absmiddle"></font></strong><strong><font color="#00FF00"> Pr<font color="#00FF33">e<font color="#00FF66">s<font color="#00FFCC">k
+    		              r</font></font>ie</font>n :<br>
+            </font></strong>Le dossier Binds &amp; Alias va &ecirc;tre compl&egrave;tement
+            refait pour cs 1.6<br>
+Les nouveaux Quizz auront un peu de retard ! dsl ! </p>
+    		  <p><strong><font color="#00FF00"><img src="images/Puces/cs.gif" width="16" height="16" align="absmiddle"></font></strong> <strong><font color="#00FF00">No<font color="#00FF33">uv<font color="#00FF66">ea<font color="#00FF00">ux
+    		              D</font><font color="#00FF99">os</font>si</font>er</font>s
+    		              :</font></strong><br>
+                Enorme mise &agrave; jour aujourd'hui avec pleins de nouveaux dossiers : Virus,
+M&eacute;t&eacute;o,
+Traduction en ligne, News, Horoscopes, Images Fun ....<br>
+En plus, j'ai fait une correction
+orthographique totale de mon site ! </p>
+    		  <p><strong><font color="#00FF00"><img src="images/Puces/cs.gif" width="16" height="16" align="absmiddle">&nbsp;Q<font color="#33FF33">u<font color="#33FF66">i<font color="#00FF00">Z</font><font color="#33FF99">z</font>z</font>z</font> :</font></strong><br>
+    		    Le Quizz est &quot;enfin&quot; termin&eacute; ! Tout ce que vous vouez savoir
+dessus est dispo dans la rubrique Quizz. Bient&ocirc;t <strong>3 ou 4 Nouveau
+Quizz !</strong> </p>
+    		  <p>10 Avril&nbsp;: Mise en place de Design<br>
+    		    13 Avril&nbsp;: Cr&eacute;ation de toutes les pages vierges<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cr&eacute;ation
+de la page d'accueil<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cr&eacute;ation
+de la page Qui suis-je ?<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cr&eacute;ation
+de la page downloads<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cr&eacute;ation
+de la page Cheats<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cr&eacute;ation
+de la page Counter - Mania<br>
+14 Avril&nbsp;: Maj des liens Downloads<br>
+15 Avril&nbsp;: Cr&eacute;ation de la page Console<br>
+16 Avril&nbsp;: Cr&eacute;ation de la page Astuces<br>
+17 Mai : &nbsp;Am&eacute;lioration des pages<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cr&eacute;ation de la page Binds &amp; Alias<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cr&eacute;ation
+des pages Wallpapers<br>
+09 Juin :&nbsp;&nbsp;Mise en place des News<br>
+14 Juin&nbsp;: &nbsp;Mise en place du Livre d'or<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mise &agrave; jour G&eacute;n&eacute;rale<br>
+19 Juin : &nbsp;Cr&eacute;ation su Forum<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mise
+en place des Sondages<br>
+20 Juin&nbsp;: &nbsp;Cr&eacute;ation de la page SMS &amp; MMS<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cr&eacute;ation
+de la page Roms GBA<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cr&eacute;ation
+de la page Annuaire Invers&eacute;<br>
+22 Juin&nbsp;:&nbsp;&nbsp;Cr&eacute;ation de la page loteries Gratuites<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mise &agrave; Jour
+des wallpapers + script<br>
+23 Juin&nbsp;:&nbsp;&nbsp;Cr&eacute;ation de la page Liens<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cr&eacute;ation
+de la page Me Contacter<br>
+25 Juin&nbsp;: &nbsp;Cr&eacute;ation de la page Quizz 1/2<br>
+2 Juillet&nbsp;:&nbsp;Cr&eacute;ation de la page Quizz 2/2<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Commencement
+des pages Armes<br>
+5 Juillet : Cr&eacute;ation de la page Ping<br>
+9 Juillet :&nbsp;C&acirc;p des 100 Quizz re&ccedil;us d&eacute;pass&eacute; !<br>
+              </p>
+    		  <center>
+              </center></TD>
+    		<TD WIDTH=27 BACKGROUND=images/cad_d.gif><IMG SRC="images/cad_d.gif" BORDER=0 WIDTH=27 HEIGHT=12 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  		<TR>
+    		<TD COLSPAN=3><IMG SRC="images/cad_b.gif" BORDER=0 WIDTH=575 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  	</TABLE><BR>
+      </TD>
+    <TD WIDTH=20 BACKGROUND=images/d.gif><IMG SRC="images/d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+  	<TD COLSPAN=3><IMG SRC="images/bas.jpg" BORDER=0 WIDTH=774 HEIGHT=32 USEMAP="#bas"></TD>
+  </TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>
+<!-- FIN FOOTER -->

@@ -1,0 +1,129 @@
+Article:
+  actAs:
+    Timestampable:      ~
+    Sluggable:
+      unique:         true
+      fields:         [titre]
+      canUpdate:      true
+    Searchable:
+      fields:         [titre, contenu]
+    Taggable: ~
+  columns:
+    titre:            { type: string(200), notnull: true }
+    date:             { type: datetime }
+    chapeau:          { type: clob }
+    contenu:          { type: clob, notnull: true }
+    duree_redaction:  { type: integer }
+    copyright:        { type: string(200) }
+    nb_lu:            { type: integer, default: 0 }
+    categorie_id:     { type: integer, notnull: true }  
+    publie:           { type: boolean, default: false }
+    afficher_chapeau: { type: boolean, default: false }
+  relations:
+    Commentaires:     { class: Commentaire, local: id,              foreign: article_id,        type: many,             onDelete: CASCADE,  foreignAlias: Article }
+    Articles_lies:    { class: Article,     local: article_src_id,  foreign: article_liee_id,   refClass: ArticlesLies, foreignAlias: ReverseArticlesLies }
+    Categorie:        { class: Categorie,   local: categorie_id,    foreign: id,                foreignAlias: Articles }
+
+Commentaire:
+  actAs:
+    Timestampable:   ~
+  columns:
+    message:         { type: clob, notnull: true }
+    article_id:      { type: integer, notnull: true }
+    pseudo:          { type: string(200), notnull: true }
+    email:           { type: string(200) }
+    site:            { type: string(200) }
+  relations:
+    article:          { class: Article, local: article_id, foreign: id }
+
+ArticlesLies:
+  columns:
+    article_src_id:   { type: integer, primary: true }
+    article_liee_id:  { type: integer, primary: true }
+  relations:
+    ArticleSrc:
+      class: Article
+      local: article_src_id
+      onDelete: CASCADE
+    ArticleLie:
+      class: Article
+      local: article_liee_id
+      onDelete: CASCADE
+      
+Categorie:
+  actAs:
+    Sluggable:
+      unique:         true
+      fields:         [titre]
+      canUpdate:      true
+  columns:
+    titre:            { type: varchar(200), notnull: true }
+    description:      { type: clob }
+    logo:             { type: varchar(255) }
+  
+
+CategorieFolio:
+  actAs:
+    Sluggable:
+      unique:         true
+      fields:         [titre]
+      canUpdate:      true
+  columns:
+    titre:            { type: varchar(200), notnull: true }
+
+Creation:
+  actAs:
+    Sluggable:
+      unique:         true
+      fields:         [titre]
+      canUpdate:      true
+  columns:
+    titre:            { type: varchar(255), notnull: true }
+    sstitre:          { type: varchar(255) }
+    code:             { type: varchar(20),  notnull: true }
+    description1:     { type: clob }
+    description2:     { type: clob }
+    mini_desc1:       { type: clob }
+    mini_desc2:       { type: clob }
+    url:              { type: varchar(255) }
+    miniature:        { type: varchar(255) }
+    bandeau:          { type: varchar(255) }
+    annee:            { type: varchar(4) }
+    date:             { type: timestamp }
+    client:           { type: varchar(255) }
+    techno:           { type: varchar(255) }
+    duree:            { type: varchar(255) }
+    categorie_id:     { type: integer, notnull: true }
+    use_alternatif:   { type: boolean }
+  relations:
+    Categorie:        { class: CategorieFolio, local: categorie_id, foreign: id, foreignAlias: Creations  }   
+    Technos:
+      class: Techno
+      local: creation_id
+      foreign: techno_id
+      refClass: RelTechnoCreation
+      foreignAlias: Creations
+
+Techno:
+  columns:
+    nom:              { type: varchar(255), notnull: true }
+    logo:             { type: varchar(255), notnull: false }
+    url:              { type: varchar(255), notnull: false }
+
+RelTechnoCreation:
+  columns:
+    techno_id:        { type: integer(8), primary: true }
+    creation_id:      { type: integer(8), primary: true }
+  relations:
+    Creation:
+      class: Creation
+      local: creation_id
+      onDelete: CASCADE
+    Techno:
+      class: Techno
+      local: techno_id
+      onDelete: CASCADE
+    
+    
+
+    

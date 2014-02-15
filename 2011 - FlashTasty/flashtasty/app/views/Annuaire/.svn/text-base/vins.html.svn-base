@@ -1,0 +1,23 @@
+#{extends 'layout-complet.html' /}
+#{set title: 'Annuaire : vins' /}
+
+<div data-role="page">
+	<div data-role="header">
+		#{header lang:lang, retour:true /}
+	</div>
+
+	<div data-role="content">
+
+		<ul data-role="listview" #{if rechercher}data-filter="true" data-filter-placeholder="&{'ChercherUnVinPPP'}" #{/if}>
+			<li  data-role="list-divider">#{if parent}${parent}#{/if}#{else}&{'AnnuaireDesVins'}#{/else}</li>
+			#{list items:liste, as: 'vin'}
+				#{vin vin:vin /}
+			#{/list}
+			#{else}
+			<li>&{'AucunVin'}</li>
+			#{/else}
+		</ul>
+
+	</div>
+
+</div>

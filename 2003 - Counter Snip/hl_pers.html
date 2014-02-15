@@ -1,0 +1,363 @@
+<HTML>
+<HEAD>
+<TITLE>Counter Snip</TITLE>
+<META NAME="TITLE" CONTENT="Counter-Snip">
+<META NAME="identifer-URL" CONTENT="http://sniperman.free.fr">
+<META NAME="AUTHOR" lang="fr" CONTENT="Sniperman">
+<META NAME="OWNER" CONTENT="snake.spm@laposte.net">
+<META NAME="SUBJECT" CONTENT="Counter Strike">
+<META NAME="Category" CONTENT="Internet - Jeux - Cs">
+<META NAME="DESRIPTION" CONTENT="Tout sur Counter Strike et plus">
+<META NAME="KEYWORDS" CONTENT="sniperman,kirikiri,countersnip,counter-snip,cs,counter strike,counterstrike,wallpapers,fond d'écran,sms,loto,prizee,astuces,armes,skins,binds,alias,half life,maps,download,téléchargement,patchs,guide,dossier,aide,ping,fps,optimisation,mms,loteries,Orange,LAN,réseau,France,fr,hl key fr,1.5,1.3,1.4,Forum,Astuces,Console,commandes,Cheat,Hack,OGL,wallhack,liens,GBA,rom,Annuaire,">
+<META NAME="LANGUAGE" CONTENT="FR">
+<META NAME="robots" CONTENT="All">
+<STYLE TYPE=text/css>
+TD { font-family:Verdana;font-size:11px;color:white } 
+.menu { font-family:Verdana;font-size:12px;color:white } 
+.titre { font-family:Verdana;font-size:20px;color:white } 
+A.menu { font-family:Verdana;font-size:12px;color:white;text-decoration:none } 
+A:hover.menu { font-family:Verdana;font-size:12px;color:#FFCC00;font-weight:normal;text-decoration:none } 
+A.liens {color:#0000FF;decoration:none;}
+A:hover.liens {color:#000099;text-decoration:underline;font-weight:Bolder } 
+A { font-family:Verdana;font-size:11px;color:#FFFFFF;text-decoration:none } 
+A:hover { font-family:Verdana;font-size:11px;color:#FFCC00} 
+BODY {SCROLLBAR-FACE-COLOR: #ffa534; SCROLLBAR-HIGHLIGHT-COLOR: #ffd756; SCROLLBAR-SHADOW-COLOR: #ff8312; SCROLLBAR-3DLIGHT-COLOR: #000000; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #8E908D; SCROLLBAR-DARKSHADOW-COLOR: #000000}
+.Style1 {
+	color: #FFFF00;
+	font-weight: bold;
+}
+.Style2 {
+	color: #CCFFCC;
+	font-weight: bold;
+}
+.parent {font-family: verdana;font-weight: bold ;color: #CCCCCC;font-size: 12px;margin-top: 10;cursor: hand;margin-left: 6pt}
+.child {font-size: 9px;decoration: none;font-weight: normal;margin-left:10pt}
+</STYLE>
+<script language="javascript">
+<!--
+var intCount = 1;
+function DynamicMenu_addParent(strName) {
+	var strID = 'ID' + intCount++;
+	var strTemp = '<DIV ID="' + strID + '" CLASS="parent"';
+        strTemp += ' onClick="expandCollapse(this);">';
+	    strTemp += '<B>' + strName + '</B>'  
+        strTemp += '<DIV CLASS="child"></DIV>';
+        strTemp += '</DIV>';
+		this.div.innerHTML += strTemp;
+        this.currentChild = document.getElementById(strID);
+}
+
+function DynamicMenu_addChild(strName,strURL) {
+
+	var strTemp = '<A HREF="' + strURL + '"' + ' onClick="cancelBubble(arguments[0]);">' + strName + '</A><BR>';
+	if (document.all) {
+        	this.currentChild.children[1].innerHTML += strTemp;
+	} else {
+        	this.currentChild.childNodes[1].innerHTML += strTemp;
+	}
+	
+}
+
+function cancelBubble(netEvent) {
+	if (document.all) {
+		window.event.cancelBubble = true;
+	} else {
+        	netEvent.cancelBubble = true;
+	}
+}
+
+function expandCollapse(objElement) {
+
+	if (document.all) {
+        	var imgIcon = objElement.children[0];
+                objElement = objElement.children[1];
+	} else {
+        	var imgIcon = objElement.childNodes[0];
+                objElement = objElement.childNodes[2];
+	}
+	if (objElement.style.display == "none") {
+        	objElement.style.display = "block" ;
+                imgIcon.src = "bottomb.gif" ;
+	} else {
+        	objElement.style.display = "none" ;
+                imgIcon.src = "leftb.gif" ;
+	}
+}
+
+function DynamicMenu() {
+
+	var id = "Menu" + intCount++;
+        document.write('<DIV Id="' + id + '"></DIV>');		
+	this.div = document.getElementById(id);
+        this.currentChild = null;
+		
+	this.addParent = DynamicMenu_addParent;
+	
+        this.addChild = DynamicMenu_addChild;
+		
+}
+// -->
+
+</script>
+
+</HEAD>
+<BODY BGCOLOR=#000000 TEXT=#FFFFFF LINK=#0000FF VLINK=#800080 ALINK=#FF0000>
+<CENTER>
+
+<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH=774>
+  <TR>
+    <TD WIDTH=175><IMG SRC="images/haut6a.jpg" BORDER=0 WIDTH=175 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+      <TD WIDTH=579 BACKGROUND=images/top_cs.gif CLASS=titre> 
+        <!-- ICI, LE TITRE DEVOTRE SITE -->
+        Dossier Half Life&sup2;</TD>
+      <TD WIDTH=20><IMG SRC="images/top_d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+      	
+      	<!-- !!!!!!!!! DEBUT MENU !!!!!!!!!!! -->
+	  <TD WIDTH=175 BACKGROUND=images/fond_menu.gif VALIGN=top CLASS=menu> <IMG SRC="images/haut6b.jpg" BORDER=0 WIDTH=175 HEIGHT=115 HSPACE=0 VSPACE=0><BR>
+
+	<!-- DEBUT MENU 1 -->
+	<!-- DEBUT MENU 1 -->
+    <p><span class="parent"><img src="images/Puces/arrow2b.gif" width="10" height="13" align="absmiddle"> <a href="index.htm">Accueil</a></span><br>
+        <script language=Javascript type=text/javascript>
+var menu = new DynamicMenu();
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Site'); 
+//menu.addChild(' ', ' ');
+menu.addChild('- Me contacter', 'site_contact.html');
+menu.addChild('- Livre d&acute;or', 'http://www.maxiservices.net/livre/livre.php3?id=2810 ');		
+menu.addChild('- Chat', 'site_chat.html'); 
+menu.addChild('- Qui suis-je', 'site_quisuisje.html');
+menu.addChild('- Pubs', 'site_pub.html');
+      
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Counter Strike'); 
+menu.addChild(' ', ' ');
+//menu.addChild('- <b><font color=66CCFF>QuiZZzzz</font></b>', 'cs_quiz.php');
+//menu.addChild(' ', ' ');				
+menu.addChild('- Pr&eacute;sentation', 'cs_presentation.html');
+menu.addChild('- <b> Downloads</b>', 'cs_Downloads.html');
+menu.addChild('- Astuces', 'cs_Astuces.html');
+menu.addChild('- Armes', 'cs_armes.html');
+menu.addChild('- Binds & Alias', 'cs_Binds_&_Alias.html'); 
+menu.addChild('- PodBot', 'cs_Podbot.html');
+menu.addChild('- <b>R&eacute;duire son Ping</b>', 'cs_Ping.html');
+menu.addChild('- Dossier CS - Xbox', 'cs_xbox.html');
+menu.addChild('- Servers', 'cs_server.html');
+menu.addChild('- Easter Eggs', 'cs_EasterEgg.html');
+menu.addChild('- Counter Mania', 'cs_counterMania.html');
+menu.addChild('- Commandes', 'cs_console.html');
+menu.addChild('- Cheats', 'cs_cheats.html');
+menu.addChild('- Tag', 'cs_tag2.html');
+menu.addChild('- Liens', 'cs_liens.html');
+menu.addChild('- Wallpapers', 'cs_wallpapers.html');
+menu.addChild('- Tarte à la Fraise', 'cs_tarte.html');
+
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Steam'); 
+//menu.addChild(' ', ' ');
+menu.addChild('- T&eacute;l&eacute;chargement', 'steam_telechargement.html');
+menu.addChild('- <b>Pack LAN + BOT</b>', 'steam_nosteam.html'); 				 				
+menu.addChild('- Installation', 'steam_install.html');
+menu.addChild('- Utilitaires', 'steam_util.html');
+menu.addChild('- Binder 1.6', 'cs_Binder1.html');
+menu.addChild('- Lecteur MP3', 'steam_mp3.html');
+menu.addChild('- FAQ', 'steam_faq.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Half Life 2'); 
+//menu.addChild(' ', ' ');
+menu.addChild('- News', 'hl_news.html');
+menu.addChild('- Histoire', 'hl_hist.html');
+menu.addChild('- Armes', 'hl_armes.html'); 
+menu.addChild('- Personnages', 'hl_pers.html');
+menu.addChild('- Packs', 'hl_pack.html');			
+menu.addChild('- Screenshot', 'hl_screen.html');
+menu.addChild('- Art-Works', 'hl_screen3.html');
+menu.addChild('- Fond d&acute;&eacute;cran', 'hl_wallpapers.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Petits +'); 
+//menu.addChild(' ', ' ');
+menu.addChild('- Dossier Virus', 'plus_virus.html'); 				
+menu.addChild('- SMS & MMS gratuits', 'plus_sms.html');
+menu.addChild('- Mail Anonyme', '');
+menu.addChild('- M&eacute;t&eacute;o 48h', 'plus_meteo.html');
+menu.addChild('- Programme Cin&eacute; et TV', 'plus_cine.html');
+menu.addChild('- Annuaire Invers&eacute;', 'plus_annuaire.html');
+menu.addChild('- Traduction en ligne', 'plus_trans.html');
+menu.addChild('- Horoscope', 'plus_horoscopes.html');
+menu.addChild('- Auto-Biographie ;-)', 'plus_bio.html');
+menu.addChild('- Cartes et Itin&eacute;raires', 'plus_cartes.html');
+menu.addChild('- Loteries Gratuites', 'plus_loteries.html');
+menu.addChild('- Convertisseur', 'plus_calcu.html');
+
+
+
+          </script>
+        <br>
+    </p>
+    <TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+      <TR>
+        <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp;Jour J : &nbsp;&nbsp;</B></div></TD>
+      </TR>
+    </TABLE>
+    <p>
+      <script language="JavaScript">
+instantpresent = new Date();
+anniversaire = new Date("april 09 00:00:00 2004");/*entrez ici votre date de naissance sous la forme Mois(ex : Jan) jour (ex 31) hh:mm:ss aaaa. Ce qui peut donner par exemple : "Jan 31 12:30:00 1980") */
+secondes = ( anniversaire - instantpresent ) / 1000;
+minutes = secondes / 60;
+heures = minutes / 60;
+jours = heures / 24;
+jours = Math.round(jours);
+document.write ("<center>Hl 2 sortira dans : <br><strong>" + jours + " jours !</strong></center>");
+                    </script>
+      <br>
+      <br>
+    </p>
+    <TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+      <TR>
+        <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp; Cadeaux de No&euml;l : </B></div></TD>
+      </TR>
+    </TABLE>
+    <p align="center"><a href="http://www.alapage.com/mx/?type=5&tp=F&donnee_appel=ALAPAGE&REF_NOVA=621702"><img src="images/hl2/acheter.jpg" width="100" height="140" border="0"><br>
+          <br>
+          <font color="#00FF00">Pr&eacute;commandez HL&sup2; et <br>
+  gagnez 10&euro;</font> </a>
+        <MARQUEE behavior= "scroll" align= "center" direction= "up" height="120" scrollamount= "1" scrolldelay= "10" onmouseover='this.stop()' onmouseout='this.start()'>
+        </MARQUEE>
+    <p>&nbsp;</p></TD>
+      <TD WIDTH=579 BGCOLOR=#364132 VALIGN=top ALIGN=center>
+        <!-- FIN HEADER -->
+        <!-- DEBUT CADRE DE CONTENU 1 -->
+        <TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=575>
+  		    <TR>
+    		    <TD WIDTH=25><IMG SRC="images/cad_bleu_hg.gif" BORDER=0 WIDTH=25 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+    		    <TD BACKGROUND=images/cad_bleue_h.gif WIDTH=523 CLASS=menu><b>C ki d&eacute;j&agrave; Freeman ? </b></TD>
+    		    <TD WIDTH=27><IMG SRC="images/cad_bleu_hd.gif" BORDER=0 WIDTH=27 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+  		    </TR>
+  		    <TR>
+    		    <TD WIDTH=25 BACKGROUND=images/cad_g.gif bgcolor="#FFFFCC"><IMG SRC="images/cad_g.gif" BORDER=0 WIDTH=25 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+   		      <TD BGCOLOR=#4D574A WIDTH=523><p align="center" class="Style1">Voici une liste exhaustive des personnes pr&eacute;sent dans l'aventure HL&sup2; : </p>
+    		    <blockquote>
+    		      <p align="left" class="Style2"><img src="images/Puces/hl2.gif" width="38" height="31" align="absmiddle">Personnages Alli&eacute;s : </p>
+  		      </blockquote>    		  <p align="left"><strong><img src="images/hl2/personnages/ally_freeman.gif" width="127" height="127" align="left">    		  Gordon Freeman </strong><br>
+    		      Apr&egrave;s avoir &eacute;t&eacute; un simple scientifique  dans le laboratoire des mat&eacute;riaux anormaux du centre de BLACK-MESA, le voici maintenant dans la peau d'un vrai Rambo. Revoil&agrave; de retour notre h&eacute;ros qui a par le pass&eacute; lutt&eacute; pour survivre &quot; <em>l' accident</em> &quot; BLACK MESA  ,  quinze ans apr&egrave;s. Sous des ordres de son nouvel employeur, le G-Man vous prenez de nouveau le contr&ocirc;le de Freeman pour plus d'action et de gameplay rempli de suspens. </p>
+    		    <p>&nbsp;</p>
+    		    <p><strong><img src="images/hl2/personnages/ally_gman.gif" width="127" height="127" align="left">Le G-Man </strong><br>
+    		      Est-il ami? Est-il ennemi? Personne ne le sait. Nous avons d&eacute;j&agrave; rencontr&eacute; ce personne ( invincible ) dans HL 1, surtout &agrave; la fin de la du jeu o&ugrave; il a donn&eacute; &agrave; Gordon une occasion de travailler pour lui ou de faire face &agrave; une bataille qui m&egrave;nerait &agrave; certaine mort; Half-Life2 suppose que vous avez d&eacute;cid&eacute; de le joindre. Ce personnage est surement l'&eacute;nigme la plus intense de la sage Half Life.</p>
+    		    <p>&nbsp;</p>
+    		    <p><img src="images/hl2/personnages/ally_alyx.gif" width="127" height="127" align="left"><strong>Alyx </strong><br>
+    		      Elle prend le r&ocirc;le de l'associ&eacute; de Freemans dans Half-Life 2. Elle est la fille d'Eli Vance, un des scientifiques que Gordon a rencontr&eacute; dans la premi&egrave;re aventure. Elle a cr&eacute;&eacute; un <em>ami</em> pour elle-m&ecirc;me, un robot qu'elle appelle <em>'Chien'</em> . Fut&eacute;, capable et entra&icirc;n&eacute;, Alyx est certainement quelqu'un que vous devriez &ecirc;tre heureux d'avoir &agrave; votre c&ocirc;t&eacute;. </p>    		  
+    		    <p>&nbsp;</p>
+    		    <p><img src="images/hl2/personnages/ally_elivance.gif" width="127" height="127" align="left"><strong>Eli Vance </strong><br>
+    		      Un de vos camarades de scientifiques ont surv&eacute;cu &agrave; la trag&eacute;die de BLACK-MESA. Maintenant, comme Freeman, il est entra&icirc;ner au combat et &agrave; la survie. Comme sa fille Eli, il est dispos&eacute; &agrave; vous aider autant que possible. </p>    		  <p>&nbsp;</p>
+    		      <p>&nbsp;</p>
+    		      <p><img src="images/hl2/personnages/ally_kleiner.gif" width="127" height="127" align="left"><strong>Dr. Kleiner</strong><br>
+   		        Un autre scientifique que vous avez rencontr&eacute; dans vos voyages et qui a aussi surv&eacute;cu BLACK-MEASE. &Agrave; la diff&eacute;rence d'Eli Vance, il s'av&egrave;re que Kleiner a coll&eacute; strictement &agrave; la science et est toujours le chercheur de g&eacute;missement que nous sommes venus pour conna&icirc;tre dans le jeu original. </p>   		      
+    		      <p>&nbsp;</p>
+    		      <p>&nbsp;</p>
+    		      <p> <img src="images/hl2/personnages/ally_barney.gif" width="127" height="127" align="left"><strong>Barney Calhoun </strong><br>
+    		        Il est de retour pour un round.Ce n'est pas vraiment le plus fut&eacute; des agents de s&eacute;curit&eacute; mais il &eacute;tait un personnage important du jeu original que nous avions l'habitude de mener dans les entrailles de la mort. La popularit&eacute; de barney vient surtout de l'addon BlueShift. </p>
+    		      <p>&nbsp;</p>
+    		      <p>&nbsp;</p>
+    		      <p><img src="images/hl2/personnages/unknown.gif" width="127" height="127" align="left"><strong>Chien </strong><br>
+   		        Rien n'est connu au sujet de Chien sauf que c'est un robot construit par Alyx, et que ce n'est pas r&eacute;ellement un chien ;-) . <br>
+                </p>
+    		      <p align="center">&nbsp; </p>
+    		    <p align="center"><br>              
+   		        <blockquote>
+   		          <p align="left" class="Style2">&nbsp;</p>
+   		          <p align="left" class="Style2">&nbsp;</p>
+   		          <p align="left" class="Style2"><img src="images/Puces/hl2.gif" width="38" height="31" align="absmiddle"> Ennemis 
+	              </p>
+   		        </blockquote>   		      <p><strong><img src="images/hl2/personnages/enemy_combine.gif" width="127" height="127" align="left"></strong><strong>Le Combine </strong><br>
+	              On ne connait presque rien &agrave; propos du 'combine'. La rumeur dit qu'ils sont moiti&eacute; alien, moiti&eacute; humain qui est la raison du nom. De s&ucirc;r, ils se trouvent dans la ville City 17 et ils n'aiment pas Gordon Freeman. </p>
+	            <p>&nbsp;</p>
+	            <p>&nbsp;</p>
+	            <p><img src="images/hl2/personnages/enemy_antlion.gif" width="127" height="127" align="left"><strong>L'AntLion</strong><br>
+              Juste un des nouveaux alien qui nous emb&ecirc;terra &agrave; travers vos voyages &agrave; City17. Bien qu'il soit un ennemi mortel, avec l'utilisation des ph&eacute;romones &eacute;trangers vous pourrez duper ces b&ecirc;tes en vous faisant passer pour l'une d'entre-elles et les vous en servir alors pour attaquer vos autres ennemis dans le jeu. </p>	          
+	          <p><br>
+	          </p>
+	          <p>&nbsp;	            </p>	          <p><img src="images/hl2/personnages/enemy_antlionguard.gif" width="127" height="127" align="left"><strong>La Garde d'AntLion </strong><br>
+  Trois fois plus grand et trois fois plus fort que sont petit fr&egrave;re, aporchez vous trop de pr&egrave;s d'un de ces aliens et vous vous retrouverez en l'air ! &Eacute;vitez &agrave; tout prix le contact avec ces b&ecirc;tes ! </p>
+	          <p>&nbsp;</p>
+	          <p>&nbsp;</p>
+	          <p><br>
+	            <img src="images/hl2/personnages/enemy_headcrab.gif" width="127" height="127" align="left"><strong>Le Headcrab </strong><br>
+	            Tr&egrave;s probablement un des aliens les plus ennuyants pourtant les plus amusants du jeu original. Bien que petit, le headcrab cache un saut mortel et une fois combin&eacute; en se verrouillant avec succ&egrave;s sur une victime, il a la capacit&eacute; de la transformer en zombi. </p>	          <p>&nbsp;</p>
+	            <p>&nbsp;</p>
+	            <p><img src="images/hl2/personnages/enemy_zombie.gif" width="127" height="127" align="left"><strong>Le Zombi</strong><br>
+	              C'est le r&eacute;sultat d'une attaque r&eacute;ussie de headcrab. Ils ont quelques plus comme la capacit&eacute; de ramper une fois qu'ils ont perdu leurs jambes ou encore la possibilit&eacute; que le headcrab se d&eacute;tache une fois le corps trop endommag&eacute;s.</p>
+	            <p>&nbsp;</p>
+	            <p>&nbsp;</p>
+	            <p><img src="images/hl2/personnages/enemy_hydra.gif" width="127" height="127" align="left"><strong>L' Hydra </strong><br>
+	              On ne s'est pas trop ce qu'est cette cr&eacute;ature mais l' Hydra semble &ecirc;tre un alien qui attaque n'importe quoi, humain, &eacute;tranger ou robotique. </p>
+	              <p>&nbsp;</p>
+	              <p>&nbsp;</p>
+	              <p><br>
+	                <img src="images/hl2/personnages/enemy_strider.gif" width="127" height="127" align="left"><strong>Le Strider </strong><br>
+	                Un engin colossal arm&eacute; d'un canon laser et de jambes &eacute;normes qui peuvent empaler des personnes. Ce monstre de 15 m&egrave;tres est tr&egrave;s puissant et tr&egrave;s fut&eacute;. Regardez en l'air de temps en temps pour ne pas avoir de surprises !</p>                <p>&nbsp;</p>
+	                <p>&nbsp;</p>
+	                <p><strong><img src="images/hl2/personnages/enemy_hover.gif" width="127" height="127" align="left">Le Gunship Alien</strong><br>
+                      Rapide et tuer, une combinaison mortelle et volante de surcroit. Quand un de ces derniers vous prend en chasse, le seul conseil possible est de courrir tr&egrave;s vite.</p>                <p>&nbsp;</p>
+                      <p>&nbsp;</p>
+                      <p><strong><br>
+                      <img src="images/hl2/personnages/enemy_scanners.gif" width="127" height="127" align="left">Modules Scanner </strong><br>
+                        Ces choses volent autour de City17 et agissent en tant que cam&eacute;ra de d&eacute;tection mobile. Si vous &ecirc;tes rep&eacute;r&eacute;s par un Scanner, des soldats viendront surement vous emb&ecirc;ttez alors essayez de les &eacute;viter. </p>                <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p><strong><img src="images/hl2/personnages/enemy_manhacks.gif" width="127" height="127" align="left">Man Hacks :</strong><br>
+                          Cet ennemie &agrave; l'air d'&ecirc;tre un robot basic de surveillance de City 17. </p>                <p>&nbsp;</p>
+                          <p>&nbsp;</p>
+                          <p>&nbsp;</p>
+                          <p><strong><img src="images/hl2/personnages/art_assassin.gif" width="127" height="127" align="left">Assassiness </strong><br>
+                            Ces femmes Assasins &eacute;taient d&eacute;j&agrave; pr&eacute;sentent dans Half Life 1 et elles &eacute;taint tr&egrave;s chiantes &agrave; tuer : Rapide et futives &eacute;taient leurs principaux atouts.</p>                <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                            <p><strong><br>
+                            <img src="images/hl2/personnages/art_prowler.gif" width="127" height="127" align="left">Le R&ocirc;deur </strong><br>
+                              Aucun d&eacute;tail n'est connu au sujet de ce caract&egrave;re. </p>                <p>&nbsp;</p>
+                              <p>&nbsp;</p>
+                              <p>&nbsp;</p>
+                              <p><strong><br>
+                              <img src="images/hl2/personnages/art_creature.gif" width="127" height="127" align="left">Cr&eacute;ature </strong><br>
+                                Aucun d&eacute;tail n'est connu au sujet de cette cr&eacute;ature. </p>                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <p><strong><br>
+                                <img src="images/hl2/personnages/art_tank.gif" width="127" height="127" align="left">Tank</strong> <br>
+                                  Un int&eacute;ressant tank de sci-fi . La possibilit&eacute; que vous pourriez pouvoir le commandet est &agrave; envisager.</p>                <p align="center"><br>
+              <p align="center">              </TD>
+    		  <TD WIDTH=27 BACKGROUND=images/cad_d.gif><IMG SRC="images/cad_d.gif" BORDER=0 WIDTH=27 HEIGHT=12 HSPACE=0 VSPACE=0></TD>
+  		    </TR>
+  		    <TR>
+    		    <TD COLSPAN=3><IMG SRC="images/cad_b.gif" BORDER=0 WIDTH=575 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+  		    </TR>
+      </TABLE>
+        <a href="http://www.xiti.com/xiti.asp?s=98910" TARGET="_top">
+        <script language="JavaScript1.1">
+<!--
+hsh = new Date();
+hsd = document;
+hsr = hsd.referrer.replace(/[<>]/g, '');
+hsi = '<img width="39" height="25" border=0 ';
+hsi += 'src="http://logv20.xiti.com/hit.xiti?s=98910';
+hsi += '&p=HL_pers';
+hsi += '&hl=' + hsh.getHours() + 'x' + hsh.getMinutes() + 'x' + hsh.getSeconds();
+if(parseFloat(navigator.appVersion)>=4)
+{Xiti_s=screen;hsi += '&r=' + Xiti_s.width + 'x' + Xiti_s.height + 'x' + Xiti_s.pixelDepth + 'x' + Xiti_s.colorDepth;}
+hsd.writeln(hsi + '&ref=' + hsr.replace(/&/g, '$') + '" title="Mesurez votre audience"><\!--');
+//-->
+        
+</script>
+        <noscript>
+        <img width="39" height="25" border=0 src="http://logv20.xiti.com/hit.xiti?s=98910&p=HL_pers&" title="Mesurez votre audience">
+                </noscript>
+        <!--//-->
+        </a><BR>      </TD><TD WIDTH=20 BACKGROUND=images/d.gif><IMG SRC="images/d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+  	<TD COLSPAN=3><IMG SRC="images/bas.jpg" BORDER=0 WIDTH=774 HEIGHT=32 USEMAP="#bas"></TD>
+  </TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>
+<!-- FIN FOOTER -->

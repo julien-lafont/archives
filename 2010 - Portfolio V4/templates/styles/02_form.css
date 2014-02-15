@@ -1,0 +1,77 @@
+form.style {
+	clear: both;
+}
+
+form.style label { 
+	width:100px; 
+	display:block; 
+	float:left; 
+	padding-top:4px; 
+	font-size:14px;
+	color:#FFF;
+	text-align:right; 
+	padding-right:30px;
+}
+
+
+
+
+form.style label.long {
+	width: auto;
+	display: inline;
+	float:none;
+	padding: 0;
+	
+}
+
+
+form.style input, form.style textarea {
+	padding:3px 6px 3px 6px;
+	font-size:14px;
+	background-color:#EEE;
+	border:2px solid #999;
+	font-family:"Trebuchet MS";
+	color:#0099FF;
+	width:200px;
+	
+	
+}
+
+form.style textarea { width: 300px}
+form.style input.radio {width: 30px;}
+form.style input:focus, form.style textarea:focus {
+	border-color:#00A8FF
+}
+
+form.style input.submit {
+	color:#FFF;
+	background-color:#0F414F;
+	border-color:#000000;
+	width:100px;
+
+}
+
+form.style fieldset {
+		border:0
+}
+
+form.style h2 {
+	margin-bottom:25px;
+	margin-top:10px;
+	width: 60%;
+	border-bottom: 1px dashed #00A8FF;
+	padding-bottom: 7px;
+	padding-left:10px;
+	font-size:20px
+}
+
+
+.contact_l {
+	margin-left:80px !important; margin-left: 50px;
+	width: 250px;
+	float:left
+} .contact_l img { vertical-align: middle;}
+.contact_d {
+	width: 500px;
+	float:left
+}

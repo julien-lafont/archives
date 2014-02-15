@@ -1,0 +1,20 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        "Studio-dev.fr - ADMIN"
+    #description:  "Julien LAFONT : Ingénieur étude et développement, Consultant technique Web, Java, C++ @ Studio-Dev.fr (Montpellier) - Découvrez mes dernières réalisations et mon CV - Compétences clés : Internet 2.0, Securité, Analyse"
+    #keywords:     "julien, lafont, portfolio, cv, réalisations, iut, epsi, symfony, zend, cisco, unix, debian, studio-dev, studio-web, studio, yotsumi, orange, montpellier, développeur, ingénieur, informatique, étude, ajax, php, web, html5, création, site, blog, services, designer, graphiste, programmeur, freelance, jquery, prototype, mvc, sql, php5, référencement, intégration, xhtml, ada, windev, IUT, montpellier, chansons-paroles, fais ton choix, pleax, hounkpe, net, actuality, net-actuality, optix, université, um2, java, UML, cpp, opengl"
+    language:     fr
+    robots:       no-index, no-follow
+
+  stylesheets:    [main.css, backend.css, ui-darkness/jquery-ui-1.8.2.custom.css]
+
+  javascripts:    [jquery-1.4.1.min.js, jquery-ui-1.8.2.custom.min.js]
+
+  has_layout:     true
+  layout:         layout

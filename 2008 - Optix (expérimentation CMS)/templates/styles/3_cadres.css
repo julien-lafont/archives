@@ -1,0 +1,71 @@
+
+/* Styles de cadres */
+.erreur { 
+	color:#FF3338; 
+	background-color:#FFD9DA; 
+	padding:2px 20px 4px 20px; 
+	border-top:1px solid #FF0066; 
+	border-bottom:1px solid #FF0088; 
+	font-size:13px;
+	margin-bottom:15px
+}
+.ok { 
+	color:#00CC00; 
+	background-color:#DBFFCC; 
+	padding:2px 20px 4px 20px; 
+	border-bottom:1px solid #00FF00; 
+	border-top:1px solid #00FF00; 
+	font-size:13px;
+}
+.avert	{ 
+	color:#FF8800; 
+	background-color:#FFECC4; 
+	padding:2px 20px 4px 20px; 
+	border-top:1px solid #FF9900; 
+	border-bottom:1px solid #FFAA00; 
+	font-size:12px;
+}
+
+.apercu {
+	color: #000;
+	background-color: #D7EAFF;
+	border:1px solid #2A7FFF;
+	border-width: 1px 0 1px 0;
+	padding:2px 20px 4px 20px; 
+	font-size:12px;
+	
+}
+
+.info {
+	color:#666; 
+	background-color:#FAFAFA;
+	padding:2px 20px 4px 20px; 
+	border:1px solid #09F; 
+	border-width: 1px 0 1px 0;
+	font-size:14px;	
+	width: 430px;
+	margin: 10px auto 10px auto;
+	height:50px;
+	/*height: 70px;
+	background-image:url(images/exclamation.png);
+	background-repeat: no-repeat;
+	background-position: 95% center;*/
+	padding-right: 80px;
+	text-align:center;
+}
+	.info .img {
+		height: 60px; width: 60px;
+		background-image:url(images/exclamation.png);
+		background-repeat: no-repeat;
+		position:relative;
+		top:-30px;
+		left:430px;
+	}
+	.info p {
+		position:relative;
+		top:-50px
+	}
+
+.erreur img, .ok img, .avert img { vertical-align:middle }
+.erreur a { border-bottom:1px dotted #FF0000; color:#FF3338}
+.erreur a:hover { border-bottom:1px solid #FF0000; color:#FF3338}

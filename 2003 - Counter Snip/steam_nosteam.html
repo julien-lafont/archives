@@ -1,0 +1,410 @@
+<HTML>
+<HEAD>
+<TITLE>Counter Snip</TITLE>
+<META NAME="TITLE" CONTENT="Counter-Snip">
+<META NAME="identifer-URL" CONTENT="http://sniperman.free.fr">
+<META NAME="AUTHOR" lang="fr" CONTENT="Sniperman">
+<META NAME="OWNER" CONTENT="snake.spm@laposte.net">
+<META NAME="SUBJECT" CONTENT="Counter Strike">
+<META NAME="Category" CONTENT="Internet - Jeux - Cs">
+<META NAME="DESRIPTION" CONTENT="Tout sur Counter Strike et plus">
+<META NAME="KEYWORDS" CONTENT="sniperman,kirikiri,countersnip,counter-snip,cs,counter strike,counterstrike,wallpapers,fond d'écran,sms,loto,prizee,astuces,armes,skins,binds,alias,half life,maps,download,téléchargement,patchs,guide,dossier,aide,ping,fps,optimisation,mms,loteries,Orange,LAN,réseau,France,fr,hl key fr,1.5,1.3,1.4,Forum,Astuces,Console,commandes,Cheat,Hack,OGL,wallhack,liens,GBA,rom,Annuaire,">
+<META NAME="LANGUAGE" CONTENT="FR">
+<META NAME="robots" CONTENT="All">
+<STYLE TYPE=text/css>
+TD { font-family:Verdana;font-size:11px;color:white } 
+.menu { font-family:Verdana;font-size:12px;color:white } 
+.titre { font-family:Verdana;font-size:20px;color:white } 
+A.menu { font-family:Verdana;font-size:12px;color:white;text-decoration:none } 
+A:hover.menu { font-family:Verdana;font-size:12px;color:#FFCC00;font-weight:normal;text-decoration:none } 
+A.liens {color:#0000FF;decoration:none;}
+A:hover.liens {color:#000099;text-decoration:underline;font-weight:Bolder } 
+A { font-family:Verdana;font-size:11px;color:#FFFFFF;text-decoration:none } 
+A:hover { font-family:Verdana;font-size:11px;color:#FFCC00} 
+BODY {SCROLLBAR-FACE-COLOR: #ffa534; SCROLLBAR-HIGHLIGHT-COLOR: #ffd756; SCROLLBAR-SHADOW-COLOR: #ff8312; SCROLLBAR-3DLIGHT-COLOR: #000000; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #8E908D; SCROLLBAR-DARKSHADOW-COLOR: #000000}
+.Style1 {color: #FFFFFF}
+.parent {font-family: verdana;font-weight: bold ;color: #CCCCCC;font-size: 12px;margin-top: 10;cursor: hand;margin-left: 6pt}
+.child {font-size: 9px;decoration: none;font-weight: normal;margin-left:10pt}
+.Style2 {
+	color: #CCFF99;
+	font-weight: bold;
+	font-size: 18px;
+}
+.Style3 {
+	color: #FFFF00;
+	font-weight: bold;
+}
+.Style5 {
+	color: #FF0000;
+	font-weight: bold;
+}
+.Style6 {
+	color: #00FF00;
+	font-weight: bold;
+}
+.Style11 {color: #FFFF99}
+.Style12 {color: #CCFFCC}
+.Style13 {color: #FF0000}
+.Style15 {color: #00FF00}
+</STYLE>
+<SCRIPT type=text/javascript>
+<!--
+var intCount = 1;
+function DynamicMenu_addParent(strName) {
+	var strID = 'ID' + intCount++;
+	var strTemp = '<DIV ID="' + strID + '" CLASS="parent"';
+        strTemp += ' onClick="expandCollapse(this);">';
+		//strTemp += '<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH=100 HEIGHT=20 BACKGROUND=images/menu_bleu15.gif align=center><TR><TD WIDTH=175 class=parent><B><center>' + strName + '</center></B></TD></TR></TABLE>';
+        //strTemp += '&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="leftb.gif" >';
+	    strTemp += '<B>' + strName + '</B>'  
+        strTemp += '<DIV CLASS="child"></DIV>';
+        strTemp += '</DIV>';
+		this.div.innerHTML += strTemp;
+        this.currentChild = document.getElementById(strID);
+}
+
+function DynamicMenu_addChild(strName,strURL) {
+
+	var strTemp = '<A HREF="' + strURL + '"' + ' onClick="cancelBubble(arguments[0]);">' + strName + '</A><BR>';
+	if (document.all) {
+        	this.currentChild.children[1].innerHTML += strTemp;
+	} else {
+        	this.currentChild.childNodes[1].innerHTML += strTemp;
+	}
+	
+}
+
+function cancelBubble(netEvent) {
+	if (document.all) {
+		window.event.cancelBubble = true;
+	} else {
+        	netEvent.cancelBubble = true;
+	}
+}
+
+function expandCollapse(objElement) {
+
+	if (document.all) {
+        	var imgIcon = objElement.children[0];
+                objElement = objElement.children[1];
+	} else {
+        	var imgIcon = objElement.childNodes[0];
+                objElement = objElement.childNodes[2];
+	}
+	if (objElement.style.display == "none") {
+        	objElement.style.display = "block" ;
+                imgIcon.src = "bottomb.gif" ;
+	} else {
+        	objElement.style.display = "none" ;
+                imgIcon.src = "leftb.gif" ;
+	}
+}
+
+function DynamicMenu() {
+
+	var id = "Menu" + intCount++;
+        document.write('<DIV Id="' + id + '"></DIV>');		
+	this.div = document.getElementById(id);
+        this.currentChild = null;
+		
+	this.addParent = DynamicMenu_addParent;
+	
+        this.addChild = DynamicMenu_addChild;
+		
+}
+// -->
+</SCRIPT>
+
+</HEAD>
+<BODY BGCOLOR=#000000 TEXT=#FFFFFF LINK=#0000FF VLINK=#800080 ALINK=#FF0000>
+<CENTER>
+
+<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH=774>
+  <TR>
+    <TD WIDTH=175><IMG SRC="images/haut4a.jpg" BORDER=0 WIDTH=175 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+      <TD WIDTH=579 BACKGROUND=images/top_cs.gif CLASS=titre> 
+        <!-- ICI, LE TITRE DEVOTRE SITE -->
+        Dossier Steam : Jouer sans STEAM *Warez* <BR>
+        <IMG SRC="images/pixel.gif" BORDER=0 WIDTH=1 HEIGHT=13 HSPACE=0 VSPACE=0></TD>
+    <TD WIDTH=20><IMG SRC="images/top_d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+      	
+      	<!-- !!!!!!!!! DEBUT MENU !!!!!!!!!!! -->
+	  <TD WIDTH=175 BACKGROUND=images/fond_menu.gif VALIGN=top CLASS=menu> <IMG SRC="images/haut4b.jpg" BORDER=0 WIDTH=175 HEIGHT=115 HSPACE=0 VSPACE=0><BR>
+
+	<!-- DEBUT MENU 1 -->
+	<p><span class="parent"><img src="images/Puces/arrow2b.gif" width="10" height="13" align="absmiddle"> <a href="index.htm">Accueil</a></span><br>
+        <script language=Javascript type=text/javascript>
+var menu = new DynamicMenu();
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Site'); 
+//menu.addChild(' ', ' ');
+menu.addChild('- Me contacter', 'site_contact.html');
+menu.addChild('- Livre d&acute;or', 'http://www.maxiservices.net/livre/livre.php3?id=2810 ');		
+menu.addChild('- Chat', 'site_chat.html'); 
+menu.addChild('- Qui suis-je', 'site_quisuisje.html');
+menu.addChild('- Pubs', 'site_pub.html');
+      
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Counter Strike'); 
+menu.addChild(' ', ' ');
+//menu.addChild('- <b><font color=66CCFF>QuiZZzzz</font></b>', 'cs_quiz.php');
+//menu.addChild(' ', ' ');				
+menu.addChild('- Pr&eacute;sentation', 'cs_presentation.html');
+menu.addChild('- <b> Downloads</b>', 'cs_Downloads.html');
+menu.addChild('- Astuces', 'cs_Astuces.html');
+menu.addChild('- Armes', 'cs_armes.html');
+menu.addChild('- Binds & Alias', 'cs_Binds_&_Alias.html'); 
+menu.addChild('- PodBot', 'cs_Podbot.html');
+menu.addChild('- <b>R&eacute;duire son Ping</b>', 'cs_Ping.html');
+menu.addChild('- Dossier CS - Xbox', 'cs_xbox.html');
+menu.addChild('- Servers', 'cs_server.html');
+menu.addChild('- Easter Eggs', 'cs_EasterEgg.html');
+menu.addChild('- Counter Mania', 'cs_counterMania.html');
+menu.addChild('- Commandes', 'cs_console.html');
+menu.addChild('- Cheats', 'cs_cheats.html');
+menu.addChild('- Tag', 'cs_tag2.html');
+menu.addChild('- Liens', 'cs_liens.html');
+menu.addChild('- Wallpapers', 'cs_wallpapers.html');
+menu.addChild('- Tarte à la Fraise', 'cs_tarte.html');
+
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Steam'); 
+//menu.addChild(' ', ' ');
+menu.addChild('- T&eacute;l&eacute;chargement', 'steam_telechargement.html');
+menu.addChild('- <b>Pack LAN + BOT</b>', 'steam_nosteam.html'); 				 				
+menu.addChild('- Installation', 'steam_install.html');
+menu.addChild('- Utilitaires', 'steam_util.html');
+menu.addChild('- Binder 1.6', 'cs_Binder1.html');
+menu.addChild('- Lecteur MP3', 'steam_mp3.html');
+menu.addChild('- FAQ', 'steam_faq.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Half Life 2'); 
+//menu.addChild(' ', ' ');
+menu.addChild('- News', 'hl_news.html');
+menu.addChild('- Histoire', 'hl_hist.html');
+menu.addChild('- Armes', 'hl_armes.html'); 
+menu.addChild('- Personnages', 'hl_pers.html');
+menu.addChild('- Packs', 'hl_pack.html');			
+menu.addChild('- Screenshot', 'hl_screen.html');
+menu.addChild('- Art-Works', 'hl_screen3.html');
+menu.addChild('- Fond d&acute;&eacute;cran', 'hl_wallpapers.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Petits +'); 
+//menu.addChild(' ', ' ');
+menu.addChild('- Dossier Virus', 'plus_virus.html'); 				
+menu.addChild('- SMS & MMS gratuits', 'plus_sms.html');
+menu.addChild('- Mail Anonyme', '');
+menu.addChild('- M&eacute;t&eacute;o 48h', 'plus_meteo.html');
+menu.addChild('- Programme Cin&eacute; et TV', 'plus_cine.html');
+menu.addChild('- Annuaire Invers&eacute;', 'plus_annuaire.html');
+menu.addChild('- Traduction en ligne', 'plus_trans.html');
+menu.addChild('- Horoscope', 'plus_horoscopes.html');
+menu.addChild('- Auto-Biographie ;-)', 'plus_bio.html');
+menu.addChild('- Cartes et Itin&eacute;raires', 'plus_cartes.html');
+menu.addChild('- Loteries Gratuites', 'plus_loteries.html');
+menu.addChild('- Convertisseur', 'plus_calcu.html');
+
+
+
+          </script>
+        <br>
+    </p>
+	<TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+      <TR>
+        <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp; T&eacute;l&eacute;chargement &nbsp;&nbsp;</B></div></TD>
+      </TR>
+    </TABLE>
+	<p align="center">
+    <MARQUEE behavior= "scroll" align= "center" direction= "up" height="80" scrollamount= "2" scrolldelay= "10" onmouseover='this.stop()' onmouseout='this.start()'>
+    <table align=center>
+      <tr>
+        <td align=center>
+          <p>- <a href="ftp://ftpclubic2.clubic.com/temp-clubic-rx1740/jeux/Counter-Strike_Mod_1.5_en_version_complete.exe"><strong>Counter Strike 1.5</strong></a> - <br>
+        127 mo </p>
+          <p>- <a href="steam_nosteam.html"><strong>Pack CS 1.6 OFFline</strong> -<br>
+              Dossier</a></p>
+          <p>- <a href="http://www.filemirrors.com/search.src?file=steaminstall_cs.exe&size=397857244" target="_blank"><strong>Counter Strike 1.6</strong></a> - <br>
+        Full 388 mo </p>
+          <p>- <a href="ftp://ftp.vugames.fr/pub/half-life/fhl1110.exe"><strong>Half life 1.1.1.0</strong></a> - <br>
+        Full 84 mo </p>
+          <p>- <a href="ftp://ftp.trusted-network.de/pub/games/pod25ins.exe"><strong>Pod Bot 2.5</strong></a> - <br>
+        2 mo</p>
+          <p>- <a href="http://akimbot.nuclearbox.com/akimbot030.zip"><strong>Akimbot Bot 3.0</strong></a> - <br>
+        0.3 mo </p>
+          <p>- <a href="Fichiers/SteamCustomizerv104.rar"><strong>Steam Customizer</strong></a> - <br>
+        0.3 mo </p>
+          <p class="Style1"><strong>- <a href="http://www.udpsoft.com/eye/download/newer/EyeInstaller.exe">All-Seeing Eyes</a> -<br>
+            </strong><a href="http://www.hl2-games.net/" target="_blank"><br>
+        </a></p></td>
+      </tr>
+    </table>
+    </MARQUEE>
+    <br>
+    <br>
+    <TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+      <TR>
+        <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp; News CS : </B></div></TD>
+      </TR>
+    </TABLE>
+    <br>
+    <MARQUEE behavior="scroll" align= "center" direction= "up" height="150" scrollamount= "1" scrolldelay= "10" onmouseover='this.stop()' onmouseout='this.start()'>
+    <table width="73%" border="0" align="center">
+      <tr>
+        <td><script language="JavaScript" type="text/javascript" src="http://www.vossey.com/News2Vossey.php" > </script></td>
+      </tr>
+    </table>
+    </MARQUEE>
+&nbsp;&nbsp;
+<p>&nbsp;</p>
+<BR>
+		<!-- !!!!!!!! FIN MENU GAUCHE !!!!!!!!!! -->
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      </TD>
+    <TD WIDTH=579 BGCOLOR=#364132 VALIGN=top ALIGN=center>
+	
+<!-- FIN HEADER -->
+	
+
+	<!-- DEBUT CADRE DE CONTENU 1 -->
+	<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=575>
+  		<TR>
+    		<TD WIDTH=25><IMG SRC="images/cad_bleu_hg.gif" BORDER=0 WIDTH=25 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+    		<TD BACKGROUND=images/cad_bleue_h.gif WIDTH=523 CLASS=menu><B>Scoop : Comment jouer sans &ecirc;tre connect&eacute; avec des Bots !! </B></TD>
+    		<TD WIDTH=27><IMG SRC="images/cad_bleu_hd.gif" BORDER=0 WIDTH=27 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  		<TR>
+    		<TD WIDTH=25 BACKGROUND=images/cad_g.gif bgcolor="#FFFFCC"><IMG SRC="images/cad_g.gif" BORDER=0 WIDTH=25 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+    		<TD BGCOLOR=#4D574A WIDTH=523><p align="center"><img src="images/Autres/hot017.gif" width="48" height="14" align="absmiddle"> <span class="Style2">CS 1.6 Offline + Bots !</span> <img src="images/Autres/hot017.gif" width="48" height="14" align="absmiddle">            
+    		  <p align="center">J'ai enfin trouv&eacute; en cherchant sur le net une version de Counter Strike permettant de jouer &agrave; CS 1.6 sans &ecirc;tre connecter et m&ecirc;me avec des Bots !              
+    		  <p align="center">Comme la proc&eacute;dure peut &ecirc;tre un peu compliqu&eacute; pour un noob, je vous ait &eacute;crit un dossier complet sur ce sujet !              
+    		  <blockquote>
+    		    <p align="left" class="Style3">I&deg;) <span class="Style11">T&eacute;l&eacute;chargement : </span></p>
+    		    <blockquote>
+    		      <p align="left"><span class="Style3"><img src="images/Puces/pucerouge.gif" width="10" height="10"> </span><span class="Style1"><a href="http://www.cs.ab.ru/files/steam/cs16full_v4+zbot.exe"><u>Lien 1</u></a> : Acc&eacute;s Direct : <span class="Style5">OUT<br>
+    		      </span></span><span class="Style3"><img src="images/Puces/pucerouge.gif" width="10" height="10"></span> <a href="http://www.kainskforever.com/new/download/cs/cs16full_v4+zbot.exe"><u>Lien 2</u></a> : Acc&eacute;s Direct : <span class="Style1"><span class="Style6"><span class="Style5">OUT</span><br>
+    		      </span></span><span class="Style3"><img src="images/Puces/pucerouge.gif" width="10" height="10"></span> <a href="http://mirror-01.rin.ru:777/cs16full_v4zbot.exe"><u>Lien 3</u></a> : Acc&eacute;s Direct : <span class="Style1"><span class="Style6"><span class="Style5">OUT</span><br>
+    		      </span><img src="images/Puces/pucerouge.gif" width="10" height="10"> <a href="ftp://guest:alvarion@pages.cell.ru/cs_patch_ver/cs16full_v4+zbot.exe"><u>Lien 4</u></a> : FTP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :  <span class="Style5">OUT<br>
+    		      <img src="images/Puces/pucerouge.gif" width="10" height="10">  </span><span class="Style13"><a href="http://www.game.primorye.ru/files/cs/client/cs16full_v4+zbot.exe"><u>Lien 5 </u></a></span> : Acc&eacute;s Direct : <span class="Style5"><span class="Style6">GOOD<br>
+    		      <img src="images/Puces/pucerouge.gif" width="10" height="10"> </span></span><span class="Style13"><span class="Style15"><span class="Style13"><a href="http://play.evrocom.net/dl/half-life/cs/v1.6/cs16full_v4+zbot.exe"><u>Lien 6 </u></a></span></span></span> </span>: Acc&eacute;s Direct :<span class="Style1"><span class="Style5"><span class="Style6"> GOOD<br>
+    		      <img src="images/Puces/pucerouge.gif" width="10" height="10"> </span></span><span class="Style13"><span class="Style15"><span class="Style13"><a href="http://tlegion.com/files/cs16full_v4+zbot.exe"><u>Lien 7 </u></a></span></span></span> </span>: Acc&eacute;s Direct :<span class="Style1"><span class="Style5"><span class="Style6"> GOOD<br>
+    		      <img src="images/Puces/pucerouge.gif" width="10" height="10"> </span></span><span class="Style13"><span class="Style15"><a href="http://mirror-01.rin.ru:777/cs16full_v4+zbot.exe"><u>Lien 8 </u></a></span></span> </span>: Acc&eacute;s Direct :<span class="Style1"><span class="Style5"><span class="Style6"> GOOD<br>
+    		      <br>
+    		      <img src="images/Puces/pucerouge.gif" width="10" height="10"> </span></span><span class="Style13"><span class="Style15"><a href="ed2k://|file|cs16full_v4+zbot.exe|302548481|6783823C950005B23B11D6833835A59A|/%22"><u>Lien 9</u> :</a></span></span> </span>Lien Edonkey :<span class="Style1"><span class="Style5"><span class="Style6"> GOOD </span></span></span>( plus de 70 sources ) <span class="Style1"><span class="Style5"><span class="Style6"><br>
+    		      </span></span></span></p>
+    		      <p align="left">Le fichier fait <strong>288</strong> mo. <br>
+   		          Ces liens sont assez rapides surtout en multi-source.</p>
+    		    </blockquote>
+    		    <p align="left"><span class="Style3">II&deg;) <span class="Style11">Installation : </span></span></p>
+    		    <blockquote>
+    		      <p align="left"><img src="images/Puces/arrow2.gif" width="10" height="13" align="absmiddle"> Ex&eacute;cutes le fichier &quot;cs16full_v4+zbot.exe&quot;<br>
+   		          <img src="images/Puces/arrow2.gif" width="10" height="13" align="absmiddle"> Click sur &quot;..... &gt;&quot; plusieurs fois <br>
+   		          <img src="images/Puces/arrow2.gif" width="10" height="13" align="absmiddle"> S&eacute;lectionnes le chemin d'install que tu veux <br>
+   		          ( mais n'&eacute;crase pas le vrai cs 1.6 de pr&eacute;f&eacute;rence ! )<br>
+   		          <img src="images/Puces/arrow2.gif" width="10" height="13" align="absmiddle"> Une fois l'install termin&eacute;, lances le jeu par l'icone cr&eacute;ee sur le bureau.</p>
+   		        </blockquote>
+    		    <p align="left"><span class="Style3">II&deg;) <span class="Style11">Configuration :</span></span></p>
+    		    <blockquote>
+    		      <p align="left">Une fois le jeu lanc&eacute;, cliquez sur Options :</p>
+    		      <p align="left"><img src="images/Puces/arrow2.gif" width="10" height="13" align="absmiddle"> <strong>Keyboards :</strong> Dans cet onglet, tu peux paramettrer tes touches. <br>
+   		          IMPORANT : Mets une touche &agrave; &quot; Activate in-game GUI&quot;</p>
+    		      <p align="left"><img src="images/Puces/arrow2.gif" width="10" height="13" align="absmiddle"><strong> Mouse : </strong>Une chose int&eacute;r&eacute;ssante, la sensibilit&eacute; de la souris.</p>
+    		      <p align="left"><img src="images/Puces/arrow2.gif" width="10" height="13" align="absmiddle"> <strong>Audio :</strong> On passe</p>
+   		          <p><img src="images/Puces/arrow2.gif" width="10" height="13" align="absmiddle"> <strong>Vid&eacute;o :</strong> Si vous avez un assez bon PC, param&eacute;trez comme ceci :</p>
+   		          <blockquote>
+   		            <p>- Renderer : OpenGL<br>
+	                  - R&eacute;solution : Environ 1152*860<br>
+	                  -
+Color	Quality : 32</p>
+	              </blockquote>
+   		          <p><img src="images/Puces/arrow2.gif" width="10" height="13" align="absmiddle"><strong> Voice </strong>: Tout au Max</p>
+   		          <p><img src="images/Puces/arrow2.gif" width="10" height="13" align="absmiddle"> <strong>Lock :</strong> Rien </p>
+   		          <p><img src="images/Puces/arrow2.gif" width="10" height="13" align="absmiddle"> <strong>Multiplayer : </strong>Votre Pseudo <br>
+   		          </p>
+	            </blockquote>
+   		        <p><span class="Style3">III&deg;) <span class="Style11">Jouer :</span></span></p>
+   		        <p>Pour lancer une partie en LAN avec des Bots, cliquez sur &quot;<strong>New Game</strong>&quot;, s&eacute;lectionnez ensuite votre map puis OK !<br>
+   		          <br>
+   		          C'est tout simple ! </p>
+   		        <p><span class="Style3">III&deg;) <span class="Style11">Les Bots :</span></span></p>
+   		        <p>Voici la partie qui peut &ecirc;tre la plus compliqu&eacute;e, mais quand m&ecirc;me tr&egrave;s simple !</p>
+   		        <blockquote>
+   		          <p><img src="images/Puces/puceverte.gif" width="10" height="10"> <strong><span class="Style12">Pour ajouter des Bots : </span><br>
+   		            <br> 
+   		            </strong>1&deg;) Vous appuyer sur la touche configur&eacute;e &agrave; &quot;Active in-game menu&quot; et vous s&eacute;lectionnez : Add Zbot -&gt; <strong>Quick Add Bot</strong> <br>
+   		            <br>
+	              <img src="images/Autres/zbot.jpg" width="353" height="204"></p>
+   		          <p>2&deg;) Dans la console, tappez : <strong>bot_add</strong> </p>
+   		          <p><img src="images/Puces/puceverte.gif" width="10" height="10"> <span class="Style12"><strong>Changer le niveau des bots : </strong></span></p>
+   		          <p>Activez le Menu In-Game, s&eacute;lectionnez Add ZBOT / Set zBot puis choississez le niveau. <br>
+	              Commande = <strong>bot_difficulty x</strong> ( 0=Nul, 3 = Expert ) </p>
+   		          <p><img src="images/Puces/puceverte.gif" width="10" height="10"> <span class="Style12"><strong>Tuer tous les Bots </strong>( &eacute;quivalent = 3 chez les PodBots )</span></p>
+   		          <p>Activez le Menu In-Game, s&eacute;lectionnez ZBOT MISC -&gt; <strong>End Round <br>
+	              </strong>Commande =<strong> bot_kill</strong></p>
+   		          <p>Je vous laisse d&eacute;vinez vous m&ecirc;me deviner &agrave; quoi servent les commandes du menu ! </p>
+   		          <p><img src="images/Puces/puceverte.gif" width="10" height="10"> <span class="Style12"><strong>Commandes Console : </strong></span></p>
+   		          <p>bot_add_t :<em> Ajoute un TERRO</em><br>
+	              bot_add_ct : <em>Ajoute un Contre - Terroriste</em><br>
+	              <br>
+	              bot_kick : <em>Kick un bot 	              <br>
+	              </em><br>
+	              bot_knives only	              : <em>Couteau seulement </em><br>
+	              bot_pistols_only :<em> Pistolet  seulement</em><br>
+	              bot_snipers_only : <em>Snipers  seulement</em><br>
+	              bot_all_weapons	               : <em>Toutes les armes </em><br>
+	              <br>
+	              bot_allow_pistols [1-0] : <em>Autorise ou non les Pistolets </em><br>
+   		            bot_allow_shotguns [1-0] : <em>Autorise ou non les Pompes </em><br>
+   		            bot_allow_sub_machine_guns [1-0] : <em>Autorise ou non les Mitraillettes </em><br>
+   		            bot_allow_rifles [1-0] : <em>Autorise ou non les Fusils </em><br>
+   		            bot_allow_machine_guns [1-0] : <em>Autorise ou non la Machin GUN </em><br>
+   		            bot_allow_grenades [1-0] : <em>Autorise ou non les Grenades</em> <br>
+   		            bot_allow_snipers [1-0] : <em>Autorise ou non les Snipers </em><br>
+	              bot_allow_shield [1-0] : <em>Autorise ou non le Bouclier </em></p>
+   		          <blockquote>
+                    <blockquote>
+                      <p>&nbsp;                </p>
+                    </blockquote>
+                  </blockquote>
+                  <p align="left">&nbsp;</p>
+                  <p align="left">&nbsp;</p>
+   		        </blockquote>
+   		      </blockquote>   		    </TD>
+    		<TD WIDTH=27 BACKGROUND=images/cad_d.gif><IMG SRC="images/cad_d.gif" BORDER=0 WIDTH=27 HEIGHT=12 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  		<TR>
+    		<TD COLSPAN=3><IMG SRC="images/cad_b.gif" BORDER=0 WIDTH=575 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  	</TABLE>
+	<a href="http://www.xiti.com/xiti.asp?s=98910" TARGET="_top">	</a><BR>
+      </TD>
+    <TD WIDTH=20 BACKGROUND=images/d.gif><IMG SRC="images/d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+  	<TD COLSPAN=3><IMG SRC="images/bas.jpg" BORDER=0 WIDTH=774 HEIGHT=32 USEMAP="#bas"></TD>
+  </TR>
+</TABLE>
+<br>
+<a href="http://www.xiti.com/xiti.asp?s=98910" TARGET="_top">
+<script language="JavaScript1.1">
+<!--
+hsh = new Date();
+hsd = document;
+hsr = hsd.referrer.replace(/[<>]/g, '');
+hsi = '<img width="39" height="25" border=0 ';
+hsi += 'src="http://logv20.xiti.com/hit.xiti?s=98910';
+hsi += '&p=st_inst';
+hsi += '&hl=' + hsh.getHours() + 'x' + hsh.getMinutes() + 'x' + hsh.getSeconds();
+if(parseFloat(navigator.appVersion)>=4)
+{Xiti_s=screen;hsi += '&r=' + Xiti_s.width + 'x' + Xiti_s.height + 'x' + Xiti_s.pixelDepth + 'x' + Xiti_s.colorDepth;}
+hsd.writeln(hsi + '&ref=' + hsr.replace(/&/g, '$') + '" title="Mesurez votre audience"><\!--');
+//-->
+    
+    
+    </script>
+</a>
+<noscript>
+<a href="http://www.xiti.com/xiti.asp?s=98910" target="_top"><img width="39" height="25" border=0 src="http://logv20.xiti.com/hit.xiti?s=98910&p=st_inst&" title="Mesurez votre audience"></a>
+</noscript>
+</CENTER>
+</BODY>
+</HTML>
+<!-- FIN FOOTER -->

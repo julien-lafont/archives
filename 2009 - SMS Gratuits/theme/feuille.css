@@ -1,0 +1,96 @@
+@charset "iso-8859-1";
+
+/* ----****---- Général ----****---- */
+BODY { margin: 15px 0px 0px 0px; background: url(images/bas.jpg) #424242; background-repeat: repeat-x; text-align:center }
+div { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; line-height:16px }
+td { text-align:left }
+
+img { border:0; margin:0; padding:0 }
+img.png { behavior: url(images/png.htc); }
+fieldset { border:0px; margin:0px; padding:0px }
+
+a:link, a:visited { color:#2b333c;; text-decoration:none }
+a:hover { color:#0078FF }
+a:active { color:#FF6600; outline:0}
+
+p.normal a:link, p.normal a:visited {color:#FFF; text-decoration:none; border-bottom:2px solid #bde3fc; font-size:11px; padding-bottom:1px }
+p.normal a:hover { color:#FFF ; text-decoration:none; border-bottom: 2px solid #61E5FF; }
+p.normal a:focus { color:#FFF; border-bottom:2px solid #61E5FF; font-style:italic }
+
+::-moz-selection{ background:#E1F4FF; color:#0099FF; }
+::selection { background:#E1F4FF; color:#0099FF; }
+
+/* ----****---- Structure ----****---- */
+#deco { width:150px; height:150px; position:absolute; top:0; right:0; background-image:url(images/deco.png) !important; background-repeat:no-repeat; background-image:none }
+#header { width:782px; height:184px; margin:0px;  margin-left:auto; margin-right:auto; }
+#principal { width:782px; margin-left:auto; margin-right:auto; background:url(images/5b.png); background-repeat:repeat-y; background-position:center;  }
+#barre_bas {  width:782px; height:4px; margin-left:auto; margin-right:auto; background-image:url(images/6.jpg); background-repeat:no-repeat;}
+#copyright {  width:782px; height:36px; margin-left:auto; margin-right:auto; background-image:url(images/7.jpg); margin-top:0px !important; margin-top:-10px;
+	text-align:center; font-size:12px; font-weight:bold; color:#CCCCCC; vertical-align:middle; padding-top:4px; }
+#barre_bas2 { width:782px; height:18px; margin-left:auto; margin-right:auto; background-image:url(images/8.jpg);  margin-bottom:15px}
+#pub { text-align:center; width:100% }
+
+/* ----****---- Décoration ----****---- */
+input { background-color:#FAFAFA; border:1px solid #AAAAAA; font-size:12px; font-family:Geneva, Arial, Helvetica, sans-serif; color:#00A8FF; padding:1px; text-align:center; text-transform:lowercase }
+input:hover { background-color:#FFF; border:1px solid #46B9F0;}
+
+#referencement h1 { font-size:9px; display:inline; color: #DDD; font-weight:normal }
+#referencement a { color:#F9F9F9; font-style:italic }
+div#log_global { margin-top:30px; height:150px;}
+div.log1 { background-color:#E7E7E7; width:250px; margin-left:100px !important; margin-left:50px; float:left; color:#777; padding:3px; height:125px }
+div.log2 { background-color:#E4E4E4; width:250px; margin-left:70px; float:left; color:#333;  padding:3px; height:125px }
+h2 {  font-family: arial; font-size: 16px; color: #F2F2F2; font-weight: bold; text-decoration: none; padding: 2px; display:inline}
+h4 { font-weight:bold; font-size:12px; color:#01A0F2; }
+h5 { font-size:11px; font-weight:normal; display:inline; color:#777;}
+h6 { color:#0066FF; font-weight:normal; font-size:12px; display:inline  }
+
+#wait { float:right; margin:1px 3px 0px 0px; }
+#etat { margin-left:auto; margin-right:auto; width:30%; text-align:center; padding:2px; font-size:11px; margin-top:30px; }
+
+div.envoyer { width:80px; height:16px; font-size:11px; text-align: center; color: #2b333c; background: #fefefe url(images/submit.gif) repeat-x; border: 1px solid; border-color: #c4cccc #acb5b5 #6f7777 #acb5b5; margin-left:auto;  margin-right:auto; cursor:pointer; margin-bottom:12px !important; margin-bottom:0px}
+div.envoyer:hover { color:#0078FF; border: 1px solid; border-color: #A6CFFF #B5D7FF #A6CFFF #6FB2FF;}
+div.envoyer:active { color:#FF6600; border: 1px solid; border-color: #FFC061 #FFCC7E #FFC061 #FF9900;  outline:0}
+
+#copyright .txt a:link, #copyright .txt a:visited { color:#FFFFFF; border-bottom:1px solid #FF9900; font-weight:normal; padding-bottom:1px;}
+/* ----****---- Page : Home ----****---- */
+.left { float:left; width:50%;margin-left:80px !important; margin-left:40px; }
+
+.roundall { width:100%;  background-color:#EFEFEF;  padding:2px;  color:#F57A1F;}
+.roundall input { padding:2px; margin:1px; background-color:#FAFAFA; border:1px solid #AAAAAA; font-size:13px; font-family:verdana; color:#00A8FF;  text-align:center; }
+.roundall input:focus { background-color:#FFF; border:1px solid #46B9F0;}
+.roundall textarea { padding:2px; margin:1px; background-color:#FAFAFA; border:1px solid #AAAAAA; font-size:13px; font-family:verdana; color:#00A8FF;  }
+.roundall textarea:focus { background-color:#FFF; border:1px solid #46B9F0;}
+.roundall #limit { color:#FF3333; font-size:11px; font-family:Georgia, "Times New Roman", Times, serif }
+h3 { margin-left:auto; margin-right:auto; width:80%; border:2px solid #67C7FA;  padding:2px 8px 2px 8px; font-size:13px; font-weight:bold ; text-align:center; color:#0099FF; background-color:#FFFFFF}
+
+.roundpub { margin-top:15px; width:100%; background-color:#EFEFEF; padding:2px; color:#0066FF }
+.roundpub b a:link, .roundpub b a:visited { color:#FF6600; font-weight:bold; border-bottom:2px solid #FFC891 }
+.roundpub b a:hover { color:#FF6600; font-weight:bold; border-bottom:2px solid #FF6600 }
+.roundpub b a:active { color:#FF6600; font-weight:bold; border-bottom:2px solid #FF3333 }
+.roundpub em { color:#555; font-size:11px; font-style:normal }
+#wait2 { display:none }
+
+.roundstat { width:20%; margin-left:80px !important; margin-left:50px;  background-color:#D5F4FF; float:left; color:#333333; padding:2px }
+.roundstat b { color:#FF6600; font-weight:normal; font-size:11px; }
+.roundstat b.rouge { color:#FF0000; font-weight:bold; font-size:12px; }
+.roundstat b.orange { color:#FF6600; font-weight:bold; font-size:12px; }
+.roundstat b.vert { color:#00FF00; font-weight:bold; font-size:12px; }
+.roundstat u { text-decoration:none; font-size:10px }
+
+.deconnexion { float:right; margin-right:100px !important; margin-right:66px; margin-top:10px !important; margin-top:15px }
+a strong { color:#EFEFEF; text-decoration:none; border-bottom:2px solid #bde3fc; font-weight:normal; font-size:12px; padding-bottom:1px }
+a:hover strong { color :#EFEFEF ;text-decoration:none; border-bottom: 2px solid #4CA1D8; }
+a em { font-size:11px; color:#91D9FF; margin-top:1px }
+
+/* ----****---- Page : Partenaire ----****---- */
+.partenaires strong { color:#CCFF00; }
+
+/* ----****---- Page : SmsOk ----****---- */
+.roundok { width:50%; background-color:#EFEFEF; padding:2px; color:#0066FF; margin-left:auto; margin-right:auto }
+.roundok b a:link, .roundok b a:visited { color:#FF6600; font-weight:bold; border-bottom:2px solid #FFC891 }
+.roundok b a:hover { color:#FF6600; font-weight:bold; border-bottom:2px solid #FF6600 }
+.roundok b a:active { color:#FF6600; font-weight:bold; border-bottom:2px solid #FF3333 }
+.roundok em { color:#555; font-size:11px; font-style:normal }
+
+/* ---****---- Page : Pubs ----****---- */
+.infos { position:relative; width:490px; height:80px; margin-left:auto; margin-right:auto; z-index:-5 !important; z-index:0;}

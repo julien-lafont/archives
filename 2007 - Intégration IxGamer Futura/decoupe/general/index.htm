@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Futura design</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript">
+	// Gestion du hover sur les liens titres
+	$(document).ready(function(){ 
+		$('#menu_top .hover').mouseover( function() { 
+			nomm=this.src; l=nomm.length;
+			this.src=nomm.substr(0, (l-4))+'_h.png';
+		} );
+		$('#menu_top .hover').mouseout( function() { 
+			nomm=this.src; l=nomm.length;
+			this.src=nomm.substr(0, (l-6))+'.png';
+		} );	
+	});
+	</script>
+</head>
+<body>
+
+<div id="page">
+    <div id="menu_top">
+    	<ul>
+        	<li><a href="#" title=""><img src="images/top_accueil.png" alt="" class="hover" /></a></li>
+        	<li><a href="#" title=""><img src="images/top_team.png" alt="" class="hover" /></a></li>
+        	<li><a href="#" title=""><img src="images/top_results.png" alt="" class="hover" /></a></li>
+        	<li><a href="#" title=""><img src="images/top_awards.png" alt="" class="hover" /></a></li>
+        	<li><a href="#" title=""><img src="images/top_coverage.png" alt="" class="hover" /></a></li>
+        	<li><a href="#" title=""><img src="images/top_galerie.png" alt="" class="hover" /></a></li>
+        	<li><a href="#" title=""><img src="images/top_files.png" alt="" class="hover" /></a></li>
+        	<li><a href="#" title=""><img src="images/top_forum.png" alt="" class="hover" /></a></li>
+        	<li><a href="#" title=""><img src="images/top_sponsor.png" alt="" class="hover" /></a></li>
+        	<li><a href="#" title=""><img src="images/top_contact.png" alt="" class="hover" /></a></li>
+        </ul>
+        <br class="clear" />
+        <div id="connexion">
+        	<form action="#" method="post">
+            <fieldset>
+            	<input type="text" name="log_pseudo" id="log_pseudo" class="log" />
+                <input type="text" name="log_pseudo" id="log_pass" class="log" />
+                <input type="image" src="send.png" class="send" />
+                <span><a href="#">Register</a> - <a href="#">Pass ?</a></span>
+            </fieldset>
+            </form>    
+        </div>
+    </div>
+    
+    <div id="header">
+    	<h1>Titre de la page</h1>
+    </div>
+    
+    <div id="corps">
+    	<div id="gauche">
+        	<div class="in">
+        		<img src="images/menuG_titre_menu.png" alt="" />
+                <ul class="puce">
+                	<li><a href="qsdqsdqsd">Lien 1</a></li>
+                	<li><a href="#">Lien 2</a></li>                	
+                    <li><a href="#">Lien 3</a></li>                    
+                	<li><a href="#">Lien 4</a></li>
+                	<li><a href="#">Lien 1</a></li>
+                	<li><a href="#">Lien 2</a></li>                	
+                    <li><a href="#">Lien 3</a></li>                    
+                	<li><a href="#">Lien 4</a></li>
+                </ul>
+         		<img src="images/menuG_titre_files.png" alt="" />
+                <ul>
+                	<li>Texte A</li>
+                	<li>Texte B</li>                	
+                    <li>Texte C</li>                    
+                	<li>Texte D</li>
+                </ul>       		
+         		<img src="images/menuG_titre_forum.png" alt="" />
+                <ul>
+                	<li>Texte A</li>
+                	<li>Texte B</li>                	
+                    <li>Texte C</li>                    
+                	<li>Texte D</li>
+                </ul>  
+                <img src="images/menuG_titre_pub.png" alt="" />
+                <p class="centre">
+                	<img src="pub.png" alt="Pub" /><br />
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, 
+                </p>
+        	</div>
+        </div>
+        
+    	<div id="centre">
+        
+        	<div id="blocs_centre">
+            
+            	<img src="images/centre_titres.png" alt="Resultas et Breves" />
+                
+            	<div class="gauche">
+                	<ul>
+                    	<li><img src="france.gif" alt="" /> <a href="#">AAAAAAAAaaaaaaaaaaaaaaa</a></li>
+                        <li class="alt"><img src="france.gif" alt="" /> <a href="#">BBBBBBBBbbbbbbbbbbbbbbb</a></li>
+                        <li><img src="france.gif" alt="" /> <a href="#">CCCCCCCCccccccccccccccc</a></li>
+                        <li class="alt"><img src="france.gif" alt="" /> <a href="#">DDDDDDDDddddddddddddddd</a></li>
+                        <li><img src="france.gif" alt="" /> <a href="#">EEEEEEEEeeeeeeeeeeeeeee</a></li>
+                    </ul>                
+                </div>
+                
+                <div class="droite">
+                	<ul>
+                    	<li><img src="france.gif" alt="" /> <a href="#">AAAAAAAAaaaaaaaaaaaaaaa</a></li>
+                        <li class="alt"><img src="france.gif" alt="" /> <a href="#">BBBBBBBBbbbbbbbbbbbbbbb</a></li>
+                        <li><img src="france.gif" alt="" /> <a href="#">CCCCCCCCccccccccccccccc</a></li>
+                        <li class="alt"><img src="france.gif" alt="" /> <a href="#">DDDDDDDDddddddddddddddd</a></li>
+                        <li><img src="france.gif" alt="" /> <a href="#">EEEEEEEEeeeeeeeeeeeeeee</a></li>                    </ul>                
+                </div>
+            
+            </div>
+        
+            <div class="contenu">
+                <h2>Titre du contenu</h2>
+                <h3>Sous titre du contenu</h3>
+                <p class="in">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                </p>
+                <div class="in"><a href="#">Lire la suite</a></div>
+            </div>
+            
+       
+           <div class="contenu">
+                <h2>Titre du contenu</h2>
+                <h3>Sous titre du contenu</h3>
+                <p class="in">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                </p>
+                <div class="in"><a href="#">Lire la suite</a></div>
+            </div>
+        
+       </div>
+         	
+  <div id="droite">
+        	<div class="in">
+            
+            	<img src="images/menuD_titre_sponsor.png" alt="" />
+            	<ul>
+                	<li class="titre">Salou ma poule</li>
+                	<li>Texte A</li>
+                	<li>Texte B</li>                	
+                    <li>Texte C</li>                    
+                	<li>Texte D</li>
+                </ul>
+                <img src="images/menuD_titre_aboutus.png" alt="" />
+            	<p>
+                	Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, 
+                </p>
+                <img src="images/menuD_titre_coverage.png" alt="" />         
+            	<ul>
+                	<li class="titre">Salou ma poule</li>
+                	<li>Texte A</li>
+                	<li>Texte B</li>                	
+                    <li>Texte C</li>                    
+                	<li>Texte D</li>
+                </ul>
+                
+            </div>
+        </div>
+        <br class="clear" />
+	</div>
+    
+    <div id="footer">
+    	<p>Propuls&eacute; par Ix'Gamer - Design par Fizzy, Coding by YoTsumi</p>
+    </div>
+
+</div>
+
+<!-- Préchargement -->
+<div class="hide">
+    <img src="images/top_accueil_h.png" alt="" />
+	<img src="images/top_team_h.png" alt="" />
+    <img src="images/top_results_h.png" alt="" />
+    <img src="images/top_awards_h.png" alt="" />
+    <img src="images/top_coverage_h.png" alt="" />
+    <img src="images/top_galerie_h.png" alt="" />
+    <img src="images/top_files_h.png" alt="" />
+    <img src="images/top_forum_h.png" alt="" />
+    <img src="images/top_sponsor_h.png" alt="" />
+    <img src="images/top_contact_h.png" alt="" />
+</div>
+
+</body>
+</html>

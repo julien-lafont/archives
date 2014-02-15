@@ -1,0 +1,4 @@
+/* IE6 specific styles */
+ form label {
+    background: #fff;
+}

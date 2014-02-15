@@ -1,0 +1,52 @@
+.plan {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.plan ul { margin-left: 30px}
+.plan ul li.lien { 
+	background-image:url(templates/images/list_bull.gif); 
+	background-repeat:no-repeat; 
+	background-position:10px center; 
+	padding-left: 15px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+	padding-top: 5px;
+	margin-top: 7px;
+	-moz-border-radius: 7px 7px 0 0;
+}
+
+.plan ul li { 
+	padding-left: 30px;
+	font-size: 12px;
+	padding-bottom: 5px;
+	-moz-border-radius:0 0 7px 7px;
+	margin-top: -1px;
+}
+	
+	.plan ul li.a {
+		background-color: #04323F;
+	}
+	.plan ul li.b {
+		background-color: #0A404F;
+	}
+	.plan ul li.one {
+		padding-bottom: 7px;
+		-moz-border-radius:5px;
+	}
+	.plan ul li.no {
+		margin: 0 !important;
+		padding:0
+	}
+	
+.plan ul li a { 
+	border:0;
+	font-size: 15px;
+	border-bottom: 1px dotted #31879F;
+}
+.plan ul li a:hover {
+	border-bottom: 1px solid #31879F;
+	color:#FFF
+}
+
+

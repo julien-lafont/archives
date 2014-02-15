@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr\">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link href="theme/yotsumi/yotsumi.css" rel="stylesheet" type="text/css" />
+	<link href="ixteam.css" rel="stylesheet" type="text/css" />
+	<script language="javascript" src="include/scripts.js"></script>
+	<title>{#titre}</title>
+</head>
+
+<body>
+<div id="page">
+
+	<table class="tableau_header" cellspacing="0" cellpadding="0">
+	  <tr>
+	  	<td class="header_gd">
+		  <br />
+		    <center><b>{#nomsite}</b><br />
+            <br />		    
+          	{#slogan}<br /></center
+		></td>
+	  	<td class="header_c"><img src="theme/yotsumi/images/blanklogo.png" alt="Logo" width="748" height="152" /></td>
+	  	<td class="header_gd">
+		Sites utilisant P-T :<br /><span class="bleu">108</span><br /><br />
+  	    Visiteurs live :<br /><span class="bleu">5</span><br /><br />
+  	    Visiteurs total :<br /><span class="bleu">8520</span></td>
+	  </tr>
+	</table>
+	
+
+	<table class="tableau_general" cellspacing="0"  cellpadding="0">
+	  <tr>
+		<td id="menu_gd">
+		
+		<!--VTP_menug-->
+		<div id="menu2">
+                  <div id="menu2_t"><font color="#FF0000">&raquo;</font><font color="#FF0000"> </font>{#titre} <font color="#FF0000">&laquo;</font></div>
+                  <div id="menu2_c">{#texte}</div>
+ 		   </div>
+		<br />
+		<!--/VTP_menug-->
+		
+		
+		
+		</td>
+		<td id="contenu">
+		
+		<!--VTP_contenu-->
+		<div class="moduleTitre"><font color="#0000FF">&rsaquo;</font> {#module_titre} <font color="#0000FF">&lsaquo;</font></div>
+		<div class="module">
+		  {#module_texte}</div>
+		<div class="moduleFin">&nbsp;</div>
+		<!--/VTP_contenu-->
+		
+		<!--VTP_news-->
+		<div class="moduleTitre" style="text-align:left"><font color="#0000FF">{#news_cathegorie} &rsaquo;</font> {#news_titre} <font color="#0000FF">&lsaquo;</font></div>
+		<div class="module">
+		  {#news_texte}</div>
+		<div class="moduleFin"><div align="right">Post&eacute;e par {#news_auteur} le {#news_date} - {#news_commentaires}</div></div>
+		<br />
+		<!--/VTP_news-->
+		
+		
+		</td>
+		<td id="menu_gd">				
+		
+		<!--VTP_menud-->
+		<div id="menu2">
+                  <div id="menu2_t"><font color="#FF0000">&raquo;</font><font color="#FF0000"> </font>{#titre} <font color="#FF0000">&laquo;</font></div>
+                  <div id="menu2_c"><br />
+				  {#texte}</div>
+ 		   </div>
+		<br />
+		<!--/VTP_menud-->
+
+</td>
+	  </tr>
+	  <tr>
+		<td colspan="3"><center>
+		  <br />{#copyright}<br /><br />
+		</center></td>
+	  </tr>
+  </table><br />
+</div>
+</body>
+</html>

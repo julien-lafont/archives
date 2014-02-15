@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Speech design</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <meta name="author" content="Created by Tjobbe Andrews of www.sitecreative.net - the author must be creditted when using this work" />
+</head>
+
+<body>
+<div id="all">
+	<h1 id="header"><em>Content Management Frameworks</em> open-source utilisant les dernières technos : <strong>ORM</strong> (Doctrime), <strong>Template</strong> (Smarty), <strong>Cache</strong> (Zend), <strong>OpenId</strong> (Zend), Log (Zend), Contenus métiers (Me !)</h1>
+	<div id="container" class="clearfix">
+		<ul id="nav">
+		  <li id="noLeftBorder"><a href="/">Accueil</a></li>
+		  <li><a href="/">News</a></li>
+		  <li><a href="/">Services</a></li>
+		  <li><a href="/">Testimonials</a></li><li><a href="/">Contact</a></li>
+		</ul>
+		<div id="content">
+			<h1>A free Web site template by Site Creative</h1>
+			<p>This is a free design for you to use as you wish, all that I ask is that the &quot;Web site design by Site Creative&quot; remains intact in the footer - it's small price to pay for a free design. The design is released under a <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_GB">Creative Commons licence</a>.</p>
+			<p>This design was made exclusively for <a href="http://www.netmag.co.uk/">.Net magazine</a>.</p>
+			
+			<h1>Fair's fair</h1>
+			<p>I made this design so that you don't have to, I don't want this design to be sold  or added to any other template sites without my permission.</p>
+			<p>For further information about any of my templates, please visit <a href="http://www.sitecreative.net/">www.sitecreative.net</a>.</p>
+			<p>It's valid <a href="http://jigsaw.w3.org/css-validator/">CSS</a> &amp; <a href="http://validator.w3.org/check?uri=referer">xHTML</a>, of course.</p>
+		</div>
+		<div id="rightColumn">
+			<h1>Another title</h1>
+			<p>Nemo enim ipsam voluptatem quia voluptas sit asper natur aut odit aut fugit, sed quia conse quuntur magni dolores eos qui ratione volupt atem sequi nesciunt.</p>
+			
+			<h1>Another title</h1>
+			<p>Nemo enim ipsam voluptatem quia voluptas sit asper natur aut odit aut fugit, sed quia conse quuntur magni dolores eos qui ratione volupt atem sequi nesciunt.</p>
+		</div>
+	</div>
+	<div id="footer">
+		<p><span><a href="http://www.sitecreative.net/">Web site design</a> by <a href="http://www.sitecreative.net/">Site Creative</a></span><a href="/">Home</a> | <a href="/">About Me</a> | <a href="/">Portfolio</a> | <a href="/">Contact Me</a></p>
+	</div>
+</div>
+</body>
+</html>

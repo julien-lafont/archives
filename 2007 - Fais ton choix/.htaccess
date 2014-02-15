@@ -1,0 +1,31 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+#RewriteBase /~ftc/
+
+RewriteCond %{HTTP_HOST} ^faistonchoix\.fr [NC]
+RewriteRule (.*) http://www.faistonchoix.fr/$1 [QSA,L,R=301] 
+
+# Accés direct à un duel
+RewriteRule ^duel-([-_a-zA-Z0-9]+)-([0-9]+)\.htm$  index.php?duel&act=afficher&id=$2 [L]
+RewriteRule ^voter_([-_a-zA-Z0-9]+)-([0-9]+)-([1-2])\.htm$  index.php?duel&act=voter&idDuel=$2&gagnant=$3 [L]
+
+# Accés direct à un duel
+RewriteRule ^theme-([-_a-zA-Z0-9]+)-voter_pour_([-_a-zA-Z0-9]+)-([0-9]+)-([0-9]+)\.htm$  index.php?theme&act=voter&idPhoto=$3&idTheme=$4 [L]
+RewriteRule ^theme-([-_a-zA-Z0-9]+)-([0-9]+)\.htm$  index.php?theme&act=afficher&id=$2 [L]
+
+RewriteRule ^outils_webmaster\.htm$ index.php?infos&page=webmaster
+RewriteRule ^informations_concours\.htm$ index.php?infos&page=concours
+RewriteRule ^classement_des_membres_les_plus_actifs\.htm$ index.php?accueil&module=classement
+
+RewriteRule ^probleme_technique\.htm$ index.php?infos&page=pbm
+
+RewriteRule ^faistonchoix_version_lite\.htm$ index.php?accueil&nojvs=1
+RewriteRule ^faistonchoix_version_normale\.htm$ index.php?accueil&activjvs=1
+
+RewriteRule ^principe_du_site\.htm$ index.php?infos&page=principe
+RewriteRule ^a_venir_sur_faistonchoix\.htm$ index.php?infos&page=avenir
+
+RewriteRule ^sitemap\.htm$ index.php?infos&page=sitemap
+RewriteRule ^vip\.htm$ index.php?infos&page=vip
+RewriteRule ^vip_ok\.htm$ index.php?infos&page=vip_ok

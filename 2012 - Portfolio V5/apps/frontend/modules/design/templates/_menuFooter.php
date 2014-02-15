@@ -1,0 +1,1 @@
+<?php include_partial('design/navigation', array('footer'=>true))?>

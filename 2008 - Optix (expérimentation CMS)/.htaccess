@@ -1,0 +1,22 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+
+## Avec un hébergement mutualisé 1et1, décommentez les deux-lignes ci dessous
+#AddType x-mapp-php5 .php
+RewriteBase /optix/
+
+RewriteRule ^plan-du-site\.htm$									index.php?afficher_template&tpl=plan [L,NC]
+
+# Syntaxe générale
+RewriteRule ^([-_a-zA-Z0-9]+)-([0-9]+)-([-_a-zA-Z0-9]+)\.htm$	index.php?$1&id=$2 [L,NC]
+
+RewriteRule ^([-_a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([-_a-zA-Z0-9]+)\.htm$			index.php?$1&cat=$2&page=$3 [L,NC]
+RewriteRule ^([-_a-zA-Z0-9]+)-([-_a-zA-Z0-9]+)\.htm$			index.php?$1&act=$2 [L,NC]
+RewriteRule ^([-_a-zA-Z0-9]+)\.htm$								index.php?$1 [L,NC]
+
+# Architecture
+RewriteRule ^styles_min\.css$ 									include/css.php [L,NC]
+RewriteRule ^flux_rss\.xml$ 									rss.php?main [L,NC]
+RewriteRule ^sitemap\.xml$										rss.php?sitemap [L,NC]
+

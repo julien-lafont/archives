@@ -1,0 +1,27 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Creation
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              creation
+    plural:                creations
+    route_prefix:          creation
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        
+      list:
+        title: "Liste des créations"
+        display: [=titre, sstitre, date, miniature, code, _categorieTitre]
+      filter:  ~
+      form:
+        class: BackendCreationForm
+      edit:
+        title: "Editer la création %%titre%%"
+      new:
+        title: "Nouvelle création"

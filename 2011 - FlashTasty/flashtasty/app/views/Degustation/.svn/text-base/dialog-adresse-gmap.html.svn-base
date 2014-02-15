@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<style type="text/css">
+		html { height: 100% }
+		body { height: 100%; margin: 0; padding: 0 }
+		.retour { position:absolute; width:100%; height:40px; bottom:5px; left:0; text-align:center; line-height:40px }
+		.retour a { background-color:#FFF; font-size:1.5em; line-height:30px; text-decoration:none; color: #333; border:1px solid #CCC; opacity: 0.8 }
+		#map_canvas { height: 100% }
+	</style>
+
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+	<script type="text/javascript">
+		var geocoder, map;
+
+		function initialize() {
+			geocoder = new google.maps.Geocoder();
+			var myLatlng = new google.maps.LatLng(43.536105, 5.429306);
+			var myOptions = {
+				zoom: 12,
+				center: myLatlng,
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+			}
+			map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+			deplacerSurAdresse("${adresse}");
+		}
+
+		function deplacerSurAdresse(address) {
+			geocoder.geocode( { 'address': address}, function(results, status) {
+				if (status == google.maps.GeocoderStatus.OK) {
+					map.setCenter(results[0].geometry.location);
+					var marker = new google.maps.Marker({
+						map: map,
+						position: results[0].geometry.location
+					});
+				} else {
+					alert("Impossible de trouver l'adresse");
+				}
+			});
+		}
+
+	</script>
+
+</head>
+<body onload="initialize()">
+
+	<div id="map_canvas" style="width: 100%"></div>
+	<!--<iframe src="http://maps.google.com/?q=${adresse}" height="100%" width="100%" border="0"></iframe> -->
+	<div class="retour"><a href="#">&nbsp; &nbsp; &lt; Retour &lt; &nbsp; &nbsp; </a></div>
+</body>
+</html>

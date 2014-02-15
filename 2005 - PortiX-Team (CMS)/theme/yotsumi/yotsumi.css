@@ -1,0 +1,50 @@
+body { background-color:#F5F5F5; margin:0px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#444}
+
+/* Spécial Ix-Team */
+.txt2 { color:#000000 }
+
+/*--------------------------------------------*/
+/* Configuration de l'architecture de la page */
+/*--------------------------------------------*/
+.page			 		 { width:980px; }
+
+.tableau_header 		 { width:980px; border:1px solid #BBBBBB; background-color:#FFFFFF; margin-left:auto; margin-right:auto; margin-top:10px; border-spacing:0px}
+	.header_c			 { width:748px; height:152px;}
+	.header_gd			 { width:116px; height:152px; text-align:center; vertical-align:middle}
+
+.tableau_general 		 { width:980px; background-color:#FFFFFF; margin-left:auto; margin-right:auto; margin-top:0px; border-spacing:0px; border-left:1px solid #BBBBBB; border-right:1px solid #BBBBBB; border-bottom:1px solid #BBBBBB;}
+	#menu_gd			 { width:180px; padding-top:10px; vertical-align:top }
+	#contenu			 { width:620px; padding-top:10px; vertical-align:top}
+
+.module					 { width:600px; background-color:#FAFAFA; margin-left:auto; margin-right:auto; padding:3px; border-left:1px solid #333333; border-right:1px solid #333333;
+						   font-size:12px; }
+	.moduleTitre		 { width:600px; background-color:#FFFFFF; margin-left:auto; margin-right:auto;  padding:3px; border-left:1px solid #333333; border-right:1px solid #333333; border-top:1px solid #333333; border-bottom:1px dashed #999999;
+						   font-size:12px; font-weight:bold; color:#3399FF; text-align:center}
+	.moduleFin			 { width:604px; background-color:#FFFFFF; margin-left:auto; margin-right:auto;  padding:1px; border-left:1px solid #333333; border-right:1px solid #333333; border-top:1px dashed #999999; border-bottom:1px solid #333333;
+						   font-size:11px; text-align:right}
+						   
+#menu2 { width:160px; margin-right:auto; margin-left:auto; font-size:11px}
+	#menu2_t { width:160px; height:17px; background-color:#FFFFFF; border-left:1px solid #333333; border-right:1px solid #333333;border-top:1px solid #333333; border-bottom:1px dashed #999999;
+			   font-size:12px; font-weight:bold; text-align:center}
+	#menu2_c { width:154px; padding:3px; background-color:#FAFAFA; border-left:1px solid #333333; border-right:1px solid #333333;  border-bottom:1px solid #333333;}
+
+						   
+/*--------------------------------------------*/				   
+/*       Style des liens et des textes        */
+/*--------------------------------------------*/
+.bleu					 { color:#0066FF }
+.bleu2					 { color:#0099FF }
+.orange					 { color:#FF6633 }
+.big12					 { font-size:12px }
+
+#menu2 a:link, a:visited  { color:#000000 }
+#menu2 a:hover 		 	 { color:#0EA5FE }
+
+a:link, a:visited		{ color:#0066FF; text-decoration:none}
+a:hover 				{ color:#FF6600; text-decoration:none}
+
+
+
+/*.module					 { width:600px; background-color:#FBFBFB; border:1px solid #333333; margin-left:auto; margin-right:auto; padding:3px }
+	.moduleTitre		 { width:600px; background-color:#FFFFFF; border-left:1px solid #777777; border-right:1px solid #777777;  border-top:1px solid #777777; margin-left:auto; margin-right:auto; padding:3px }
+*/

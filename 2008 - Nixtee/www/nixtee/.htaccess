@@ -1,0 +1,33 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+
+## Avec un hébergement mutualisé 1et1, décommentez les deux-lignes ci dessous
+#AddType x-mapp-php5 .php
+RewriteBase /nixtee/
+
+
+
+# Pages Mon Compte
+RewriteRule ^mon-compte\.htm$  									index.php?my-mon-compte [L,NC]
+RewriteRule ^mon-compte-([_a-zA-Z0-9]+)\.htm$  					index.php?my-mon-compte&act=$1 [L,NC]
+RewriteRule ^valider-compte-([0-9]+)-([a-zA-Z0-9]+)\.htm$		index.php?inscription&act=valider_compte&id=$1&cle=$2 [L,NC]
+
+
+RewriteRule ^questionnaires-([_a-zA-Z0-9]+)\.htm$				index.php?my-creer_quest&act=$1 [L,NC]
+RewriteRule ^questionnaires-([_a-zA-Z0-9]+)-([0-9]+)\.htm$		index.php?my-creer_quest&act=$1&id=$2 [L,NC]
+
+RewriteRule ^diffuser\.htm$										index.php?my-diffuser [L,NC]
+RewriteRule ^diffuser-([_a-zA-Z0-9]+)\.htm						index.php?my-diffuser&act=$1 [L,NC]
+RewriteRule ^diffuser-([_a-zA-Z0-9]+)-([0-9]+)\.htm				index.php?my-diffuser&act=$1&id=$2 [L,NC]
+
+RewriteRule ^mes-buddylist.htm$									index.php?my-buddylist [L,NC]
+
+# Syntaxe générale
+RewriteRule ^([-_a-zA-Z0-9]+)-([-_a-zA-Z0-9]+)\.htm$			index.php?$1&act=$2 [L,NC]
+RewriteRule ^([-_a-zA-Z0-9]+)\.htm$								index.php?$1 [L,NC]
+
+# Architecture
+RewriteRule ^styles_min\.css$ 									include/css.php [L,NC]
+RewriteRule ^flux_rss\.xml$ 									rss.php?main [L,NC]
+RewriteRule ^sitemap\.xml$										rss.php?sitemap [L,NC]

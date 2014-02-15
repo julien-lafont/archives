@@ -1,0 +1,5 @@
+default:
+  javascripts:
+    - script_init.js 
+    - custom.js
+    - jquery.infieldlabel.min.js: { position: last }

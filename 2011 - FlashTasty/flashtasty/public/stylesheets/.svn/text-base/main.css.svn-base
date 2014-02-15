@@ -1,0 +1,172 @@
+#body .titleNoButton {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#body .titleOneButton {
+    margin-right: 5px
+}
+
+.couleurVin {
+    width: 10px;
+    height : 10px;
+    display:inline-block;
+    border: 1px solid #FFF;
+    vertical-align: middle
+}
+
+#body .ui-listview-first {
+    margin-top: 0
+}
+
+.center {
+    text-align: center
+}
+
+.clear {
+    clear: both;
+}
+
+.noBorderTop {
+	margin-top: 0
+}
+
+img.redim {
+    position:static;
+    max-width:100%;
+}
+
+.vmiddle {
+	vertical-align: middle
+}
+
+.video + p {
+	margin-top: 8px
+}
+
+#body .agrandir .ui-btn-text {
+    font-size: 1.4em
+}
+#body p.reduire {
+    font-size: 0.85em
+}
+
+#body .titre-body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#body .vignette-droite {
+    float: right;
+    width : 80px;
+    height: 80px;
+    line-height: 80px;
+}
+
+#body .vignette-video {
+	float: right;
+	width: 32px;
+	height: 32px;
+	line-height: 80px;
+	margin-right: 20px
+}
+
+#body .vignette-gauche {
+    float: left;
+    width : 80px;
+    height: 80px;
+    line-height: 80px;
+    margin-right: 10px
+}
+
+#body .vignette-droite img, #body .vignette-gauche img {
+    vertical-align: middle;
+    border: 1px solid #FFF
+}
+#body .vignette-video img {
+	vertical-align: middle;
+}
+
+.header .btnCell {
+    width: 45px;
+    vertical-align:middle;
+    text-align: center"
+}
+
+#body li.listNoButton {
+	padding-right: 0px;
+	padding-left: 90px;
+}
+
+#body li. listNoButtonLink {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#body li.listNoButton h2, #body li.listNoButton h3, #body li.listNoButton h4 {
+	margin-right: 0.3em
+}
+
+#body .liNormalSize, #body .liNormalSize p, , #body .liNormalSize div {
+	font-size:inherit;
+	margin: auto
+}
+
+#body .liNormalSize {
+	padding-right: 15px;
+	padding-left: 10px
+}
+
+#body .liNormalSize h2 {
+	padding-left: 15px
+}
+
+#body .fauxLien {
+	cursor: pointer;
+}
+
+#body .ui-li div.inner {
+	background-color: #d1d1d1;
+	padding: 5px;
+	font-weight: normal;
+	border-radius: 5px;
+	-O-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius : 5px
+}
+
+#body .icone-ecouter-abs {
+	position:absolute;
+	right:10px;
+	top:0;
+	z-index:1000;
+	width: 48px;
+	height: 48px;
+	background: url("../images/icones/audio.png") no-repeat;
+	display:block
+}
+
+#body .icone-ecouter-abs.play {
+	background: url("../images/icones/audio-pause.png") no-repeat;
+}
+
+#body .barre-header {
+	width: 100%;
+	height: 25px; line-height: 25px;
+	text-align: center;
+	background-color: #444;
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #666;
+	color: #FFF;
+	text-shadow: none;
+	font-weight: bold
+
+}
+
+.tableHeader {
+	width: 100%
+}
+
+.tableHeader .btnCell {
+	text-align:right;
+	padding-right: 5px
+}

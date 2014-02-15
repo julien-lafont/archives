@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="15" height="15" tilewidth="40" tileheight="40">
+ <properties>
+  <property name="DirectionB" value="2"/>
+  <property name="DirectionD" value="1"/>
+  <property name="DirectionH" value="1"/>
+  <property name="angle" value="0"/>
+  <property name="auteur" value="YoTsumi"/>
+  <property name="code" value="AZER"/>
+  <property name="description" value="kikoo"/>
+  <property name="nom" value="KikooLol !"/>
+  <property name="suivant" value="intro2"/>
+ </properties>
+ <tileset name="Sans titre" firstgid="1" tilewidth="40" tileheight="40">
+  <image source="../sprite_map.png"/>
+  <tile id="3">
+   <properties>
+    <property name="action" value="Plouf"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="action" value="Bloque"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="action" value="Bloque"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="action" value="Bloque"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="action" value="Depart"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="action" value="Bloque"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="action" value="Bloque"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="action" value="Bloque"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="action" value="Arrivee"/>
+   </properties>
+  </tile>
+  <tile id="71">
+   <properties>
+    <property name="action" value="Ennemi"/>
+   </properties>
+  </tile>
+  <tile id="72">
+   <properties>
+    <property name="action" value="Ennemi"/>
+   </properties>
+  </tile>
+  <tile id="73">
+   <properties>
+    <property name="action" value="Ennemi"/>
+   </properties>
+  </tile>
+  <tile id="74">
+   <properties>
+    <property name="ennemi" value="Ennemi"/>
+   </properties>
+  </tile>
+  <tile id="80">
+   <properties>
+    <property name="action" value="D"/>
+   </properties>
+  </tile>
+  <tile id="81">
+   <properties>
+    <property name="action" value="B"/>
+   </properties>
+  </tile>
+  <tile id="82">
+   <properties>
+    <property name="action" value="G"/>
+   </properties>
+  </tile>
+  <tile id="83">
+   <properties>
+    <property name="action" value="H"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="tir" width="15" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAGNgGAWDCcTQWS+97RsFmAAA81At3oQDAAA=
+  </data>
+ </layer>
+ <layer name="actions" width="15" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAGNhYGBgYUAFLERiXIBS/fgAIb3BJOglxS241GET8yJSLzEAWW8gBXphgIsCvYSACA69IDYrELNBMTsQe0Ll0MVpmTZI1UtK2qUkrQMAcBc5qoQDAAA=
+  </data>
+ </layer>
+ <layer name="map" width="15" height="15" opacity="0.55">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAK2TwQ6AIAiGVbxlx+pY13z/B4w23f4xdMQ6fAeYnwPEHELITGQSQy228nqVKcz90V+aV8BPE0i4J7MDl7gPWYWLsVbLzO11ksOVvVaHa+EvdzPOV3OjcUazOZPT7Tmsf8Sh9Iu50d7jblr+ST8r3/wBOnvFwoQDAAA=
+  </data>
+ </layer>
+</map>

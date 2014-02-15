@@ -1,0 +1,40 @@
+
+   // --------------------------------------------------------------------------- //
+  //                                Fichiers à modifier                          //
+ // --------------------------------------------------------------------------- //
+
+-> Importer faistonchoix.sql
+
+Modifier les fichiers suivants :
+  include/config.php -> URl + connexion sql
+  include/js/-general.js -> changer l'url
+  
+  Pour les partenaires, bannières de pubs etc..., cela se situe dans le fichier include/menus.php.
+  Il sera aussi peut être nécessaire de modifier les templates directement ( theme/*.tpl.php )
+
+  Pour modifier les paramètres d'ouverture de la pub 'popup', sa se situe dans le fichier pages/voter_ajax.php
+  ligne 47.
+  
+  
+   // --------------------------------------------------------------------------- //
+  //                                  A savoir                                   //
+ // --------------------------------------------------------------------------- //
+
+En ce qui concerne l'upload des images, il est nécessaires de mettres les photos dans le bon dossier :
+ - upload/duels : contient les images des duels généraux, présents dés la page d'accueil
+ - upload/photos : contient les images associées aux thèmes/catégories
+ - upload/min_theme : contient les miniatures présentants les thèmes
+ Ensuite dans l'administration il ne faut rentrer que le nom du fichier.
+
+
+   // --------------------------------------------------------------------------- //
+  //                               Mots de passe                                 //
+ // --------------------------------------------------------------------------- //
+
+Compte pour accéder à l'administration : ( qu'il sera possible de changer )
+ - Adresse : http://www.faistonchoix.fr/?admin
+ - Login : admin
+ - Pass : admin
+
+
+

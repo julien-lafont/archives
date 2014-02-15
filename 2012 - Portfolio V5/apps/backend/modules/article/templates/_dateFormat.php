@@ -1,0 +1,1 @@
+<?php echo format_datetime($article->getDate(), 'dd/MM/yy')?>

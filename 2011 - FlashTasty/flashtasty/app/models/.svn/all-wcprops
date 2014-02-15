@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/flashtasty/!svn/ver/1/app/models
+END
+Region.java
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/flashtasty/!svn/ver/1/app/models/Region.java
+END
+Cepage.java
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/flashtasty/!svn/ver/1/app/models/Cepage.java
+END
+Vignoble.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/flashtasty/!svn/ver/1/app/models/Vignoble.java
+END
+Appellation.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/flashtasty/!svn/ver/1/app/models/Appellation.java
+END
+CouleurVin.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/flashtasty/!svn/ver/1/app/models/CouleurVin.java
+END
+Domaine.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/flashtasty/!svn/ver/11/app/models/Domaine.java
+END
+Vin.java
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/flashtasty/!svn/ver/12/app/models/Vin.java
+END

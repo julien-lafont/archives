@@ -1,0 +1,180 @@
+#{extends 'layout-complet.html' /}
+#{set title: vin.nom /}
+
+*{ Page principale : Fiche du vin }*
+<div data-role="page" id="degustation-fiche-${vin.id}">
+	<div data-role="header">
+		#{header lang:lang /}
+	</div>
+
+	<div data-role="content">
+
+
+		<ul data-role="listview" data-inset="true" class="ui-listview-first">
+			<li class="listNoButton">
+				<img src="@{Photo.photoVinVignette(vin.id)}" onclick="ouvrirPhotoEtiquette(${vin.id});"/>
+				<h3>${vin.nom}</h3>
+				<p><span class="couleurVin" style="background-color:${vin.couleur.code}"></span> ${vin.appelation}</p>
+			</li>
+			<li><a href="#domaine-fiche-${vin.domaine.id}">
+				<h3>&{'Domaine'}</h3>
+				<p>${vin.domaine.nom}</p>
+			</a></li>
+		</ul>
+
+		#{if vin.cepages?.size()>0 || vin.appelation}
+			<ul data-role="listview" data-inset="true">
+				#{if vin?.cepages?.size()>0}
+					<li data-role="list-divider">&{'Cépages'}</li>
+
+					<li>
+						<div class="ui-grid-b">
+							#{list items:vin?.cepages, as: 'cepage'}
+								#{if cepage_index%3==1}<div class="ui-block-a center">${cepage.nom}</div>#{/if}
+								#{if cepage_index%3==2}<div class="ui-block-b center">${cepage.nom}</div>#{/if}
+								#{if cepage_index%3==0}<div class="ui-block-c center">${cepage.nom}</div>#{/if}
+							#{/list}
+						</div>
+					</li>
+				#{/if}
+			</ul>
+		#{/if}
+
+		<div style="position:relative">
+
+			#{if vin._audio()}<a href="#" class="icone-ecouter-abs"></a>#{/if}
+
+			<ul data-role="listview" data-inset="true">
+				<li data-role="list-divider">&{'ConseilsDegustation'}</li>
+				<li class="liNormalSize">
+					<h2 class="noBorderTop">&{'Visuel'}</h2>
+					<div class="inner">${vin._visuel().nl2br()}</div>
+				</li>
+				<li class="liNormalSize">
+					<h2 class="noBorderTop">&{'ArômesEtSaveur'}</h2>
+					<div class="inner">${vin._arome().nl2br()}</div>
+				</li>
+				<li class="liNormalSize">
+					<h2 class="noBorderTop">&{'MetsEtVins'}</h2>
+					<div class="inner">${vin._mets().nl2br()}</div>
+
+				</li>
+
+			</ul>
+		</div>
+
+	</div>
+</div>
+
+<script type="text/javascript">
+	#{if vin._audio()}
+	var son_description, son_init = false;
+	function chargerSon() {
+		if (!son_init) {
+			son_description = new buzz.sound("${vin._audio()}"); son_init = true;
+		}
+	}
+
+	$('#degustation-fiche-${vin.id}').live('pagecreate',function(event){
+		chargerSon();
+		$(".icone-ecouter-abs").live('tap', function(e) {
+			chargerSon(); // On vérifie que le son est bien chargé
+			if (son_description.isFirstPlay()) {
+				$().toastmessage('showNoticeToast', "Chargement du son en cours...");
+			}
+
+			$(".icone-ecouter-abs").toggleClass('play');
+			son_description.togglePlayStop(); // Lance/Stop le son
+
+
+		});
+	});
+
+	// A la fermeture de la page, on détruit l'objet son
+	$('#degustation-fiche-${vin.id}').live('pagebeforehide',function(event){
+		if (son_init) { son_description.stop(); }
+		son_init = false; son_description = undefined;
+	});
+	#{/if}
+</script>
+
+*{ Fiche du domaine }*
+<div data-role="page" id="domaine-fiche-${vin.domaine.id}">
+	<div data-role="header">
+		#{header lang:lang, retour:true /}
+	</div>
+	<div data-role="content">
+
+		<div class="ui-body ui-body-b ui-body-mini-margin">
+			#{if vin.domaine.photoProducteur.exists()}
+			<div class="vignette-droite">
+				<a href="@{Degustation.popupProducteur(vin.domaine.id)}"  data-rel="dialog">
+					<img src="@{Photo.photoProducteurVignette(vin.id)}" />
+				</a>
+			</div>
+			#{/if}
+			<div class="vignette-video">
+
+			</div>
+
+			<h3 class="titre-body #{if vin.video}video#{/if}">
+				&{'Producteur'}
+				#{if vin.video}
+					<a href="${vin.video}" target="blank">
+						<img src="@{'/public/images/icones/video4.png'}" alt="Vidéo" class="vmiddle" />
+					</a>
+				#{/if}
+			</h3>
+			<p>${vin.domaine.nomProducteur}</p>
+			<p class="clear reduire">${vin.domaine._descriptionProducteur().nl2br()}</p>
+		</div>
+
+		<br />
+
+		<div class="ui-body ui-body-b ui-body-mini-margin">
+			#{if vin.domaine.photoDomaine.exists()}
+			<div class="vignette-gauche">
+				<a href="@{Degustation.popupDomaine(vin.domaine.id)}"  data-rel="dialog">
+					<img src="@{Photo.photoDomaineVignette(vin.id)}" />
+				</a>
+			</div>
+			#{/if}
+
+			<h3 class="titre-body">&{'Domaine'}</h3>
+			<p>${vin.domaine.nom}</p>
+			<p class="clear reduire">${vin.domaine._bonsPlans().nl2br()}</p>
+
+			<p>#{if vin.domaine.adresseDomaine}
+				<a href="@{Degustation.popupAdresse(vin.domaine.id, 'domaine')}" data-role="button" data-inline="true">&{'Adresse'}</a>
+				#{/if}
+				#{if vin.domaine.adressePtVente}
+				<a href="@{Degustation.popupAdresse(vin.domaine.id, 'ptVente')}" data-role="button" data-inline="true">&{'PointDeVente'}</a>
+				#{/if}
+			</p>
+		</div>
+
+		<br />
+
+		#{if vin.domaine.insolite != null && !vin.domaine.insolite.isEmpty() }
+		<div class="ui-body ui-body-b ui-body-mini-margin">
+			#{if vin.domaine.photoInsolite.exists()}
+			<div class="vignette-droite">
+				<a href="@{Degustation.popupInsolite(vin.domaine.id)}"  data-rel="dialog">
+					<img src="@{Photo.photoInsoliteVignette(vin.id)}" />
+				</a>
+			</div>
+			#{/if}
+			<h3 class="titre-body">&{'Insolite'}</h3>
+			<p class="clear reduire">${vin.domaine._insolite().nl2br()}</p>
+		</div>
+		#{/if}
+
+	</div>
+</div>
+
+
+<script type="text/javascript">
+function ouvrirPhotoEtiquette() {
+	$.mobile.changePage("@{Degustation.popupEtiquette(vin.id)}", { transition : "pop"});
+}
+</script>

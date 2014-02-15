@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/flashtasty/!svn/ver/6/conf
+END
+routes
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/flashtasty/!svn/ver/12/conf/routes
+END
+dependencies.yml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/flashtasty/!svn/ver/5/conf/dependencies.yml
+END
+application.conf
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/flashtasty/!svn/ver/12/conf/application.conf
+END
+messages.en
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/flashtasty/!svn/ver/13/conf/messages.en
+END
+messages.fr
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/flashtasty/!svn/ver/13/conf/messages.fr
+END

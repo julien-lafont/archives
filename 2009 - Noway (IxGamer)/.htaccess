@@ -1,0 +1,178 @@
+#AuthName "Authentification requise"
+#AuthUserFile /homepages/45/d215760031/htdocs/noway/.htpasswd
+#AuthType Basic
+#<limit GET POST>
+#require valid-user
+#</limit>
+
+Options +FollowSymLinks
+RewriteEngine On
+
+
+## Avec un hébergement mutualisé 1et1, décommentez les deux-lignes ci dessous
+AddType x-mapp-php5 .php
+
+RewriteBase /noway/
+
+RewriteRule ^news\.xml$  pages/xml.php [L,NC]
+
+
+RewriteRule ^valider-compte\/([-_a-zA-Z0-9]+)(\/)*$  index.php?inscription&action=valid&key=$1 [L,NC]
+RewriteRule ^nouveau-pass\/([-_a-zA-Z0-9]+)(\/)*$ index.php?mot-passe-perdu&action=newPass&key=$1 [L,NC]
+RewriteRule ^nouveau-pass2(\/)*$ index.php?mot-passe-perdu&action=passPerdu2 [L,NC]
+#AuthName "Authentification requise"
+#AuthUserFile /homepages/45/d215760031/htdocs/noway/.htpasswd
+#AuthType Basic
+#<limit GET POST>
+#require valid-user
+#</limit>
+
+Options +FollowSymLinks
+RewriteEngine On
+
+
+
+## Avec un hébergement mutualisé 1et1, décommentez les deux-lignes ci dessous
+AddType x-mapp-php5 .php
+
+RewriteBase /noway/
+
+RewriteRule ^news\.xml$  pages/xml.php [L,NC]
+RewriteRule ^apercu\.png$  apercu.php [L,NC]
+
+RewriteRule ^valider-compte\/([-_a-zA-Z0-9]+)(\/)*$  index.php?inscription&action=valid&key=$1 [L,NC]
+RewriteRule ^nouveau-pass\/([-_a-zA-Z0-9]+)(\/)*$ index.php?mot-passe-perdu&action=newPass&key=$1 [L,NC]
+RewriteRule ^nouveau-pass2(\/)*$ index.php?mot-passe-perdu&action=passPerdu2 [L,NC]
+
+RewriteRule ^profil\/([-_a-zA-Z0-9]+)(\/)*$ index.php?profil&pseudo=$1 [L,NC]
+RewriteRule ^guestbook\/([-_a-zA-Z0-9]+)(\/)*$ index.php?my-guestbook&pseudo=$1 [L,NC]
+
+RewriteRule ^actualite(\/)*$ index.php?news [L,NC]
+RewriteRule ^actualite\/archives(\/)*$ index.php?news_archives [L,NC]
+RewriteRule ^actualite[-_a-zA-Z0-9]*\/([0-9]+)\/([-_a-zA-Z0-9]+)*\.htm$ index.php?news&idNews=$1 [L,NC,QSA]
+	RewriteRule ^actualite[-_a-zA-Z0-9]*\/([0-9]+)\/page-([0-9]+)\/([-_a-zA-Z0-9]+)*\.htm$ index.php?news&idNews=$1&page=$2 [L,NC,QSA]
+	#RewriteRule ^actualite[-_a-zA-Z0-9]*\/([0-9]+)\/([-_a-zA-Z0-9]+)*(\/)*$ index.php?news&idNews=$1 [L,NC,QSA]
+RewriteRule ^news-archives(\/)*$ index.php?news_archives
+
+RewriteRule ^breves\/([0-9]+)\/([-_a-zA-Z0-9]+)*\.htm$ index.php?breves&idBreve=$1 [L,NC,QSA]
+
+RewriteRule ^files\/([-_a-zA-Z0-9]+)\/detail-([0-9]+)-([-_a-zA-Z0-9]+)*\.htm$ index.php?files&arg1=detail&id=$2&cat=$1 [L,NC,QSA]
+RewriteRule ^files\/([-_a-zA-Z0-9]+)\/download-([0-9]+)-([-_a-zA-Z0-9]+)*\.htm$ index.php?files&arg1=download&id=$2&cat=$1 [L,NC,QSA]
+
+RewriteRule ^results(\/)*$  index.php?match
+RewriteRule ^results\/match-([0-9]+)-([-_a-zA-Z0-9]+)*\.htm$ index.php?match&id=$1 [L,NC,QSA]
+
+RewriteRule ^awards\/palmares-([0-9]+)-([-_a-zA-Z0-9]+)*\.htm$ index.php?awards&id=$1 [L,NC,QSA]
+RewriteRule ^coverage\/evenement-([0-9]+)-([-_a-zA-Z0-9]+)*\.htm$ index.php?coverage&id=$1 [L,NC,QSA]
+RewriteRule ^team\/equipe-([0-9]+)-([-_a-zA-Z0-9]+)*\.htm$ index.php?team-perso&id=$1 [L,NC,QSA]
+
+RewriteRule ^galerie-officielle(\/)*$ index.php?galerie-team
+RewriteRule ^galerie-officielle\/([0-9]+)\/([-_a-zA-Z0-9]+)*(\/)*$ index.php?galerie-team&idCat=$1 [L,NC]
+RewriteRule ^_([0-9]+)\/([-_a-zA-Z0-9]+)*(\/)*$ index.php?pages&idPage=$1 [L,NC]
+
+# Pages Spéciales : pages HTML importantes #
+RewriteRule ^nos-sponsors(\/)*$ index.php?pages&idPage=3
+RewriteRule ^servers(\/)*$ index.php?pages&idPage=4
+RewriteRule ^about-us(\/)*$ index.php?pages&idPage=5
+RewriteRule ^faq-noway(\/)*$ index.php?pages&idPage=5
+RewriteRule ^infos-legales(\/)*$ index.php?pages&idPage=6
+RewriteRule ^shop(\/)*$ index.php?pages&idPage=9
+
+# Pages Forum #
+RewriteRule ^forum\/!([0-9]+)-([0-9]+)\/([-_a-zA-Z0-9]+)*(\/)*$ index.php?forum&act=liste_sujets&id=$1&page=$2 [L,NC]
+RewriteRule ^forum\/([0-9]+)\/([-_a-zA-Z0-9]+)*(\/)*$ index.php?forum&act=liste_sujets&id=$1 [L,NC]
+RewriteRule ^forum\/_([0-9]+)-([0-9]+)\/[-_a-zA-Z0-9]+\/([-_a-zA-Z0-9]+)*\.htm$ index.php?forum&act=afficher_message&id=$1&page=$2 [L,NC]
+RewriteRule ^forum\/_([0-9]+)\/[-_a-zA-Z0-9]+\/([-_a-zA-Z0-9]+)*\.htm$ index.php?forum&act=afficher_message&id=$1 [L,NC]
+
+# Pages admin #
+RewriteRule ^admin\/([-_a-zA-Z0-9]+)(\/)*$ index.php?admin-$1 [L,NC]
+RewriteRule ^admin\/([-_a-zA-Z0-9]+)\/([-_a-zA-Z0-9]+)(\/)*$ index.php?admin-$1&action=$2 [L,NC]
+RewriteRule ^admin\/([-_a-zA-Z0-9]+)\/([-_a-zA-Z0-9]+)\/([-_a-zA-Z0-9]+)(\/)*$ index.php?admin-$1&action=$2&id=$3 [L,NC]
+
+# Pages membre #
+RewriteRule ^membre\/guestbook\/([-_a-zA-Z0-9]+)(\/)*$ index.php?my-guestbook&pseudo=$1 [L,NC,QSA]
+
+RewriteRule ^membre\/([-_a-zA-Z0-9]+)(\/)*$ index.php?my-$1 [L,NC,QSA]
+RewriteRule ^membre\/([-_a-zA-Z0-9]+)\/([-_a-zA-Z0-9]+)(\/)*$ index.php?my-$1&action=$2 [L,NC,QSA]
+RewriteRule ^membre\/([-_a-zA-Z0-9]+)\/([-_a-zA-Z0-9]+)\/([-_a-zA-Z0-9]+)(\/)*$ index.php?my-$1&action=$2&id=$3 [L,NC,QSA]
+
+	RewriteRule ^_installation/test-url\.htm$  _installation/include/test_url.php [L,NC]
+	
+RewriteRule ^news\.xml$  pages/xml.php [L,NC]
+
+
+
+# Général #
+
+RewriteCond %{REQUEST_URI} !/_
+RewriteRule ^([-_a-zA-Z0-9]+)(\/)*$  index.php?$1 [L,NC]
+RewriteCond %{REQUEST_URI} !/_
+RewriteRule ^([-_a-zA-Z0-9]+)\/([-_a-zA-Z0-9]+)(\/)*$ index.php?$1&arg1=$2 [L,NC]
+RewriteCond %{REQUEST_URI} !/_
+RewriteRule ^([-_a-zA-Z0-9]+)\/([-_a-zA-Z0-9]+)\/([-_a-zA-Z0-9]+)(\/)*$ index.php?$1&arg1=$2&arg2=$3 [L,NC]
+
+
+RewriteRule ^profil\/([-_a-zA-Z0-9]+)(\/)*$ index.php?profil&pseudo=$1 [L,NC]
+RewriteRule ^guestbook\/([-_a-zA-Z0-9]+)(\/)*$ index.php?my-guestbook&pseudo=$1 [L,NC]
+
+RewriteRule ^actualite(\/)*$ index.php?news [L,NC]
+RewriteRule ^actualite\/archives(\/)*$ index.php?news_archives [L,NC]
+RewriteRule ^actualite[-_a-zA-Z0-9]*\/([0-9]+)\/([-_a-zA-Z0-9]+)*\.htm$ index.php?news&idNews=$1 [L,NC,QSA]
+	RewriteRule ^actualite[-_a-zA-Z0-9]*\/([0-9]+)\/page-([0-9]+)\/([-_a-zA-Z0-9]+)*\.htm$ index.php?news&idNews=$1&page=$2 [L,NC,QSA]
+	#RewriteRule ^actualite[-_a-zA-Z0-9]*\/([0-9]+)\/([-_a-zA-Z0-9]+)*(\/)*$ index.php?news&idNews=$1 [L,NC,QSA]
+RewriteRule ^news-archives(\/)*$ index.php?news_archives
+
+RewriteRule ^breves\/([0-9]+)\/([-_a-zA-Z0-9]+)*\.htm$ index.php?breves&idBreve=$1 [L,NC,QSA]
+
+RewriteRule ^files\/([-_a-zA-Z0-9]+)\/detail-([0-9]+)-([-_a-zA-Z0-9]+)*\.htm$ index.php?files&arg1=detail&id=$2&cat=$1 [L,NC,QSA]
+RewriteRule ^files\/([-_a-zA-Z0-9]+)\/download-([0-9]+)-([-_a-zA-Z0-9]+)*\.htm$ index.php?files&arg1=download&id=$2&cat=$1 [L,NC,QSA]
+
+RewriteRule ^results(\/)*$  index.php?match
+RewriteRule ^results\/match-([0-9]+)-([-_a-zA-Z0-9]+)*\.htm$ index.php?match&id=$1 [L,NC,QSA]
+
+RewriteRule ^awards\/palmares-([0-9]+)-([-_a-zA-Z0-9]+)*\.htm$ index.php?awards&id=$1 [L,NC,QSA]
+RewriteRule ^coverage\/evenement-([0-9]+)-([-_a-zA-Z0-9]+)*\.htm$ index.php?coverage&id=$1 [L,NC,QSA]
+RewriteRule ^team\/equipe-([0-9]+)-([-_a-zA-Z0-9]+)*\.htm$ index.php?team-perso&id=$1 [L,NC,QSA]
+
+RewriteRule ^galerie-officielle(\/)*$ index.php?galerie-team
+RewriteRule ^galerie-officielle\/([0-9]+)\/([-_a-zA-Z0-9]+)*(\/)*$ index.php?galerie-team&idCat=$1 [L,NC]
+RewriteRule ^_([0-9]+)\/([-_a-zA-Z0-9]+)*(\/)*$ index.php?pages&idPage=$1 [L,NC]
+
+# Pages Spéciales : pages HTML importantes #
+RewriteRule ^nos-sponsors(\/)*$ index.php?pages&idPage=3
+RewriteRule ^servers(\/)*$ index.php?pages&idPage=4
+RewriteRule ^about-us(\/)*$ index.php?pages&idPage=5
+RewriteRule ^faq-noway(\/)*$ index.php?pages&idPage=5
+RewriteRule ^infos-legales(\/)*$ index.php?pages&idPage=6
+RewriteRule ^shop(\/)*$ index.php?pages&idPage=9
+
+# Pages Forum #
+RewriteRule ^forum\/!([0-9]+)-([0-9]+)\/([-_a-zA-Z0-9]+)*(\/)*$ index.php?forum&act=liste_sujets&id=$1&page=$2 [L,NC]
+RewriteRule ^forum\/([0-9]+)\/([-_a-zA-Z0-9]+)*(\/)*$ index.php?forum&act=liste_sujets&id=$1 [L,NC]
+RewriteRule ^forum\/_([0-9]+)-([0-9]+)\/[-_a-zA-Z0-9]+\/([-_a-zA-Z0-9]+)*\.htm$ index.php?forum&act=afficher_message&id=$1&page=$2 [L,NC]
+RewriteRule ^forum\/_([0-9]+)\/[-_a-zA-Z0-9]+\/([-_a-zA-Z0-9]+)*\.htm$ index.php?forum&act=afficher_message&id=$1 [L,NC]
+
+# Pages admin #
+RewriteRule ^admin\/([-_a-zA-Z0-9]+)(\/)*$ index.php?admin-$1 [L,NC]
+RewriteRule ^admin\/([-_a-zA-Z0-9]+)\/([-_a-zA-Z0-9]+)(\/)*$ index.php?admin-$1&action=$2 [L,NC]
+RewriteRule ^admin\/([-_a-zA-Z0-9]+)\/([-_a-zA-Z0-9]+)\/([-_a-zA-Z0-9]+)(\/)*$ index.php?admin-$1&action=$2&id=$3 [L,NC]
+
+# Pages membre #
+RewriteRule ^membre\/guestbook\/([-_a-zA-Z0-9]+)(\/)*$ index.php?my-guestbook&pseudo=$1 [L,NC,QSA]
+
+RewriteRule ^membre\/([-_a-zA-Z0-9]+)(\/)*$ index.php?my-$1 [L,NC,QSA]
+RewriteRule ^membre\/([-_a-zA-Z0-9]+)\/([-_a-zA-Z0-9]+)(\/)*$ index.php?my-$1&action=$2 [L,NC,QSA]
+RewriteRule ^membre\/([-_a-zA-Z0-9]+)\/([-_a-zA-Z0-9]+)\/([-_a-zA-Z0-9]+)(\/)*$ index.php?my-$1&action=$2&id=$3 [L,NC,QSA]
+
+	RewriteRule ^_installation/test-url\.htm$  _installation/include/test_url.php [L,NC]
+	
+RewriteRule ^news\.xml$  pages/xml.php [L,NC]
+
+# Général #
+
+RewriteCond %{REQUEST_URI} !/_
+RewriteRule ^([-_a-zA-Z0-9]+)(\/)*$  index.php?$1 [L,NC]
+RewriteCond %{REQUEST_URI} !/_
+RewriteRule ^([-_a-zA-Z0-9]+)\/([-_a-zA-Z0-9]+)(\/)*$ index.php?$1&arg1=$2 [L,NC]
+RewriteCond %{REQUEST_URI} !/_
+RewriteRule ^([-_a-zA-Z0-9]+)\/([-_a-zA-Z0-9]+)\/([-_a-zA-Z0-9]+)(\/)*$ index.php?$1&arg1=$2&arg2=$3 [L,NC]

@@ -1,0 +1,1 @@
+<?php echo Toolbox::format_meta_desc($commentaire->getMessage(), 50)?>

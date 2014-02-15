@@ -1,0 +1,7 @@
+default:
+  javascripts:
+    - script_init.js 
+    - custom.js
+    - jquery.infieldlabel.min.js: { position: last }
+    - jquery.scrollto.min.js: { position: last }
+#    - gf_scroll_div.js: { position: last }

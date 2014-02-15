@@ -1,0 +1,24 @@
+--------------------------------------------------
+   Installation du portail KVM E-Commerce :
+--------------------------------------------------
+
+
+> Ouvrir include/config.php
+  > Remplir les infos de connexionx SQL
+  > Remplir les URL relatives et absolues
+  > Si tu le souhaite, changer la clé de cryptage. !Attention! ceci a pour csq de rendre tous les comptes inopérants
+> Ouvrir include/js/general.js
+  > Changer la variable URL en y inscrivant l'url absolue du site
+> Uploader la base de donnée
+> C'est pret
+
+
+
+--------------------------------------------------
+        Connexion à l'administration
+--------------------------------------------------
+
+Le login par défaut est admin/admin.
+
+Celui ci ne sera plus valide si la clé de cryptage est modifiée. Dans ce cas, il vous faudra encrypté manuellement votre pass grace à la fonction $pass_encrypte=crypt(md5($pass), $cle_de_cryptage); , puis de l'insérer ds la bdd
+

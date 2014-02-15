@@ -1,0 +1,28 @@
+#{extends 'layout-complet.html' /}
+#{set title:'Annuaire : Domaines' /}
+
+<div data-role="page">
+	<div data-role="header">
+		#{header lang:lang, retour:true /}
+	</div>
+
+
+	<div data-role="content">
+		<ul data-role="listview"  >
+			<li  data-role="list-divider">&{'AnnuaireDesDomaines'}</li>
+			#{list items:liste, as: 'domaine'}
+				<li>
+					<a href="@{Annuaire.domainesVins(domaine.id)}">
+						<h3>${domaine.nom}</h3>
+						<p>Vignoble <strong>${domaine.vignoble.nom}</strong> (${domaine.vignoble.region})</p>
+					</a>
+				</li>
+			#{/list}
+			#{else}
+			<li>&{'AucunDomaine'}</li>
+			#{/else}
+		</ul>
+
+	</div>
+
+</div>

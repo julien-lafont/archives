@@ -1,0 +1,43 @@
+.txt2					{ color:#000000 }
+body 					{ background-image:url(images/fond.jpg); background-repeat:repeat-x repeat-y; margin:0px; text-align:center }
+td, p 					{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#333333; padding:0px}
+
+a:link, a:visited 		{ color:#0EA5FE; text-decoration:none }
+a:hover 				{ color:#FF9900 }
+
+#page 					{ width:918px; margin-right:auto; margin-left:auto; text-align:left}
+#tableau_general 		{ width:918px; background-color:#5F5F5F; border-spacing:0px; border-bottom:2px solid #000000}
+#header 				{ background-image:url(images/header.jpg); background-repeat:no-repeat; width:918px; height:210px; margin:0px}
+#barremenu 				{ width:918px; height:28px; background-image:url(images/barre_menu.jpg); background-repeat:no-repeat }
+
+#bordure_page_gauche 	{ width:12px; background-image:url(images/bordure_page_gauche.jpg); background-repeat:repeat-y; margin:0px; padding:0px}
+#bordure_page_droite 	{ width:12px; background-image:url(images/bordure_page_droite.jpg); background-repeat:repeat-y; margin:0px; padding:0px}
+
+#fond_menu_droite 		{ width:207px;vertical-align:top; background-image:url(images/fondmenu_droite.jpg); background-repeat:repeat-y  }
+#fond_menu_gauche 		{ width:207px;vertical-align:top; background-image:url(images/fondmenu_gauche.jpg); background-repeat:repeat-y  }
+
+.menu 					{ width:207px; border-spacing:0px }
+	.menu_bordg 		{ width:3px; background-image:url(images/m_d2_01.jpg); background-repeat:repeat-y; }
+	.menu_bordd 		{ width:3px; background-image:url(images/m_d2_03.jpg); background-repeat:repeat-y; }
+	.menu_titre 		{ width:201px; height:30px; background-image:url(images/m_d2_02.jpg); background-repeat:no-repeat; text-align:center; font-weight:bold}
+	.menu_contenu 		{ width:201px; background-color:#F2F2F2; vertical-align:top ; }
+	.menu_bas 			{ width:207px; height:5px; background-image:url(images/m_d2_05.jpg) }	
+
+#partie_central 		{ width:480px; vertical-align:top; padding:0px; border-spacing:0px}
+.module 				{ width:480px; border-spacing:0px; margin-bottom:10px }
+	.module_titre 		{ width:480px; height:25px; background-image:url(images/centre_01.jpg); background-repeat:no-repeat; text-align:center; color:#FFFFFF; font-weight:bold }
+	.module_bordg 		{ width:4px; background-image:url(images/centre_02.jpg); background-repeat:repeat-y; }
+	.module_bordd 		{ width:4px; background-image:url(images/centre_04.jpg); background-repeat:repeat-y; }
+	.module_texte 		{ width:472px; background-color:#F2F2F2; padding:3px }
+	.module_bas 		{ width:480px; height:16px; background-image:url(images/centre_05.jpg); background-repeat:no-repeat; text-align:right; color:#CCCCCC }
+	
+	/* POUR LA BARRE DE MENU */
+#zoneNEWS 				{ float:left; width :70px; height:28px; margin-left:88px;}
+#zoneTEAM				{ float:left; width :61px; height:28px; margin-left:23px;}
+#zoneMATCH 				{ float:left; width :87px; height:28px; margin-left:24px;}
+#zoneLIENS 				{ float:left; width :67px; height:28px; margin-left:24px;}
+#zoneGALLERIE 			{ float:left; width :103px; height:28px; margin-left:24px;}
+#zoneDOWNLOAD 			{ float:left; width :112px; height:28px; margin-left:28px;}
+#zoneCONTACT 			{ float:left; width :113px; height:28px; margin-left:24px;}
+
+#validation 			{ text-align:center; margin-top: 3px; padding-bottom:5px }

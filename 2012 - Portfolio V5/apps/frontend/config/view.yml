@@ -1,0 +1,21 @@
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        "Studio-dev.fr - Blog, travaux et CV de Julien Lafont - Développeur Freelance Montpellier"
+    description:  "Julien LAFONT : Ingénieur étude et développement, Consultant technique Web, Java, C++ @ Studio-Dev.fr (Montpellier) - Découvrez mes dernières réalisations et mon CV - Compétences clés : Internet 2.0, Securité, Analyse"
+    keywords:     "julien, lafont, portfolio, cv, réalisations, iut, programmeur, epsi, symfony, zend, cisco, unix, debian, studio-dev, studio-web, studio, yotsumi, orange, montpellier, développeur, ingénieur, informatique, étude, ajax, php, web, html5, création, site, blog, services, designer, graphiste, programmeur, freelance, jquery, prototype, mvc, sql, php5, référencement, intégration, xhtml, ada, windev, IUT, montpellier, chansons-paroles, fais ton choix, pleax, hounkpe, net, actuality, net-actuality, optix, université, um2, java, UML, cpp, opengl"
+#    language:     fr
+    robots:       index, follow
+    author:       "Julien Lafont"
+
+  stylesheets:
+    - styles.css
+
+  javascripts:
+    - script_init.js 
+    - custom.js
+
+  has_layout:     true
+  layout:         layout

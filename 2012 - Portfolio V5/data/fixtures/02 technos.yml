@@ -1,0 +1,105 @@
+Techno:
+  Techno_1:
+    nom: PHP
+    logo: 3164a9b9dada2c804e987300943db86969f734d2.png
+    url: null
+  Techno_2:
+    nom: Symfony
+    logo: 30df27d7482823d75287cf8b888b8a27eab36a5a.png
+    url: null
+  Techno_3:
+    nom: Mysql
+    logo: 9052bcbba20d6db455bf11e1d71f1799d771abf7.png
+    url: null
+  Techno_4:
+    nom: Java
+    logo: e9b7827e846125f177c694af05d079a16c7036aa.png
+    url: null
+  Techno_5:
+    nom: Seam
+    logo: be9864230b897d61a6833ac28f795fd0cc4026fe.png
+    url: null
+  Techno_6:
+    nom: 'HTML 5'
+    logo: 1e8f5617c8437145897cb907bc37812191901aed.png
+    url: null
+  Techno_7:
+    nom: 'CSS 3'
+    logo: 4bfde6f85b9af9b98bf9514488874e04d3a0092c.png
+    url: null
+  Techno_8:
+    nom: PostgreSQL
+    logo: 10e66efeeafd4650501502c8ed932d98512ebe92.png
+    url: null
+  Techno_9:
+    nom: Scrum
+    logo: de5e3c1cf3a14e57cd72b31bc92ae928fe8ed667.png
+    url: null
+  Techno_10:
+    nom: 'Extrem Programming'
+    logo: a9e5dedcb063a5d2aa9c0dfe02fd47bb650e2816.png
+    url: null
+  Techno_11:
+    nom: Alfresco
+    logo: 985c9ea4d0e907d8574baed5657c0fc95f8796ab.png
+    url: null
+  Techno_12:
+    nom: Liferay
+    logo: e662b52b40296689c4a4a58d6513657eb47e2244.png
+    url: null
+  Techno_13:
+    nom: jQuery
+    logo: 0056c9a835524df709c7b54dcb667e16c1cee8a7.png
+    url: null
+  Techno_14:
+    nom: Django
+    logo: af504e4cf1e395c72e73a1c222a074b17ff372af.png
+    url: null
+  Techno_15:
+    nom: Ajax
+    logo: 163846f8e1e27ee26b8e7c968d11c5a184aefca0.png
+    url: null
+  Techno_16:
+    nom: 'C#'
+    logo: ab231581dd627f5878df736f3ca26dd1626a8631.png
+    url: null
+  Techno_17:
+    nom: GTK
+    logo: 60935cea3dfa415cfc55b60e89a5981398a99a54.png
+    url: null
+  Techno_18:
+    nom: Hibernate
+    logo: 079cac174b369c65f251e9d0db534871228f3853.png
+    url: null
+  Techno_19:
+    nom: OpenGL
+    logo: ed33dc7b2dcba0452b4bfa70aad568c19525340b.png
+    url: null
+  Techno_20:
+    nom: Python
+    logo: 7cce443aa73d036e97a018e1d317c461b447aad0.png
+    url: null
+  Techno_21:
+    nom: Qt
+    logo: 9679bfcabc61971b97186ee77fbe4df24d2d10b3.png
+    url: null
+  Techno_22:
+    nom: Slick
+    logo: 47ce25a274464c03e5926dcfa4be4db990b93c43.png
+    url: null
+  Techno_23:
+    nom: Doctrine
+    logo: bea0871a008d38f83aec7f84f63be4c29ff2ba8b.png
+    url: ''
+  Techno_24:
+    nom: 'eZ Publish'
+    logo: 0c9b4cd10b29edcf5695c286a3af8a82454346b5.png
+    url: ''
+  Techno_25:
+    nom: Mootools
+    logo: 4b48cac19613241c9268866f4c97fcde20ed6029.gif
+    url: ''
+  Techno_26:
+    nom: ADA
+    logo: 8cee007dbc9e0287f0792aa9ccf2070a396538ab.png
+    url: ''

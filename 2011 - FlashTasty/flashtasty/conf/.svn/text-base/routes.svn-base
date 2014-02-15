@@ -1,0 +1,49 @@
+# Routes (Higher priority routes first)
+# ~~~~
+
+# Accueil
+GET     	/                                       				Degustation.dernierVins
+
+GET			/annuaire												Annuaire.index
+GET			/annuaire/vins											Annuaire.vins
+
+GET			/annuaire/domaines/{<[0-9]+>id}							Annuaire.domainesVins
+GET			/annuaire/domaines										Annuaire.domaines
+GET			/annuaire/cepages										Annuaire.cepages
+GET			/annuaire/cepages/{<[0-9]+>id}							Annuaire.cepagesVins
+GET			/annuaire/vignobles										Annuaire.vignobles
+GET			/annuaire/vignobles/{<[0-9]+>id}						Annuaire.vignoblesVins
+
+
+
+# Dégustation
+GET			/degustation/{<[0-9]+>idVin}-{nom}.html					Degustation.fiche
+GET			/degustation/{<[0-9]+>idVin}.html						Degustation.fiche
+
+GET			/degustation/popup/etiquette-{<[0-9]+>idVin}.html		Degustation.popupEtiquette
+GET			/degustation/popup/producteur-{<[0-9]+>idDomaine}.html	Degustation.popupProducteur
+GET			/degustation/popup/domaine-{<[0-9]+>idDomaine}.html		Degustation.popupDomaine
+
+
+GET			/changer-langue-{<[a-z]>lang}.html						Langue.changer
+
+# Photos
+GET			/public/upload/vin-{<[0-9]+>id}-vignette				Photo.photoVinVignette
+GET			/public/upload/vin-{<[0-9]+>id}							Photo.photoVin
+
+GET			/public/upload/producteur-{<[0-9]+>id}-vignette			Photo.photoProducteurVignette
+GET			/public/upload/producteur-{<[0-9]+>id}					Photo.photoProducteur
+
+GET			/public/upload/domaine-{<[0-9]+>id}-vignette			Photo.photoDomaineVignette
+GET			/public/upload/domaine-{<[0-9]+>id}						Photo.photoDomaine
+
+GET			/public/upload/insolite-{<[0-9]+>id}-vignette			Photo.photoInsoliteVignette
+GET			/public/upload/insolite-{<[0-9]+>id}					Photo.photoInsolite
+
+# Ressources
+
+
+# General
+GET     	/public/                               					staticDir:public
+*     		/admin           										module:crud
+*       	/{controller}/{action}                  				{controller}.{action}

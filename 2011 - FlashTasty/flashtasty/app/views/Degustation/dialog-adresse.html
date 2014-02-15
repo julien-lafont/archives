@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+	<div data-role="dialog" id="adresse">
+
+		<div data-role="header">
+			<h1>&{'Contact'}</h1>
+		</div>
+
+		<div data-role="content" data-theme="c" class="center">
+
+			${adresse.nl2br().raw()}
+
+			<br />
+			<a href="http://maps.google.com/?q=${adresseBrute}"  data-role="button" data-inline="true" rel="external">&{'OuvrirPlan'}</a>
+			<a href="#" data-rel="back" data-role="button" data-inline="true">&{'Fermer'}</a>
+		</div>
+	</div>
+</body>
+</html>

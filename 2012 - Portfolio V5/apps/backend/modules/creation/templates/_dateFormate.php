@@ -1,0 +1,1 @@
+<?php echo format_datetime($creation->getDate(), 'dd/MM/yy')?>

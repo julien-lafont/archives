@@ -1,0 +1,16 @@
+!SESSION 2006-12-30 17:22:37.703 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.4.2_09
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=fr_FR
+Framework arguments:  E:\Program Files\Aptana\aptana.exe #VM Runtime Configuration File E:\Dev\EasyPHP1-8\www\d4\include\js\-general.js
+Command-line arguments:  -os win32 -ws win32 -arch x86 E:\Program Files\Aptana\aptana.exe #VM Runtime Configuration File E:\Dev\EasyPHP1-8\www\d4\include\js\-general.js
+
+!ENTRY com.aptana.ide.rcp.main 1 0 2006-12-30 17:22:39.171
+!MESSAGE (Build 0.2.0.10299) dotAptanaFile 'e:\program files\aptana\.aptana'
+
+!ENTRY com.aptana.ide.core.ui 1 0 2006-12-30 17:22:54.484
+!MESSAGE (Build 0.2.0.10299) current Aptana build number
+
+!ENTRY org.eclipse.core.runtime 2 2 2006-12-30 17:23:26.531
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.aptana.ide.core.ui.update.AutomaticUpdateJob

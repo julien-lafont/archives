@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+
+   <url>
+      <loc>http://www.studio-dev.fr/</loc>
+      <lastmod>2008-12-26</lastmod>
+      <changefreq>daily</changefreq>
+   </url>
+   <url>
+      <loc>http://www.studio-dev.fr/qui-suis-je.htm</loc>
+      <changefreq>weekly</changefreq>
+   </url>
+   <url>
+      <loc>http://www.studio-dev.fr/mon-cv.htm</loc>
+      <lastmod>2008-12-26</lastmod>
+      <changefreq>weekly</changefreq>
+   </url>
+   <url>
+      <loc>http://www.studio-dev.fr/mes-realisations.htm</loc>
+      <lastmod>2008-12-26</lastmod>
+   </url>
+   <url>
+      <loc>http://www.studio-dev.fr/me-contacter.htm</loc>
+      <lastmod>2008-12-26</lastmod>
+   </url>
+   <url>
+      <loc>http://www.studio-dev.fr/plan-du-portfolio.htm</loc>
+      <lastmod>2008-12-26</lastmod>
+   </url>
+   <url>
+      <loc>http://www.studio-dev.fr/telecharger/cv.pdf</loc>
+      <lastmod>2008-12-26</lastmod>
+   </url>
+   <url>
+      <loc>http://www.studio-dev.fr/projet-personnel-professionnel.htm</loc>
+      <lastmod>2008-12-26</lastmod>
+   </url>
+</urlset>

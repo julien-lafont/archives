@@ -1,0 +1,419 @@
+<HTML>
+<HEAD>
+<TITLE>Counter Snip</TITLE>
+<META NAME="TITLE" CONTENT="Counter-Snip">
+<META NAME="identifer-URL" CONTENT="http://sniperman.free.fr">
+<META NAME="AUTHOR" lang="fr" CONTENT="Sniperman">
+<META NAME="OWNER" CONTENT="snake.spm@laposte.net">
+<META NAME="SUBJECT" CONTENT="Counter Strike">
+<META NAME="Category" CONTENT="Internet - Jeux - Cs">
+<META NAME="DESRIPTION" CONTENT="Tout sur Counter Strike et plus">
+<META NAME="KEYWORDS" CONTENT="sniperman,kirikiri,countersnip,counter-snip,cs,counter strike,counterstrike,wallpapers,fond d'écran,sms,loto,prizee,astuces,armes,skins,binds,alias,half life,maps,download,téléchargement,patchs,guide,dossier,aide,ping,fps,optimisation,mms,loteries,Orange,LAN,réseau,France,fr,hl key fr,1.5,1.3,1.4,Forum,Astuces,Console,commandes,Cheat,Hack,OGL,wallhack,liens,GBA,rom,Annuaire,">
+<META NAME="LANGUAGE" CONTENT="FR">
+<META NAME="robots" CONTENT="All">
+<STYLE TYPE=text/css>
+TD { font-family:Verdana;font-size:11px;color:white } 
+.menu { font-family:Verdana;font-size:12px;color:white } 
+.titre { font-family:Verdana;font-size:20px;color:white } 
+A.menu { font-family:Verdana;font-size:12px;color:white;text-decoration:none } 
+A:hover.menu { font-family:Verdana;font-size:12px;color:#FFCC00;font-weight:normal;text-decoration:none } 
+A { font-family:Verdana;font-size:11px;color:#FFFFFF;text-decoration:none } 
+A:hover { font-family:Verdana;font-size:11px;color:#FFCC00} 
+A.down3 {color: #FFCC00;decoration:none }
+A:hover.down3 {color:#FFE784;text-decoration:underline;font-weight:Bolder } 
+A.menu { font-family:Verdana;font-size:12px;color:white;text-decoration:none } 
+BODY {SCROLLBAR-FACE-COLOR: #ffa534; SCROLLBAR-HIGHLIGHT-COLOR: #ffd756; SCROLLBAR-SHADOW-COLOR: #ff8312; SCROLLBAR-3DLIGHT-COLOR: #000000; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #8E908D; SCROLLBAR-DARKSHADOW-COLOR: #000000}.Style1 {color: #FFFFFF}
+.Style7 {font-size: 10px;
+	color: #FFFFFF;
+}
+.parent {font-family: verdana;font-weight: bold ;color: #CCCCCC;font-size: 12px;margin-top: 10;cursor: hand;margin-left: 6pt}
+.child {font-size: 9px;decoration: none;font-weight: normal;margin-left:10pt}
+</STYLE>
+<script language="javascript">
+<!--
+var intCount = 1;
+function DynamicMenu_addParent(strName) {
+	var strID = 'ID' + intCount++;
+	var strTemp = '<DIV ID="' + strID + '" CLASS="parent"';
+        strTemp += ' onClick="expandCollapse(this);">';
+	    strTemp += '<B>' + strName + '</B>'  
+        strTemp += '<DIV CLASS="child"></DIV>';
+        strTemp += '</DIV>';
+		this.div.innerHTML += strTemp;
+        this.currentChild = document.getElementById(strID);
+}
+
+function DynamicMenu_addChild(strName,strURL) {
+
+	var strTemp = '<A HREF="' + strURL + '"' + ' onClick="cancelBubble(arguments[0]);">' + strName + '</A><BR>';
+	if (document.all) {
+        	this.currentChild.children[1].innerHTML += strTemp;
+	} else {
+        	this.currentChild.childNodes[1].innerHTML += strTemp;
+	}
+	
+}
+
+function cancelBubble(netEvent) {
+	if (document.all) {
+		window.event.cancelBubble = true;
+	} else {
+        	netEvent.cancelBubble = true;
+	}
+}
+
+function expandCollapse(objElement) {
+
+	if (document.all) {
+        	var imgIcon = objElement.children[0];
+                objElement = objElement.children[1];
+	} else {
+        	var imgIcon = objElement.childNodes[0];
+                objElement = objElement.childNodes[2];
+	}
+	if (objElement.style.display == "none") {
+        	objElement.style.display = "block" ;
+                imgIcon.src = "bottomb.gif" ;
+	} else {
+        	objElement.style.display = "none" ;
+                imgIcon.src = "leftb.gif" ;
+	}
+}
+
+function DynamicMenu() {
+
+	var id = "Menu" + intCount++;
+        document.write('<DIV Id="' + id + '"></DIV>');		
+	this.div = document.getElementById(id);
+        this.currentChild = null;
+		
+	this.addParent = DynamicMenu_addParent;
+	
+        this.addChild = DynamicMenu_addChild;
+		
+}
+// -->
+
+</script>
+
+
+</HEAD>
+<BODY BGCOLOR=#000000 TEXT=#FFFFFF LINK=#0000FF VLINK=#800080 ALINK=#FF0000>
+
+<CENTER>
+
+<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH=774>
+  <TR>
+    <TD WIDTH=175><img src="images/haut3a.jpg" width="175" height="61"></TD>
+      <TD WIDTH=579 BACKGROUND=images/top_cs.gif CLASS=titre> 
+        <!-- ICI, LE TITRE DEVOTRE SITE -->
+        Dossier Ping<BR>
+        <IMG SRC="images/pixel.gif" BORDER=0 WIDTH=1 HEIGHT=13 HSPACE=0 VSPACE=0></TD>
+    <TD WIDTH=20><IMG SRC="images/top_d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+      	
+      	<!-- !!!!!!!!! DEBUT MENU !!!!!!!!!!! -->
+	  <TD WIDTH=175 BACKGROUND=images/fond_menu.gif VALIGN=top CLASS=menu> <img src="images/haut3b.jpg" width="175" height="115">	    <!-- DEBUT MENU 1 -->
+        <!-- DEBUT MENU 1 -->
+        <p><span class="parent"><img src="images/Puces/arrow2b.gif" width="10" height="13" align="absmiddle"> <a href="index.htm">Accueil</a></span><br>
+            <script language=Javascript type=text/javascript>
+var menu = new DynamicMenu();
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Site'); 
+menu.addChild('- Me contacter', 'site_contact.html');
+menu.addChild('- Livre d&acute;or', 'http://www.maxiservices.net/livre/livre.php3?id=2810 ');		
+menu.addChild('- Chat', 'site_chat.html'); 
+menu.addChild('- Qui suis-je', 'site_quisuisje.html');
+menu.addChild('- Pubs', 'site_pub.html');
+      
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Counter Strike'); 
+menu.addChild(' ', ' ');
+menu.addChild('- Pr&eacute;sentation', 'cs_presentation.html');
+menu.addChild('- <b>Downloads</b>', 'cs_Downloads.html');
+menu.addChild('- Astuces', 'cs_Astuces.html');
+menu.addChild('- Armes', 'cs_armes.html');
+menu.addChild('- Binds & Alias', 'cs_Binds_&_Alias.html'); 
+menu.addChild('- PodBot', 'cs_Podbot.html');
+menu.addChild('- <b>Réduire son Ping</b>', 'cs_Ping.html');
+menu.addChild('- Dossier CS - Xbox', 'cs_xbox.html');
+menu.addChild('- Servers', 'cs_server.html');
+menu.addChild('- Easter Eggs', 'cs_EasterEgg.html');
+menu.addChild('- Counter Mania', 'cs_counterMania.html');
+menu.addChild('- Commandes', 'cs_console.html');
+menu.addChild('- Cheats', 'cs_cheats.html');
+menu.addChild('- Tag', 'cs_tag2.html');
+menu.addChild('- Liens', 'cs_liens.html');
+menu.addChild('- Wallpapers', 'cs_wallpapers.html');
+menu.addChild('- Tarte à la Fraise', 'cs_tarte.html');
+
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Steam'); 
+menu.addChild('- T&eacute;l&eacute;chargement', 'steam_telechargement.html');
+menu.addChild('- <b>Pack LAN + BOT</b>', 'steam_nosteam.html'); 				 				
+menu.addChild('- Installation', 'steam_install.html');
+menu.addChild('- Utilitaires', 'steam_util.html');
+menu.addChild('- Binder 1.6', 'cs_Binder1.html');
+menu.addChild('- Lecteur MP3', 'steam_mp3.html');
+menu.addChild('- FAQ', 'steam_faq.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Half Life 2'); 
+menu.addChild('- News', 'hl_news.html');
+menu.addChild('- Histoire', 'hl_hist.html');
+menu.addChild('- Armes', 'hl_armes.html'); 
+menu.addChild('- Personnages', 'hl_pers.html');
+menu.addChild('- Packs', 'hl_pack.html');			
+menu.addChild('- Screenshot', 'hl_screen.html');
+menu.addChild('- Art-Works', 'hl_screen3.html');
+menu.addChild('- Fond d&acute;&eacute;cran', 'hl_wallpapers.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Petits +'); 
+menu.addChild('- Dossier Virus', 'plus_virus.html'); 				
+menu.addChild('- SMS & MMS gratuits', 'plus_sms.html');
+menu.addChild('- Mail Anonyme', '');
+menu.addChild('- M&eacute;t&eacute;o 48h', 'plus_meteo.html');
+menu.addChild('- Programme Cin&eacute; et TV', 'plus_cine.html');
+menu.addChild('- Annuaire Invers&eacute;', 'plus_annuaire.html');
+menu.addChild('- Traduction en ligne', 'plus_trans.html');
+menu.addChild('- Horoscope', 'plus_horoscopes.html');
+menu.addChild('- Auto-Biographie ;-)', 'plus_bio.html');
+menu.addChild('- Cartes et Itin&eacute;raires', 'plus_cartes.html');
+menu.addChild('- Loteries Gratuites', 'plus_loteries.html');
+menu.addChild('- Convertisseur', 'plus_calcu.html');
+          </script>
+            <br>
+        </p>
+        <TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+          <TR>
+            <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp; T&eacute;l&eacute;chargement &nbsp;&nbsp;</B></div></TD>
+          </TR>
+        </TABLE>
+        <p align="center">
+        <MARQUEE behavior= "scroll" align= "center" direction= "up" height="80" scrollamount= "2" scrolldelay= "10" onmouseover='this.stop()' onmouseout='this.start()'>
+        <table align=center>
+          <tr>
+            <td align=center>
+              <p>- <a href="ftp://ftpclubic2.clubic.com/temp-clubic-rx1740/jeux/Counter-Strike_Mod_1.5_en_version_complete.exe"><strong>Counter Strike 1.5</strong></a> - <br>
+        127 mo </p>
+              <p>- <a href="steam_nosteam.html"><strong>Pack CS 1.6 OFFline</strong> -<br>
+              Dossier</a></p>
+              <p>- <a href="http://www.filemirrors.com/search.src?file=steaminstall_cs.exe&size=397857244" target="_blank"><strong>Counter Strike 1.6</strong></a> - <br>
+        Full 388 mo </p>
+              <p>- <a href="ftp://ftp.vugames.fr/pub/half-life/fhl1110.exe"><strong>Half life 1.1.1.0</strong></a> - <br>
+        Full 84 mo </p>
+              <p>- <a href="ftp://ftp.trusted-network.de/pub/games/pod25ins.exe"><strong>Pod Bot 2.5</strong></a> - <br>
+        2 mo</p>
+              <p>- <a href="http://akimbot.nuclearbox.com/akimbot030.zip"><strong>Akimbot Bot 3.0</strong></a> - <br>
+        0.3 mo </p>
+              <p>- <a href="Fichiers/SteamCustomizerv104.rar"><strong>Steam Customizer</strong></a> - <br>
+        0.3 mo </p>
+              <p class="Style1"><strong>- <a href="http://www.udpsoft.com/eye/download/newer/EyeInstaller.exe">All-Seeing Eyes</a> -</strong></p></td>
+          </tr>
+        </table>
+        </MARQUEE>
+        <br>
+        <br>
+        <TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+          <TR>
+            <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp; Wallpapers : &nbsp;&nbsp;</B></div></TD>
+          </TR>
+        </TABLE>
+        <p align="center"><a href="images/Wallpapers/cs_81.jpg"><img src="images/Wallpapers/small/TN_cs_81.JPG" width="128" height="96" border="0"></a> <br>
+            <span class="Style7"><a href="cs_wallpapers.html">Tous les Wallpapers</a></span></p>
+        <BR>
+        <!-- !!!!!!!! FIN MENU GAUCHE !!!!!!!!!! -->
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </TD>
+    <TD WIDTH=579 BGCOLOR=#364132 VALIGN=top ALIGN=center>
+	
+<!-- FIN HEADER -->
+	
+	<!-- DEBUT CADRE DE CONTENU 1 -->
+	<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=575>
+  		<TR>
+    		<TD WIDTH=25><IMG SRC="images/cad_bleu_hg.gif" BORDER=0 WIDTH=25 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+    		<TD BACKGROUND=images/cad_bleue_h.gif WIDTH=523 CLASS=menu><B>Comment 
+              am&eacute;liorer son ping : </B></TD>
+    		<TD WIDTH=27><IMG SRC="images/cad_bleu_hd.gif" BORDER=0 WIDTH=27 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  		<TR>
+    		<TD WIDTH=25 BACKGROUND=images/cad_g.gif><IMG SRC="images/cad_g.gif" BORDER=0 WIDTH=25 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+    		<td WIDTH=523 BGCOLOR=#4D574A><div align="left"></div>
+              <div align="left">
+                <p><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  <font color="#FFFF66"><strong>C koi ce truc : le ping ? </strong></font></p>
+                <p>Le ping (aussi appel&eacute; latency) est le temps que met
+                   une information pour aller du serveur de jeu jusqu'&agrave; 
+                  votre ordinateur. Pour ceux qui n'auraient pas encore compris
+                   : plus le ping est &eacute;lev&eacute;, plus les informations
+                    (comme les balles, impacts, etc..) mettront du temps &agrave; 
+                  vous parvenir; plus vous aurez l'impression de &ccedil;a ramme ( On
+                   dit que sa LAG )<br>
+                  Si votre ping est bas, la qualit&eacute; de jeu est meilleure 
+                  ( comme dans les r&eacute;seaux o&ugrave; le ping est quasiment 
+                  nul )</p>
+                <p>Pour une qualit&eacute; de jeu satisfaisante, un ping inf&eacute;rieur 
+                  &agrave; 200 / 250 est pr&eacute;f&eacute;rable; apr&egrave;s, 
+                  le jeu devient tr&egrave;s difficile, avec de nombreux 'bugs' 
+                  qui sont justement dus &agrave; ce ping &eacute;lev&eacute;..<br>
+                  <br>
+                  Sachez qu'avec <strong>l'ADSL</strong>, votre ping moyen doit 
+                  tourner autour de 80 / 100 <br>
+                  Avec le <strong>c&acirc;ble</strong>, cela d&eacute;pend des 
+                  op&eacute;rateurs, mais le ping est bien inf&eacute;rieur &agrave; 
+                  100 (normalement meilleur que l'adsl) <br>
+                  Avec un modem <strong>RTC</strong> (56 Ko/s), le ping peut
+                  aller  de 150 &agrave; 400; &ccedil;a d&eacute;pend aussi du
+                  server<br>
+                  Plus &eacute;tonnant, avec une ligne <strong>Num&eacute;ris</strong> 
+                  ( 64kp/s ) , vous aurez un meilleur ping qu'avec l'ADSL.</p>
+                <p><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  <font color="#FFFF66"><strong>Comment l'am&eacute;liorer ?</strong></font></p>
+              </div>
+              <div align="left">
+                <p>C'est vrai qu'avec cs 1.6, le ping a beaucoup augment&eacute; alors
+                    ...<br>
+                  Ouvrer  le fichier &quot;config.cfg&quot; avec un &eacute;diteur
+                    de texte <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-                Avec CS 1.5  dans
+: &quot;C:\SIERRA\Half Life\cstrike&quot; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Avec CS 1.6 dans : &quot;C:\Steam\SteamApps\votre@email\counter-strike\cstrike&quot;
+                    ).<br>
+                    <br>
+                  Chercher les lignes ci-dessous et modifier les en
+                     fonction 
+              des valeurs donn&eacute;s dans le tableau.</p>
+              </div>              
+              <div align="left">
+                <table width="98%" border="1">
+                  <tr> 
+                    <td width="21%" bgcolor="#FFFFCC"><div align="center"><font color="#000000"><strong>Connexion</strong></font></div></td>
+                    <td width="36%" bgcolor="#CCFFCC"><div align="center"><font color="#000000"><strong>Avec 
+                        un modem 56ko</strong></font></div></td>
+                    <td width="36%" bgcolor="#FFE3B9"><div align="center"><strong><font color="#000000">Avec une ligne Num&eacute;ris</font></strong></div></td>
+                    <td width="36%" bgcolor="#C4E4FF"><div align="center"><font color="#000000"><strong>Avec 
+                        l'ADSL</strong></font></div></td>
+                  </tr>
+                  <tr> 
+                    <td bgcolor="#FFFFCC"><div align="center"><font color="#FF0000">rate</font><font color="#000000"> &quot;xxxx&quot;</font></div></td>
+                    <td bgcolor="#CCFFCC"><font color="#000000">x : Entre 1000 
+                      et 4000</font></td>
+                    <td bgcolor="#FFE3B9"><font color="#000000">x :  8000</font></td>
+                    <td bgcolor="#C4E4FF"><font color="#000000">x : 6800 ( 6000
+                        &lt;&gt; 10000)</font></td>
+                  </tr>
+                  <tr> 
+                    <td bgcolor="#FFFFCC"><div align="center"><font color="#FF0000">cl_rate</font><font color="#000000"> &quot;xx&quot;</font></div></td>
+                    <td bgcolor="#CCFFCC"><font color="#000000">x : Pareil que 
+                      le rate</font></td>
+                    <td bgcolor="#FFE3B9"><font color="#000000">x : Pareil que
+                    le rate</font></td>
+                    <td bgcolor="#C4E4FF"><font color="#000000">x : Pareil que 
+                      le rate</font></td>
+                  </tr>
+                  <tr> 
+                    <td bgcolor="#FFFFCC"><div align="center"><font color="#FF0000">cl_cmdrate</font><font color="#000000"> &quot;xx&quot;</font></div></td>
+                    <td bgcolor="#CCFFCC"><font color="#000000">x : 26</font></td>
+                    <td bgcolor="#FFE3B9"><font color="#000000">x : 40</font></td>
+                    <td bgcolor="#C4E4FF"><font color="#000000">x : 22 ( 20
+                        &lt;&gt;  55 )</font></td>
+                  </tr>
+                  <tr> 
+                    <td bgcolor="#FFFFCC"><div align="center"><font color="#FF0000">cl_updaterate</font><font color="#000000"> &quot;x&quot;</font></div></td>
+                    <td bgcolor="#CCFFCC"><font color="#000000">x : Entre 15 et 
+                      30</font></td>
+                    <td bgcolor="#FFE3B9"><font color="#000000">x : 30</font></td>
+                    <td bgcolor="#C4E4FF"><font color="#000000">x : 17</font></td>
+                  </tr>
+                  <tr> 
+                    <td bgcolor="#FFFFCC"><div align="center"><font color="#000000"><strong>Autres 
+                      param : </strong></font></div></td>
+                    <td bgcolor="#CCFFCC"><font color="#000000">cl_allowdownload &quot;1&quot; <br>
+                      cl_allowupload &quot;1&quot; <br>
+                      cl_download_ingame &quot;0&quot;<br>
+                      cl_lc &quot;1&quot; <br>
+                      cl_lw &quot;1&quot; <br>
+                      cl_updaterate &quot;18&quot; <br>
+                      cl_himodels "0" <br>
+                      net_graph "0" <br>
+                      max_shells "-1" max_smokepuffs "5" <br>
+                      mp_decals "30" fastsprites "1"                      <br>
+                      </font></td>
+                    <td valign="top" bgcolor="#FFE3B9"><font color="#000000">cl_lc &quot;1&quot;<br>
+  cl_lw &quot;1&quot;<br>
+                      cl_download_ingame &quot;0&quot;<br>
+                      cl_himodels "0" <br>
+  net_graph "0" <br>
+  max_shells "-1" max_smokepuffs "5" <br>
+  mp_decals "30.000000" fastsprites "1"                    </font></td>
+                    <td valign="top" bgcolor="#C4E4FF"><p><font color="#000000">cl_lc &quot;1&quot;<br>
+                      cl_lw &quot;1&quot;<br>
+                      </font><font color="#000000">cl_himodels &quot;0&quot;<br>
+                      net_graph &quot;0&quot;<br>
+                      max_shells &quot;-1&quot;<br>
+  max_smokepuffs &quot;5&quot;<br>
+  mp_decals &quot;30&quot;<br>
+  fastsprites &quot;1&quot;<br>
+  cl_download_ingame &quot;0&quot;<br>
+                    </font></p></td>
+                  </tr>
+                </table>
+                <p><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  <strong><font color="#FFFF66">Existe t-il des logiciels faisant 
+                  baisser le ping ?</font></strong></p>
+                <p>Oui, il existe un logiciel ( Be Faster ) qui am&eacute;liore 
+                    votre connexion donc votre Ping.<br>
+                  <a href="http://telecharger.01net.com/windows/Internet/connection/fiches/12005.html" class="down3">T&eacute;l&eacute;charger</a></p>
+                <p><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  <font color="#FFFF66"><strong>Y-a-t'il d'autres Astuces pour 
+                  avoir un meilleur ping ?</strong></font></p>
+                <p>D'abord, sachez que la connexion par l'op&eacute;rateur
+                    Internet AOL (ADSL et RTC) est d'assez mauvaise qualit&eacute; en
+                    g&eacute;n&eacute;ral;
+                    faites-y donc attention si vous voulez changer d'op&eacute;rateur...<br>
+  D'autres param&egrave;tres rentrent en compte comme la distance vous s&eacute;parant
+  de votre op&eacute;rateur, la qualit&eacute; de votre ligne, la localisation
+  du server de jeu ( plus il est loins, plus vous aurez de ping ! )</p>
+                <p>Pour optimiser tout sa, d&eacute;j&agrave;, d&eacute;sactiver
+                    votre Firewall ( ou tout autre proxy ) car ceux ci utilisent
+                    des
+                    ressources.<br>
+                  <br>
+                  Lorsque vous choississez le server sur lequel vous allez jouer,
+                    prenez en un qui r&eacute;pond rapidement.<br>
+                  <br>
+                  Sachez aussi que moins un server a de place, moins il y aura 
+                    de ping.<br>
+                </p>
+              </div></td>
+    		<TD WIDTH=27 BACKGROUND=images/cad_d.gif><IMG SRC="images/cad_d.gif" BORDER=0 WIDTH=27 HEIGHT=12 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  		<TR>
+    		<TD COLSPAN=3><IMG SRC="images/cad_b.gif" BORDER=0 WIDTH=575 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  	</TABLE><BR>        <a href="http://www.xiti.com/xiti.asp?s=98910" TARGET="_top">
+<script language="JavaScript1.1">
+<!--
+hsh = new Date();
+hsd = document;
+hsr = hsd.referrer.replace(/[<>]/g, '');
+hsi = '<img width="39" height="25" border=0 ';
+hsi += 'src="http://logv20.xiti.com/hit.xiti?s=98910';
+hsi += '&p=Ping';
+hsi += '&hl=' + hsh.getHours() + 'x' + hsh.getMinutes() + 'x' + hsh.getSeconds();
+if(parseFloat(navigator.appVersion)>=4)
+{Xiti_s=screen;hsi += '&r=' + Xiti_s.width + 'x' + Xiti_s.height + 'x' + Xiti_s.pixelDepth + 'x' + Xiti_s.colorDepth;}
+hsd.writeln(hsi + '&ref=' + hsr.replace(/&/g, '$') + '" title="Mesurez votre audience"><\!--');
+//-->
+</script>
+<noscript>
+<img width="39" height="25" border=0 src="http://logv20.xiti.com/hit.xiti?s=98910&p=Ping&" title="Mesurez votre audience">
+</noscript><!--//--></a></TD>
+    <TD WIDTH=20 BACKGROUND=images/d.gif><IMG SRC="images/d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+  	<TD COLSPAN=3><IMG SRC="images/bas.jpg" BORDER=0 WIDTH=774 HEIGHT=32 USEMAP="#bas"></TD>
+  </TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>
+<!-- FIN FOOTER -->

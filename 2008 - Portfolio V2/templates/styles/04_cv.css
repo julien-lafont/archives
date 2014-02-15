@@ -1,0 +1,144 @@
+.bloc_identite {
+	width: 200px;
+	background-color:#00647F;
+	padding: 10px;
+	-moz-border-radius:10px;
+	float:left;
+	height:150px
+}
+
+	.bloc_identite span {
+		color:#FFF !important;
+		text-transform:none !important;
+		font-family: arial;
+		font-size: 12px;
+		font-style: italic;
+	}
+
+.bloc_moi {
+	width: 300px;
+	height:100px;
+	float:left;
+	background-color: #0092BF;
+	margin-left: 40px;
+	margin-top:18px;
+	padding: 10px;
+	-moz-border-radius:10px;
+	
+}
+
+	.bloc_moi h2 {
+		font-size:28px;
+		font-family:"Trebuchet MS";
+		margin-bottom:20px;
+		text-align: center;
+		color:#FFF;
+		border-bottom:1px solid #FFF;
+		padding-bottom:6px;
+		
+	}
+	
+	.bloc_moi h3 {
+		text-align:center;
+		color:#000;
+		margin-top:10px;
+		font-size: 17px;
+	}
+	
+.bloc_dl {
+	width: 200px;
+	background-color:#00647F;
+	padding: 10px;
+	-moz-border-radius:10px;
+	float:right;
+	height:150px
+}
+
+	.bloc_dl h2 {
+		font-family: right;
+		font-size: 16px;
+		border-bottom: 1px dashed #FFF;
+		font-family: "Trebuchet MS";
+		padding-bottom:4px;
+		margin-bottom: 5px;
+	}
+	
+	.bloc_dl a:hover {
+		border-bottom: 1px solid #FFF;
+		color:#FFF
+	}
+
+
+
+/* ----------------------------------- */
+
+
+
+.global {
+
+}
+.bloc_g {
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom:20px;
+	padding: 10px;
+	background-color: #04323F;
+	-moz-border-radius:10px
+	
+}
+
+.bloc_g li { list-style-type:circle; margin-left:20px; margin-bottom:7px; font-family: verdana; font-size: 12px;}
+.bloc_g li h3 { font-size: 13px;}
+.bloc_g h2 {
+	height: 25px;
+	line-height: 25px;
+	padding-left:10px;
+	color: #FFF;
+	border-bottom: 2px solid #CCC;
+	padding-bottom: 3px;
+	margin-bottom:13px;
+	font-size: 17px;
+}
+
+
+.bloc_d {
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom:20px;
+	padding: 10px;
+	background-color: #04323F;
+	-moz-border-radius:10px
+}
+
+.bloc_d li { margin-left:20px; margin-bottom:7px; font-family: verdana; font-size: 12px; text-align: right;}
+.bloc_d h2 {
+	height: 25px;
+	line-height: 25px;
+	padding-right:10px;
+	color: #FFF;
+	text-align: right;
+	border-bottom: 2px solid #CCC;
+	padding-bottom: 3px;
+	margin-bottom:13px;
+	font-size: 17px;
+	
+}
+
+
+
+
+div.skills {
+	height:60px;
+	margin:5px 0pt 15px;
+	padding:10px 10px 10px 50px;
+}
+ul.skill {
+	float:left;
+	margin:0pt 20px 0pt 0pt;
+	font-size: 11px;
+	font-family: verdana;
+}
+ul.level {
+	float:left;
+	margin:0pt 70px 0pt 0pt;
+}

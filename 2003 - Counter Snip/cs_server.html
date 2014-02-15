@@ -1,0 +1,485 @@
+<HTML>
+<HEAD>
+<TITLE>Counter Snip</TITLE>
+<META NAME="TITLE" CONTENT="Counter-Snip">
+<META NAME="identifer-URL" CONTENT="http://sniperman.free.fr">
+<META NAME="AUTHOR" lang="fr" CONTENT="Sniperman">
+<META NAME="OWNER" CONTENT="snake.spm@laposte.net">
+<META NAME="SUBJECT" CONTENT="Counter Strike">
+<META NAME="Category" CONTENT="Internet - Jeux - Cs">
+<META NAME="DESRIPTION" CONTENT="Tout sur Counter Strike et plus">
+<META NAME="KEYWORDS" CONTENT="sniperman,kirikiri,countersnip,counter-snip,cs,counter strike,counterstrike,wallpapers,fond d'écran,sms,loto,prizee,astuces,armes,skins,binds,alias,half life,maps,download,téléchargement,patchs,guide,dossier,aide,ping,fps,optimisation,mms,loteries,Orange,LAN,réseau,France,fr,hl key fr,1.5,1.3,1.4,Forum,Astuces,Console,commandes,Cheat,Hack,OGL,wallhack,liens,GBA,rom,Annuaire,">
+<META NAME="LANGUAGE" CONTENT="FR">
+<META NAME="robots" CONTENT="All">
+<STYLE TYPE=text/css>
+TD { font-family:Verdana;font-size:11px;color:white } 
+.menu { font-family:Verdana;font-size:12px;color:white } 
+.titre { font-family:Verdana;font-size:20px;color:white } 
+A.menu { font-family:Verdana;font-size:12px;color:white;text-decoration:none } 
+A:hover.menu { font-family:Verdana;font-size:12px;color:#FFCC00;font-weight:normal;text-decoration:none } 
+A { font-family:Verdana;font-size:11px;color:#FFFFFF;text-decoration:none } 
+A:hover { font-family:Verdana;font-size:11px;color:#FFCC00} 
+A.liens {color: #FFCC00; text-decoration:none}
+A:hover.liens {color:#FFE784; text-decoration:underline;} 
+A.ip {color: #B0EFFF;decoration:none }
+A:hover.ip {color:#DFF9FF;text-decoration:underline; } 
+
+
+BODY {SCROLLBAR-FACE-COLOR: #ffa534; SCROLLBAR-HIGHLIGHT-COLOR: #ffd756; SCROLLBAR-SHADOW-COLOR: #ff8312; SCROLLBAR-3DLIGHT-COLOR: #000000; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #8E908D; SCROLLBAR-DARKSHADOW-COLOR: #000000}.Style1 {color: #FFFFFF}
+.parent {font-family: verdana;font-weight: bold ;color: #CCCCCC;font-size: 12px;margin-top: 10;cursor: hand;margin-left: 6pt}
+.child {font-size: 9px;decoration: none;font-weight: normal;margin-left:10pt}
+.Style7 {font-size: 10px;
+	color: #FFFFFF;
+}
+.Style8 {
+	font-size: 12;
+	color: #FFFFCC;
+}
+</STYLE>
+<script language="javascript">
+<!--
+var intCount = 1;
+function DynamicMenu_addParent(strName) {
+	var strID = 'ID' + intCount++;
+	var strTemp = '<DIV ID="' + strID + '" CLASS="parent"';
+        strTemp += ' onClick="expandCollapse(this);">';
+	    strTemp += '<B>' + strName + '</B>'  
+        strTemp += '<DIV CLASS="child"></DIV>';
+        strTemp += '</DIV>';
+		this.div.innerHTML += strTemp;
+        this.currentChild = document.getElementById(strID);
+}
+
+function DynamicMenu_addChild(strName,strURL) {
+
+	var strTemp = '<A HREF="' + strURL + '"' + ' onClick="cancelBubble(arguments[0]);">' + strName + '</A><BR>';
+	if (document.all) {
+        	this.currentChild.children[1].innerHTML += strTemp;
+	} else {
+        	this.currentChild.childNodes[1].innerHTML += strTemp;
+	}
+	
+}
+
+function cancelBubble(netEvent) {
+	if (document.all) {
+		window.event.cancelBubble = true;
+	} else {
+        	netEvent.cancelBubble = true;
+	}
+}
+
+function expandCollapse(objElement) {
+
+	if (document.all) {
+        	var imgIcon = objElement.children[0];
+                objElement = objElement.children[1];
+	} else {
+        	var imgIcon = objElement.childNodes[0];
+                objElement = objElement.childNodes[2];
+	}
+	if (objElement.style.display == "none") {
+        	objElement.style.display = "block" ;
+                imgIcon.src = "bottomb.gif" ;
+	} else {
+        	objElement.style.display = "none" ;
+                imgIcon.src = "leftb.gif" ;
+	}
+}
+
+function DynamicMenu() {
+
+	var id = "Menu" + intCount++;
+        document.write('<DIV Id="' + id + '"></DIV>');		
+	this.div = document.getElementById(id);
+        this.currentChild = null;
+		
+	this.addParent = DynamicMenu_addParent;
+	
+        this.addChild = DynamicMenu_addChild;
+		
+}
+// -->
+
+</script>
+
+
+</HEAD>
+<BODY BGCOLOR=#000000 TEXT=#FFFFFF LINK=#0000FF VLINK=#800080 ALINK=#FF0000>
+
+<CENTER>
+
+<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH=774>
+  <TR>
+    <TD WIDTH=175><IMG SRC="images/haut3a.jpg" BORDER=0 WIDTH=175 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+      <TD WIDTH=579 BACKGROUND=images/top_cs.gif CLASS=titre> 
+        <!-- ICI, LE TITRE DEVOTRE SITE -->
+        Dossier Servers Counter Strike.<BR>
+        <IMG SRC="images/pixel.gif" BORDER=0 WIDTH=1 HEIGHT=13 HSPACE=0 VSPACE=0></TD>
+    <TD WIDTH=20><IMG SRC="images/top_d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+      	
+      	<!-- !!!!!!!!! DEBUT MENU !!!!!!!!!!! -->
+	  <TD WIDTH=175 BACKGROUND=images/fond_menu.gif VALIGN=top CLASS=menu> <IMG SRC="images/haut3b.jpg" BORDER=0 WIDTH=175 HEIGHT=115 HSPACE=0 VSPACE=0><BR>
+
+	<!-- DEBUT MENU 1 -->
+	<p><span class="parent"><img src="images/Puces/arrow2b.gif" width="10" height="13" align="absmiddle"> <a href="index.htm">Accueil</a></span><br>
+        <script language=Javascript type=text/javascript>
+var menu = new DynamicMenu();
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Site'); 
+//menu.addChild(' ', ' ');
+menu.addChild('- Me contacter', 'site_contact.html');
+menu.addChild('- Livre d&acute;or', 'http://www.maxiservices.net/livre/livre.php3?id=2810 ');		
+menu.addChild('- Chat', 'site_chat.html'); 
+menu.addChild('- Qui suis-je', 'site_quisuisje.html');
+menu.addChild('- Pubs', 'site_pub.html');
+      
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Counter Strike'); 
+menu.addChild(' ', ' ');
+//menu.addChild('- <b><font color=66CCFF>QuiZZzzz</font></b>', 'cs_quiz.php');
+//menu.addChild(' ', ' ');				
+menu.addChild('- Pr&eacute;sentation', 'cs_presentation.html');
+menu.addChild('- <b> Downloads</b>', 'cs_Downloads.html');
+menu.addChild('- Astuces', 'cs_Astuces.html');
+menu.addChild('- Armes', 'cs_armes.html');
+menu.addChild('- Binds & Alias', 'cs_Binds_&_Alias.html'); 
+menu.addChild('- PodBot', 'cs_Podbot.html');
+menu.addChild('- <b>R&eacute;duire son Ping</b>', 'cs_Ping.html');
+menu.addChild('- Dossier CS - Xbox', 'cs_xbox.html');
+menu.addChild('- Servers', 'cs_server.html');
+menu.addChild('- Easter Eggs', 'cs_EasterEgg.html');
+menu.addChild('- Counter Mania', 'cs_counterMania.html');
+menu.addChild('- Commandes', 'cs_console.html');
+menu.addChild('- Cheats', 'cs_cheats.html');
+menu.addChild('- Tag', 'cs_tag2.html');
+menu.addChild('- Liens', 'cs_liens.html');
+menu.addChild('- Wallpapers', 'cs_wallpapers.html');
+menu.addChild('- Tarte à la Fraise', 'cs_tarte.html');
+
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Steam'); 
+//menu.addChild(' ', ' ');
+menu.addChild('- T&eacute;l&eacute;chargement', 'steam_telechargement.html');
+menu.addChild('- <b>Pack LAN + BOT</b>', 'steam_nosteam.html'); 				 				
+menu.addChild('- Installation', 'steam_install.html');
+menu.addChild('- Utilitaires', 'steam_util.html');
+menu.addChild('- Binder 1.6', 'cs_Binder1.html');
+menu.addChild('- Lecteur MP3', 'steam_mp3.html');
+menu.addChild('- FAQ', 'steam_faq.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Half Life 2'); 
+//menu.addChild(' ', ' ');
+menu.addChild('- News', 'hl_news.html');
+menu.addChild('- Histoire', 'hl_hist.html');
+menu.addChild('- Armes', 'hl_armes.html'); 
+menu.addChild('- Personnages', 'hl_pers.html');
+menu.addChild('- Packs', 'hl_pack.html');			
+menu.addChild('- Screenshot', 'hl_screen.html');
+menu.addChild('- Art-Works', 'hl_screen3.html');
+menu.addChild('- Fond d&acute;&eacute;cran', 'hl_wallpapers.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Petits +'); 
+//menu.addChild(' ', ' ');
+menu.addChild('- Dossier Virus', 'plus_virus.html'); 				
+menu.addChild('- SMS & MMS gratuits', 'plus_sms.html');
+menu.addChild('- Mail Anonyme', '');
+menu.addChild('- M&eacute;t&eacute;o 48h', 'plus_meteo.html');
+menu.addChild('- Programme Cin&eacute; et TV', 'plus_cine.html');
+menu.addChild('- Annuaire Invers&eacute;', 'plus_annuaire.html');
+menu.addChild('- Traduction en ligne', 'plus_trans.html');
+menu.addChild('- Horoscope', 'plus_horoscopes.html');
+menu.addChild('- Auto-Biographie ;-)', 'plus_bio.html');
+menu.addChild('- Cartes et Itin&eacute;raires', 'plus_cartes.html');
+menu.addChild('- Loteries Gratuites', 'plus_loteries.html');
+menu.addChild('- Convertisseur', 'plus_calcu.html');
+
+
+
+          </script>
+        <br>
+    </p>
+	<TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+      <TR>
+        <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp; T&eacute;l&eacute;chargement &nbsp;&nbsp;</B></div></TD>
+      </TR>
+    </TABLE>
+	<p align="center">    
+	<MARQUEE behavior= "scroll" align= "center" direction= "up" height="80" scrollamount= "2" scrolldelay= "10" onmouseover='this.stop()' onmouseout='this.start()'>
+    <table align=center>
+      <tr>
+        <td align=center>
+          <p>- <a href="ftp://ftpclubic2.clubic.com/temp-clubic-rx1740/jeux/Counter-Strike_Mod_1.5_en_version_complete.exe"><strong>Counter Strike 1.5</strong></a> - <br>
+        127 mo </p>
+          <p>- <a href="steam_nosteam.html"><strong>Pack CS 1.6 OFFline</strong> -<br>
+              Dossier</a></p>
+          <p>- <a href="http://www.filemirrors.com/search.src?file=steaminstall_cs.exe&size=397857244" target="_blank"><strong>Counter Strike 1.6</strong></a> - <br>
+        Full 388 mo </p>
+          <p>- <a href="ftp://ftp.vugames.fr/pub/half-life/fhl1110.exe"><strong>Half life 1.1.1.0</strong></a> - <br>
+        Full 84 mo </p>
+          <p>- <a href="ftp://ftp.trusted-network.de/pub/games/pod25ins.exe"><strong>Pod Bot 2.5</strong></a> - <br>
+        2 mo</p>
+          <p>- <a href="http://akimbot.nuclearbox.com/akimbot030.zip"><strong>Akimbot Bot 3.0</strong></a> - <br>
+        0.3 mo </p>
+          <p>- <a href="Fichiers/SteamCustomizerv104.rar"><strong>Steam Customizer</strong></a> - <br>
+        0.3 mo </p>
+          <p class="Style1"><strong>- <a href="http://www.udpsoft.com/eye/download/newer/EyeInstaller.exe">All-Seeing Eyes</a> -<br>
+            </strong><a href="http://www.hl2-games.net/" target="_blank"><br>
+        </a></p></td>
+      </tr>
+    </table>
+	</MARQUEE>
+    <br>
+    <br>
+    <TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+      <TR>
+        <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp; Wallpapers : &nbsp;&nbsp;</B></div></TD>
+      </TR>
+    </TABLE>
+    <p align="center"><a href="images/Wallpapers/cs_39.jpg"><img src="images/Wallpapers/small/TN_cs_39.JPG" width="128" height="96" border="0"></a> <br>
+        <span class="Style7"><a href="cs_wallpapers.html">Tous les Wallpapers</a></span></p>
+    <p align="center"></p></TD>
+    <TD WIDTH=579 BGCOLOR=#364132 VALIGN=top ALIGN=center>
+	
+<!-- FIN HEADER -->
+	
+	<!-- DEBUT CADRE DE CONTENU 1 -->
+	<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=575>
+      <TR>
+        <TD WIDTH=25><IMG SRC="images/cad_bleu_hg.gif" BORDER=0 WIDTH=25 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+        <TD BACKGROUND=images/cad_bleue_h.gif WIDTH=523 CLASS=menu><b>Servers
+            CS .:. Introduction</b></TD>
+        <TD WIDTH=27><IMG SRC="images/cad_bleu_hd.gif" BORDER=0 WIDTH=27 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=25 BACKGROUND=images/cad_g.gif><IMG SRC="images/cad_g.gif" BORDER=0 WIDTH=25 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+        <TD BGCOLOR=#4D574A WIDTH=523><p><strong>Qu'est ce qu'un serveur ?</strong> je
+            ne sais pas exeactement mais pour faire simple, c'est un ordinateur
+            reli&eacute;
+            &agrave; Internet par une bonne connection qui permet de relier entre-eux
+            plusisuers personnes pour quelles puissent jouer ensemble.</p>
+          <blockquote>
+            <p><img src="images/Puces/pucerouge.gif" width="10" height="10"> <a href="#search" class="liens">Rechercher
+              un Server par Crit&egrave;re ou un Joueur</a><br>
+              <img src="images/Puces/pucerouge.gif" width="10" height="10"> <a href="#servers" class="liens">Liste
+              de Server Fran&ccedil;ais</a><br>
+              <img src="images/Puces/pucerouge.gif" width="10" height="10"> <a href="#help" class="liens">Aide
+              : Comment entrer dans un server ??</a><br>
+              <img src="images/Puces/pucerouge.gif" width="10" height="10"> <a href="#loue" class="liens">Comment louer un server ? A quel prix ?</a> <br>
+            </p>
+            </blockquote></TD>
+        <TD WIDTH=27 BACKGROUND=images/cad_d.gif><IMG SRC="images/cad_d.gif" BORDER=0 WIDTH=27 HEIGHT=12 HSPACE=0 VSPACE=0></TD>
+      </TR>
+      <TR>
+        <TD COLSPAN=3><IMG SRC="images/cad_b.gif" BORDER=0 WIDTH=575 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+      </TR>
+    </TABLE>
+	<p><a name="search"></a></p>
+	<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=575>
+      <TR>
+        <TD WIDTH=25><IMG SRC="images/cad_bleu_hg.gif" BORDER=0 WIDTH=25 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+        <TD BACKGROUND=images/cad_bleue_h.gif WIDTH=523 CLASS=menu><b>Servers
+            CS .:. Rechercher un Server ou un Joueur : </b></TD>
+        <TD WIDTH=27><IMG SRC="images/cad_bleu_hd.gif" BORDER=0 WIDTH=27 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=25 BACKGROUND=images/cad_g.gif><IMG SRC="images/cad_g.gif" BORDER=0 WIDTH=25 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+        <TD BGCOLOR=#4D574A WIDTH=523>          <form id="01" action=http://www.gametiger.net/search method=get target=_blank>
+            <blockquote>
+              <p><font color="#000066"><strong><font color="#FFFF99">- Un
+                Joueur :&nbsp;</font></strong></font><font color="#FFFF99">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input name=player>
+                <br>
+                </font>                                  </p>
+            </blockquote>
+        </form>
+          <form action=http://www.gametiger.net/search method=get 
+                        target=_blank>
+            <font color="#FFFF00">          </font><font color="#000066"><strong></strong></font> 
+            <blockquote>
+              <p><font color="#000066"><strong><font color="#FFFF99">- </font></strong></font><font color="#FFFF99"><strong>Un
+                Server par Nom :</strong> &nbsp;&nbsp;&nbsp;</font><font color="#FFFF00">&nbsp;
+                <input name=server>
+                    </font>              </p>
+            </blockquote>
+          </form>
+          <form action=http://www.gametiger.net/search method=get 
+                        target=_blank>
+            <font color="#FFFF00">            </font><font color="#000066"><strong></strong></font> 
+            <blockquote>
+              <p><font color="#000066"><strong><font color="#FFFF99">- </font></strong></font><font color="#FFFF99"><strong>Un
+                Server par Map :&nbsp;</strong> &nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#FFFF00">
+                <input name=map>
+                    </font>              </p>
+            </blockquote>
+          </form>
+          <div align="center">
+            <form action=http://www.gametiger.net/search method=get target=_blank>
+              <div align="left"></div>
+              <blockquote>
+                <div align="left"><font color="#000066"><strong><font color="#FFFF99">- </font></strong></font><font color="#FFFF99"><strong>Un
+                          Server par IP :</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><font color="#FFFF00">&nbsp;&nbsp;&nbsp;</font>
+                      <input name=address>
+                    </div>
+              </blockquote>
+            </form>
+            <em><font color="#999999" size="1"> Valider par &quot;ENTRER&quot; dans
+            la case voulue. </font></em></div>
+        </TD>
+        <TD WIDTH=27 BACKGROUND=images/cad_d.gif><IMG SRC="images/cad_d.gif" BORDER=0 WIDTH=27 HEIGHT=12 HSPACE=0 VSPACE=0></TD>
+      </TR>
+      <TR>
+        <TD COLSPAN=3><IMG SRC="images/cad_b.gif" BORDER=0 WIDTH=575 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+      </TR>
+    </TABLE>	
+	<a name="servers"></a><br>
+	<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=575>
+  		<TR>
+    		<TD WIDTH=25><IMG SRC="images/cad_bleu_hg.gif" BORDER=0 WIDTH=25 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+    		<TD BACKGROUND=images/cad_bleue_h.gif WIDTH=523 CLASS=menu><b>Servers CS
+    		    .:. Servers Fran&ccedil;ais
+   		     :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       </b></TD>
+    		<TD WIDTH=27><IMG SRC="images/cad_bleu_hd.gif" BORDER=0 WIDTH=27 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  		<TR>
+    		<TD WIDTH=25 BACKGROUND=images/cad_g.gif><IMG SRC="images/cad_g.gif" BORDER=0 WIDTH=25 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+    		<TD BGCOLOR=#4D574A WIDTH=523><p align="center" class="Style8">
+			
+			 <img src="images/Puces/puceverte.gif" width="10" height="10"> Un tr&egrave;s bon server : Celui de ma Team ! Fun Map a volont&eacute; <img src="images/Puces/puceverte2.gif" width="10" height="10"><br>
+			IP : 
+
+
+            <span class="Style1"><strong>game2.ikoula.com:27016</strong></span><br>
+ Stats : <a href="http://psycho.gamikzone.com/game2.ikoula.com.27016/"><strong>ici</strong></a> <br>
+ Pack Map: <a href="http://www.counterstrikefrance.com/maps.htm"><strong>ici</strong></a> 
+    		  <p> 		                  
+    		  <MARQUEE behavior= "scroll" align= "center" direction= "up" height="150" scrollamount= "2" scrolldelay= "10" onmouseover='this.stop()' onmouseout='this.start()'>&nbsp;    		<li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=212">Ax.K SerVer | pass : axk (217.174.198.68)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=142">#*bfb* pass=bfb (217.174.198.50)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=305">#clan-Lee Serveur FFA CS 1.6 (62.93.224.100)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=79">#Clan86 and #Clan-Lee ServeR FFA #1 (62.93.224.100)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=249">#Dxc.Crew powered by #mapping-area (213.186.32.34)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=133">#FraG.FoU / #teamSRT (62.93.224.100)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=329">#niqueurs-nes (81.91.67.100)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=86">#server No.pLaYer (62.93.224.104)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=115">#Team-Clash ll pass: public (62.212.75.79)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=83">#[T.F] http://www.the-f1rm.net (62.93.224.100)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=108">*aAa* Powered by Arene.com (212.73.235.202)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=105">*ArA* < Clan.Fr > (62.93.224.109)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=166">*dAsE* cs_mansion ONLY (80.202.58.28)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=3">*oOo* and Eagle.Team (80.65.238.141)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=90">*skYzo*| team server (62.93.224.104)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=97">- Master $avage Team - (62.93.224.107)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=106">-= Team OHM =- pass:teamOHM (81.91.66.185)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=245">-= wWw =- Teams serveur (192.168.0.127)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=88">-=)GIT(=- ClanServeur #*GIT* (62.93.224.104)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=107">-=[RXG]=- TEAM 1 Serveur (193.110.79.158)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=96">-=[S.O.R.T]=-*BuM Fight Server* (62.93.224.107)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=1">-=[_S@S_]=-*|-S@S-Girls--|*Serveur CS 1.6 (62.210.134.197)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=87">-={C.v.X}=- pass:cvx (62.93.224.104)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=117">-[C.v.X]- http://www.ifrance.com/cstitane (62.93.224.104)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=233">217.174.198.49:27016 hF | Clan Server (217.174.198.49)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=140"><|LCDL|> Team -- La Confrerie Des Lutins (217.174.198.24)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=91">=== [.:RTT:.] === Serveur CS (62.93.224.104)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=167">=BcS=*-Bang Bang*- (82.65.116.33)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=199">airstrike klan  www.airstrike.fr.st (62.212.74.19)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=288">AQITN AQuitaine InTer Noobs (217.174.198.34)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=205">benji serveur cs (82.63.213.81:27)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=26">club-internet.fr cs 01 - TheNice (194.158.96.90)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=25">club-internet.fr cs 02 - NoFrag.com (194.158.96.90)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=52">club-internet.fr cs 03 - [Oldschool] (194.158.96.95)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=28">club-internet.fr cs 04 - NuQuE (194.158.96.90)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=31">club-internet.fr cs 05 - -=K2F=- (194.158.96.90)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=30">club-internet.fr cs 06 - PnT (194.158.96.90)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=27">club-internet.fr cs 07 - JTE (194.158.96.90)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=22">club-internet.fr cs 08 - PetitsBiscuits (194.158.96.91)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=34">club-internet.fr cs 09 - ONYX (194.158.96.93)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=35">club-internet.fr cs 10 - [PP] (194.158.96.93)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=53">club-internet.fr cs 11 - [RECRE@2] (194.158.96.94)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=54">club-internet.fr cs 12 - -=NX=- (194.158.96.94)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=55">club-internet.fr cs 13 - -=[DfP]=- (194.158.96.94)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=56">club-internet.fr cs 14 - AmiTy (194.158.96.94)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=57">club-internet.fr cs 15 - [MaZo] (194.158.96.95)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=58">club-internet.fr cs 16 - [DoG] (194.158.96.95)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=59">club-internet.fr cs 17 - [Mercs] (194.158.96.95)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=60">club-internet.fr cs 18 - #CLEBS (194.158.96.89)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=61">club-internet.fr cs 19 - *nO | L!m!T* (194.158.96.89)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=62">club-internet.fr cs 20 - -=[STI]=- (194.158.96.89)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=178">Cs <Tux> serveur (82.67.253.64)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=64">CS-Fusion.com - rcon to Bou (212.198.3.151)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=99">CyberToulon.com / Clan MbT (62.93.224.108)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=36">darkseed . networks - CS v1.5 #08 Gather 3 (213.171.64.212)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=164">dAsE CS 2 Server (80.202.56.212)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=102">DUSTR | dustr.free.fr (62.93.224.109)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=38">Easyconnect #02 CS - www.CsFrance.com (212.180.2.132)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=47">Easyconnect #03 CS - www.RezoFrance.com (212.180.2.132)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=49">Easyconnect #04 CS - RFH (212.180.2.134)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=42">Easyconnect #05 CS - 23RnD (212.180.2.134)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=50">Easyconnect #07 CS - ]MaYa[ (212.180.2.133)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=51">Easyconnect #08 CS - [Lolilou] (212.180.2.133)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=110">EpiKnet [sk8] - ewufs ] (213.246.38.42)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=17">FR - CS10.GAMEREZO.COM (62.93.224.109)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=104">FR - CS57.GAMEREZO.COM - Clan [RyL] (62.93.224.109)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=18">FR - CS6.GAMEREZO.COM - WAR3 (62.93.224.107)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=19">FR - CS7.GAMEREZO.COM (62.93.224.103)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=20">FR - CS8.GAMEREZO.COM (62.93.224.104)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=21">FR - CS9.GAMEREZO.COM (62.93.224.100)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=241">Fr - WAIB [#026] Team =}RaFaLe{= (213.186.32.11)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=242">Fr - WAIB [#026] Team =}RaFaLe{= (213.186.32.11)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=180">FR.C==/:K'niBAL:::> (213.246.38.42)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=208">fr05 (62.4.71.13)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=294">France HOMER 23RnD (81.2.146.56)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=113">French Killer Team (pass French) (81.91.66.187)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=80">Furious Clan (62.93.224.100)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=4">GAMES-FED 01 GS cd (212.43.239.174)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=5">GAMES-FED 02 GS cd (212.43.239.174)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=6">GAMES-FED 03 GS cd (212.43.239.171)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=7">GAMES-FED 04 GS cd (212.43.239.171)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=8">GAMES-FED 05 GS FF ON cd (212.43.239.170)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=9">GAMES-FED 06 GS FF ON cd (212.43.239.170)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=10">GAMES-FED 07 respawn (test) (212.43.239.173)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=11">GAMES-FED 08 STATS cd req (212.43.239.173)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=12">GAMES-FED 09 WAR III cd req (212.43.239.173)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=13">GAMES-FED 10 STATS cd req (212.43.239.175)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=14">GAMES-FED 11 cd (212.43.239.175)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=15">GAMES-FED 12 FF ON STATS cd req (212.43.239.175)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=148">Gameserver.net P3 team arena pass p3 (62.212.73.138)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=109">GamikZone.com serveur ~HDC~ (213.246.38.40)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=89">Gladiator In Soul (62.93.224.104)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=92">Glass Team - #glass on Quakenet (62.93.224.104)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=78">GoodGame : GG | Server#1 - Gamerezo.com (62.93.224.100)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=132">Hankey serveur (81.50.68.227)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=248">http://mapping-area.fr.st serveur #1 (213.161.196.54)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=48">jolt.co.uk - (02) CS [CD REQ] (195.149.21.40)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=192">KYSER KILL (62.212.73.139)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=193">KYSER KILL (62.212.73.139)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=93">L e C l o i T r E - | e s u s . a r m y - (62.93.224.107)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=259">La grande agence (217.174.198.32)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=95">Les BarGes's Serveur (serveur psychiatrique) (62.93.224.107)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=303">Master's CS1.6 Serveur (195.36.182.176)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=23">NOOS CS 1.5 Server 1 FF OFF (212.198.3.151)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=29">NOOS CS 1.5 Server 2 FF OFF (212.198.3.151)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=24">NOOS CS 1.5 Server 3 FF ON (212.198.3.151)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=32">NOOS CS 1.5 Server 4 FF ON (212.198.3.151)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=251">PierreKill's Serveur : SuperHeros Mod (81.48.160.248)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=81">RESA1.GAMEREZO.COM (62.93.224.100)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=295">Rest In Peace (195.80.158.132)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=44">REZOLAND.NET CS #1 (212.43.237.5)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=98">Rings`mSo #rings PASS: ring pass (62.93.224.107)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=122">SERVER Oxygene #team-o2 (217.174.198.14)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=94">Serveur (TOXB) [Clan Biterrois] FRANCE (62.93.224.107)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=116">Serveur de LA POUTRE (195.20.104.55)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=246">serveur public du la team [NiGhT'Z] (213.246.38.40:2)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=100">Serveur SoLaRiS - Powered by Gamerezo (62.93.224.109)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=111">Serveur [Clan]-*StaR* (62.4.77.214)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=134">SH-dynanetwork.net [Pass: PLAY] (195.20.104.181)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=318">So'G Clan Server (sog.hopto.org)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=162">SUPERHERO Mod, CLANDN.COM (67.86.209.63)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=114">Supreme-G@mers Official Server (213.246.38.45)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=125">team #n-o war server (team-no.ath.cx)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=103">Team #s@m (62.93.224.109)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=112">TEAM -=]CNBF[=- (213.246.38.104)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=85">Team FuN | www.cstrike-FuN.fr.st | #F.U.N @ Qnet (62.93.224.103)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=247">Team SkD pass : skd  | 1.6 | Recrut : ON (217.174.198.68)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=279">Team [BGO] pass: bgo 217.174.198.63:27015 (217.174.198.63)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=317">team ]EfK[-SeRvEuR- cs 1.6 | #-efk- O (81.91.67.92)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=163">Team _=[Nemesis]=_ (213.246.38.5)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=255">The lol@ crazy serveur (62.244.72.14)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=84">The nbrulz | #nbrulz @ Qn | WWCL (62.93.224.103)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=157">TournoiCS #1 - Powered by LokaGames (62.73.5.129)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=158">TournoiCS #2 - Powered by LokaGames (62.73.5.86)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=146">ToUs Sh3pp3rS & ==*[ORC]*== (62.212.74.121)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=41">UK Bruce Lee - Full Rotation (213.40.195.70)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=46">UK2.NET 053 PISTOLS ONLY (213.232.110.15)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=39">UK2.NET 055 Assault Dust ONLY Only Cool People (213.232.110.15)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=37">UK2.NET 063 Maps10 Pool of Blood (213.232.110.16)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=45">UK2.NET 072 Dust 1+2 Chop your head off (213.232.110.17)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=43">UK2.NET 075 Assault2k I hate liver (213.232.110.17)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=63">UK2.NET 111 BEGINNERS ONLY Dust (213.232.110.21)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=296">www.gserv.org | FAI Team | pass : FAI (217.174.198.135)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=124">Yao Mien (195.20.104.17)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=226">[ zR ] Team Fr - pass : gay (217.174.198.56)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=195">[///] Slash Team Server (195.20.104.57)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=77">[FKB]*Kl4n* Server (62.93.224.100)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=152">[HP]Hamsterpsychiatrie (62.4.81.234)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=101">[RNeW] Le clan -=|C0m3 b4cK| (62.93.224.109)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=174">[Server-#eGz.TeaM].[RaB.TeaM] (62.212.75.132)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=188">[x@no]Clan cs 1.5 Server (217.161.1.205)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=82">]-FR- TiTi-CuBe & SurvivoR SERVER [ (62.93.224.100)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=231">]SSJ4[ & |> OFF <| (62.93.224.103)</a></li><li><a  target="_blank" href="http://www.counter-france.net/modules.php?name=Gameserver&amp;type=detail&amp;serverid=145">|[Acc]|-Clan serveur - Public & Prive (62.4.77.213)</a></li>
+  		  </MARQUEE></TD>
+    		<TD WIDTH=27 BACKGROUND=images/cad_d.gif><IMG SRC="images/cad_d.gif" BORDER=0 WIDTH=27 HEIGHT=12 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  		<TR>
+    		<TD COLSPAN=3><IMG SRC="images/cad_b.gif" BORDER=0 WIDTH=575 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  	</TABLE>
+	<a href="http://www.xiti.com/xiti.asp?s=98910" TARGET="_top"></a><a href="http://www.xiti.com/xiti.asp?s=98910" TARGET="_top"><b><a name="help"></a></b><br>
+</a>
+	<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=575>
+      <TR>
+        <TD WIDTH=25><IMG SRC="images/cad_bleu_hg.gif" BORDER=0 WIDTH=25 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+        <TD BACKGROUND=images/cad_bleue_h.gif WIDTH=523 CLASS=menu><b>Servers
+            CS .:. Comment se connecter ?</b></TD>
+        <TD WIDTH=27><IMG SRC="images/cad_bleu_hd.gif" BORDER=0 WIDTH=27 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=25 BACKGROUND=images/cad_g.gif><IMG SRC="images/cad_g.gif" BORDER=0 WIDTH=25 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+        <TD BGCOLOR=#4D574A WIDTH=523><p>Pour se connecter &agrave; un server,
+              il y a 2 mani&egrave;re :</p>
+          <blockquote>
+            <p><em><img src="images/Puces/pucebleue.gif" width="10" height="10"> </em><strong><font color="#CCFF00">1a&deg;)</font><font color="#FFFF00">                  Dans Counter Strike 1.5 :</font></strong></p>
+            <blockquote>
+              <p>- Lances Counter Strike<br>
+                    - Cliques sur <strong><font color="#FFFFCC">[ Play CS ] [
+                    Multijoueur ]</font></strong><br>
+                    - Cliques sur <strong><font color="#FFFFCC">[ Internet Games
+                    ] [ Partie Internet ]</font></strong><br>
+                    - Cliques sur <strong><font color="#FFFFCC">[ Filter ] [
+                    Filtre ]</font></strong><br>
+                    - Coches<strong><font color="#FFFFCC">[ Sont dans ma liste
+                    de Favoris ] </font></strong><br>
+                    - Valides en cliquant sur<strong> <font color="#FFFFCC">[
+                    Filter ] [ Filtre ]</font></strong><br>
+                    - Cliques sur <strong><font color="#FFFFCC">[ Add Server
+                    ] [ Ajouter un server ]</font></strong><br>
+                    - Tapes l'adresse du server + OK<br>
+                    - Et voil&agrave; ! </p>
+              </blockquote>
+            <p><em><img src="images/Puces/pucebleue.gif" width="10" height="10"><font color="#CCFF33"> </font></em><font color="#CCFF33"><strong>1b&deg;)</strong></font><strong><font color="#FFFF00">                  Dans Counter Strike 1.6 :</font></strong> </p>
+            <blockquote>
+              <p>- Lances Steam <br>
+                - S&eacute;lectionnes SERVERS <br>
+                - Ouvres l'onglet Favoris<br>
+                - Click avec le bouton droit au milieu de la fen&ecirc;tre<br>
+                - S&eacute;lectionnes &quot;Add server by IP adress&quot;<br>
+                - Entres l'adresse voulu + OK<br>
+                - Double click sur ce server
+                </p>
+              </blockquote>
+            <p><em><img src="images/Puces/pucebleue.gif" width="10" height="10"><font color="#CCFF33"> </font></em><font color="#CCFF33"><strong>2&deg;)</strong></font><strong><font color="#FFFF00">                  Avec un logiciel :</font></strong></p>
+            <blockquote>
+              <p><strong><font color="#FFFFFF">- </font></strong><font color="#FFFFFF">T</font><font color="#FFFFFF">&eacute;l&eacute;charges
+                  ce  petit logiciel : <a href="Fichiers/Fast_Connector.zip" class="liens">HL
+                  Fast Connector 2</a> ( 20ko )<br>
+                  - 
+              Lors de la primi&egrave;re utilisattion, cliquez sur Config et montres
+                  lui o&ugrave; se trouve HL.<br>
+                  - S&eacute;lectionnes &quot;cstrike&quot; dans la ligne MOD<br>
+                  - Tapes l'adresse puis cliques sur <strong>RUN</strong>.<br>
+                  - Et voil&agrave;, C'est tout.
+                   </font></p>
+            </blockquote>
+            </blockquote>
+          </TD>
+        <TD WIDTH=27 BACKGROUND=images/cad_d.gif><p><IMG SRC="images/cad_d.gif" BORDER=0 WIDTH=27 HEIGHT=12 HSPACE=0 VSPACE=0></p>
+          <p><br>
+          </p></TD>
+      </TR>
+      <TR>
+        <TD COLSPAN=3><p><IMG SRC="images/cad_b.gif" BORDER=0 WIDTH=575 HEIGHT=20 HSPACE=0 VSPACE=0><br>
+          <font color="#FFFFFF"><a name="loue"></a></font>          <br>
+            </p>          </TD>
+      </TR>
+    </TABLE>
+	<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=575>
+      <TR>
+        <TD WIDTH=25><IMG SRC="images/cad_bleu_hg.gif" BORDER=0 WIDTH=25 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+        <TD BACKGROUND=images/cad_bleue_h.gif WIDTH=523 CLASS=menu><b>Comment louer un server ? A quel prix ? </b></TD>
+        <TD WIDTH=27><IMG SRC="images/cad_bleu_hd.gif" BORDER=0 WIDTH=27 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+      </TR>
+      <TR>
+        <TD WIDTH=25 BACKGROUND=images/cad_g.gif><IMG SRC="images/cad_g.gif" BORDER=0 WIDTH=25 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+        <TD BGCOLOR=#4D574A WIDTH=523> <p>Si vous avez une Team qui veut un server, cela n ec&ucirc;te pas ex&eacute;civement cher gr&agrave;ce au site <strong>GamikZone</strong>. </p>
+          <p>Les servers propos&eacute;s ont <strong>tr&egrave;s peu de ping,</strong> il sont tr&egrave;s utilis&eacute;s par de <strong>nombreuses Team</strong>.</p>
+          <p>A partir de 22&euro; par mois, vous avez un :</p>
+          <blockquote>
+            <p>- 500mo pour les maps<br>
+              - Administration AMX<br>
+              - PsychoStats<br>
+              - Support IRC<br>
+              - .........
+            </p>
+            </blockquote>          <p align="center"><a href="http://www.gamikzone.com" target="_blank"><img src="http://www.gamikzone.com/gamik.gif" border="0"></a>&nbsp;</p></TD>
+        <TD WIDTH=27 BACKGROUND=images/cad_d.gif><IMG SRC="images/cad_d.gif" BORDER=0 WIDTH=27 HEIGHT=12 HSPACE=0 VSPACE=0></TD>
+      </TR>
+      <TR>
+        <TD COLSPAN=3><IMG SRC="images/cad_b.gif" BORDER=0 WIDTH=575 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+      </TR>
+    </TABLE>	<a href="http://www.xiti.com/xiti.asp?s=98910" TARGET="_top"><br>
+<script language="JavaScript1.1">
+<!--
+hsh = new Date();
+hsd = document;
+hsr = hsd.referrer.replace(/[<>]/g, '');
+hsi = '<img width="39" height="25" border=0 ';
+hsi += 'src="http://logv20.xiti.com/hit.xiti?s=98910';
+hsi += '&p=Server';
+hsi += '&hl=' + hsh.getHours() + 'x' + hsh.getMinutes() + 'x' + hsh.getSeconds();
+if(parseFloat(navigator.appVersion)>=4)
+{Xiti_s=screen;hsi += '&r=' + Xiti_s.width + 'x' + Xiti_s.height + 'x' + Xiti_s.pixelDepth + 'x' + Xiti_s.colorDepth;}
+hsd.writeln(hsi + '&ref=' + hsr.replace(/&/g, '$') + '" title="Mesurez votre audience"><\!--');
+//-->
+</script>
+<noscript>
+<img width="39" height="25" border=0 src="http://logv20.xiti.com/hit.xiti?s=98910&p=Server&" title="Mesurez votre audience">
+</noscript>
+<!--//-->
+	</a>	</p></TD>
+    <TD WIDTH=20 BACKGROUND=images/d.gif><IMG SRC="images/d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+  	<TD COLSPAN=3><IMG SRC="images/bas.jpg" BORDER=0 WIDTH=774 HEIGHT=32 USEMAP="#bas"></TD>
+  </TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>
+<!-- FIN FOOTER -->

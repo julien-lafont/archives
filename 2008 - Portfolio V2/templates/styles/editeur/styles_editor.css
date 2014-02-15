@@ -1,0 +1,8 @@
+h1 { font-family:Georgia; font-size:25px; font-weight:normal; padding-bottom:5px; font-variant:small-caps; border-bottom:1px solid #AAA; width:555px; color:#FFF; margin-bottom:15px; padding-left:15px }
+h2 { font-family:Georgia; font-size:20px; font-weight:normal; padding-bottom:5px; border-bottom:1px solid #666; width:515px;color:#FFF; margin-bottom:15px; padding-left:20px; margin-left:35px }
+h3 { font-family:Georgia, "Times New Roman", Times, serif; font-size:20px; font-variant:small-caps; color:#FFF; font-weight:normal; margin-bottom:10px}
+h4 { font-family:Georgia, "Times New Roman", Times, serif; font-size:20px; font-style:italic; color:#FFF; font-weight:normal; margin-bottom:10px}
+h5 { font-family:Georgia, "Times New Roman", Times, serif; font-size:16px; font-style:italic; color:#FFF; font-weight:normal; margin-bottom:10px}
+
+body { background-color:#000; font-family:Verdana, Arial, Helvetica, sans-serif; color:#d5d5d5; font-family:verdana; font-size:12px; text-decoration:none }
+div, td, p, span, a, label { color:#d5d5d5; font-family:verdana; font-size:12px; text-decoration:none}

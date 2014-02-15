@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench version="2.0">
+<workbenchAdvisor/>
+<window x="132" y="168" width="1024" height="768">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="95" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.aptana.ide.editors.actionSet" itemType="typeToolBarContribution" x="59" y="22"/>
+<coolItem id="com.aptana.ide.scripting.actionSet" itemType="typeToolBarContribution" x="36" y="22"/>
+<coolItem id="com.aptana.ide.server.ui.launchActionSet" itemType="typeToolBarContribution" x="49" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="36" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="108" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.aptana.ide.editors.JSEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page label="Workspace - Aptana" focus="true">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder expanded="2" appearance="1">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+</editors>
+<views>
+<view id="com.aptana.ide.js.ui.views.profilesView" partName="Code Assist Profiles">
+<viewState/>
+</view>
+<view id="com.aptana.ide.js.ui.views.problemsView" partName="Problems (0 errors, 0 warnings)">
+<viewState/>
+</view>
+<view id="com.aptana.ide.js.ui.views.actionsView" partName="Actions">
+<viewState/>
+</view>
+<view id="com.aptana.ide.js.ui.views.FileExplorerView" partName="File">
+<viewState tree="rO0ABXcIAAAAAAAAAAE=" images="AEJNNgMAAAAAAAA2AAAAKAAAABAAAAAQAAAAAQAYAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAKmo&#x0A;pmhtZG1yaXl8dYqFhJiRkaCZmqahoa6qqre0tL+8vMjGxs/OztbW1t3d3fLy8nd7b2p+Y2h9YWh9&#x0A;YYR8dpWEg5WEhJODg5KCgo9/f459fYp6eod5eYh7e4p+f6WgoGxjYGJYU2FYU2JaVWhcWWxgXm9m&#x0A;ZIF+e4WBfoiEgYyHhJCJhoiBf5GLiJuUkpaPjXNoZoB0cYFzcX9yb35wbXpsal5XVFNeWlVjXlhn&#x0A;YVxsZl1sZ15uaF5uaV1rZ15nZIN6eKqioK2npbCqqKympKihn29raGB1bWF4cWN6cmR7c2R7c2J3&#x0A;cF9zbFxvaFxoY42FhK+op7OtrLq0srewr6+pp3Z0b2V7dGR7c2N3cF9ya11tZ1xrZVllYFhhXF9k&#x0A;YZeQj7ixr7u0s8C4t7qzsrStq3x3c2NzbWFvaWNsZ3F3c4iMiZ6fnLi2s8O+u6WfnJ+Zl723try1&#x0A;s8G5uL+3trmxr46Fgaahm7qyrce7tdPKxtHHwtDEv9bLxdbNx7Krp6ehn8O+vcXAv8a/vsS8u8C3&#x0A;tZ2Pi8a3r8q6ssy8tNXIwtrPy9vQzOfh39nQy62jnq2npsXBwMjEw8jCwcC3trmvrZ+Qi8Oyqd7V&#x0A;0dvQy8m3r9LEvtnNyODZ1Mq8tKaclq+rqre1s8nBv8rCwMnAvr6wraublcGupci2rcOupL6onb6n&#x0A;ndjOyMu8tr6up66mo724ttHMytXMydXMytPJxtHGws3CvszAusi5sse3sMa2r8S1rcS3scW4scG1&#x0A;r7Gqp8K/vdvW093Y1d3Y1d3X1dzV0tfPzNXNydTMyNbPzNXOys7Ev8vBvMvBvM3FwbSvrMjFxOLd&#x0A;2+Tf3ePe3OHc2t/a2N7Y1dvW09zX1t3Z19fT0dHLyM3Gw87KyM7Lyry7usfGxePg4OXi4OLg3+He&#x0A;3d7b2tjW1c3LysTCwsXExMPCwsXExNDPz9jY1+Li4vT09M3NzcvLys/Ozs7NzdHR0dra2uPj4+/v&#x0A;7/n5+fv7+/v7+/v7+/z8/Pz8/P7+/v///w=="/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="com.aptana.ide.core.ui.AptanaNavigator" partName="Project"/>
+</views>
+<perspectives activePerspective="com.aptana.ide.js.ui.WebPerspective" activePart="com.aptana.ide.editors.JSEditor">
+<perspective version="0.016" editorAreaVisible="1" fixed="0">
+<descriptor id="com.aptana.ide.js.ui.WebPerspective" label="Aptana" class="com.aptana.ide.core.ui.WebPerspectiveFactory"/>
+<alwaysOnActionSet id="com.aptana.ide.core.ui.actionSet"/>
+<alwaysOnActionSet id="com.aptana.ide.editors.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.openExternalFile"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.update.ui.softwareUpdates"/>
+<alwaysOnActionSet id="com.aptana.ide.server.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="com.aptana.ide.scripting.actionSet"/>
+<show_view_action id="com.aptana.ide.js.ui.views.actionsView"/>
+<show_view_action id="com.aptana.ide.core.ui.AptanaNavigator"/>
+<show_view_action id="com.aptana.ide.js.ui.views.FileExplorerView"/>
+<show_view_action id="com.aptana.ide.js.ui.views.profilesView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="com.aptana.ide.js.ui.views.problemsView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<new_wizard_action id="com.aptana.ide.editors.wizards.file.cssUntitledWizard"/>
+<new_wizard_action id="com.aptana.ide.editors.wizards.file.htmlUntitledWizard"/>
+<new_wizard_action id="com.aptana.ide.editors.wizards.file.jsUntitledWizard"/>
+<new_wizard_action id="com.aptana.ide.editors.wizards.file.ScriptDocUntitledWizard"/>
+<new_wizard_action id="com.aptana.ide.editors.wizards.file.xmlUntitledWizard"/>
+<new_wizard_action id="com.aptana.ide.editors.wizards.file.UntitledTextFileWizard"/>
+<perspective_action id="com.aptana.ide.js.ui.WebPerspective"/>
+<view id="com.aptana.ide.js.ui.views.profilesView"/>
+<view id="com.aptana.ide.js.ui.views.FileExplorerView"/>
+<view id="com.aptana.ide.core.ui.AptanaNavigator"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="com.aptana.ide.js.ui.views.actionsView"/>
+<view id="com.aptana.ide.js.ui.views.problemsView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<layout>
+<mainWindow>
+<info part="leftTop" folder="true">
+<folder activePageID="com.aptana.ide.js.ui.views.profilesView" expanded="2" appearance="2">
+<page label="Code Assist Profiles" content="com.aptana.ide.js.ui.views.profilesView"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.internal.ViewStack@1f38fc6" relative="leftTop" relationship="2" ratioLeft="754" ratioRight="252" ratio="0.74950296" folder="true">
+<folder expanded="2" appearance="2">
+<page label="LabelNotFound" content="org.eclipse.help.ui.HelpView"/>
+<page label="LabelNotFound" content="org.eclipse.ui.internal.introview"/>
+<page label="LabelNotFound" content="org.eclipse.ui.cheatsheets.views.CheatSheetView"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" relative="leftTop" relationship="2" ratioLeft="201" ratioRight="805" ratio="0.19980119"/>
+<info part="right" relative="org.eclipse.ui.editorss" relationship="2" ratioLeft="644" ratioRight="161" ratio="0.8" folder="true">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" expanded="2" appearance="2">
+<page label="Outline" content="org.eclipse.ui.views.ContentOutline"/>
+<page label="LabelNotFound" content="com.aptana.ide.js.ui.views.walkthrough.WalkthroughView"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="rightBottom" relative="right" relationship="4" ratioLeft="528" ratioRight="132" ratio="0.8" folder="true">
+<folder activePageID="com.aptana.ide.js.ui.views.actionsView" expanded="2" appearance="2">
+<page label="Actions" content="com.aptana.ide.js.ui.views.actionsView"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="bottom" relative="org.eclipse.ui.editorss" relationship="4" ratioLeft="528" ratioRight="132" ratio="0.8" folder="true">
+<folder activePageID="com.aptana.ide.js.ui.views.problemsView" expanded="2" appearance="2">
+<page label="Problems (0 errors, 0 warnings)" content="com.aptana.ide.js.ui.views.problemsView"/>
+<page label="Console" content="org.eclipse.ui.console.ConsoleView"/>
+<page label="LabelNotFound" content="com.aptana.ide.js.ui.views.GenericScriptableView:*"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info part="left" relative="leftTop" relationship="4" ratioLeft="198" ratioRight="462" ratio="0.3" folder="true">
+<folder activePageID="com.aptana.ide.js.ui.views.FileExplorerView" expanded="2" appearance="2">
+<page label="File" content="com.aptana.ide.js.ui.views.FileExplorerView"/>
+<page label="Project" content="com.aptana.ide.core.ui.AptanaNavigator"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<navigationHistory/>
+<stickyState/>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+</window>
+<mruList/>
+</workbench>

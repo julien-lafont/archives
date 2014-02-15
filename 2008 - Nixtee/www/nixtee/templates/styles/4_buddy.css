@@ -1,0 +1,68 @@
+.quart { margin:0; padding: 0; border:0; width: 100%; }
+.quart td { width: 25%; text-align: center;}
+
+.buddy h2 {
+	font-size:14px;
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding-bottom: 2px;
+}
+
+.buddy .bloc1, .buddy .bloc2, .buddy .bloc3, .buddy .bloc4 {
+	background-color: #3C3C3C;
+	width: 90%;
+	margin: 0 auto;
+	height:175px;
+	padding:5px
+	
+}
+
+.buddy .bloc1 { background-color: #FFFFAA; border:1px solid #FFD42A }
+.buddy .bloc2 { background-color: #D4FFD4; border:1px solid #7FFF55}
+.buddy .bloc3 { background-color: #FFD4FF; border:1px solid #FF7FFF}
+.buddy .bloc4 { background-color: #DDF2FF; border:1px solid #55AAFF;}
+
+.buddy .bloc1 h2 { border-bottom: 2px solid #FFD42A }
+.buddy .bloc2 h2 { border-bottom: 2px solid #7FFF55 }
+.buddy .bloc3 h2 { border-bottom: 2px solid #FF7FFF }
+.buddy .bloc4 h2 { border-bottom: 2px solid #55AAFF }
+
+.buddy ul {
+	height:150px;
+	overflow:auto;
+	margin-top: 5px;
+}
+
+.buddy ul li {
+	height:20px
+}
+
+.buddy abbr {
+	padding-bottom: 0;
+	border-bottom:1px dotted #333
+}
+
+.buddy .quart input {
+	background-color: #FFF;
+	color:#333; 
+	font-size: 10px;
+	font-family: verdana;
+	padding:2px;
+	border:1px solid #666;
+	width: 130px;
+}
+
+.buddy .quart input:focus {
+	border:1px dashed #666
+}
+
+img.ajouter_buddy {
+	vertical-align: top;
+	cursor:pointer
+}
+
+img.suppr_buddy {
+	vertical-align: middle;
+	cursor:pointer
+}

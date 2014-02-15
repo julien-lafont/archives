@@ -1,0 +1,370 @@
+<HTML>
+<HEAD>
+<TITLE>Counter Snip</TITLE>
+<META NAME="TITLE" CONTENT="Counter-Snip">
+<META NAME="identifer-URL" CONTENT="http://sniperman.free.fr">
+<META NAME="AUTHOR" lang="fr" CONTENT="Sniperman">
+<META NAME="OWNER" CONTENT="snake.spm@laposte.net">
+<META NAME="SUBJECT" CONTENT="Counter Strike">
+<META NAME="Category" CONTENT="Internet - Jeux - Cs">
+<META NAME="DESRIPTION" CONTENT="Tout sur Counter Strike et plus">
+<META NAME="KEYWORDS" CONTENT="sniperman,kirikiri,countersnip,counter-snip,cs,counter strike,counterstrike,wallpapers,fond d'écran,sms,loto,prizee,astuces,armes,skins,binds,alias,half life,maps,download,téléchargement,patchs,guide,dossier,aide,ping,fps,optimisation,mms,loteries,Orange,LAN,réseau,France,fr,hl key fr,1.5,1.3,1.4,Forum,Astuces,Console,commandes,Cheat,Hack,OGL,wallhack,liens,GBA,rom,Annuaire,">
+<META NAME="LANGUAGE" CONTENT="FR">
+<META NAME="robots" CONTENT="All">
+<STYLE TYPE=text/css>
+TD { font-family:Verdana;font-size:11px;color:white } 
+.menu { font-family:Verdana;font-size:12px;color:white } 
+.titre { font-family:Verdana;font-size:20px;color:white } 
+A.menu { font-family:Verdana;font-size:12px;color:white;text-decoration:none } 
+A:hover.menu { font-family:Verdana;font-size:12px;color:#FFCC00;font-weight:normal;text-decoration:none } 
+A { font-family:Verdana;font-size:11px;color:#FFFFFF;text-decoration:none } 
+A:hover { font-family:Verdana;font-size:11px;color:#FFCC00} 
+BODY {SCROLLBAR-FACE-COLOR: #ffa534; SCROLLBAR-HIGHLIGHT-COLOR: #ffd756; SCROLLBAR-SHADOW-COLOR: #ff8312; SCROLLBAR-3DLIGHT-COLOR: #000000; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #8E908D; SCROLLBAR-DARKSHADOW-COLOR: #000000}.Style2 {font-family: Verdana; font-size: 12px; color: white; font-weight: bold; }
+.Style1 {color: #FFFFFF}
+.parent {font-family: verdana;font-weight: bold ;color: #CCCCCC;font-size: 12px;margin-top: 10;cursor: hand;margin-left: 6pt}
+.child {font-size: 9px;decoration: none;font-weight: normal;margin-left:10pt}
+</STYLE>
+<script language="javascript">
+<!--
+var intCount = 1;
+function DynamicMenu_addParent(strName) {
+	var strID = 'ID' + intCount++;
+	var strTemp = '<DIV ID="' + strID + '" CLASS="parent"';
+        strTemp += ' onClick="expandCollapse(this);">';
+	    strTemp += '<B>' + strName + '</B>'  
+        strTemp += '<DIV CLASS="child"></DIV>';
+        strTemp += '</DIV>';
+		this.div.innerHTML += strTemp;
+        this.currentChild = document.getElementById(strID);
+}
+
+function DynamicMenu_addChild(strName,strURL) {
+
+	var strTemp = '<A HREF="' + strURL + '"' + ' onClick="cancelBubble(arguments[0]);">' + strName + '</A><BR>';
+	if (document.all) {
+        	this.currentChild.children[1].innerHTML += strTemp;
+	} else {
+        	this.currentChild.childNodes[1].innerHTML += strTemp;
+	}
+	
+}
+
+function cancelBubble(netEvent) {
+	if (document.all) {
+		window.event.cancelBubble = true;
+	} else {
+        	netEvent.cancelBubble = true;
+	}
+}
+
+function expandCollapse(objElement) {
+
+	if (document.all) {
+        	var imgIcon = objElement.children[0];
+                objElement = objElement.children[1];
+	} else {
+        	var imgIcon = objElement.childNodes[0];
+                objElement = objElement.childNodes[2];
+	}
+	if (objElement.style.display == "none") {
+        	objElement.style.display = "block" ;
+                imgIcon.src = "bottomb.gif" ;
+	} else {
+        	objElement.style.display = "none" ;
+                imgIcon.src = "leftb.gif" ;
+	}
+}
+
+function DynamicMenu() {
+
+	var id = "Menu" + intCount++;
+        document.write('<DIV Id="' + id + '"></DIV>');		
+	this.div = document.getElementById(id);
+        this.currentChild = null;
+		
+	this.addParent = DynamicMenu_addParent;
+	
+        this.addChild = DynamicMenu_addChild;
+		
+}
+// -->
+
+</script>
+
+
+<SCRIPT LANGUAGE="JavaScript">
+// D'autres scripts et des tutoriaux sur http://www.toutjavascript.com
+function PopupImage(img) {
+	titre="Fond d'écran";
+	w=open("",'image','width=538,height=480,toolbar=no,scrollbars=no,resizable=no,left=100,top=0');	
+	w.document.write("<HTML><HEAD><TITLE>"+titre+"</TITLE></HEAD>");
+//	w.document.write("<SCRIPT language=javascript>function checksize()  { if (document.images[0].complete) {  window.resizeTo(document.images[0].width+12,document.images[0].height+30); window.focus();} else { setTimeout('check()',250) } }</"+"SCRIPT>");
+//	w.document.write("<bondy bgcolot.................. Veuillez patienter pendant le chargement du fond d'écran ..................");
+	w.document.write("<BODY BGCOLOR=black>")
+	w.document.write("<center> <b> <font color=#00FF00> .. Veuillez patienter pendant le chargement du fond d'écran .. </b> </center> </font>");
+	w.document.write(" <br>");
+	w.document.write("<center><IMG src='"+img+"' border=0, width=512 height=384 leftMargin=0 topMargin=0 marginwidth=0 marginheight=0></center>");
+	w.document.write("<br>");
+	w.document.write("<center> <b> <font color=#00FF00> .: Merci de votre visite :. </b> </center> </font>");
+	w.document.write("</BODY></HTML>");
+	w.document.close();
+}
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript">
+function run_filter(obj){	
+	if(obj && obj.filters[0]){
+		obj.filters[0].apply();
+		obj.visibility="visible";
+		obj.filters[0].play();
+	}
+}
+</SCRIPT>
+</HEAD>
+<BODY BGCOLOR=#000000 TEXT=#FFFFFF LINK=#0000FF VLINK=#800080 ALINK=#FF0000>
+<CENTER>
+
+<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH=774>
+  <TR>
+    <TD WIDTH=175><IMG SRC="images/haut3a.jpg" BORDER=0 WIDTH=175 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+      <TD WIDTH=579 BACKGROUND=images/top_cs.gif CLASS=titre> 
+        <!-- ICI, LE TITRE DEVOTRE SITE -->
+        Dossier Wallpapers<BR>
+        <IMG SRC="images/pixel.gif" BORDER=0 WIDTH=1 HEIGHT=13 HSPACE=0 VSPACE=0></TD>
+    <TD WIDTH=20><IMG SRC="images/top_d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+      	
+      	<!-- !!!!!!!!! DEBUT MENU !!!!!!!!!!! -->
+	  <TD WIDTH=175 BACKGROUND=images/fond_menu.gif VALIGN=top CLASS=menu> <IMG SRC="images/haut3b.jpg" BORDER=0 WIDTH=175 HEIGHT=115 HSPACE=0 VSPACE=0><BR>
+
+	<!-- DEBUT MENU 1 -->
+	<p><span class="parent"><img src="images/Puces/arrow2b.gif" width="10" height="13" align="absmiddle"> <a href="index.htm">Accueil</a></span><br>
+        <script language=Javascript type=text/javascript>
+var menu = new DynamicMenu();
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Site'); 
+//menu.addChild(' ', ' ');
+menu.addChild('- Me contacter', 'site_contact.html');
+menu.addChild('- Livre d&acute;or', 'http://www.maxiservices.net/livre/livre.php3?id=2810 ');		
+menu.addChild('- Chat', 'site_chat.html'); 
+menu.addChild('- Qui suis-je', 'site_quisuisje.html');
+menu.addChild('- Pubs', 'site_pub.html');
+      
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Counter Strike'); 
+menu.addChild(' ', ' ');
+//menu.addChild('- <b><font color=66CCFF>QuiZZzzz</font></b>', 'cs_quiz.php');
+//menu.addChild(' ', ' ');				
+menu.addChild('- Pr&eacute;sentation', 'cs_presentation.html');
+menu.addChild('- <b> Downloads</b>', 'cs_Downloads.html');
+menu.addChild('- Astuces', 'cs_Astuces.html');
+menu.addChild('- Armes', 'cs_armes.html');
+menu.addChild('- Binds & Alias', 'cs_Binds_&_Alias.html'); 
+menu.addChild('- PodBot', 'cs_Podbot.html');
+menu.addChild('- <b>R&eacute;duire son Ping</b>', 'cs_Ping.html');
+menu.addChild('- Dossier CS - Xbox', 'cs_xbox.html');
+menu.addChild('- Servers', 'cs_server.html');
+menu.addChild('- Easter Eggs', 'cs_EasterEgg.html');
+menu.addChild('- Counter Mania', 'cs_counterMania.html');
+menu.addChild('- Commandes', 'cs_console.html');
+menu.addChild('- Cheats', 'cs_cheats.html');
+menu.addChild('- Tag', 'cs_tag2.html');
+menu.addChild('- Liens', 'cs_liens.html');
+menu.addChild('- Wallpapers', 'cs_wallpapers.html');
+menu.addChild('- Tarte à la Fraise', 'cs_tarte.html');
+
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Steam'); 
+//menu.addChild(' ', ' ');
+menu.addChild('- T&eacute;l&eacute;chargement', 'steam_telechargement.html');
+menu.addChild('- <b>Pack LAN + BOT</b>', 'steam_nosteam.html'); 				 				
+menu.addChild('- Installation', 'steam_install.html');
+menu.addChild('- Utilitaires', 'steam_util.html');
+menu.addChild('- Binder 1.6', 'cs_Binder1.html');
+menu.addChild('- Lecteur MP3', 'steam_mp3.html');
+menu.addChild('- FAQ', 'steam_faq.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Half Life 2'); 
+//menu.addChild(' ', ' ');
+menu.addChild('- News', 'hl_news.html');
+menu.addChild('- Histoire', 'hl_hist.html');
+menu.addChild('- Armes', 'hl_armes.html'); 
+menu.addChild('- Personnages', 'hl_pers.html');
+menu.addChild('- Packs', 'hl_pack.html');			
+menu.addChild('- Screenshot', 'hl_screen.html');
+menu.addChild('- Art-Works', 'hl_screen3.html');
+menu.addChild('- Fond d&acute;&eacute;cran', 'hl_wallpapers.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Petits +'); 
+//menu.addChild(' ', ' ');
+menu.addChild('- Dossier Virus', 'plus_virus.html'); 				
+menu.addChild('- SMS & MMS gratuits', 'plus_sms.html');
+menu.addChild('- Mail Anonyme', '');
+menu.addChild('- M&eacute;t&eacute;o 48h', 'plus_meteo.html');
+menu.addChild('- Programme Cin&eacute; et TV', 'plus_cine.html');
+menu.addChild('- Annuaire Invers&eacute;', 'plus_annuaire.html');
+menu.addChild('- Traduction en ligne', 'plus_trans.html');
+menu.addChild('- Horoscope', 'plus_horoscopes.html');
+menu.addChild('- Auto-Biographie ;-)', 'plus_bio.html');
+menu.addChild('- Cartes et Itin&eacute;raires', 'plus_cartes.html');
+menu.addChild('- Loteries Gratuites', 'plus_loteries.html');
+menu.addChild('- Convertisseur', 'plus_calcu.html');
+
+
+
+          </script>
+        <br>
+    </p>
+	<TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+      <TR>
+        <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp; T&eacute;l&eacute;chargement &nbsp;&nbsp;</B></div></TD>
+      </TR>
+    </TABLE>
+	<p align="center">
+    <MARQUEE behavior= "scroll" align= "center" direction= "up" height="80" scrollamount= "2" scrolldelay= "10" onmouseover='this.stop()' onmouseout='this.start()'>
+    <table align=center>
+      <tr>
+        <td align=center>
+          <p>- <a href="ftp://ftpclubic2.clubic.com/temp-clubic-rx1740/jeux/Counter-Strike_Mod_1.5_en_version_complete.exe"><strong>Counter Strike 1.5</strong></a> - <br>
+        127 mo </p>
+          <p>- <a href="steam_nosteam.html"><strong>Pack CS 1.6 OFFline</strong> -<br>
+              Dossier</a></p>
+          <p>- <a href="http://www.filemirrors.com/search.src?file=steaminstall_cs.exe&size=397857244" target="_blank"><strong>Counter Strike 1.6</strong></a> - <br>
+        Full 388 mo </p>
+          <p>- <a href="ftp://ftp.vugames.fr/pub/half-life/fhl1110.exe"><strong>Half life 1.1.1.0</strong></a> - <br>
+        Full 84 mo </p>
+          <p>- <a href="ftp://ftp.trusted-network.de/pub/games/pod25ins.exe"><strong>Pod Bot 2.5</strong></a> - <br>
+        2 mo</p>
+          <p>- <a href="http://akimbot.nuclearbox.com/akimbot030.zip"><strong>Akimbot Bot 3.0</strong></a> - <br>
+        0.3 mo </p>
+          <p>- <a href="Fichiers/SteamCustomizerv104.rar"><strong>Steam Customizer</strong></a> - <br>
+        0.3 mo </p>
+          <p class="Style1"><strong>- <a href="http://www.udpsoft.com/eye/download/newer/EyeInstaller.exe">All-Seeing Eyes</a> -<br>
+            </strong><a href="http://www.hl2-games.net/" target="_blank"><br>
+        </a></p></td>
+      </tr>
+    </table>
+    </MARQUEE>
+    <br>
+    <br>
+    <TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+      <TR>
+        <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp; Stats : &nbsp;&nbsp;<br>
+        </B></div></TD>
+      </TR>
+    </TABLE>
+    <br>
+    <br>
+    <table width="90%" border="0">
+      <tr>
+        <td>&nbsp;</td>
+        <td><img src="images/Puces/pucebleue.gif" width="10" height="10"> Wallpapers CS : 46<br>
+            <img src="images/Puces/pucebleue.gif" width="10" height="10"> Screen FUN : 20 <br>
+            <br>
+            <img src="images/Puces/pucebleue.gif" width="10" height="10"> Wallpapers HL&sup2; : 19 <br>
+            <img src="images/Puces/pucebleue.gif" width="10" height="10"> Screen HL&sup2; : 28 <br>
+            <br>
+            <img src="images/Puces/puceverte.gif" width="10" height="10"> Clicks :
+            <script src="http://www.ovnet.net/compteur.php?21519"></script>
+        </td>
+      </tr>
+    </table>
+    <p>&nbsp;</p></TD>
+    <TD WIDTH=579 BGCOLOR=#364132 VALIGN=top ALIGN=center>
+	
+<!-- FIN HEADER -->
+	
+	<!-- DEBUT CADRE DE CONTENU 1 -->
+	<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=575>
+  		<TR>
+    		<TD WIDTH=25><IMG SRC="images/cad_bleu_hg.gif" BORDER=0 WIDTH=25 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+    		<TD BACKGROUND=images/cad_bleue_h.gif WIDTH=523 CLASS=menu><B>Ho la 
+              belle collection !</B></TD>
+    		<TD WIDTH=27><IMG SRC="images/cad_bleu_hd.gif" BORDER=0 WIDTH=27 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  		<TR>
+    		<TD WIDTH=25 BACKGROUND=images/cad_g.gif><IMG SRC="images/cad_g.gif" BORDER=0 WIDTH=25 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+    		<TD BGCOLOR=#4D574A WIDTH=523> <p align="center">
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="108" height="28">
+                  <param name="movie" value="page1.swf">
+                  <param name=quality value=high><param name="BGCOLOR" value="#4D574A">
+                  <embed src="page1.swf" width="108" height="28" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" bgcolor="#4D574A"></embed> 
+                </object>
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="108" height="28">
+                  <param name="movie" value="page2b.swf">
+                  <param name="quality" value="high">
+                  <param name="base" value=".">
+                  <param name="bgcolor" value="#4D574A">
+                  <embed src="page2b.swf" base="."  quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="108" height="28" bgcolor="#4D574A"></embed> 
+                </object>
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="108" height="28">
+                  <param name="movie" value="page3.swf">
+                  <param name="quality" value="high">
+                  <param name="base" value=".">
+                  <param name="bgcolor" value="#4D574A">
+                  <embed src="page3.swf" base="."  quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="108" height="28" bgcolor="#4D574A"></embed>
+                </object>
+                <br>
+                <br>
+                Pour <strong>Enregistrer</strong> une image, cliquez d'abord
+                dessus.<br>
+Une nouvelle page va s'ouvrir, une fois que l'image est charg&eacute;e, cliquez
+avec le bouton droit sur l'image puis sur &quot;<strong>enregistrer l'image sous...</strong>&quot; </p>
+              <table width="90%" border="0" align="center">
+                <tr> 
+                  <td> <div align="center"><A href="javascript:PopupImage('images/Wallpapers/fun_01.jpg')" ><img src="images/Wallpapers/small/TN_fun_01.jpg" width="128" height="96" border="0" style="filter:progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=7,Duration=0.5)" onLoad="run_filter(this)" onMouseOver="run_filter(this)"></A><br>
+                      </div></td>
+                  <td><div align="center"><A href="javascript:PopupImage('images/Wallpapers/fun_02.jpg')"><img src="images/Wallpapers/small/TN_fun_02.jpg" width="128" height="96" border="0" style="filter:progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=7,Duration=0.5)" onLoad="run_filter(this)" onMouseOver="run_filter(this)"></A><br>
+                      </div></td>
+                  <td><div align="center"><A href="javascript:PopupImage('images/Wallpapers/fun_03.jpg')"><img src="images/Wallpapers/small/TN_fun_03.jpg" width="128" height="96" border="0" style="filter:progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=7,Duration=0.5)" onLoad="run_filter(this)" onMouseOver="run_filter(this)"></A><br>
+                      </div></td>
+                  <td><div align="center"> 
+                      <p><A href="javascript:PopupImage('images/Wallpapers/fun_04.jpg')"><img src="images/Wallpapers/small/TN_fun_04.jpg" width="128" height="96" border="0" style="filter:progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=7,Duration=0.5)" onLoad="run_filter(this)" onMouseOver="run_filter(this)"></A><br>
+                      </p>
+                      </div></td>
+                </tr>
+                <tr> 
+                  <td><p align="center"><A href="javascript:PopupImage('images/Wallpapers/fun_05.jpg')"><img src="images/Wallpapers/small/TN_fun_05.jpg" alt="" name="a" width="128" height="96" border="0" style="filter:progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=7,Duration=0.5)" onLoad="run_filter(this)" onMouseOver="run_filter(this)"></A><br>
+                      </p></td>
+                  <td><div align="center"><A href="javascript:PopupImage('images/Wallpapers/fun_06.jpg')"><img src="images/Wallpapers/small/TN_fun_06.jpg" alt="" name="a" width="128" height="96" border="0" style="filter:progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=7,Duration=0.5)" onLoad="run_filter(this)" onMouseOver="run_filter(this)"></A><br>
+                      </div></td>
+                  <td><div align="center"><A href="javascript:PopupImage('images/Wallpapers/fun_07.jpg')"><img src="images/Wallpapers/small/TN_fun_07.jpg" alt="" name="a" width="128" height="96" border="0" style="filter:progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=7,Duration=0.5)" onLoad="run_filter(this)" onMouseOver="run_filter(this)"></A><br>
+                      </div></td>
+                  <td><div align="center"><A href="javascript:PopupImage('images/Wallpapers/fun_08.jpg')"><img src="images/Wallpapers/small/TN_fun_08.jpg" alt="" name="a" width="128" height="96" border="0" style="filter:progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=7,Duration=0.5)" onLoad="run_filter(this)" onMouseOver="run_filter(this)"></A><br>
+                      </div></td>
+                </tr>
+                <tr> 
+                  <td> <p align="center"><A href="javascript:PopupImage('images/Wallpapers/fun_10.jpg')"><img src="images/Wallpapers/small/TN_fun_10.jpg" alt="" name="a" width="128" height="96" border="0" style="filter:progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=7,Duration=0.5)" onLoad="run_filter(this)" onMouseOver="run_filter(this)"></A><br>
+                      </p></td>
+                  <td><div align="center"><A href="javascript:PopupImage('images/Wallpapers/fun_11.jpg')"><img src="images/Wallpapers/small/TN_fun_11.jpg" alt="" name="a" width="128" height="96" border="0" style="filter:progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=7,Duration=0.5)" onLoad="run_filter(this)" onMouseOver="run_filter(this)"></A><br>
+                      </div></td>
+                  <td><div align="center"><A href="javascript:PopupImage('images/Wallpapers/fun_12.jpg')"><img src="images/Wallpapers/small/TN_fun_12.jpg" alt="" name="a" width="128" height="96" border="0" style="filter:progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=7,Duration=0.5)" onLoad="run_filter(this)" onMouseOver="run_filter(this)"></A><br>
+                      </div></td>
+                  <td><div align="center"><A href="javascript:PopupImage('images/Wallpapers/fun_09.jpg')"><img src="images/Wallpapers/small/TN_fun_09.jpg" alt="" name="a" width="128" height="96" border="0" style="filter:progid:DXImageTransform.Microsoft.Pixelate(MaxSquare=7,Duration=0.5)" onLoad="run_filter(this)" onMouseOver="run_filter(this)"></A><br>
+                      </div></td>
+                </tr>
+              </table>
+              <p align="center">&nbsp; </p>
+              <p align="center"><strong><font color="#000000">.::[ <font color="#00FF00">Images
+                      FUN</font> | <a href="cs_wallpapers1.html" class="petit">Page
+                      1</a> | <a href="cs_wallpapers2.html" class="petit">Page
+                      2</a> | <a href="cs_wallpapers3.html" class="petit">Page
+              3</a> ]::</font></strong><font color="#000000">.</font></p>
+              <center>
+            </center></TD>
+    		<TD WIDTH=27 BACKGROUND=images/cad_d.gif><IMG SRC="images/cad_d.gif" BORDER=0 WIDTH=27 HEIGHT=12 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  		<TR>
+    		<TD COLSPAN=3><IMG SRC="images/cad_b.gif" BORDER=0 WIDTH=575 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  	</TABLE><BR>
+      </TD>
+    <TD WIDTH=20 BACKGROUND=images/d.gif><IMG SRC="images/d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+  	<TD COLSPAN=3><IMG SRC="images/bas.jpg" BORDER=0 WIDTH=774 HEIGHT=32 USEMAP="#bas"></TD>
+  </TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>
+<!-- FIN FOOTER -->

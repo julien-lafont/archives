@@ -1,0 +1,585 @@
+<HTML>
+<HEAD>
+<TITLE>Counter Snip .:. Dossier Virus</TITLE>
+<META NAME="TITLE" CONTENT="Counter-Snip">
+<META NAME="identifer-URL" CONTENT="http://sniperman.free.fr">
+<META NAME="AUTHOR" lang="fr" CONTENT="Sniperman">
+<META NAME="OWNER" CONTENT="snake.spm@laposte.net">
+<META NAME="SUBJECT" CONTENT="Counter Strike">
+<META NAME="Category" CONTENT="Internet - Jeux - Cs">
+<META NAME="DESRIPTION" CONTENT="Tout sur Counter Strike et plus">
+<META NAME="KEYWORDS" CONTENT="sniperman,kirikiri,countersnip,counter-snip,cs,counter strike,counterstrike,wallpapers,fond d'écran,sms,loto,prizee,astuces,armes,skins,binds,alias,half life,maps,download,téléchargement,patchs,guide,dossier,aide,ping,fps,optimisation,mms,loteries,Orange,LAN,réseau,France,fr,hl key fr,1.5,1.3,1.4,Forum,Astuces,Console,commandes,Cheat,Hack,OGL,wallhack,liens,GBA,rom,Annuaire,">
+<META NAME="LANGUAGE" CONTENT="FR">
+<META NAME="robots" CONTENT="All">
+<STYLE TYPE=text/css>
+TD { font-family:Verdana;font-size:11px;color:white } 
+.menu { font-family:Verdana;font-size:12px;color:white } 
+.titre { font-family:Verdana;font-size:20px;color:white } 
+A.menu { font-family:Verdana;font-size:12px;color:white;text-decoration:none } 
+A:hover.menu { font-family:Verdana;font-size:12px;color:#FFCC00;font-weight:normal;text-decoration:none } 
+A.liens {color: #FFCC00;decoration:none }
+A:hover.liens {color:#FFE784;text-decoration:underline } 
+A { font-family:Verdana;font-size:11px;color:#FFFFFF;text-decoration:none } 
+A:hover { font-family:Verdana;font-size:11px;color:#FFCC00} 
+A:hover.goo { color:#FFFFFF } 
+ 
+
+BODY {SCROLLBAR-FACE-COLOR: #ffa534; SCROLLBAR-HIGHLIGHT-COLOR: #ffd756; SCROLLBAR-SHADOW-COLOR: #ff8312; SCROLLBAR-3DLIGHT-COLOR: #000000; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #8E908D; SCROLLBAR-DARKSHADOW-COLOR: #000000}
+.Style1 {color: #FFFFFF}
+.parent {font-family: verdana;font-weight: bold ;color: #CCCCCC;font-size: 12px;margin-top: 10;cursor: hand;margin-left: 6pt}
+.child {font-size: 9px;decoration: none;font-weight: normal;margin-left:10pt}
+.Style8 {font-size: 9px}
+</STYLE>
+
+
+<SCRIPT type=text/javascript>
+<!--
+var intCount = 1;
+function DynamicMenu_addParent(strName) {
+	var strID = 'ID' + intCount++;
+	var strTemp = '<DIV ID="' + strID + '" CLASS="parent"';
+        strTemp += ' onClick="expandCollapse(this);">';
+		//strTemp += '<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH=100 HEIGHT=20 BACKGROUND=images/menu_bleu15.gif align=center><TR><TD WIDTH=175 class=parent><B><center>' + strName + '</center></B></TD></TR></TABLE>';
+        //strTemp += '&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="leftb.gif" >';
+	    strTemp += '<B>' + strName + '</B>'  
+        strTemp += '<DIV CLASS="child"></DIV>';
+        strTemp += '</DIV>';
+		this.div.innerHTML += strTemp;
+        this.currentChild = document.getElementById(strID);
+}
+
+function DynamicMenu_addChild(strName,strURL) {
+
+	var strTemp = '<A HREF="' + strURL + '"' + ' onClick="cancelBubble(arguments[0]);">' + strName + '</A><BR>';
+	if (document.all) {
+        	this.currentChild.children[1].innerHTML += strTemp;
+	} else {
+        	this.currentChild.childNodes[1].innerHTML += strTemp;
+	}
+	
+}
+
+function cancelBubble(netEvent) {
+	if (document.all) {
+		window.event.cancelBubble = true;
+	} else {
+        	netEvent.cancelBubble = true;
+	}
+}
+
+function expandCollapse(objElement) {
+
+	if (document.all) {
+        	var imgIcon = objElement.children[0];
+                objElement = objElement.children[1];
+	} else {
+        	var imgIcon = objElement.childNodes[0];
+                objElement = objElement.childNodes[2];
+	}
+	if (objElement.style.display == "none") {
+        	objElement.style.display = "block" ;
+                imgIcon.src = "bottomb.gif" ;
+	} else {
+        	objElement.style.display = "none" ;
+                imgIcon.src = "leftb.gif" ;
+	}
+}
+
+function DynamicMenu() {
+
+	var id = "Menu" + intCount++;
+        document.write('<DIV Id="' + id + '"></DIV>');		
+	this.div = document.getElementById(id);
+        this.currentChild = null;
+		
+	this.addParent = DynamicMenu_addParent;
+	
+        this.addChild = DynamicMenu_addChild;
+		
+}
+// -->
+</SCRIPT>
+</HEAD>
+<BODY BGCOLOR=#000000 TEXT=#FFFFFF LINK=#0000FF VLINK=#800080 ALINK=#FF0000>
+
+<CENTER>
+
+<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH=774>
+  <TR>
+    <TD WIDTH=175><img src="images/haut9a.jpg" border=0 width=175 height=61 hspace=0 vspace=0></TD>
+      <TD WIDTH=579 BACKGROUND=images/top_cs.gif CLASS=titre> 
+        <!-- ICI, LE TITRE DEVOTRE SITE -->
+        Alerte Virus Temps - R&eacute;el<BR>
+      <IMG SRC="images/pixel.gif" BORDER=0 WIDTH=1 HEIGHT=13 HSPACE=0 VSPACE=0></TD>
+    <TD WIDTH=20><IMG SRC="images/top_d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+      	
+      	<!-- !!!!!!!!! DEBUT MENU !!!!!!!!!!! -->
+	  <TD WIDTH=175 BACKGROUND=images/fond_menu.gif VALIGN=top CLASS=menu> <IMG SRC="images/haut9b.jpg" BORDER=0 WIDTH=175 HEIGHT=115 HSPACE=0 VSPACE=0><BR>
+	    <p><span class="parent"><img src="images/Puces/arrow2b.gif" width="10" height="13" align="absmiddle"> <a href="index.htm">Accueil</a></span><br>
+            <script language=Javascript type=text/javascript>
+var menu = new DynamicMenu();
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Site'); 
+menu.addChild('- Me contacter', 'site_contact.html');
+menu.addChild('- Livre d&acute;or', 'http://www.maxiservices.net/livre/livre.php3?id=2810 ');		
+menu.addChild('- Chat', 'site_chat.html'); 
+menu.addChild('- Qui suis-je', 'site_quisuisje.html');
+menu.addChild('- Pubs', 'site_pub.html');
+      
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Counter Strike'); 
+menu.addChild(' ', ' ');
+menu.addChild('- Pr&eacute;sentation', 'cs_presentation.html');
+menu.addChild('- <b> Downloads</b>', 'cs_Downloads.html');
+menu.addChild('- Astuces', 'cs_Astuces.html');
+menu.addChild('- Armes', 'cs_armes.html');
+menu.addChild('- Binds & Alias', 'cs_Binds_&_Alias.html'); 
+menu.addChild('- PodBot', 'cs_Podbot.html');
+menu.addChild('- <b>R&eacute;duire son Ping</b>', 'cs_Ping.html');
+menu.addChild('- Dossier CS - Xbox', 'cs_xbox.html');
+menu.addChild('- Servers', 'cs_server.html');
+menu.addChild('- Easter Eggs', 'cs_EasterEgg.html');
+menu.addChild('- Counter Mania', 'cs_counterMania.html');
+menu.addChild('- Commandes', 'cs_console.html');
+menu.addChild('- Cheats', 'cs_cheats.html');
+menu.addChild('- Tag', 'cs_tag2.html');
+menu.addChild('- Liens', 'cs_liens.html');
+menu.addChild('- Wallpapers', 'cs_wallpapers.html');
+menu.addChild('- Tarte à la Fraise', 'cs_tarte.html');
+
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Steam'); 
+menu.addChild('- T&eacute;l&eacute;chargement', 'steam_telechargement.html');
+menu.addChild('- <b>Pack LAN + BOT</b>', 'steam_nosteam.html'); 				 				
+menu.addChild('- Installation', 'steam_install.html');
+menu.addChild('- Utilitaires', 'steam_util.html');
+menu.addChild('- Binder 1.6', 'cs_Binder1.html');
+menu.addChild('- Lecteur MP3', 'steam_mp3.html');
+menu.addChild('- FAQ', 'steam_faq.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Half Life 2'); 
+menu.addChild('- News', 'hl_news.html');
+menu.addChild('- Histoire', 'hl_hist.html');
+menu.addChild('- Armes', 'hl_armes.html'); 
+menu.addChild('- Personnages', 'hl_pers.html');
+menu.addChild('- Packs', 'hl_pack.html');			
+menu.addChild('- Screenshot', 'hl_screen.html');
+menu.addChild('- Art-Works', 'hl_screen3.html');
+menu.addChild('- Fond d&acute;&eacute;cran', 'hl_wallpapers.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Petits +'); 
+menu.addChild('- Dossier Virus', 'plus_virus.html'); 				
+menu.addChild('- SMS & MMS gratuits', 'plus_sms.html');
+menu.addChild('- Mail Anonyme', '');
+menu.addChild('- M&eacute;t&eacute;o 48h', 'plus_meteo.html');
+menu.addChild('- Programme Cin&eacute; et TV', 'plus_cine.html');
+menu.addChild('- Annuaire Invers&eacute;', 'plus_annuaire.html');
+menu.addChild('- Traduction en ligne', 'plus_trans.html');
+menu.addChild('- Horoscope', 'plus_horoscopes.html');
+menu.addChild('- Auto-Biographie ;-)', 'plus_bio.html');
+menu.addChild('- Cartes et Itin&eacute;raires', 'plus_cartes.html');
+menu.addChild('- Loteries Gratuites', 'plus_loteries.html');
+menu.addChild('- Convertisseur', 'plus_calcu.html');
+          </script>
+            <br>
+        </p>
+	    <TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+          <TR>
+            <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp; T&eacute;l&eacute;chargement &nbsp;&nbsp;</B></div></TD>
+          </TR>
+        </TABLE>
+	    <p align="center">
+        <MARQUEE behavior= "scroll" align= "center" direction= "up" height="80" scrollamount= "2" scrolldelay= "10" onmouseover='this.stop()' onmouseout='this.start()'>
+        <table align=center>
+          <tr>
+            <td align=center>
+              <p>- <a href="ftp://ftpclubic2.clubic.com/temp-clubic-rx1740/jeux/Counter-Strike_Mod_1.5_en_version_complete.exe"><strong>Counter Strike 1.5</strong></a> - <br>
+        127 mo </p>
+              <p>- <a href="steam_nosteam.html"><strong>Pack CS 1.6 OFFline</strong> -<br>
+              Dossier</a></p>
+              <p>- <a href="http://www.filemirrors.com/search.src?file=steaminstall_cs.exe&size=397857244" target="_blank"><strong>Counter Strike 1.6</strong></a> - <br>
+        Full 388 mo </p>
+              <p>- <a href="ftp://ftp.vugames.fr/pub/half-life/fhl1110.exe"><strong>Half life 1.1.1.0</strong></a> - <br>
+        Full 84 mo </p>
+              <p>- <a href="ftp://ftp.trusted-network.de/pub/games/pod25ins.exe"><strong>Pod Bot 2.5</strong></a> - <br>
+        2 mo</p>
+              <p>- <a href="http://akimbot.nuclearbox.com/akimbot030.zip"><strong>Akimbot Bot 3.0</strong></a> - <br>
+        0.3 mo </p>
+              <p>- <a href="Fichiers/SteamCustomizerv104.rar"><strong>Steam Customizer</strong></a> - <br>
+        0.3 mo </p>
+              <p class="Style1"><strong>- <a href="http://www.udpsoft.com/eye/download/newer/EyeInstaller.exe">All-Seeing Eyes</a> -</strong></p></td>
+          </tr>
+        </table>
+        </MARQUEE>
+        <br>
+        <br>
+        <TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+          <TR>
+            <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp; Info site : &nbsp;</B></div></TD>
+          </TR>
+        </TABLE>
+        <p align="center"><img src="images/partenaires/Csnip.gif" width="88" height="31">
+          <br>
+          <br>
+          <span class="Style8">Recopiez ce texte l&agrave; o&ugrave; vous voullez que le lien ci-dessus apparaissent sur votre site :<br>
+          <br> 
+          </span>          <textarea name="textarea" cols="17" rows="9" wrap="VIRTUAL" readonly style="cursor: text; font-size:11px; text-align:center); color:#000033" accesskey="a"><a href="http://www.countersnip.fr.st"><img src="http://sniperman.free.fr/images/Csnip.gif" border="0"></a></textarea>
+</p>
+      <p align="left">&nbsp;&nbsp;<a href="javascript:window.alert('Merci beaucoup !!');"><img src="images/Xp/weblinks.gif" width="24" height="24" border="0" align="absmiddle"  onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://sniperman.free.fr');"></a>  <span class="Style8">En page de D&eacute;marage <br>
+&nbsp;&nbsp;&nbsp;<a href="javascript:window.external.addfavorite('http://sniperman.free.fr','>>>>-- Counter-Snip --<<<<')"><img src="images/Xp/favoris2.gif" width="24" height="24" border="0" align="absmiddle"></a>  Ajouter au Favoris <br>
+&nbsp;&nbsp;&nbsp;<a href="mailto:snake.spm@laposte.net"><img src="images/Xp/newsletter2.gif" width="24" height="24" border="0" align="absmiddle"></a> Mail au Webmaster </span></p></TD>
+    <TD WIDTH=579 BGCOLOR=#364132 VALIGN=top ALIGN=center>
+	
+<!-- FIN HEADER -->
+	
+
+	<!-- DEBUT CADRE DE CONTENU 1 -->
+	<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=575>
+  		<TR>
+    		<TD WIDTH=25><IMG SRC="images/cad_bleu_hg.gif" BORDER=0 WIDTH=25 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+    		<TD BACKGROUND=images/cad_bleue_h.gif WIDTH=523 CLASS=menu><B>Voici le
+    		    &quot;TOP&quot; des derniers virus connus !</B></TD>
+    		<TD WIDTH=27><IMG SRC="images/cad_bleu_hd.gif" BORDER=0 WIDTH=27 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  		<TR>
+    		<TD WIDTH=25 BACKGROUND=images/cad_g.gif><IMG SRC="images/cad_g.gif" BORDER=0 WIDTH=25 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+    		<TD BGCOLOR=#4D574A WIDTH=523><p align="center"><strong><font color="#000000">.::[
+    		        <a href="#top">Top 10 des Virus</a> | <a href="#spybot">Worms SpyBot</a> | <a href="#blast">Ms
+    		          Blast ( RPC )</a>  | <a href="#comment">En cas de Virus ?</a>]::</font></strong><font color="#000000">.</font>    		  
+    		  <p align="center">  		        </div>
+              <img src="images/Autres/ligne%20sang.gif" width="500" height="24"><a name="top" id="top"></a>                  		  
+    		  <p>&nbsp;&nbsp;&nbsp;<img src="images/Puces/pucebleue.gif" width="10" height="10"> <font color="#92B9FA" size="2"><strong>Top
+    		    10 des M&eacute;chants Virus : </strong></font></p>
+    		  <table width="500" border="0" align="center">
+    		    <tr>
+    		      <td><script src="http://www.secuser.com/secuserinfo_virus_graph.js"></script></td>
+    		      <td><!-- START OF TREND MICRO VIRUS INFO FEED -->
+<script language="JavaScript">
+<!--
+// *********************************
+// WEBMASTERS: YOU MAY CHANGE THE FOLLOWING VALUES TO CUSTOMIZE
+// THE APPEARANCE OF TREND MICRO VIRUS INFO FEED ON YOUR SITE
+var showAlert='automatic' // 'automatic' OR 'never'
+var topCount=10 // NUMBER (0 to 10)
+var advisoryCount=5   // NUMBER (0 to 20)
+var showRisk=false
+var showUpdated=false
+var showPattern=false
+var showPatternLink=false
+var showEngineLink=false
+var showFreeScanLink=false
+var showFreeAlertsLink=false
+var showHoaxesLink=false
+var showMapLink=false
+var showSearch=false
+var bgColor='white' // COLOR NAME OR HEX VALUE (i.e., '#ffffff')
+var textColor='black'
+var linkColor='blue'
+var fontSize=1
+var fontName='Verdana, Arial, Helvetica, sans-serif'
+var linkTarget='_top'
+// YOU MAY TRANSLATE THE FOLLOWING LABELS TO YOUR OWN LANGUAGE
+var saStr='SECURITY&nbsp;ALERT'
+var mrStr='MEDIUM RISK'
+var hrStr='HIGH RISK'
+var tvStr='Top Viruses'
+var vaStr='Virus Advisories'
+var rlStr='Related Links'
+var fvStr='FREE virus scan'
+var faStr='FREE email alerts'
+var hoStr='Hoaxes'
+var rtStr='Real-time virus map'
+var vsStr='Virus&nbsp;Search'
+var goStr='go'
+// *********************************
+
+
+var ct=''
+var veURL=ct+'http://fr.trendmicro-europe.com'
+veURL+='/enterprise/security_info/virus_encyclopedia.php?VName='
+var moreURL=ct+'http://fr.trendmicro-europe.com/enterprise/security_info/security_overview.php'
+var ptnURL=ct+'http://fr.trendmicro-europe.com/enterprise/support/pattern.php'
+var engURL=ct+'http://fr.trendmicro-europe.com/enterprise/support/engines.php'
+var hcURL=ct+'http://fr.trendmicro-europe.com/enterprise/products/housecall.php'
+var subURL=ct+'http://fr.trendmicro-europe.com/enterprise/about_us/newsletter.php'
+var hxURL=ct+'http://fr.trendmicro-europe.com/enterprise/security_info/hoaxes.php'
+var wtcURL=ct+'http://fr.trendmicro-europe.com/enterprise/security_info/virus_map.php'
+r1=showHoaxesLink;r2=showFreeScanLink;r3=showFreeAlertsLink
+r4=showMapLink;r5=showPatternLink;r6=showEngineLink
+lt=' target="'+linkTarget+'"'
+var lti=' title="go to www.trendmicro-europe.com"'
+var ft='<font face="'+fontName+'" size="'+fontSize+'" '
+ft+='color="'+textColor+'">'
+var lft='<font face="'+fontName+'" size="'+fontSize+'" '
+lft+='color="'+linkColor+'">'
+
+function mainTable() {
+// INITIALIZE
+p+='<table border="0" cellspacing="0" cellpadding="'+(fontSize-1)+'">'
+
+
+// start TOP 10
+if (topCount > 0 && topCountOK) {
+p+='<tr><td colspan="'+rowCount+'">'+ft+'<b>'+tvStr+'</b></font></td></tr>'
+if (showUpdated || showPattern) {
+wide=true
+}else{
+wide=false
+}
+if (topCount == 10 && advisoryCount > 0 && showRisk && wide) {
+p+='<tr><td colspan="'+rowCount+'">'
+p+='<table border="0" cellspacing="0" cellpadding="0">'
+for (var i=0; i < 5; i++) {
+p+='<tr><td align="right">'+ft+(i+1)+'.&nbsp;</td><td nowrap>'+ft
+p+='<a href="'+veURL+top10[i]+'"'+lti+lt+'>'
+p+=lft+top10[i]+'</font></a></font></td>'
+p+='<td align="right">'+ft+'&nbsp;&nbsp;'+(i+6)+'.&nbsp;</td>'
+p+='<td nowrap>'+ft
+p+='<a href="'+veURL+top10[i+5]+'"'+lti+lt+'>'
+p+=lft+top10[i+5]+'</font></a></font></td></tr>'
+}
+p+='</table></td></tr>'
+} else {
+if (topCount>0 && topCount<11) {
+for (var i=0;i<topCount;i++) {
+p+='<tr><td align="right">'+ft+(i+1)+'.&nbsp;</td>'
+p+='<td colspan="'+(rowCount-1)+'" nowrap>'+ft
+p+='<a href="'+veURL+top10[i]+'"'+lti+lt+'>'
+p+=lft+top10[i]+'</font></a></font></td></tr>'
+}
+}
+}
+p+='<tr><td colspan="'+rowCount+'">'+ft+'&nbsp;</td></tr>'
+}
+// end TOP 10
+
+
+// start RELATED LINKS
+if (r1||r2||r3||r4||r5||r6) {
+tmp1='<tr><td align="right" valign="top">'+ft+'<font face="Arial">'
+tmp1+='&#149;&nbsp;</font></td><td colspan="'+(rowCount-1)+'">'+ft
+p+='<tr><td colspan="'+rowCount+'">'+ft+'<b>'+rlStr+'</b></font></td></tr>'
+if(r1){
+p+=tmp1+'<a href="'+hxURL+'"'+lt+'>'
+p+=lft+hoStr+'</font></a></font></td></tr>'
+}
+if(r2){
+p+=tmp1+'<a href="'+hcURL+'"'+lt+'>'
+p+=lft+fvStr+'</font></a></font></td></tr>'
+}
+if(r3){
+p+=tmp1+'<a href="'+subURL+'"'+lt+'>'
+p+=lft+faStr+'</font></a></font></td></tr>'
+}
+if(r4){
+p+=tmp1+'<a href="'+wtcURL+'"'+lt+'>'
+p+=lft+rtStr+'</font></a></font></td></tr>'
+}
+if(r5){
+p+=tmp1+'<a href="'+ptnURL+'"'+lt+'>'
+p+=lft+'Pattern '+strCurPtn+'</font></a></font></td></tr>'
+}
+if(r6){
+p+=tmp1+'<a href="'+engURL+'"'+lt+'>'
+p+=lft+'Scan engine '+strCurEng+'</font></a></font></td></tr>'
+}
+p+='<tr><td colspan="'+rowCount+'">'+ft+'&nbsp;</font></td></tr>'
+}
+// end RELATED LINKS
+
+// start SEARCH
+if (showSearch) {
+p+='<form'+lt+' action="'
+p+='http://fr.trendmicro-europe.com/enterprise/security_info/virus_encyclopedia.php" '
+p+='method="post" name="VirusEncyclo03"><tr><td colspan="'+rowCount+'">'
+p+=ft+'<b>'+vsStr+' </b></font>'
+p+='<input name="hidOK" type="hidden" value="0">'
+p+='<input name="hidChoice" type="hidden" value="3">'
+p+='<input type="text" name="VName" size="12">&nbsp;'
+p+='<input type="submit" value="'+goStr+'"></td></tr></form>'
+}
+// end SEARCH
+
+p+='</table>'
+}
+// --></script>
+<script language="JavaScript1.1"
+SRC="http://fr.trendmicro-europe.com/enterprise/security_info/vinfo_data_js2.php"></SCRIPT>
+<!-- v2.02, released July 31, 2001 -->
+<!-- Copyright 2001 Trend Micro, Inc. -->
+<!-- END TREND MICRO VIRUS INFO FEED -->&nbsp;</td>
+  		      </tr>
+  		    </table>    		  
+    		  <p>&nbsp;</p>
+    		  <p><img src="images/Autres/ligne%20sang.gif" width="500" height="24"><a name="spybot" id="spybot"></a></p>
+    		  <p align="center"><font color="#00FF00" size="4"><strong><img src="images/Puces/pucerouge.gif" width="10" height="10"> Virus
+    		    SpyBot <img src="images/Puces/pucerouge2.gif" width="10" height="10"></strong></font></p>
+    		  <p align="left"><font color="#000000"><strong><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> <font color="#3CE1FF"><u>Introduction : </u></font></strong></font></p>
+    		  <p align="left">Le virus SpyBot est un m&eacute;chant virus que vous avez surement
+    		    attrap&eacute; &agrave; cause de kazaa !<br>
+   		    Son nom scientifique est : <strong>worms_SpyBot.gen</strong></p>
+    		  <p align="left">Ne vous inqui&eacute;tez pas, ce virus est tr&egrave;s
+    		    simple &agrave; enlever !</p>
+    		  <p align="left"><font color="#000000"><strong><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> <font color="#3CE1FF"><u>Effet
+    		            du Virus :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   </u></font></strong></font></p>
+    		  <p>Pour savoir si vous &ecirc;tes infect&eacute;s par ce virus, rien de plus
+    		    simple !</p>
+    		  <blockquote>
+    		    <p><font color="#FFFF00"><strong>Test 1 :</strong></font> Cliquez sur
+    		      D&eacute;marrer / Ex&eacute;cuter -&gt; Et rentrez &quot;<strong><font color="#99FFCC">msconfig</font></strong>&quot;
+    		      : Si une fen&ecirc;tre s'affiche et se ferme aussit&ocirc;t, c'est
+    		      que vous avez le Virus !</p>
+    		    <p><font color="#FFFF00"><strong>Test 2 :</strong></font> Cliquez sur
+    		      D&eacute;marrer / Ex&eacute;cuter -&gt; Et
+    		      rentrez &quot;<font color="#99FFCC"><strong>regedit</strong></font>&quot; :
+    		      Si une fen&ecirc;tre
+    		      s'affiche
+   		      et se ferme aussit&ocirc;t, c'est que vous avez le Virus !</p>
+    		    <p><font color="#FFFF00"><strong>Test 3 </strong></font><strong>:</strong> Sous
+    		      XP, faite <strong><font color="#99FFCC">CTRl + ALT + SUPPR </font></strong>-&gt;
+    		      Si le gestionnaire des t&acirc;ches se lance puis se ferme tout seul,
+    		      c'est que vous
+    		      avez encore le Virus !</p>
+   		      </blockquote>    		  
+    		  <p>En conclusion, ce virus vous bloque l'acc&egrave;s &agrave; la base
+    		    de registre,
+    		    &agrave; Msconfig et au gestionnaire des t&acirc;ches en autre !<br>
+   		    Il fait cela gr&agrave;ce au fichier &quot;<strong>wuaumqr.exe</strong>&quot;
+   		    .</p>
+    		  <p><font color="#000000"><strong><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> <font color="#3CE1FF"><u>D&eacute;sinfection
+            :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   </u></font></strong></font></p>
+    		  <p><font color="#00FF00"><strong>1&deg;) </strong><font color="#FFFFFF">Red&eacute;marrer
+    		      votre Pc en Mode Sans Echec <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&gt; Appuyer sur F8 pendant le chargement </font></font></p>    		  
+    		  <p><strong><font color="#00FF00">2&deg;)</font></strong> <font color="#FFFFFF">Ouvrez
+    		      votre session, Puis ouvrez un dossier et faire Outils/Options des
+    		      dossiers/Affichage/ et cocher &quot;Afficher les fichiers et dossiers
+    		    cach&eacute;s&quot; </font></p>
+    		  <p><strong><font color="#00FF00">3&deg;)</font></strong> <font color="#FFFFFF">Allez
+    		      dans c:\Windows\System32\ et supprimez le fichier <strong><font color="#FFFF00">wuaumqr.exe</font></strong> (
+   		      il est cach&eacute;)</font> </p>
+    		  <p><strong><font color="#00FF00">4&deg;)</font></strong> <font color="#FFFFFF">Allez
+    		      dans C:\Documents and Settings\All Users\Menu D&eacute;marrer\Programmes
+    		    et <strong>SI </strong>vous trouvez un fichier &quot;<strong>dcom.exe</strong>&quot;,
+    		    virez-le ! </font></p>
+    		  <p><strong><font color="#00FF00">5&deg;)</font></strong><font color="#FFFFFF"> Faite
+    		      ensuite d&eacute;marrer/Ex&eacute;cuter &quot;<strong>REGEDIT</strong>&quot; et
+    		    recherchez toutes les cl&eacute;s ou dossiers se raportant &agrave; <strong><font color="#FFFF00">WUAUMQR.EXE</font></strong> (
+    		    CTRl+F est tr&egrave;s pratique !) </font></p>
+    		  <p><font color="#00FF00"><strong>6&deg;)</strong></font> <font color="#FFFFFF">Tout ce que vous trouvez vous le <strong>virez</strong> (
+    		    cl&eacute;  voir
+    		    Dossier m&ecirc;me !! )</font><br>
+  		    </p>    		  <p align="center">              
+              <p><img src="images/Autres/ligne%20sang.gif" width="500" height="24"><a name="blast" id="blast"></a></p>
+              <p align="center"><font color="#00FF00" size="4"><strong><img src="images/Puces/pucerouge.gif" width="10" height="10"> Virus
+              Msblast <img src="images/Puces/pucerouge2.gif" width="10" height="10"></strong></font></p>
+              <p align="left"><font color="#000000"><strong><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> <font color="#3CE1FF"><u>Introduction
+                : </u></font></strong></font></p>
+              <p align="left">Le virus MSBLAST est un virus qui a touch&eacute; 66%
+                des utilisateurs de Windows Xp. Autant dire que c'est un gros
+                virus .</p>
+              <p align="left">Voici &agrave; quoi il ressemble : </p>
+              <p align="center"><img src="images/Autres/msblast.jpg" width="364" height="240"></p>
+              <p align="left"><font color="#000000"><strong><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> <font color="#3CE1FF"><u>Effet
+              du Virus : </u></font></strong></font></p>
+              <p align="left">Bin... Arr&ecirc;te
+                      votre PC dans la minute avec le beau message ( voir image
+                      plus haut )</p>              
+              <p align="left">Ce message se lance une fois que vous &ecirc;tes connect&eacute;s
+                et lance l'arr&ecirc;t de votre ordinateur dans la minute ! C'est tr&egrave;s
+                chiant !</p>
+                      <p align="left"><font color="#000000"><strong><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> <font color="#3CE1FF"><u>D&eacute;sinfection
+                      : </u></font></strong></font><strong><font color="#FFFFFF"></font></strong></p>
+                      <strong><font color="#FFFFFF">Quand le message apparait,
+                      lancer cette commande sous dos pour annuler l'arr&ecirc;t
+                      du syst&egrave;me
+                      .</font></strong>
+                      <blockquote>
+                        <p><font color="#FFFFFF">-&quot;<strong>shutdown -a</strong>&quot; dans
+                            d&eacute;marrer / ex&eacute;cuter<br>
+                        <br>
+                        -<strong>ctrl+alt+suppr</strong> pour avoir le gestionnaire
+                          des t&acirc;ches,
+                  s'il y a un processus msblast.exe, le stopper. </font></p>
+                      </blockquote>              
+                <p><font color="#FFFFFF">Ensuite, installez ce pacth fournis
+                    par Microsoft : <br>
+              <a href="Fichiers/WindowsXP-KB823980-x86-FRA.exe">WindowsXP-KB823980-x86-FRA.exe </a></font></p>
+              <p><font color="#FFFFFF"><br>
+                Puis ce fichier qui &eacute;radique MSblast pour de bon ! : <br>
+              <a href="Fichiers/FixBlast.exe">FixBlast.exe</a></font></p>
+              <p><font color="#FFFFFF"><img src="images/Autres/ligne%20sang.gif" width="500" height="24"><a name="comment"></a></font></p>
+              <p align="center"><font color="#00FF00" size="3"><strong>[::. Les
+                    Astuces du Docteur Kirikiri en cas d'Infection .::]</strong></font></p>              <p><font color="#FFFFFF">Vous pensez avoir &eacute;t&eacute; contamin&eacute; par
+                  un virus, que vous n'avez aucun anti-virus efficace et vous
+                  ne savez pas quoi faire ?</font></p>
+              <p><img src="images/Puces/pucerouge.gif" width="10" height="10"> La premi&egrave;re chose &agrave; faire et de regarder
+                dans le Gestionnaire des t&acirc;ches dans l'onglet processus
+                si vous ne trouvez pas un fichier qui vous semble importunt.<br>
+                Attention : Il faut vraiment &ecirc;tre exp&eacute;riment&eacute; et conna&icirc;tre son
+                Pc pour que cette technique soit efficace car si vous &ecirc;tes un
+                noob ( = un d&eacute;butant ) pr&eacute;tez attention &agrave; tous les fichiers et
+              vous en trouerez au moins une cinquantaine de douteux !<br>
+              Si vous &ecirc;tes un &quot;pro&quot;, retenez 
+              le nom des fichiers qui vous semblent douteux.</p>
+              <p> <img src="images/Puces/pucerouge.gif" width="10" height="10"> Lancer
+                votre connexion internet et pour le d&eacute;but,
+                allez sur
+                <a href="http://www.google.fr">google</a> et lancer le nom du
+                fichier incrimin&eacute;. Regardez les 6 premi&egrave;res pages
+                pour voir si aucune d'elles parlent d'un nouveau virus.</p>
+              <p><img src="images/Puces/pucerouge.gif" width="10" height="10"> Si vous n'avez aucun r&eacute;sultat, faites votre recherche dans
+              des sites sp&eacute;cialis&eacute;s comme :</p>
+              <blockquote>
+                <img src="images/Puces/puceverte.gif" width="10" height="10"> <a href="http://fr.trendmicro-europe.com/"><strong>Securiser</strong></a>                .::.
+                Tr&egrave;s bon site de news sur les virus<br>
+                <blockquote>
+                  <p><img src="images/Puces/pucebleue.gif" width="10" height="10"> Ou
+                    son Anti-Virus en ligne ( Tout le temps &agrave; jour ! ) <a href="http://www.secuser.com/antivirus/index.htm">ici</a></p>
+                </blockquote>
+                <p><a href="http://www.pandasoftware.com/activescan"><strong><img src="images/Puces/puceverte.gif" width="10" height="10" border="0"> Panda</strong></a> .::.
+                  Anti-Virus Online par panda Software</p>
+                <p><img src="images/Puces/puceverte.gif" width="10" height="10"> <a href="http://fr.trendmicro-europe.com/enterprise/security_info/security_overview.php"><strong>TrendMicro</strong></a> .::.
+                  un &eacute;diteur Anti-Virus <strong>: Pc-Cillin</strong></p>
+                <p><img src="images/Puces/puceverte.gif" width="10" height="10"> <a href="http://www.symantec.com/region/fr/search/"><strong>Symantec</strong></a> .::.
+                  Un &eacute;diteur Anti-Virus <strong>: Norton</strong></p>
+                <p><strong><img src="images/Puces/puceverte.gif" width="10" height="10"> <a href="http://www.grisoft.com/virbase/virbase.php?lng=us&action=search&qsearch=hledej&qvirus_name=">AVG
+                      </a></strong>.::. Un &eacute;diteur Anti-Virus : AVG</p>
+              </blockquote>              
+              <p><font color="#FFFFFF"><br>
+                </font>
+              </p></TD>
+    		<TD WIDTH=27 BACKGROUND=images/cad_d.gif><IMG SRC="images/cad_d.gif" BORDER=0 WIDTH=27 HEIGHT=12 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  		<TR>
+    		<TD COLSPAN=3><IMG SRC="images/cad_b.gif" BORDER=0 WIDTH=575 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  	</TABLE>
+    <p><a href="http://www.xiti.com/xiti.asp?s=98910" TARGET="_top">
+<script language="JavaScript1.1">
+<!--
+hsh = new Date();
+hsd = document;
+hsr = hsd.referrer.replace(/[<>]/g, '');
+hsi = '<img width="39" height="25" border=0 ';
+hsi += 'src="http://logv20.xiti.com/hit.xiti?s=98910';
+hsi += '&p=';
+hsi += '&hl=' + hsh.getHours() + 'x' + hsh.getMinutes() + 'x' + hsh.getSeconds();
+if(parseFloat(navigator.appVersion)>=4)
+{Xiti_s=screen;hsi += '&r=' + Xiti_s.width + 'x' + Xiti_s.height + 'x' + Xiti_s.pixelDepth + 'x' + Xiti_s.colorDepth;}
+hsd.writeln(hsi + '&ref=' + hsr.replace(/&/g, '$') + '" title="Mesurez votre audience"><\!--');
+//-->
+</script>
+<noscript>
+<img width="39" height="25" border=0 src="http://logv20.xiti.com/hit.xiti?s=98910&p=&" title="Mesurez votre audience">
+</noscript><!--//--></a>&nbsp;</p></TD>
+    <TD WIDTH=20 BACKGROUND=images/d.gif><IMG SRC="images/d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+  	<TD COLSPAN=3><IMG SRC="images/bas.jpg" BORDER=0 WIDTH=774 HEIGHT=32 USEMAP="#bas"></TD>
+  </TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>
+<!-- FIN FOOTER -->

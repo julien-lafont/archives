@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes" ?>
+<un:pbmstore xmlns:un="http://usablenet.com/namespaces/508as_results">
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>1870</un:offset1>
+    <un:offset2>1947</un:offset2>
+    <un:linenum>32</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>2213</un:offset1>
+    <un:offset2>2287</un:offset2>
+    <un:linenum>37</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>2442</un:offset1>
+    <un:offset2>2524</un:offset2>
+    <un:linenum>42</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>7239</un:offset1>
+    <un:offset2>7319</un:offset2>
+    <un:linenum>156</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>7468</un:offset1>
+    <un:offset2>7548</un:offset2>
+    <un:linenum>159</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>7629</un:offset1>
+    <un:offset2>7703</un:offset2>
+    <un:linenum>162</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>8422</un:offset1>
+    <un:offset2>8496</un:offset2>
+    <un:linenum>173</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>8550</un:offset1>
+    <un:offset2>8625</un:offset2>
+    <un:linenum>176</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>8752</un:offset1>
+    <un:offset2>8832</un:offset2>
+    <un:linenum>182</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>9998</un:offset1>
+    <un:offset2>10078</un:offset2>
+    <un:linenum>186</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>10153</un:offset1>
+    <un:offset2>10227</un:offset2>
+    <un:linenum>189</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>11992</un:offset1>
+    <un:offset2>12078</un:offset2>
+    <un:linenum>224</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>14608</un:offset1>
+    <un:offset2>14694</un:offset2>
+    <un:linenum>240</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>15066</un:offset1>
+    <un:offset2>15152</un:offset2>
+    <un:linenum>248</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>15778</un:offset1>
+    <un:offset2>15864</un:offset2>
+    <un:linenum>261</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>18176</un:offset1>
+    <un:offset2>18250</un:offset2>
+    <un:linenum>268</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>18298</un:offset1>
+    <un:offset2>18373</un:offset2>
+    <un:linenum>271</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>18659</un:offset1>
+    <un:offset2>18739</un:offset2>
+    <un:linenum>278</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>18898</un:offset1>
+    <un:offset2>18978</un:offset2>
+    <un:linenum>281</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>19059</un:offset1>
+    <un:offset2>19133</un:offset2>
+    <un:linenum>284</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>19308</un:offset1>
+    <un:offset2>19369</un:offset2>
+    <un:linenum>288</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>20556</un:offset1>
+    <un:offset2>20617</un:offset2>
+    <un:linenum>306</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>20990</un:offset1>
+    <un:offset2>21051</un:offset2>
+    <un:linenum>313</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>22049</un:offset1>
+    <un:offset2>22123</un:offset2>
+    <un:linenum>328</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>22177</un:offset1>
+    <un:offset2>22252</un:offset2>
+    <un:linenum>331</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>22963</un:offset1>
+    <un:offset2>23081</un:offset2>
+    <un:linenum>350</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>23165</un:offset1>
+    <un:offset2>23235</un:offset2>
+    <un:linenum>354</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>23276</un:offset1>
+    <un:offset2>23345</un:offset2>
+    <un:linenum>357</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>spIMGwValidALT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>2116</un:offset1>
+    <un:offset2>2189</un:offset2>
+    <un:linenum>36</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>Aucun texte ALT défini pour l'image d'espacement.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>1870</un:offset1>
+    <un:offset2>1947</un:offset2>
+    <un:linenum>32</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>2213</un:offset1>
+    <un:offset2>2287</un:offset2>
+    <un:linenum>37</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>2442</un:offset1>
+    <un:offset2>2524</un:offset2>
+    <un:linenum>42</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>7239</un:offset1>
+    <un:offset2>7319</un:offset2>
+    <un:linenum>156</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>7468</un:offset1>
+    <un:offset2>7548</un:offset2>
+    <un:linenum>159</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>7629</un:offset1>
+    <un:offset2>7703</un:offset2>
+    <un:linenum>162</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>8422</un:offset1>
+    <un:offset2>8496</un:offset2>
+    <un:linenum>173</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>8550</un:offset1>
+    <un:offset2>8625</un:offset2>
+    <un:linenum>176</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>8752</un:offset1>
+    <un:offset2>8832</un:offset2>
+    <un:linenum>182</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>9998</un:offset1>
+    <un:offset2>10078</un:offset2>
+    <un:linenum>186</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>10153</un:offset1>
+    <un:offset2>10227</un:offset2>
+    <un:linenum>189</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>11992</un:offset1>
+    <un:offset2>12078</un:offset2>
+    <un:linenum>224</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>14608</un:offset1>
+    <un:offset2>14694</un:offset2>
+    <un:linenum>240</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>15066</un:offset1>
+    <un:offset2>15152</un:offset2>
+    <un:linenum>248</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>15778</un:offset1>
+    <un:offset2>15864</un:offset2>
+    <un:linenum>261</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>18176</un:offset1>
+    <un:offset2>18250</un:offset2>
+    <un:linenum>268</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>18298</un:offset1>
+    <un:offset2>18373</un:offset2>
+    <un:linenum>271</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>18659</un:offset1>
+    <un:offset2>18739</un:offset2>
+    <un:linenum>278</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>18898</un:offset1>
+    <un:offset2>18978</un:offset2>
+    <un:linenum>281</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>19059</un:offset1>
+    <un:offset2>19133</un:offset2>
+    <un:linenum>284</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>19308</un:offset1>
+    <un:offset2>19369</un:offset2>
+    <un:linenum>288</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>20556</un:offset1>
+    <un:offset2>20617</un:offset2>
+    <un:linenum>306</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>20990</un:offset1>
+    <un:offset2>21051</un:offset2>
+    <un:linenum>313</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>22049</un:offset1>
+    <un:offset2>22123</un:offset2>
+    <un:linenum>328</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>22177</un:offset1>
+    <un:offset2>22252</un:offset2>
+    <un:linenum>331</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>22963</un:offset1>
+    <un:offset2>23081</un:offset2>
+    <un:linenum>350</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>23165</un:offset1>
+    <un:offset2>23235</un:offset2>
+    <un:linenum>354</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>nspIMGneedsLongdesc</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>23276</un:offset1>
+    <un:offset2>23345</un:offset2>
+    <un:linenum>357</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>L'image (autre qu'espacement) a peut-être besoin d'unattribut LONGDESC.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>SCRIPTwValidNOSCRIPT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>4400</un:offset1>
+    <un:offset2>6048</un:offset2>
+    <un:linenum>68</un:linenum>
+    <un:status>FAILED</un:status>
+    <un:message>NOSCRIPT manquant : aucun NOSCRIPT ne suit le SCRIPT.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>SCRIPTwEquivalentNOSCRIPT</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>22951</un:offset1>
+    <un:offset2>23094</un:offset2>
+    <un:linenum>349</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>NOSCRIPT trouvé : vérifiez qu'il est bienéquivalent.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>DontRelyOnColorAlone</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>0</un:offset1>
+    <un:offset2>23398</un:offset2>
+    <un:linenum>1</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message></un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>ColorsAreVisible</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>0</un:offset1>
+    <un:offset2>23398</un:offset2>
+    <un:linenum>1</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message></un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>StyleSheetsNotNecessary</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>914</un:offset1>
+    <un:offset2>1690</un:offset2>
+    <un:linenum>14</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>La page utilise des feuilles de style pour présenter soncontenu. Il se peut que certains navigateurs ne puissent paslire les feuilles de styles ou que ces dernières soientincompatibles avec les informations de stylespécifiées par l'utilisateur.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>TableWithHeaders</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>1797</un:offset1>
+    <un:offset2>23371</un:offset2>
+    <un:linenum>30</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>La page contient un tableau pouvant être utilisépour présenter des données. Si c'est le cas, leslignes et les colonnes du tableau doivent contenir desen-têtes (c.-à-d. des chaînes avec desbalises TH).</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>TableWithHeaders</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>2557</un:offset1>
+    <un:offset2>2757</un:offset2>
+    <un:linenum>45</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>La page contient un tableau pouvant être utilisépour présenter des données. Si c'est le cas, leslignes et les colonnes du tableau doivent contenir desen-têtes (c.-à-d. des chaînes avec desbalises TH).</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>TableWithHeaders</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>3366</un:offset1>
+    <un:offset2>3567</un:offset2>
+    <un:linenum>55</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>La page contient un tableau pouvant être utilisépour présenter des données. Si c'est le cas, leslignes et les colonnes du tableau doivent contenir desen-têtes (c.-à-d. des chaînes avec desbalises TH).</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>TableWithHeaders</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>6106</un:offset1>
+    <un:offset2>6302</un:offset2>
+    <un:linenum>132</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>La page contient un tableau pouvant être utilisépour présenter des données. Si c'est le cas, leslignes et les colonnes du tableau doivent contenir desen-têtes (c.-à-d. des chaînes avec desbalises TH).</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>TableWithHeaders</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>7150</un:offset1>
+    <un:offset2>8660</un:offset2>
+    <un:linenum>154</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>La page contient un tableau pouvant être utilisépour présenter des données. Si c'est le cas, leslignes et les colonnes du tableau doivent contenir desen-têtes (c.-à-d. des chaînes avec desbalises TH).</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>TableWithHeaders</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>8667</un:offset1>
+    <un:offset2>18405</un:offset2>
+    <un:linenum>180</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>La page contient un tableau pouvant être utilisépour présenter des données. Si c'est le cas, leslignes et les colonnes du tableau doivent contenir desen-têtes (c.-à-d. des chaînes avec desbalises TH).</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>TableWithHeaders</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>10282</un:offset1>
+    <un:offset2>11811</un:offset2>
+    <un:linenum>190</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>La page contient un tableau pouvant être utilisépour présenter des données. Si c'est le cas, leslignes et les colonnes du tableau doivent contenir desen-têtes (c.-à-d. des chaînes avec desbalises TH).</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>TableWithHeaders</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>18570</un:offset1>
+    <un:offset2>22287</un:offset2>
+    <un:linenum>276</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>La page contient un tableau pouvant être utilisépour présenter des données. Si c'est le cas, leslignes et les colonnes du tableau doivent contenir desen-têtes (c.-à-d. des chaînes avec desbalises TH).</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>TextOnlyEquivPage</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>4400</un:offset1>
+    <un:offset2>6048</un:offset2>
+    <un:linenum>68</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message></un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>SkipRepetitiveLinks</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>1705</un:offset1>
+    <un:offset2>23389</un:offset2>
+    <un:linenum>26</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>Vérifiez qu'un lien texte est bien présent pouréviter les liens de navigationrépétés sur chaque page.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>NoFlickeringGIFs</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>1705</un:offset1>
+    <un:offset2>23389</un:offset2>
+    <un:linenum>26</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message>La page contient des images GIF :occasionnent-t-elles des scintillements d'écran ?Si c'est le cas, modifiez ou supprimez ces images.</un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>NoFlickeringObjects</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>4400</un:offset1>
+    <un:offset2>6048</un:offset2>
+    <un:linenum>68</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message></un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>NoFlickeringObjects</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>22354</un:offset1>
+    <un:offset2>22949</un:offset2>
+    <un:linenum>335</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message></un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>ClearLangForSite</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>1705</un:offset1>
+    <un:offset2>23389</un:offset2>
+    <un:linenum>26</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message></un:message>
+  </un:pbmitem>
+  <un:pbmitem>
+    <un:ruleid>ClarifyNatLangUsage</un:ruleid>
+    <un:fileurl>file:///C|/Documents and Settings/Julien.MAXDATA/Mes documents/Mes sites Web/-Counter Snip-/Counter Snip/cs_server.html</un:fileurl>
+    <un:offset1>1705</un:offset1>
+    <un:offset2>23389</un:offset2>
+    <un:linenum>26</un:linenum>
+    <un:status>MANUAL</un:status>
+    <un:message></un:message>
+  </un:pbmitem>
+</un:pbmstore>

@@ -1,0 +1,446 @@
+<HTML>
+<HEAD>
+<TITLE>Counter Snip</TITLE>
+<META NAME="TITLE" CONTENT="Counter-Snip">
+<META NAME="identifer-URL" CONTENT="http://sniperman.free.fr">
+<META NAME="AUTHOR" lang="fr" CONTENT="Sniperman">
+<META NAME="OWNER" CONTENT="snake.spm@laposte.net">
+<META NAME="SUBJECT" CONTENT="Counter Strike">
+<META NAME="Category" CONTENT="Internet - Jeux - Cs">
+<META NAME="DESRIPTION" CONTENT="Tout sur Counter Strike et plus">
+<META NAME="KEYWORDS" CONTENT="sniperman,kirikiri,countersnip,counter-snip,cs,counter strike,counterstrike,wallpapers,fond d'écran,sms,loto,prizee,astuces,armes,skins,binds,alias,half life,maps,download,téléchargement,patchs,guide,dossier,aide,ping,fps,optimisation,mms,loteries,Orange,LAN,réseau,France,fr,hl key fr,1.5,1.3,1.4,Forum,Astuces,Console,commandes,Cheat,Hack,OGL,wallhack,liens,GBA,rom,Annuaire,">
+<META NAME="LANGUAGE" CONTENT="FR">
+<META NAME="robots" CONTENT="All">
+<STYLE TYPE=text/css>
+TD { font-family:Verdana;font-size:11px;color:white } 
+.menu { font-family:Verdana;font-size:12px;color:white } 
+.titre { font-family:Verdana;font-size:20px;color:white } 
+A.menu { font-family:Verdana;font-size:12px;color:white;text-decoration:none } 
+A:hover.menu { font-family:Verdana;font-size:12px;color:#FFCC00;font-weight:normal;text-decoration:none } 
+A { font-family:Verdana;font-size:11px;color:#FFFFFF;text-decoration:none } 
+A:hover { font-family:Verdana;font-size:11px;color:#FFCC00} 
+BODY {SCROLLBAR-FACE-COLOR: #ffa534; SCROLLBAR-HIGHLIGHT-COLOR: #ffd756; SCROLLBAR-SHADOW-COLOR: #ff8312; SCROLLBAR-3DLIGHT-COLOR: #000000; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #8E908D; SCROLLBAR-DARKSHADOW-COLOR: #000000}.Style1 {color: #FFFFFF}
+.parent {font-family: verdana;font-weight: bold ;color: #CCCCCC;font-size: 12px;margin-top: 10;cursor: hand;margin-left: 6pt}
+.child {font-size: 9px;decoration: none;font-weight: normal;margin-left:10pt}
+.Style7 {
+	font-size: 10px;
+	color: #FFFFFF;
+}
+</STYLE>
+<script language="javascript">
+<!--
+var intCount = 1;
+function DynamicMenu_addParent(strName) {
+	var strID = 'ID' + intCount++;
+	var strTemp = '<DIV ID="' + strID + '" CLASS="parent"';
+        strTemp += ' onClick="expandCollapse(this);">';
+	    strTemp += '<B>' + strName + '</B>'  
+        strTemp += '<DIV CLASS="child"></DIV>';
+        strTemp += '</DIV>';
+		this.div.innerHTML += strTemp;
+        this.currentChild = document.getElementById(strID);
+}
+
+function DynamicMenu_addChild(strName,strURL) {
+
+	var strTemp = '<A HREF="' + strURL + '"' + ' onClick="cancelBubble(arguments[0]);">' + strName + '</A><BR>';
+	if (document.all) {
+        	this.currentChild.children[1].innerHTML += strTemp;
+	} else {
+        	this.currentChild.childNodes[1].innerHTML += strTemp;
+	}
+	
+}
+
+function cancelBubble(netEvent) {
+	if (document.all) {
+		window.event.cancelBubble = true;
+	} else {
+        	netEvent.cancelBubble = true;
+	}
+}
+
+function expandCollapse(objElement) {
+
+	if (document.all) {
+        	var imgIcon = objElement.children[0];
+                objElement = objElement.children[1];
+	} else {
+        	var imgIcon = objElement.childNodes[0];
+                objElement = objElement.childNodes[2];
+	}
+	if (objElement.style.display == "none") {
+        	objElement.style.display = "block" ;
+                imgIcon.src = "bottomb.gif" ;
+	} else {
+        	objElement.style.display = "none" ;
+                imgIcon.src = "leftb.gif" ;
+	}
+}
+
+function DynamicMenu() {
+
+	var id = "Menu" + intCount++;
+        document.write('<DIV Id="' + id + '"></DIV>');		
+	this.div = document.getElementById(id);
+        this.currentChild = null;
+		
+	this.addParent = DynamicMenu_addParent;
+	
+        this.addChild = DynamicMenu_addChild;
+		
+}
+// -->
+
+</script>
+
+</HEAD>
+<BODY BGCOLOR=#000000 TEXT=#FFFFFF LINK=#0000FF VLINK=#800080 ALINK=#FF0000>
+<CENTER>
+
+<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH=774>
+  <TR>
+    <TD WIDTH=175><IMG SRC="images/haut3a.jpg" BORDER=0 WIDTH=175 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+      <TD WIDTH=579 BACKGROUND=images/top_cs.gif CLASS=titre> 
+        <!-- ICI, LE TITRE DEVOTRE SITE -->
+        Dossier Astuces<BR>
+        <IMG SRC="images/pixel.gif" BORDER=0 WIDTH=1 HEIGHT=13 HSPACE=0 VSPACE=0></TD>
+    <TD WIDTH=20><IMG SRC="images/top_d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+      	
+      	<!-- !!!!!!!!! DEBUT MENU !!!!!!!!!!! -->
+	  <TD WIDTH=175 BACKGROUND=images/fond_menu.gif VALIGN=top CLASS=menu> <IMG SRC="images/haut3b.jpg" BORDER=0 WIDTH=175 HEIGHT=115 HSPACE=0 VSPACE=0><BR>
+
+	<!-- DEBUT MENU 1 -->
+	<BR>
+    <!-- DEBUT MENU 1 -->
+    <p><span class="parent"><img src="images/Puces/arrow2b.gif" width="10" height="13" align="absmiddle"> <a href="index.htm">Accueil</a></span><br>
+        <script language=Javascript type=text/javascript>
+var menu = new DynamicMenu();
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Site'); 
+menu.addChild('- Me contacter', 'site_contact.html');
+menu.addChild('- Livre d&acute;or', 'http://www.maxiservices.net/livre/livre.php3?id=2810 ');		
+menu.addChild('- Chat', 'site_chat.html'); 
+menu.addChild('- Qui suis-je', 'site_quisuisje.html');
+menu.addChild('- Pubs', 'site_pub.html');
+      
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Counter Strike'); 
+menu.addChild(' ', ' ');
+menu.addChild('- Pr&eacute;sentation', 'cs_presentation.html');
+menu.addChild('- <b>Downloads</b>', 'cs_Downloads.html');
+menu.addChild('- Astuces', 'cs_Astuces.html');
+menu.addChild('- Armes', 'cs_armes.html');
+menu.addChild('- Binds & Alias', 'cs_Binds_&_Alias.html'); 
+menu.addChild('- PodBot', 'cs_Podbot.html');
+menu.addChild('- <b>Réduire son Ping</b>', 'cs_Ping.html');
+menu.addChild('- Dossier CS - Xbox', 'cs_xbox.html');
+menu.addChild('- Servers', 'cs_server.html');
+menu.addChild('- Easter Eggs', 'cs_EasterEgg.html');
+menu.addChild('- Counter Mania', 'cs_counterMania.html');
+menu.addChild('- Commandes', 'cs_console.html');
+menu.addChild('- Cheats', 'cs_cheats.html');
+menu.addChild('- Tag', 'cs_tag2.html');
+menu.addChild('- Liens', 'cs_liens.html');
+menu.addChild('- Wallpapers', 'cs_wallpapers.html');
+menu.addChild('- Tarte à la Fraise', 'cs_tarte.html');
+
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Steam'); 
+menu.addChild('- T&eacute;l&eacute;chargement', 'steam_telechargement.html');
+menu.addChild('- <b>Pack LAN + BOT</b>', 'steam_nosteam.html'); 				 				
+menu.addChild('- Installation', 'steam_install.html');
+menu.addChild('- Utilitaires', 'steam_util.html');
+menu.addChild('- Binder 1.6', 'cs_Binder1.html');
+menu.addChild('- Lecteur MP3', 'steam_mp3.html');
+menu.addChild('- FAQ', 'steam_faq.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Half Life 2'); 
+menu.addChild('- News', 'hl_news.html');
+menu.addChild('- Histoire', 'hl_hist.html');
+menu.addChild('- Armes', 'hl_armes.html'); 
+menu.addChild('- Personnages', 'hl_pers.html');
+menu.addChild('- Packs', 'hl_pack.html');			
+menu.addChild('- Screenshot', 'hl_screen.html');
+menu.addChild('- Art-Works', 'hl_screen3.html');
+menu.addChild('- Fond d&acute;&eacute;cran', 'hl_wallpapers.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Petits +'); 
+menu.addChild('- Dossier Virus', 'plus_virus.html'); 				
+menu.addChild('- SMS & MMS gratuits', 'plus_sms.html');
+menu.addChild('- Mail Anonyme', '');
+menu.addChild('- M&eacute;t&eacute;o 48h', 'plus_meteo.html');
+menu.addChild('- Programme Cin&eacute; et TV', 'plus_cine.html');
+menu.addChild('- Annuaire Invers&eacute;', 'plus_annuaire.html');
+menu.addChild('- Traduction en ligne', 'plus_trans.html');
+menu.addChild('- Horoscope', 'plus_horoscopes.html');
+menu.addChild('- Auto-Biographie ;-)', 'plus_bio.html');
+menu.addChild('- Cartes et Itin&eacute;raires', 'plus_cartes.html');
+menu.addChild('- Loteries Gratuites', 'plus_loteries.html');
+menu.addChild('- Convertisseur', 'plus_calcu.html');
+          </script>
+        <br>
+    </p>
+    <TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+      <TR>
+        <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp; T&eacute;l&eacute;chargement &nbsp;&nbsp;</B></div></TD>
+      </TR>
+    </TABLE>
+    <p align="center">
+    <MARQUEE behavior= "scroll" align= "center" direction= "up" height="80" scrollamount= "2" scrolldelay= "10" onmouseover='this.stop()' onmouseout='this.start()'>
+    <table align=center>
+      <tr>
+        <td align=center>
+          <p>- <a href="ftp://ftpclubic2.clubic.com/temp-clubic-rx1740/jeux/Counter-Strike_Mod_1.5_en_version_complete.exe"><strong>Counter Strike 1.5</strong></a> - <br>
+        127 mo </p>
+          <p>- <a href="steam_nosteam.html"><strong>Pack CS 1.6 OFFline</strong> -<br>
+              Dossier</a></p>
+          <p>- <a href="http://www.filemirrors.com/search.src?file=steaminstall_cs.exe&size=397857244" target="_blank"><strong>Counter Strike 1.6</strong></a> - <br>
+        Full 388 mo </p>
+          <p>- <a href="ftp://ftp.vugames.fr/pub/half-life/fhl1110.exe"><strong>Half life 1.1.1.0</strong></a> - <br>
+        Full 84 mo </p>
+          <p>- <a href="ftp://ftp.trusted-network.de/pub/games/pod25ins.exe"><strong>Pod Bot 2.5</strong></a> - <br>
+        2 mo</p>
+          <p>- <a href="http://akimbot.nuclearbox.com/akimbot030.zip"><strong>Akimbot Bot 3.0</strong></a> - <br>
+        0.3 mo </p>
+          <p>- <a href="Fichiers/SteamCustomizerv104.rar"><strong>Steam Customizer</strong></a> - <br>
+        0.3 mo </p>
+          <p class="Style1"><strong>- <a href="http://www.udpsoft.com/eye/download/newer/EyeInstaller.exe">All-Seeing Eyes</a> -</strong></p></td>
+      </tr>
+    </table>
+    </MARQUEE><br>
+<br>
+
+    <TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+      <TR>
+        <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp; Wallpapers : &nbsp;&nbsp;</B></div></TD>
+      </TR>
+    </TABLE>
+    <p align="center"><a href="images/Wallpapers/cs_41.jpg"><img src="images/Wallpapers/small/TN_cs_41.JPG" width="128" height="96" border="0"></a> <br>
+      <span class="Style7"><a href="cs_wallpapers.html">Tous les Wallpapers</a></span></p>
+    </TD>
+    <TD WIDTH=579 BGCOLOR=#364132 VALIGN=top ALIGN=center>
+	
+<!-- FIN HEADER -->
+	
+	<!-- DEBUT CADRE DE CONTENU 1 -->
+	<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=575>
+  		<TR>
+    		<TD WIDTH=25><IMG SRC="images/cad_bleu_hg.gif" BORDER=0 WIDTH=25 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+    		<TD BACKGROUND=images/cad_bleue_h.gif WIDTH=523 CLASS=menu><B>Comment 
+              devenir plus fort ... Ou bien d&eacute;buter</B></TD>
+    		<TD WIDTH=27><IMG SRC="images/cad_bleu_hd.gif" BORDER=0 WIDTH=27 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  		<TR>
+    		<TD WIDTH=25 BACKGROUND=images/cad_g.gif><IMG SRC="images/cad_g.gif" BORDER=0 WIDTH=25 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+    		<TD BGCOLOR=#4D574A WIDTH=523>
+<center>
+                <p align="left">&nbsp;<strong>Voici quelques astuces qui pourront
+                     vous aider.</strong></p>
+              </center>
+<blockquote>
+  <p><font color="#FFFF00"><img src="images/Autres/new_AN.gif" width="31" height="12"></font><font color="#FFFF00"><a href="cs_AstucesHS.html">Comment
+    faire un Head Shot ?</a></font> <br>
+    <font color="#FFFF00"><img src="images/Autres/new_AN.gif" width="31" height="12"></font><font color="#FFFF00"><a href="cs_AstucesGREN.html">Bien
+    se servir des Grenades</a> <br>
+    <img src="images/Autres/new_AN.gif" width="31" height="12"><a href="cs_AstucesMOUV.html">Le
+    mouvement : conseil</a></font></p>
+</blockquote>
+<center>
+                <p align="left"><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  Lorsqu'une flashbang vous arrive dessus, vous avez trois possibilit&eacute;s:<br>
+                  1.) Vous vous faites aveugler et fragger.<br>
+                  2.) Vous foncez pour que la grenade vous passe dans le dos. 
+                    Vous n'avez alors qu'un film blanc &agrave; l'&eacute;cran. 
+                    Celui qui vous a lanc&eacute; la flashbang vous croit alors 
+                    aveugl&eacute; : foncez lui dessus, il n'aura pas le temps de 
+                    comprendre.<br>
+                  3.) Cachez vous, tournez le dos &agrave; la grenade, ou regardez 
+                  le mur. Attendez le bruit de l'explosion, puis allez-y.</p>
+                <p align="left"><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle">&nbsp; 
+                  Si vous aimez jouer avec le silencieux sur votre colt, s&eacute;lectionnez 
+                    votre arme au d&eacute;but du round, puis mettez le silencieux, 
+                    et, sans attendre l'animation, prenez votre couteau. Quand vous 
+                    sortirez le colt, le silencieux sera d&eacute;j&agrave; mis. 
+                    Attention, m&ecirc;me si l'on ne voit pas l'animation, le temps 
+                    n&eacute;cessaire &agrave; la pose du silencieux est compt&eacute;. 
+                    En clair, ne faites pas cette manip juste avant de faire feu 
+                    : vous ne pourrez pas tirer, le jeu attendra en fait la fin 
+                  de l'animation. Cette technique marche aussi avec l'usp.</p>
+                <p align="left"><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  Quand vous avez d&eacute;goupill&eacute; une grenade, et que 
+                    vous ne voulez pas la lancer, changez d'arme. La grenade sera 
+                    alors &quot; regoupill&eacute;e &quot;. Les grenades peuvent 
+                  &ecirc;tre maintenues d&eacute;goupill&eacute;es aussi longtemps 
+                  qu'on le souhaite. </p>
+                <p align="left"><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  Souvenez vous que si vous avez 4 otages dans la mission &agrave; 
+                  sauver (ce qui est en g&eacute;n&eacute;ral le cas), il vous
+                     suffit d'en lib&eacute;rer au moins deux pour gagner. En clair,
+                      si vous en avez sauv&eacute; deux et qu'un ennemi a gard&eacute; 
+                  avec lui les deux restants, tuez-les vous gagnez automatiquement.
+                   De toute fa&ccedil;on, vous &ecirc;tes gagnant. </p>
+                <p align="left"><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  N'oubliez pas que les caisses ne sont pas en b&eacute;ton arm&eacute;. 
+                    En clair il ne faut pas se croire &agrave; l'abri des balles 
+                  d&egrave;s lors que l'on est derri&egrave;re des caisses.</p>
+                <p align="left"><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  Le son est l'une des choses les plus importantes dans CS. Avec 
+                    de la pratique, on reconna&icirc;t les bruits des armes, les 
+                    bruits de rechargement, la position de l'ennemi en fonction 
+                    des bruits de pas (surface et intensit&eacute;), et les messages 
+                  radio depuis la 1.3...</p>
+                <p align="left"><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  Pour monter une &eacute;chelle sans faire de bruit, accroupissez 
+                    vous. Cela ne marche pas avec toutes les &eacute;chelles. Vous 
+                  faites cependant moins de bruit.</p>
+                <p align="left"><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  Evitez de tirer quand vous &ecirc;tes sur une &eacute;chelle 
+                  : la pr&eacute;cision est pourrie.</p>
+                <p align="left"><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  D&egrave;s que vous en avez la possibilit&eacute;, baissez-vous,
+                     zoomez et restez immobile, cela est valable pour les sniper
+                    
+                  tout autant que pour les rifles classiques, vous &eacute;viterez
+                     ainsi de mettre des balles un peu partout autour de votre
+                    adversaire 
+                    sauf sur lui! Il est pr&eacute;f&eacute;rable de tirer par
+                  petites  salves de 3 &agrave; 4 balles .</p>
+                <p align="left"><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  Trop de joueurs se plaignent de ne pas avoir assez d'argent
+                       pour jouer correctement, lorsque vous n'avez plus d'argent
+                      (moins 
+                    de 2000), n'achetez rien, ou seulement du kevlar, restez en
+                       groupe et ramassez l'arme du premier joueur qui meurt, m&ecirc;me
+                        si gr&acirc;ce &agrave; ceci vous ne gagnez pas, vous aurez
+                         assez d'argent au tour suivant pour vous payer une awp
+                        ou 
+                  une bonne arme. </p>
+                <p align="left"><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  Au bout d'un certain temps apr&egrave;s avoir commenc&eacute; 
+                  counter-strike, vous devez normalement &ecirc;tre habitu&eacute; 
+                  &agrave; courir en d&eacute;but de round avec le couteau ou
+                    le pistolet puis de sortir votre arme avant la bataille. Je
+                    sais &ccedil;a
+                       parait b&ecirc;te mais trop de joueurs exp&eacute;riment&eacute;s
+                      ne le font pas! </p>
+                <p align="left"><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  Comment faire des headshot sans trop forcer : visez d'abord
+                       le torse, et avec le recul de l'arme le viseur va monter
+                      et 
+                    toucher automatiquement la t&ecirc;te , si vous disposez d'un
+                     AK ou autre, visez directement la t&ecirc;te avec 4 ou 5 balles,
+                    l'une d'elle touchera forcement. </p>
+                <p align="left"><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  Certains joueurs pr&eacute;f&egrave;rent jouer avec une sensibilit&eacute; 
+                  de souris &eacute;lev&eacute;e et d'autre moins, cela d&eacute;pend
+                     de la distance &agrave; laquelle vous tuez g&eacute;n&eacute;ralement
+                      vos ennemis, les amateurs de corps a corps pr&eacute;f&egrave;rent
+                       une souris tr&egrave;s sensible pour se d&eacute;placer
+                       et viser  plus rapidement. Les snipers quant &agrave; eux
+                       pr&eacute;f&egrave;reront
+                    une sensibilit&eacute; moins forte pour viser plus facilement 
+                  &agrave; longue distance. Personnellement j'utilise 3 (sensitivity 
+                  &quot;3&quot;) comme sensibilit&eacute;.</p>
+                <p align="left"><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  Mieux vaut rester derri&egrave;re vos co&eacute;quipiers si 
+                    vous &ecirc;tes mal arm&eacute; ou mal prot&eacute;g&eacute; 
+                  ou que vous aimez la solitude... &agrave; votre grand d&eacute;sarroi 
+                    (lol) les rusheurs de votre &eacute;quipe serviront ainsi de 
+                  &quot;bouclier humain&quot; ou &quot;chair &agrave; canon&quot; 
+                </p>
+                <p align="left"><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  Pour utiliser d'une mani&egrave;re optimale une grenade, il
+                     faut savoir utiliser les rebonds sur les murs et savoir viser 
+                  &agrave; travers les fen&ecirc;tres et dans les bouches d'a&eacute;ration
+                     ou les couloirs exigus. Si vous avez plus de 5 adversaires
+                    et 
+                    qu'ils sont regroup&eacute;s, il ne faut pas h&eacute;siter
+                  &agrave;  en acheter car c'est tr&egrave;s rentable. </p>
+                <p align="left"><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  Lors des combats aux corps &agrave; corps, lorsque vous n'avez
+                     plus de balles ou aucune arme efficace dans ce genre de situation,
+                    
+                  il faut imp&eacute;rativement sortir votre pistolet, le couteau
+                     ne sert pas vraiment dans ce genre de situation, sauf pour
+                    ass&eacute;ner 
+                    un coup dans la t&ecirc;te (avec le bouton droit) par derri&egrave;re 
+                  &agrave; un sniper immobile qui ne vous a pas entendu. </p>
+                <p align="left"><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  Un bon joueur doit conna&icirc;tre toutes les cartes par c&#339;ur,
+                     il est n&eacute;cessaire de conna&icirc;tre tous les passages
+                      possibles, tous les angles de tir, tous les endroit pour
+                     camper 
+                    efficacement, tous les murs pouvant &ecirc;tre travers&eacute; 
+                  par les balles de gros calibre. La connaissance parfaite de
+                   la carte fait plus de 50% de votre chance de victoire. </p>
+                <p align="left"><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  Lorsque vous avez d&eacute;cid&eacute; d'&eacute;conomiser
+                    et  que vous n'avez pas d'arme pour ce round, ou bien que vous &ecirc;tes
+                     dans une situation de seul contre tous, pensez &agrave; utiliser
+                      les cam&eacute;ras, id&eacute;al pour rep&eacute;rer les
+                      campeurs ou snipers ,et avertir vos alli&eacute;s de leur
+                      position pour qu'il puisse faire un carnage sans trop se
+                    fouler. </p>
+                <p align="left"><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  Le &quot;Sig sauer SG-552 commando&quot; des terros et le &quot;Steyr 
+                    Aug&quot; des Ct disposent d'un zoom que l'on appelle ACOG dans 
+                    le jargon militaire, vous devez imp&eacute;rativement avoir 
+                    le r&eacute;flexe de vous baisser et de l'utiliser d&egrave;s 
+                  qu'un ennemi est &agrave; plus de 8 m&egrave;tres. </p>
+                <p align="left"><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  En fin de round lorsqu'il reste tr&egrave;s peu de joueurs, 
+                    il EST IMP&Eacute;RATIF de marcher dans les endroits &agrave; 
+                  risque, combien de joueurs j'ai pu &eacute;liminer parce qu'ils 
+                    ne se fiaient qu'au son et ne regardaient jamais derri&egrave;re 
+                  eux.</p>
+                <p align="left"><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  Il arrive souvent qu'un joueur meure en d&eacute;but de partie, 
+                    si vous &ecirc;tes dans ce cas, profitez en pour observer attentivement 
+                    les techniques et les chemins emprunt&eacute;s par vos ennemis, 
+                    ce qui vous donnera un avantage technique tr&egrave;s b&eacute;n&eacute;fique 
+                    pour le prochain round. Pensez aussi que vos adversaire feront 
+                    de m&ecirc;me ! Donc ne faites jamais 2 fois le m&ecirc;me parcours 
+                </p>
+                <p align="left"><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                  Si vous disposez d'une souris PS2 vous devez imp&eacute;rativement 
+                    t&eacute;l&eacute;charger le programme PS2Rate et r&eacute;gler 
+                    le taux de rafra&icirc;chissement de votre souris &agrave; 100 
+                    Hz .Si votre souris est USB vous n'en avez pas besoin car le 
+                    taux de rafra&icirc;chissement est deja optimis&eacute; (125 
+                    Hz). N'oubliez pas de configurer vos boutons pour plus de rapidit&eacute; 
+                  si votre souris en a en plus.</p>
+</center></TD>
+    		<TD WIDTH=27 BACKGROUND=images/cad_d.gif><IMG SRC="images/cad_d.gif" BORDER=0 WIDTH=27 HEIGHT=12 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  		<TR>
+    		<TD COLSPAN=3><IMG SRC="images/cad_b.gif" BORDER=0 WIDTH=575 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  	</TABLE><BR>        <a href="http://www.xiti.com/xiti.asp?s=98910" TARGET="_top">
+<script language="JavaScript1.1">
+<!--
+hsh = new Date();
+hsd = document;
+hsr = hsd.referrer.replace(/[<>]/g, '');
+hsi = '<img width="39" height="25" border=0 ';
+hsi += 'src="http://logv20.xiti.com/hit.xiti?s=98910';
+hsi += '&p=Astuces';
+hsi += '&hl=' + hsh.getHours() + 'x' + hsh.getMinutes() + 'x' + hsh.getSeconds();
+if(parseFloat(navigator.appVersion)>=4)
+{Xiti_s=screen;hsi += '&r=' + Xiti_s.width + 'x' + Xiti_s.height + 'x' + Xiti_s.pixelDepth + 'x' + Xiti_s.colorDepth;}
+hsd.writeln(hsi + '&ref=' + hsr.replace(/&/g, '$') + '" title="Mesurez votre audience"><\!--');
+//-->
+</script>
+<noscript>
+<img width="39" height="25" border=0 src="http://logv20.xiti.com/hit.xiti?s=98910&p=Astuces&" title="Mesurez votre audience">
+</noscript><!--//--></a></TD>
+    <TD WIDTH=20 BACKGROUND=images/d.gif><IMG SRC="images/d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+  	<TD COLSPAN=3><IMG SRC="images/bas.jpg" BORDER=0 WIDTH=774 HEIGHT=32 USEMAP="#bas"></TD>
+  </TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>
+<!-- FIN FOOTER -->

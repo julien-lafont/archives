@@ -1,0 +1,19 @@
+<table class="tableHeader">
+	<tr>
+		#{if _retour}
+		<td class="btnCell">
+			<a href="#" data-rel="back" data-role="button" data-inline="true">&nbsp;&lt;&nbsp;</a>
+		</td>
+		#{/if}
+		<td><a href="/"><img src="@{'/public/images/logo/normal-v2.png'}" class="redim" data-ajax="false" /></a></td>
+
+		<td class="btnCell">
+			#{if _lang=="fr"}
+				<a href="@{Langue.changer('en')}" rel="external"><img src="@{'/public/images/flags/en.png'}" alt="en" /></a>
+			#{/if}
+			#{else}
+				<a href="@{Langue.changer('fr')}" rel="external"><img src="@{'/public/images/flags/fr.png'}" alt="fr" /></a>
+			#{/else}
+		</td>
+	</tr>
+</table>

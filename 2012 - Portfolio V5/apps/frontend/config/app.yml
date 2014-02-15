@@ -1,0 +1,42 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+  blog:
+    pagination: 10
+  sfSyntaxHighlighterPlugin:
+    theme: default
+  liens:
+    viadeo: "http://www.viadeo.com/fr/profile/julien.lafont5"
+    facebook: "http://www.facebook.com/julien.lafont"
+    twitter: "http://twitter.com/studiodev"
+    linkedin: "http://fr.linkedin.com/in/julienlafont"
+  email:
+    contact: contact@studio-dev.fr
+  ip: "82.239.136.112"
+  bitly:
+    cle: R_11fbfe5c5a6367183a29557a230a7c16
+    login: yotsumi
+
+  sfImageTransformPlugin:
+    default_adapter: GD # GD or ImageMagick
+    #font_dir: /usr/share/fonts/truetype/msttcorefonts
+    mime_type:
+      auto_detect: true
+      library: gd_mime_type #  gd_mime_type (GD), Fileinfo (PECL), MIME_Type (PEAR) 
+  
+prod:
+  cacheListeCategories: 60
+  cacheNbArticlesParCategories:  60
+
+    
+dev:
+  cacheListeCategories: 1
+  cacheNbArticlesParCategories: 1
+  ip: "127.0.0.1"
+  
+#Django
+#Emacs
+#FadeToGrey
+#Midnight

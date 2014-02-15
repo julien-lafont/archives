@@ -1,0 +1,13 @@
+A { font-family:Verdana;font-size:11px;color:#FFCC00;text-decoration:none } 
+A:hover { font-family:Verdana;font-size:11px;color:#CC0000 } 
+TEXTAREA {background-color: #97B8CB; font-weight: 100; color: #000000; border: 1 solid #000000}
+INPUT {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-style: normal; font-weight: normal; font-variant: normal; background-attachment: fixed; background-color: #FFFFFF;white-space: normal}
+.menu { font-family:Verdana;font-size:12px;color:white } 
+.titre { font-family:Verdana;font-size:20px;color:white } 
+.table {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: normal; text-align: left; border: 3px #000000 dashed; cursor: auto; background-position: left top; vertical-align: top; text-indent: 5pt}
+.texte {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px}
+.petit_texte {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; border-color: black black #000000; text-indent: 0pt; border-style: dashed; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px}
+.parent {font-family: verdana;font-weight: bold ;color: #FFFFFF;font-size: 10px;margin-top: 10;cursor: hand;}
+.child {font-size: 9px;decoration: none;font-weight: normal;margin-left: 10pt;}
+BODY {SCROLLBAR-FACE-COLOR: #ffa534; SCROLLBAR-HIGHLIGHT-COLOR: #ffd756; SCROLLBAR-SHADOW-COLOR: #ff8312; SCROLLBAR-3DLIGHT-COLOR: #000000; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #8E908D; SCROLLBAR-DARKSHADOW-COLOR: #000000}
+}

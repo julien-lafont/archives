@@ -1,0 +1,23 @@
+[info]
+title=Automotive
+codepage=65001
+version=02.00
+format=2.00
+readonly=0
+refcount=7
+
+[titles]
+1031=Automobil
+1036=Tableau de bord
+1040=Automobile
+3082=Automoción
+1043=Auto's
+1046=Automóveis
+1053=Instrumentbräde
+1044=Instrumentbord
+1030=Biler
+1035=Auto
+1041=メーター
+1042=자동차
+1028=汽車
+2052=汽车

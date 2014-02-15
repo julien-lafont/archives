@@ -1,0 +1,391 @@
+<HTML>
+<HEAD>
+<TITLE>Counter Snip</TITLE>
+<META NAME="TITLE" CONTENT="Counter-Snip">
+<META NAME="identifer-URL" CONTENT="http://sniperman.free.fr">
+<META NAME="AUTHOR" lang="fr" CONTENT="Sniperman">
+<META NAME="OWNER" CONTENT="snake.spm@laposte.net">
+<META NAME="SUBJECT" CONTENT="Counter Strike">
+<META NAME="Category" CONTENT="Internet - Jeux - Cs">
+<META NAME="DESRIPTION" CONTENT="Tout sur Counter Strike et plus">
+<META NAME="KEYWORDS" CONTENT="sniperman,kirikiri,countersnip,counter-snip,cs,counter strike,counterstrike,wallpapers,fond d'écran,sms,loto,prizee,astuces,armes,skins,binds,alias,half life,maps,download,téléchargement,patchs,guide,dossier,aide,ping,fps,optimisation,mms,loteries,Orange,LAN,réseau,France,fr,hl key fr,1.5,1.3,1.4,Forum,Astuces,Console,commandes,Cheat,Hack,OGL,wallhack,liens,GBA,rom,Annuaire,">
+<META NAME="LANGUAGE" CONTENT="FR">
+<META NAME="robots" CONTENT="All">
+<STYLE TYPE=text/css>
+TD { font-family:Verdana;font-size:11px;color:white } 
+.menu { font-family:Verdana;font-size:12px;color:white } 
+.titre { font-family:Verdana;font-size:20px;color:white } 
+A.menu { font-family:Verdana;font-size:12px;color:white;text-decoration:none } 
+A:hover.menu { font-family:Verdana;font-size:12px;color:#FFCC00;font-weight:normal;text-decoration:none } 
+A.liens {color:#0000FF;decoration:none;}
+A:hover.liens {color:#000099;text-decoration:underline;font-weight:Bolder } 
+A { font-family:Verdana;font-size:11px;color:#FFFFFF;text-decoration:none } 
+A:hover { font-family:Verdana;font-size:11px;color:#FFCC00} 
+BODY {SCROLLBAR-FACE-COLOR: #ffa534; SCROLLBAR-HIGHLIGHT-COLOR: #ffd756; SCROLLBAR-SHADOW-COLOR: #ff8312; SCROLLBAR-3DLIGHT-COLOR: #000000; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #8E908D; SCROLLBAR-DARKSHADOW-COLOR: #000000}
+.Style1 {color: #FFFFFF}
+.parent {font-family: verdana;font-weight: bold ;color: #CCCCCC;font-size: 12px;margin-top: 10;cursor: hand;margin-left: 6pt}
+.child {font-size: 9px;decoration: none;font-weight: normal;margin-left:10pt}
+.Style6 {	color: #FFFF00;
+	font-weight: bold;
+}
+</STYLE>
+<script language="javascript">
+<!--
+var intCount = 1;
+function DynamicMenu_addParent(strName) {
+	var strID = 'ID' + intCount++;
+	var strTemp = '<DIV ID="' + strID + '" CLASS="parent"';
+        strTemp += ' onClick="expandCollapse(this);">';
+	    strTemp += '<B>' + strName + '</B>'  
+        strTemp += '<DIV CLASS="child"></DIV>';
+        strTemp += '</DIV>';
+		this.div.innerHTML += strTemp;
+        this.currentChild = document.getElementById(strID);
+}
+
+function DynamicMenu_addChild(strName,strURL) {
+
+	var strTemp = '<A HREF="' + strURL + '"' + ' onClick="cancelBubble(arguments[0]);">' + strName + '</A><BR>';
+	if (document.all) {
+        	this.currentChild.children[1].innerHTML += strTemp;
+	} else {
+        	this.currentChild.childNodes[1].innerHTML += strTemp;
+	}
+	
+}
+
+function cancelBubble(netEvent) {
+	if (document.all) {
+		window.event.cancelBubble = true;
+	} else {
+        	netEvent.cancelBubble = true;
+	}
+}
+
+function expandCollapse(objElement) {
+
+	if (document.all) {
+        	var imgIcon = objElement.children[0];
+                objElement = objElement.children[1];
+	} else {
+        	var imgIcon = objElement.childNodes[0];
+                objElement = objElement.childNodes[2];
+	}
+	if (objElement.style.display == "none") {
+        	objElement.style.display = "block" ;
+                imgIcon.src = "bottomb.gif" ;
+	} else {
+        	objElement.style.display = "none" ;
+                imgIcon.src = "leftb.gif" ;
+	}
+}
+
+function DynamicMenu() {
+
+	var id = "Menu" + intCount++;
+        document.write('<DIV Id="' + id + '"></DIV>');		
+	this.div = document.getElementById(id);
+        this.currentChild = null;
+		
+	this.addParent = DynamicMenu_addParent;
+	
+        this.addChild = DynamicMenu_addChild;
+		
+}
+// -->
+
+</script>
+
+</HEAD>
+<BODY BGCOLOR=#000000 TEXT=#FFFFFF LINK=#0000FF VLINK=#800080 ALINK=#FF0000>
+<CENTER>
+
+<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH=774>
+  <TR>
+    <TD WIDTH=175><IMG SRC="images/haut8a.jpg" BORDER=0 WIDTH=175 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+      <TD WIDTH=579 BACKGROUND=images/top_cs.gif CLASS=titre> 
+        <!-- ICI, LE TITRE DEVOTRE SITE -->
+        Pub : <BR>
+        <IMG SRC="images/pixel.gif" BORDER=0 WIDTH=1 HEIGHT=13 HSPACE=0 VSPACE=0></TD>
+    <TD WIDTH=20><IMG SRC="images/top_d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+      	
+      	<!-- !!!!!!!!! DEBUT MENU !!!!!!!!!!! -->
+	  <TD WIDTH=175 BACKGROUND=images/fond_menu.gif VALIGN=top CLASS=menu> <IMG SRC="images/haut8b.jpg" BORDER=0 WIDTH=175 HEIGHT=115 HSPACE=0 VSPACE=0><BR>
+
+	<!-- DEBUT MENU 1 -->
+	<p><span class="parent"><img src="images/Puces/arrow2b.gif" width="10" height="13" align="absmiddle"> <a href="index.htm">Accueil</a></span><br>
+        <script language=Javascript type=text/javascript>
+var menu = new DynamicMenu();
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Site'); 
+menu.addChild('- Me contacter', 'site_contact.html');
+menu.addChild('- Livre d&acute;or', 'http://www.maxiservices.net/livre/livre.php3?id=2810 ');		
+menu.addChild('- Chat', 'site_chat.html'); 
+menu.addChild('- Qui suis-je', 'site_quisuisje.html');
+menu.addChild('- Pubs', 'site_pub.html');
+      
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Counter Strike'); 
+menu.addChild(' ', ' ');
+menu.addChild('- Pr&eacute;sentation', 'cs_presentation.html');
+menu.addChild('- <b> Downloads</b>', 'cs_Downloads.html');
+menu.addChild('- Astuces', 'cs_Astuces.html');
+menu.addChild('- Armes', 'cs_armes.html');
+menu.addChild('- Binds & Alias', 'cs_Binds_&_Alias.html'); 
+menu.addChild('- PodBot', 'cs_Podbot.html');
+menu.addChild('- <b>R&eacute;duire son Ping</b>', 'cs_Ping.html');
+menu.addChild('- Dossier CS - Xbox', 'cs_xbox.html');
+menu.addChild('- Servers', 'cs_server.html');
+menu.addChild('- Easter Eggs', 'cs_EasterEgg.html');
+menu.addChild('- Counter Mania', 'cs_counterMania.html');
+menu.addChild('- Commandes', 'cs_console.html');
+menu.addChild('- Cheats', 'cs_cheats.html');
+menu.addChild('- Tag', 'cs_tag2.html');
+menu.addChild('- Liens', 'cs_liens.html');
+menu.addChild('- Wallpapers', 'cs_wallpapers.html');
+menu.addChild('- Tarte à la Fraise', 'cs_tarte.html');
+
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Steam'); 
+menu.addChild('- T&eacute;l&eacute;chargement', 'steam_telechargement.html');
+menu.addChild('- <b>Pack LAN + BOT</b>', 'steam_nosteam.html'); 				 				
+menu.addChild('- Installation', 'steam_install.html');
+menu.addChild('- Utilitaires', 'steam_util.html');
+menu.addChild('- Binder 1.6', 'cs_Binder1.html');
+menu.addChild('- Lecteur MP3', 'steam_mp3.html');
+menu.addChild('- FAQ', 'steam_faq.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Half Life 2'); 
+menu.addChild('- News', 'hl_news.html');
+menu.addChild('- Histoire', 'hl_hist.html');
+menu.addChild('- Armes', 'hl_armes.html'); 
+menu.addChild('- Personnages', 'hl_pers.html');
+menu.addChild('- Packs', 'hl_pack.html');			
+menu.addChild('- Screenshot', 'hl_screen.html');
+menu.addChild('- Art-Works', 'hl_screen3.html');
+menu.addChild('- Fond d&acute;&eacute;cran', 'hl_wallpapers.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Petits +'); 
+menu.addChild('- Dossier Virus', 'plus_virus.html'); 				
+menu.addChild('- SMS & MMS gratuits', 'plus_sms.html');
+menu.addChild('- Mail Anonyme', '');
+menu.addChild('- M&eacute;t&eacute;o 48h', 'plus_meteo.html');
+menu.addChild('- Programme Cin&eacute; et TV', 'plus_cine.html');
+menu.addChild('- Annuaire Invers&eacute;', 'plus_annuaire.html');
+menu.addChild('- Traduction en ligne', 'plus_trans.html');
+menu.addChild('- Horoscope', 'plus_horoscopes.html');
+menu.addChild('- Auto-Biographie ;-)', 'plus_bio.html');
+menu.addChild('- Cartes et Itin&eacute;raires', 'plus_cartes.html');
+menu.addChild('- Loteries Gratuites', 'plus_loteries.html');
+menu.addChild('- Convertisseur', 'plus_calcu.html');
+          </script>
+        <br>
+    </p>
+	<TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+      <TR>
+        <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp; T&eacute;l&eacute;chargement &nbsp;&nbsp;</B></div></TD>
+      </TR>
+    </TABLE>
+	<p align="center">
+    <MARQUEE behavior= "scroll" align= "center" direction= "up" height="80" scrollamount= "2" scrolldelay= "10" onmouseover='this.stop()' onmouseout='this.start()'>
+    <table align=center>
+      <tr>
+        <td align=center>
+          <p>- <a href="ftp://ftpclubic2.clubic.com/temp-clubic-rx1740/jeux/Counter-Strike_Mod_1.5_en_version_complete.exe"><strong>Counter Strike 1.5</strong></a> - <br>
+        127 mo </p>
+          <p>- <a href="steam_nosteam.html"><strong>Pack CS 1.6 OFFline</strong> -<br>
+              Dossier</a></p>
+          <p>- <a href="http://www.filemirrors.com/search.src?file=steaminstall_cs.exe&size=397857244" target="_blank"><strong>Counter Strike 1.6</strong></a> - <br>
+        Full 388 mo </p>
+          <p>- <a href="ftp://ftp.vugames.fr/pub/half-life/fhl1110.exe"><strong>Half life 1.1.1.0</strong></a> - <br>
+        Full 84 mo </p>
+          <p>- <a href="ftp://ftp.trusted-network.de/pub/games/pod25ins.exe"><strong>Pod Bot 2.5</strong></a> - <br>
+        2 mo</p>
+          <p>- <a href="http://akimbot.nuclearbox.com/akimbot030.zip"><strong>Akimbot Bot 3.0</strong></a> - <br>
+        0.3 mo </p>
+          <p>- <a href="Fichiers/SteamCustomizerv104.rar"><strong>Steam Customizer</strong></a> - <br>
+        0.3 mo </p>
+          <p class="Style1"><strong>- <a href="http://www.udpsoft.com/eye/download/newer/EyeInstaller.exe">All-Seeing Eyes</a> -<br>
+            </strong><a href="http://www.hl2-games.net/" target="_blank"><br>
+        </a></p></td>
+      </tr>
+    </table>
+    </MARQUEE>
+    <br>
+    <br>
+    <TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+      <TR>
+        <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp; Partenaires&nbsp;&nbsp;</B></div></TD>
+      </TR>
+    </TABLE>
+    <p align="center">
+    <MARQUEE behavior= "scroll" align= "center" direction= "up" height="180" scrollamount= "1" scrolldelay= "10" onmouseover='this.stop()' onmouseout='this.start()'>
+    <table align=center>
+      <tr>
+        <td align=center> <a href="http://www.game-bazar.net"><span class="Style6">NEW</span><br>
+              <img src="images/partenaires/bazard.gif" alt="Un putain de site avec encore mieux que le mien ;-) ! Pleins de dossier sur CS et HL&sup2; mais aussi sur pleins d'autre jeux !" width="88" height="33" border="0"></a><br>
+              <br>
+              <a href="http://www.vossey.com"><img src="images/partenaires/vossey.gif" width="88" height="31" border="0"></a><br>
+              <br>
+              <a href="http://www.counter-strike.com.fr/" target="_blank"><img src="images/partenaires/csComfr.gif" width="88" height="31" border="0"><br>
+              </a><a href="http://faqcs.djeyl.net/" target="_blank"><br>
+              <img src="images/partenaires/FAQ.jpg" width="88" height="31" border="0"><br>
+              </a> <br>
+              <a href="http://www.hl-ftp.fr.tc/" target="_blank"><img src="images/partenaires/hl-ftp.gif" width="88" height="31" border="0"></a><br>
+              <br>
+              <a href="http://weakor.free.fr/" target="_blank"><img src="images/partenaires/csdownloadz.gif" width="88" height="31" border="0"></a><br>
+              <br>
+              <a href="http://www.cs-amx.com/" target="_blank"><img src="images/partenaires/amx2.jpg" width="88" height="31" border="0"><br>
+              <br>
+              <img src="images/partenaires/csServer.jpg" width="88" height="31" border="0"><br>
+              <br>
+              </a><a href="http://www.counterstrikefrance.com" target="_blank"><img src="images/partenaires/CS%20France.gif" alt="Jouer en Ligne" width="88" height="31" border="0"></a><br>
+              <br>
+              <a href="http://www.hl2-games.net/" target="_blank"><img src="images/partenaires/hl2-games.gif" width="88" height="31" border="0"></a></td>
+      </tr>
+    </table>
+    </MARQUEE>
+    <p></p>
+    <p>&nbsp; </p></TD>
+    <TD WIDTH=579 BGCOLOR=#364132 VALIGN=top ALIGN=center>
+	
+<!-- FIN HEADER -->
+	
+
+	<!-- DEBUT CADRE DE CONTENU 1 -->
+	<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=575>
+  		<TR>
+    		<TD WIDTH=25><IMG SRC="images/cad_bleu_hg.gif" BORDER=0 WIDTH=25 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+    		<TD BACKGROUND=images/cad_bleue_h.gif WIDTH=523 CLASS=menu><B>Zone 
+              ou j'entrepose toutes mes pubs ! </B></TD>
+    		<TD WIDTH=27><IMG SRC="images/cad_bleu_hd.gif" BORDER=0 WIDTH=27 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  		<TR>
+    		<TD WIDTH=25 BACKGROUND=images/cad_g.gif bgcolor="#FFFFCC"><IMG SRC="images/cad_g.gif" BORDER=0 WIDTH=25 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+    		<TD BGCOLOR=#4D574A WIDTH=523><p>Pour ne pas vous emb&eacute;ter avec des 
+                pubs partout sur mon site, j'ai cr&eacute;&eacute; une petite
+                 page o&ugrave; je placerai tous mes liens, banni&egrave;res
+                 [...]  de pubs ou autres affiliations.</p>
+    		  <p>Si vous voulez mettre ma banni&egrave;re sur votre site, cliquez <a href="site_contact.html">ici</a> :</p>
+    		  <p align="center"><!--<IFRAME border=0 frameBorder=0 height=170 marginHeight=0 marginWidth=0 scrolling=no src=http://award.sebastienjacquart.com/award.php?id=3 width=117 name=ifr></iframe>
+-->&nbsp;
+<br>
+<br>
+<SCRIPT LANGUAGE="JavaScript">
+myToday = new Date;
+mySec = myToday.getTime();
+document.write('<SCRIPT LANGUAGE="JavaScript" SRC="http://mycircle.editeurjavascript.com/include/spm.js');
+document.write('?sec='+mySec);
+document.write('"></SCR'+'IPT>');
+</SCRIPT>
+    		  </p>
+    		  <p align="center"> <img src="images/Puces/cs.gif" width="16" height="16" align="absmiddle"> 
+                <strong><font color="#FFFF00">Prizee : Gagnez de l'argent en jouant 
+                facilement !</font></strong><br>
+                <a href="http://www.prizee.com/index.htm3?refer=Spm" target="_blank"><img src="images/Loteries/prizee.gif" width="90" height="30" border="0"></a> 
+              </p>
+              <p align="center">Ce site est magnifique ! Il vous permet de gagner de l'argent
+                tout en jouant ! Rien de plus simple donc ! Personnellement,
+                d&egrave;s
+                la 1ere semaine de jeux, j'ai d&eacute;j&agrave; gagn&eacute; 
+                un lot d'une valeur de 30&euro; qu'il m'ont envoy&eacute; chez
+                 moi en moins de 15 jours ! Donc, c le TOP !</p>
+              <p align="left"><img src="images/Puces/cs.gif" width="16" height="16"><strong> Carmadoc.free.fr</strong> <a href="http://carmadoc.free.fr" target="_blank"><img src="images/Xp/surveys.gif" width="22" height="21" border="0" align="absmiddle"></a><br>
+                Site de Applz super bien 100% Gratuit et Direct !<br>
+                No BOB, no Edonkey, no AlloPass, 100% FREE </p>
+              <p align="left"><img src="images/Puces/cs.gif" width="16" height="16"> <strong>Double
+                Stat !</strong><br>
+                <script language="javascript" src="http://www.doublestats.com/echange.php?login=kirikiri&type=ban"></script>
+<br>
+ </p>
+              <p align="left"><img src="images/Puces/cs.gif" width="16" height="16"> <strong>Hit
+                Parade !</strong><br>
+                <A HREF=http://www.hit-parade.com/hp.asp?site=a373162 TARGET=_top><IMG SRC=http://loga.hit-parade.com/logohp1.gif?site=a373162 TITLE="Hit-Parade" WIDTH=77 HEIGHT=15 BORDER=0></A> &nbsp;              </p>
+              <p align="left"><img src="images/Puces/cs.gif" width="16" height="16"> 
+                <strong>Todoojeux.com<br>
+  <a href=http://www.todoojeux.com target=_blank><img src=http://www.todoojeux.com/logo2.gif border=0 alt="counter strike"></a>                </strong></p>
+              <p align="left"><img src="images/Puces/cs.gif" width="16" height="16"> <strong>Cool
+                  Surf</strong><a href="http://www.jm-creations.net/coolsurf/login/adduser.php?parain=kirikiri" target=_blank><img src="http://www.jm-creations.net/coolsurf/animation/coolsurf.gif" width="468" height="60" border="0"></a>
+              &nbsp;
+              </p>
+              <p align="left"><img src="images/Puces/cs.gif" width="16" height="16"> <strong>C
+                  gratuit.com</strong><br>
+              <script type="text/javascript" language="JavaScript" src="http://www.c-gratuit.com/logo/aff_logo.php?ref=LX10MV&size=2"></script>&nbsp;</p>
+              <p align="left"> <img src="images/Puces/cs.gif" width="16" height="16"> 
+                <strong>SlyTop</strong><br>
+                <a href="#" onClick="window.open('http://www.slytop.com/top/in.php?id=kirikiri','_blank','toolbar=0, location=0, directories=0, status=0, scrollbars=1, resizable=0, menuBar=0, width=495, height=350, left=3, top=3');return(false)"><img src="slytop.gif" width="88" height="31" border="0"></a> 
+              </p>
+              <p align="left"><img src="images/Puces/cs.gif" width="16" height="16"> 
+                <strong>BB R&eacute;seau D&eacute;couverte :</strong><br>
+                <script language="javascript" src="http://w1.webreseau.com/impression.asp?IDClient=377217"></script>
+              </p>
+              <p align="left"><img src="images/Puces/cs.gif" width="16" height="16" align="absmiddle"> 
+                <strong>Top Astuce :</strong><br>
+                <a href="http://www.topastuces.com" target="_blank"><img src="images/Pub/anim_logotop.gif" width="468" height="60" border="0"></a> 
+              </p>
+              <p align="left"><img src="images/Puces/cs.gif" width="16" height="16" align="absmiddle"> 
+                <strong>Moteur.org</strong><br>
+                <a href="http://moteur.org/vote.asp?code=13406" target="_blank"><img src="http://moteur.org/logo.asp?code=13406" alt="Moteur de Recherches" border="0"><br>
+                <font face="arial" size="3" color="#FFFF00"><strong>Votez pour 
+                ce Site !</strong></font></a> </p>
+              <p align="left"><img src="images/Puces/cs.gif" width="16" height="16" align="absmiddle"> 
+                <strong>Annuaire Script Gratuits :</strong><br>
+                <a href="http://www.scriptsgratuits.com/SG/annuaire/script/prove.php?id=466" target="_blank"><img src="http://www.scriptsgratuits.com/SG/bann2.gif" width="100" height="30" border="0"></a> 
+                <br>
+              </p>
+              <p align="left"><img src="images/Puces/cs.gif" width="16" height="16" align="absmiddle"> 
+                <strong>Annuaire Francophone :</strong><br>
+              <a href="http://www.annuaire-francophone.net/script/prove.php?id=1180" target="_blank"><img src="images/Pub/boutons%5B1%5D.gif" width="88" height="31" border="0"></a> </p>
+              <p align="left"><img src="images/Puces/cs.gif" width="16" height="16" align="absmiddle"> <strong>Weboscope
+                  :<br>
+              </strong>
+                <!--DEBUT GOLD WEBORAMA--> 
+                <script language="javascript"> 
+WEBO_ZONE=1; 
+WEBO_PAGE=1; 
+webogold_ok=0;</script> 
+                <script language="javascript" src="http://script.weborama.fr/gold.js"></SCRIPT> 
+                <SCRIPT> 
+if(webogold_ok==1){webogold_zpi(WEBO_ZONE,WEBO_PAGE,106927);}</script> 
+</p>
+              <NOSCRIPT><A HREF="http://www.weborama.com">Mesure d'audience et statistiques</A><BR> 
+<A HREF="http://www.weborama.fr">Classement des meilleurs sites, chat, sondage</A> </NOSCRIPT><!--FIN GOLD WEBORAMA--> &nbsp;              </p>
+              <p align="left">&nbsp; </p>
+              <p></p>
+              <p align="center"><font color="#99FF66"><strong>Vous &ecirc;tes 
+                trop d'idiots &agrave; avoir visit&eacute; cette page ! </strong></font></p></TD>
+    		<TD WIDTH=27 BACKGROUND=images/cad_d.gif><IMG SRC="images/cad_d.gif" BORDER=0 WIDTH=27 HEIGHT=12 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  		<TR>
+    		<TD COLSPAN=3><IMG SRC="images/cad_b.gif" BORDER=0 WIDTH=575 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  	</TABLE><a href="http://www.xiti.com/xiti.asp?s=98910" TARGET="_top">
+<br>
+<script language="JavaScript1.1">
+<!--
+hsh = new Date();
+hsd = document;
+hsr = hsd.referrer.replace(/[<>]/g, '');
+hsi = '<img width="39" height="25" border=0 ';
+hsi += 'src="http://logv20.xiti.com/hit.xiti?s=98910';
+hsi += '&p=';
+hsi += '&hl=' + hsh.getHours() + 'x' + hsh.getMinutes() + 'x' + hsh.getSeconds();
+if(parseFloat(navigator.appVersion)>=4)
+{Xiti_s=screen;hsi += '&r=' + Xiti_s.width + 'x' + Xiti_s.height + 'x' + Xiti_s.pixelDepth + 'x' + Xiti_s.colorDepth;}
+hsd.writeln(hsi + '&ref=' + hsr.replace(/&/g, '$') + '" title="Mesurez votre audience"><\!--');
+//-->
+</script>
+<noscript>
+<img width="39" height="25" border=0 src="http://logv20.xiti.com/hit.xiti?s=98910&p=&" title="Mesurez votre audience">
+</noscript><!--//--></a><BR>
+      </TD>
+    <TD WIDTH=20 BACKGROUND=images/d.gif><IMG SRC="images/d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+  	<TD COLSPAN=3><IMG SRC="images/bas.jpg" BORDER=0 WIDTH=774 HEIGHT=32 USEMAP="#bas"></TD>
+  </TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>
+<!-- FIN FOOTER -->

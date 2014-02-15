@@ -1,0 +1,27 @@
+#{extends 'layout-complet.html' /}
+#{set title:'Annuaire : Vignobles' /}
+
+<div data-role="page">
+	<div data-role="header">
+		#{header lang:lang, retour:true /}
+	</div>
+
+
+	<div data-role="content">
+		<ul data-role="listview"  >
+			<li  data-role="list-divider">&{'AnnuaireDesVignobles'}</li>
+			#{list items:liste, as: 'vignoble'}
+				<li>
+					<a href="@{Annuaire.vignoblesVins(vignoble.id)}">
+						<h3>${vignoble.nom}</h3>
+					</a>
+				</li>
+			#{/list}
+			#{else}
+			<li>&{'AucunVignoble'}</li>
+			#{/else}
+		</ul>
+
+	</div>
+
+</div>

@@ -1,0 +1,4 @@
+default:
+  javascripts:
+    - script_init.js 
+    - custom.js

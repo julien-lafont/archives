@@ -1,0 +1,80 @@
+.liste_quest h4 {
+	font-size: 20px;
+	font-weight: normal;
+	border-bottom:1px solid #00A8FF;
+	padding-bottom:2px;
+
+	width: 70%;
+	padding-left: 15px;
+	
+	color:#555 !important;
+	font-family:Genova;	
+	font-size: 20px;
+	font-weight: normal;
+}
+
+
+
+.liste_quest h4 span {
+	font-size: 12px;
+	padding-left: 20px;
+	color:#555
+}
+.liste_quest div {
+	margin:15px 0 20px 25px;
+	font-size: 13px !important;
+	font-family: "Trebuchet MS";
+	color: #222;
+	width: 90%;
+	line-height: 22px;
+}
+
+
+/*.bouton */ .remontee { 
+	margin-left:390px !important; 
+	margin-top:-30px !important
+}
+
+strong.lien {
+	background-color: #666;
+	color: #FFF;
+	font-size: 15px !important;
+	font-weight: normal;
+	padding: 4px;
+	border:2px solid #000;
+	margin-left:50px
+}
+
+fieldset.diff_checkbox {
+	margin-left:30px;
+	padding-left:5px;
+	border:0;
+	border-left:1px dashed #00A8FF;
+	margin-bottom: 15px;
+}
+
+fieldset.diff_checkbox label {
+	font-size: 14px;
+	padding-left: 5px;
+	color:#444;
+	line-height: 25px;
+}
+
+fieldset.diff_checkbox label strong {
+	font-style: italic;
+}
+
+fieldset.diff_textarea {
+	margin-left:30px;
+	padding-left:5px;
+	border:0;
+	margin-bottom: 15px;	
+}
+
+fieldset.diff_textarea textarea {
+	width: 350px;
+	height: 160px;
+	padding: 5px;
+	line-height:22px;
+	
+}

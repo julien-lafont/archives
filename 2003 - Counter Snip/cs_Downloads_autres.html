@@ -1,0 +1,387 @@
+<HTML>
+<HEAD>
+<TITLE>Counter Snip</TITLE>
+<META NAME="TITLE" CONTENT="Counter-Snip">
+<META NAME="identifer-URL" CONTENT="http://sniperman.free.fr">
+<META NAME="AUTHOR" lang="fr" CONTENT="Sniperman">
+<META NAME="OWNER" CONTENT="snake.spm@laposte.net">
+<META NAME="SUBJECT" CONTENT="Counter Strike">
+<META NAME="Category" CONTENT="Internet - Jeux - Cs">
+<META NAME="DESRIPTION" CONTENT="Tout sur Counter Strike et plus">
+<META NAME="KEYWORDS" CONTENT="sniperman,kirikiri,countersnip,counter-snip,cs,counter strike,counterstrike,wallpapers,fond d'écran,sms,loto,prizee,astuces,armes,skins,binds,alias,half life,maps,download,téléchargement,patchs,guide,dossier,aide,ping,fps,optimisation,mms,loteries,Orange,LAN,réseau,France,fr,hl key fr,1.5,1.3,1.4,Forum,Astuces,Console,commandes,Cheat,Hack,OGL,wallhack,liens,GBA,rom,Annuaire,">
+<META NAME="LANGUAGE" CONTENT="FR">
+<META NAME="robots" CONTENT="All">
+<STYLE TYPE=text/css>
+TD { font-family:Verdana;font-size:11px;color:white } 
+.menu { font-family:Verdana;font-size:12px;color:white } 
+.titre { font-family:Verdana;font-size:20px;color:white } 
+
+A.menu { font-family:Verdana;font-size:12px;color:white;text-decoration:none } 
+A:hover.menu { font-family:Verdana;font-size:12px;color:#FFCC00;border: none} 
+A { font-family:Verdana;font-size:11px;color:#FFFFFF;text-decoration:none } 
+A:hover { font-family:Verdana;font-size:11px;color:#FFCC00} 
+BODY {SCROLLBAR-FACE-COLOR: #ffa534; SCROLLBAR-HIGHLIGHT-COLOR: #ffd756; SCROLLBAR-SHADOW-COLOR: #ff8312; SCROLLBAR-3DLIGHT-COLOR: #000000; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #8E908D; SCROLLBAR-DARKSHADOW-COLOR: #000000}.Style7 {font-size: 10px;
+	color: #FFFFFF;
+}
+.Style8 {color: #FFFFFF}
+.parent {font-family: verdana;font-weight: bold ;color: #CCCCCC;font-size: 12px;margin-top: 10;cursor: hand;margin-left: 6pt}
+.child {font-size: 9px;decoration: none;font-weight: normal;margin-left:10pt}
+</STYLE>
+<script language="javascript">
+<!--
+var intCount = 1;
+function DynamicMenu_addParent(strName) {
+	var strID = 'ID' + intCount++;
+	var strTemp = '<DIV ID="' + strID + '" CLASS="parent"';
+        strTemp += ' onClick="expandCollapse(this);">';
+	    strTemp += '<B>' + strName + '</B>'  
+        strTemp += '<DIV CLASS="child"></DIV>';
+        strTemp += '</DIV>';
+		this.div.innerHTML += strTemp;
+        this.currentChild = document.getElementById(strID);
+}
+
+function DynamicMenu_addChild(strName,strURL) {
+
+	var strTemp = '<A HREF="' + strURL + '"' + ' onClick="cancelBubble(arguments[0]);">' + strName + '</A><BR>';
+	if (document.all) {
+        	this.currentChild.children[1].innerHTML += strTemp;
+	} else {
+        	this.currentChild.childNodes[1].innerHTML += strTemp;
+	}
+	
+}
+
+function cancelBubble(netEvent) {
+	if (document.all) {
+		window.event.cancelBubble = true;
+	} else {
+        	netEvent.cancelBubble = true;
+	}
+}
+
+function expandCollapse(objElement) {
+
+	if (document.all) {
+        	var imgIcon = objElement.children[0];
+                objElement = objElement.children[1];
+	} else {
+        	var imgIcon = objElement.childNodes[0];
+                objElement = objElement.childNodes[2];
+	}
+	if (objElement.style.display == "none") {
+        	objElement.style.display = "block" ;
+                imgIcon.src = "bottomb.gif" ;
+	} else {
+        	objElement.style.display = "none" ;
+                imgIcon.src = "leftb.gif" ;
+	}
+}
+
+function DynamicMenu() {
+
+	var id = "Menu" + intCount++;
+        document.write('<DIV Id="' + id + '"></DIV>');		
+	this.div = document.getElementById(id);
+        this.currentChild = null;
+		
+	this.addParent = DynamicMenu_addParent;
+	
+        this.addChild = DynamicMenu_addChild;
+		
+}
+// -->
+
+</script>
+
+</HEAD>
+<BODY BGCOLOR=#000000 TEXT=#FFFFFF LINK=#0000FF VLINK=#800080 ALINK=#FF0000>
+
+<CENTER>
+
+<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH=774>
+  <TR>
+    <TD WIDTH=175><IMG SRC="images/haut4a.jpg" BORDER=0 WIDTH=175 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+      <TD WIDTH=579 BACKGROUND=images/top_cs.gif CLASS=titre> 
+        <!-- ICI, LE TITRE DEVOTRE SITE -->
+        Downloads .:. Autres<BR>
+        <IMG SRC="images/pixel.gif" BORDER=0 WIDTH=1 HEIGHT=13 HSPACE=0 VSPACE=0></TD>
+    <TD WIDTH=20><IMG SRC="images/top_d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+      	
+      	<!-- !!!!!!!!! DEBUT MENU !!!!!!!!!!! -->
+	  <TD WIDTH=175 BACKGROUND=images/fond_menu.gif VALIGN=top> <IMG SRC="images/haut4b.jpg" BORDER=0 WIDTH=175 HEIGHT=115 HSPACE=0 VSPACE=0><BR>
+
+	<!-- DEBUT MENU 1 -->
+    <!-- DEBUT MENU 1 -->
+    <p><span class="parent"><img src="images/Puces/arrow2b.gif" width="10" height="13" align="absmiddle"> <a href="index.htm">Accueil</a></span><br>
+        <script language=Javascript type=text/javascript>
+var menu = new DynamicMenu();
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Site'); 
+menu.addChild('- Me contacter', 'site_contact.html');
+menu.addChild('- Livre d&acute;or', 'http://www.maxiservices.net/livre/livre.php3?id=2810 ');		
+menu.addChild('- Chat', 'site_chat.html'); 
+menu.addChild('- Qui suis-je', 'site_quisuisje.html');
+menu.addChild('- Pubs', 'site_pub.html');
+      
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Counter Strike'); 
+menu.addChild(' ', ' ');
+menu.addChild('- Pr&eacute;sentation', 'cs_presentation.html');
+menu.addChild('- <b>Downloads</b>', 'cs_Downloads.html');
+menu.addChild('- Astuces', 'cs_Astuces.html');
+menu.addChild('- Armes', 'cs_armes.html');
+menu.addChild('- Binds & Alias', 'cs_Binds_&_Alias.html'); 
+menu.addChild('- PodBot', 'cs_Podbot.html');
+menu.addChild('- <b>Réduire son Ping</b>', 'cs_Ping.html');
+menu.addChild('- Dossier CS - Xbox', 'cs_xbox.html');
+menu.addChild('- Servers', 'cs_server.html');
+menu.addChild('- Easter Eggs', 'cs_EasterEgg.html');
+menu.addChild('- Counter Mania', 'cs_counterMania.html');
+menu.addChild('- Commandes', 'cs_console.html');
+menu.addChild('- Cheats', 'cs_cheats.html');
+menu.addChild('- Tag', 'cs_tag2.html');
+menu.addChild('- Liens', 'cs_liens.html');
+menu.addChild('- Wallpapers', 'cs_wallpapers.html');
+menu.addChild('- Tarte à la Fraise', 'cs_tarte.html');
+
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Steam'); 
+menu.addChild('- T&eacute;l&eacute;chargement', 'steam_telechargement.html');
+menu.addChild('- <b>Pack LAN + BOT</b>', 'steam_nosteam.html'); 				 				
+menu.addChild('- Installation', 'steam_install.html');
+menu.addChild('- Utilitaires', 'steam_util.html');
+menu.addChild('- Binder 1.6', 'cs_Binder1.html');
+menu.addChild('- Lecteur MP3', 'steam_mp3.html');
+menu.addChild('- FAQ', 'steam_faq.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Half Life 2'); 
+menu.addChild('- News', 'hl_news.html');
+menu.addChild('- Histoire', 'hl_hist.html');
+menu.addChild('- Armes', 'hl_armes.html'); 
+menu.addChild('- Personnages', 'hl_pers.html');
+menu.addChild('- Packs', 'hl_pack.html');			
+menu.addChild('- Screenshot', 'hl_screen.html');
+menu.addChild('- Art-Works', 'hl_screen3.html');
+menu.addChild('- Fond d&acute;&eacute;cran', 'hl_wallpapers.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Petits +'); 
+menu.addChild('- Dossier Virus', 'plus_virus.html'); 				
+menu.addChild('- SMS & MMS gratuits', 'plus_sms.html');
+menu.addChild('- Mail Anonyme', '');
+menu.addChild('- M&eacute;t&eacute;o 48h', 'plus_meteo.html');
+menu.addChild('- Programme Cin&eacute; et TV', 'plus_cine.html');
+menu.addChild('- Annuaire Invers&eacute;', 'plus_annuaire.html');
+menu.addChild('- Traduction en ligne', 'plus_trans.html');
+menu.addChild('- Horoscope', 'plus_horoscopes.html');
+menu.addChild('- Auto-Biographie ;-)', 'plus_bio.html');
+menu.addChild('- Cartes et Itin&eacute;raires', 'plus_cartes.html');
+menu.addChild('- Loteries Gratuites', 'plus_loteries.html');
+menu.addChild('- Convertisseur', 'plus_calcu.html');
+          </script>
+        <br>
+    </p>
+    <TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+      <TR>
+        <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp; T&eacute;l&eacute;chargement &nbsp;&nbsp;</B></div></TD>
+      </TR>
+    </TABLE>
+    <p align="center">
+    <MARQUEE behavior= "scroll" align= "center" direction= "up" height="80" scrollamount= "2" scrolldelay= "10" onmouseover='this.stop()' onmouseout='this.start()'>
+    <table align=center>
+      <tr>
+        <td align=center>
+          <p>- <a href="ftp://ftpclubic2.clubic.com/temp-clubic-rx1740/jeux/Counter-Strike_Mod_1.5_en_version_complete.exe"><strong>Counter Strike 1.5</strong></a> - <br>
+        127 mo </p>
+          <p>- <a href="steam_nosteam.html"><strong>Pack CS 1.6 OFFline</strong> -<br>
+              Dossier</a></p>
+          <p>- <a href="http://www.filemirrors.com/search.src?file=steaminstall_cs.exe&size=397857244" target="_blank"><strong>Counter Strike 1.6</strong></a> - <br>
+        Full 388 mo </p>
+          <p>- <a href="ftp://ftp.vugames.fr/pub/half-life/fhl1110.exe"><strong>Half life 1.1.1.0</strong></a> - <br>
+        Full 84 mo </p>
+          <p>- <a href="ftp://ftp.trusted-network.de/pub/games/pod25ins.exe"><strong>Pod Bot 2.5</strong></a> - <br>
+        2 mo</p>
+          <p>- <a href="http://akimbot.nuclearbox.com/akimbot030.zip"><strong>Akimbot Bot 3.0</strong></a> - <br>
+        0.3 mo </p>
+          <p>- <a href="Fichiers/SteamCustomizerv104.rar"><strong>Steam Customizer</strong></a> - <br>
+        0.3 mo </p>
+          <p class="Style8"><strong>- <a href="http://www.udpsoft.com/eye/download/newer/EyeInstaller.exe">All-Seeing Eyes</a> -</strong></p></td>
+      </tr>
+    </table>
+    </MARQUEE>
+    <br>
+    <br>
+    <TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+      <TR>
+        <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp;Stats : &nbsp;&nbsp;</B></div></TD>
+      </TR>
+    </TABLE>
+    <br>
+    <br>
+    <table width="90%" border="0">
+      <tr>
+        <td>&nbsp;</td>
+        <td><img src="images/Puces/pucebleue.gif" width="10" height="10"> HL : 1.1.1.1<br>
+            <img src="images/Puces/pucebleue.gif" width="10" height="10"> CS : 1.6<br>
+            <img src="images/Puces/pucebleue.gif" width="10" height="10"> PodBot : 2.5 <br>
+            <br>
+            <img src="images/Puces/puceverte.gif" width="10" height="10"> Fichier : 42<br>
+            <img src="images/Puces/puceverte.gif" width="10" height="10"> Clicks :
+            <script src="http://www.ovnet.net/compteur.php?21489"></script></td>
+      </tr>
+    </table>
+    <p align="left"></p></TD>
+    <TD WIDTH=579 BGCOLOR=#364132 VALIGN=top ALIGN=center>
+	
+<!-- FIN HEADER -->
+	
+	<!-- DEBUT CADRE DE CONTENU 1 -->
+	<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=575>
+  		<TR>
+    		<TD WIDTH=25><IMG SRC="images/cad_bleu_hg.gif" BORDER=0 WIDTH=25 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+    		<TD BACKGROUND=images/cad_bleue_h.gif WIDTH=523 CLASS=menu><B>Downlaods 
+              .:. Autres</B></TD>
+    		<TD WIDTH=27><IMG SRC="images/cad_bleu_hd.gif" BORDER=0 WIDTH=27 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  		<TR>
+    		<TD WIDTH=25 BACKGROUND=images/cad_g.gif><IMG SRC="images/cad_g.gif" BORDER=0 WIDTH=25 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+    		<TD BGCOLOR=#4D574A WIDTH=523><p> <img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                <strong>Traduction CS 1.5 :</strong></p>
+              <p>Traduction fran&ccedil;aise de CS (r&eacute;alis&eacute;e par 
+                FliToX) mise &agrave; jour pour CS 1.5. Elle inclut une traduction 
+                des dialogues des Podbots 2.5 avec une multitude de phrases rajout&eacute;es 
+                pour un dialogue plus enrichi. Les sons de Marines sont aussi 
+                pr&eacute;sents pour donner au jeu un aspect plus r&eacute;aliste 
+                avec des communications radio qui vont vous r&eacute;veiller ;). 
+                Cette traduction inclut aussi un dialogue des otages plus fourni 
+                et un r&eacute;alisme plus important des sons lorsque vous &ecirc;tes 
+                bless&eacute;.<br>
+                <a href="http://e.prima.free.fr/cs15fr.exe">T&eacute;l&eacute;charger</a> 
+                (taille : 410 Ko)</p>
+              <p><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                <strong><font color="#FF9900">The All-Seeing Eyes : </font></strong></p>
+              <p>Tr&egrave;s bon prog. Gr&acirc;ce &agrave; lui, vous pourrez
+                trouver des servers qui vous conviennent, en sachant leur situation
+                g&eacute;ographique, 
+                leur ping, le nom et le nombre des joueurs dessus ainsi que leur
+                 frags, sans oublier la map sur laquelle ils jouent. Et ce pour
+                
+                tous les mods de Half-Life.<br>
+                <a href="http://www.udpsoft.com/eye/download/newer/EyeInstaller.exe">T&eacute;l&eacute;charger</a></p>
+              <p><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                <strong>Script &quot;CS PORTAIL&quot;</strong></p>
+              <p><a href="http://www.halflifexpert.com/cs-portal/downloads/cs/cs-script/csscriptv14fr.zip">T&eacute;l&eacute;charger</a> 
+                -&gt; Pour les pros ( 967 Ko)<br>
+                <a href="http://www.halflifexpert.com/cs-portal/downloads/cs/cs-script/csscriptv13fr.zip">T&eacute;l&eacute;charger</a> 
+                -&gt; Pour les noob ( 1 mo )</p>
+              <p><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                <strong>Image &quot;Nom des touches&quot; pour Binds :</strong></p>
+              <p>Vous &ecirc;tes entrain d'&eacute;crire vos binds et vous ne 
+                savez plus comment s'appelle la touche 7 du clavier num&eacute;rique 
+                (KP_Home)ou la touche inser (INS) en Anglais, t&eacute;l&eacute;chargez 
+                im&eacute;diatement cette image. Elle contient le nom de toutes 
+                le touches en Anglais pour CS.<br>
+                <a href="images/Autres/bind.jpg">T&eacute;l&eacute;charger</a> 
+              </p>
+              <p> <img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                <strong>HL Key Fr 1.5 :</strong></p>
+              <p>Ce patch vous permettra de passer votre clavier en AZERTY sous 
+                CS.<br>
+                <a href="http://clan55.free.fr/hlkey/hlkeyfr!1.5.zip">T&eacute;l&eacute;charger</a> 
+                (taille : 81 Ko)<br>
+              </p>
+              <p> <img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                <strong>CS Tuner : </strong><em>Shareware</em></p>
+              <p>M&ecirc;me principe que CS Configurator 3.0 sauf que dans ce 
+                programme il y a la possibilit&eacute; de changer ses skins.<br>
+                <a href="http://www.greensoftline.com/cgi-bin/get.cgi?cstuner10.exe">T&eacute;l&eacute;charger</a> 
+                (taille : 1,97 Mo) <strong></strong></p>
+              <p> <strong><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                CS configurator :</strong></p>
+              <p>Ce programme vous aide &agrave; configurer CS ainsi que les options 
+                cach&eacute;es. Il est aussi tr&egrave;s utile pour ceux qui veulent 
+                changer certains sprites comme les radars par exemple, etc...<br>
+                <a href="http://www.csconfigurator.com/files/csc30.exe">T&eacute;l&eacute;charger</a> 
+                (taille : 3,15 Mo)</p>
+              <p> <img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                <strong>Cheat finder 4.0 :</strong></p>
+              <p>Vous pensez que vous n'avez pas enlev&eacute; tous les cheats 
+                de votre PC alors assurez-vous en avec Cheat finder.<br>
+                <a href="http://www.csbfiles.com/Divers-progsftp/cheatfinder40.zip">T&eacute;l&eacute;charger</a> 
+                (taille : 230 Ko)</p>
+              <p> <img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                <strong>Pod Bot 2.5 :</strong></p>
+              <p> Les podbots 2.5 sont les meilleurs bots car ils ont l'intelligence 
+                artificielle la plus d&eacute;velopp&eacute;e.<br>
+                Compar&eacute; aux autres bots, ils offrent le meilleur moyen 
+                de s'entra&icirc;ner en configurant certaines options telles que 
+                le type d'arme qu'ils utilisent, l'exp&eacute;rience qu'ils vont 
+                acqu&eacute;rir sur le terrain...<br>
+                De plus ,il fera le bonheur des modems 56K qui n'ont pas toujours 
+                le choix que de jouer contre l'ordinateur<br>
+                <a href="ftp://ftp.trusted-network.de/pub/games/pod25ins.exe">T&eacute;l&eacute;charger</a> 
+                (taille : 1.80 Mo)</p>
+              <p> <img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                <strong>Roger Wilco 1d3 :</strong></p>
+              <p>Un tr&egrave;s bon outil de communication vocale, qui vous permet 
+                de rester en contact lors d'une partie, il peut &eacute;galement 
+                servir comme outils de communication en dehors de Counter-Strike.<br>
+                <a href="http://gamespy3d.fileplanet.com/rw_mk1d3.EXE">T&eacute;l&eacute;charger</a> 
+                (taille : 751 Ko)</p>
+              <p><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"><strong> 
+                Hl Key Changer : </strong></p>
+              <p>Pour les possesseurs de plusieurs cl&eacute;s Half Life, ce programme 
+                est destin&eacute; &agrave; changer les cl&eacute;s HL sans avoir 
+                &agrave; passer par la base de registre.<br>
+                <a href="http://planetmirror.com/pub/majorgeeks/games/keychanger.zip">T&eacute;l&eacute;charger</a> 
+                (taille : 20 Ko)</p>
+              <p><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                <strong>Cs writer Bind :</strong></p>
+              <p>Vous &ecirc;tes un fervant acharn&eacute; des binds et vous voulez 
+                en cr&eacute;er &agrave; gogo alors n'h&eacute;sitez pas &agrave; 
+                t&eacute;l&eacute;charger ce programme ;)<br>
+                <a href="http://www.filefront.com/?filepath=/cscentral/cssw/cssw_v25.exe">T&eacute;l&eacute;charger 
+                </a>(taille : 1.48 Mo)</p>
+              <p><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                <strong>Geekplay 6.0 :</strong></p>
+              <p>Pour visualiser les fichiers *.dem (= d&eacute;mos). Lorsque
+                 vous jouez &agrave; CS il vous est possible d'enregistrer votre
+                  partie puis de la visualiser apr&egrave;s avec Geekplay.<br>
+                <a href="http://www.geekboys.org/geekplay/download.php?file=GeekPlay-6.0.zip&app=geekplay">T&eacute;l&eacute;charger</a> 
+                (taille : 35 ko)</p>
+              <p><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                <strong>Half-Life Multi-User 2.5 : </strong></p>
+              <p>Finies les bagarres dans la famille pour jouer &agrave; CS sur 
+                un m&ecirc;me PC avec SA configuration puisque Half-Life Multi-User 
+                permet &agrave; plusieurs personnes de charger leurs configurations 
+                sp&eacute;cifiques &agrave; CS :)<br>
+                <a href="http://bhclan.ausgamers.com/hlmu/downloads/hlmu.zip">T&eacute;l&eacute;charger</a> 
+                (taille : ?? ko) </p>
+              <p><img src="images/Puces/Puce2_fleche.gif" width="14" height="14" align="absmiddle"> 
+                <strong>Decal converter 1.3 :</strong></p>
+              <p>Certainement le meilleur programme pour r&eacute;aliser ses tags 
+                persos dans CS.<br>
+                <a href="http://burney.halleck.free.fr/downloads/DecalConverterSetup.exe">T&eacute;l&eacute;charger</a> 
+                (taille : ?? ko) <br>
+                <br>
+              </p>
+              <p></p>
+              <center>
+              </center></TD>
+    		<TD WIDTH=27 BACKGROUND=images/cad_d.gif><IMG SRC="images/cad_d.gif" BORDER=0 WIDTH=27 HEIGHT=12 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  		<TR>
+    		<TD COLSPAN=3><IMG SRC="images/cad_b.gif" BORDER=0 WIDTH=575 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  	</TABLE><BR>
+      </TD>
+    <TD WIDTH=20 BACKGROUND=images/d.gif><IMG SRC="images/d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+  	<TD COLSPAN=3><IMG SRC="images/bas.jpg" BORDER=0 WIDTH=774 HEIGHT=32 USEMAP="#bas"></TD>
+  </TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>
+<!-- FIN FOOTER -->

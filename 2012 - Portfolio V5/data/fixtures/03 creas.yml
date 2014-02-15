@@ -1,0 +1,586 @@
+CategorieFolio:
+  CategorieFolio_1:
+    titre: 'Applications web'
+    slug: applications-web
+  CategorieFolio_2:
+    titre: 'Sites web'
+    slug: sites-web
+  CategorieFolio_3:
+    titre: Logiciels
+    slug: logiciels
+  CategorieFolio_4:
+    titre: 'Jeux vidéo'
+    slug: jeux-video
+
+Creation:
+  Creation_1:
+    titre: 'Avea Poste'
+    sstitre: 'Gestion de centres de vacances'
+    code: avea
+    description1: "<h5>\r\n	<strong>Situation :&nbsp;</strong></h5>\r\n<p>\r\n	Le projet AVEA a &eacute;t&eacute; la principale application&nbsp;sur laquelle&nbsp;j&#39;ai travaill&eacute; en collaboration avec l&#39;&eacute;quipe Symfony d&#39;IOcean.Il a pour objectif de permettre au personnel de l&#39;AVEA d&#39;<strong>organiser</strong><strong> les&nbsp;s&eacute;jours de vacances</strong>&nbsp;des familles de LAPOSTE.&nbsp;</p>\r\n<p>\r\n	Cet intranet offre un acc&egrave;s centralis&eacute; aux informations&nbsp;pour les diff&eacute;rents&nbsp;p&ocirc;les d&#39;activit&eacute;s : Transport, Facturation, Catalogue, Inscriptions, Logistique, Comptabilit&eacute;...</p>\r\n<p>\r\n	A mon arriv&eacute;e, le d&eacute;veloppement du site avait d&eacute;j&agrave; commenc&eacute; depuis plus de 6 mois, ce qui alli&eacute; &agrave; la complexit&eacute; des&nbsp;processus m&eacute;tier n&#39;a pas rendu facile la prise en main de ce projet.</p>\r\n<h5>\r\n	<strong>Technologies </strong>:</h5>\r\n<p>\r\n	<b>Symfony</b>&nbsp;est un framework PHP d&eacute;velopp&eacute; par une &eacute;quipe fran&ccedil;aise dont le chef d&rsquo;orchestre est Fabien Potencier. Son but est l&rsquo;acc&eacute;l&eacute;ration du d&eacute;veloppement et de la maintenance d&rsquo;applications web, en se basant sur le mod&egrave;le maintenant classique MVC ( Mod&egrave;le, Vue, Contr&ocirc;leur)<span class=\"Apple-style-span\" style=\"white-space: nowrap;\">, tout en y int&eacute;grant&nbsp;des technologies modernes&nbsp;tel que l&#39;ORM <strong>Doctrine</strong>.</span></p>\r\n<p>\r\n	Ce framework a &eacute;t&eacute; s&eacute;lectionn&eacute; par l&#39;&eacute;quipe car il r&eacute;pondait parfaitement au besoin tout en offrant de nombreuses fonctionnalit&eacute;s&nbsp;permettant d&#39;optimiser la production :</p>\r\n<ul class=\"puce bullet-orange\">\r\n	<li>\r\n		D&eacute;ploiement automatique</li>\r\n	<li>\r\n		S&eacute;paration efficace des modules facilitant le travail collaboratif</li>\r\n	<li>\r\n		Mod&egrave;le de base de donn&eacute;e&nbsp;&eacute;volutif</li>\r\n	<li>\r\n		Acc&egrave;s aux&nbsp;donn&eacute;es facilit&eacute; gr&acirc;ce &agrave; l&#39;ORM Doctrine</li>\r\n	<li>\r\n		Tous les classiques du Web moderne inclus et simplifi&eacute;s (ajax, multilingue, gestion du cache...)</li>\r\n</ul>\r\n<h5>\r\n	Gestion de projet</h5>\r\n<p>\r\n	Ce projet a &eacute;t&eacute; conduit en suivant&nbsp;la m&eacute;thodologie&nbsp;agile <strong>SCRUM</strong>.&nbsp;<span class=\"Apple-style-span\" style=\"line-height: 18px;\">Ce processus s&#39;articule en effet autour d&#39;une &eacute;quipe soud&eacute;e, qui cherche &agrave; atteindre un but, comme c&#39;est le cas en rugby pour avancer avec le ballon pendant une m&ecirc;l&eacute;e.</span></p>\r\n<p style=\"margin: 0.4em 0px 0.5em; line-height: 1.5em;\">\r\n	Le principe de base de Scrum est de focaliser l&#39;&eacute;quipe de fa&ccedil;on it&eacute;rative sur un ensemble de fonctionnalit&eacute;s &agrave; r&eacute;aliser, dans des it&eacute;rations de dur&eacute;e fixe de une &agrave; quatre semaines, appel&eacute;es&nbsp;<b>sprints</b>. Chaque sprint poss&egrave;de un&nbsp;<b>but</b>&nbsp;&agrave; atteindre, d&eacute;fini par le&nbsp;<i>directeur de produit</i>, &agrave; partir duquel sont choisies les fonctionnalit&eacute;s &agrave; impl&eacute;menter dans ce sprint. Un sprint aboutit toujours sur la <strong>livraison d&#39;un produit partiel fonctionnel</strong>. Pendant ce temps, le&nbsp;<i>ScrumMaster</i> ( Olivier Destrade) a la charge de r&eacute;duire au maximum les perturbations ext&eacute;rieures et de r&eacute;soudre les probl&egrave;mes non techniques de l&#39;&eacute;quipe.</p>"
+    description2: '<br />'
+    mini_desc1: "<p>\r\n	L&#39;AVEA&nbsp;La Poste est une association dont l&rsquo;activit&eacute; principale est l&rsquo;organisation des s&eacute;jours de vacances pour les enfants et les adolescents du personnel de la Poste. En 2009, environ 18 000 enfants et adolescents b&eacute;n&eacute;ficieront des services de l&rsquo;Avea.</p>"
+    mini_desc2: '<br />'
+    url: ''
+    miniature: avea.png
+    bandeau: 076bc2ab2fbb5b8a28cf10d8915b7a0452b74230.png
+    annee: '2010'
+    date: '2010-07-01 00:00:00'
+    client: 'IOcean - AVEA'
+    techno: 'Symfony 1.2, PostgreSQL, Doctrine'
+    duree: '2 mois'
+    Categorie: CategorieFolio_1
+    use_alternatif: false
+    slug: avea-poste
+  Creation_2:
+    titre: Formastreet
+    sstitre: 'Le plus court chemin vers la formation'
+    code: formastreet
+    description1: "<h5>\r\n	Projet&nbsp;:</h5>\r\n<p>\r\n	<strong>Conception et r&eacute;alisation d&rsquo;un Portail Xnet pour Formastreet avec le Framework symfony</strong></p>\r\n<p>\r\n	Afin de lancer son activit&eacute;, <strong>Formastreet</strong> a sollicit&eacute; <strong>IOcean</strong> pour la conception et la r&eacute;alisation de son <strong>Portail Xnet</strong>,&nbsp;Internet, Intranet et Extranet permettant d&rsquo;int&eacute;grer dans un seul environnement ces trois espaces afin d&rsquo;optimiser la mise &agrave; jour des diff&eacute;rents sites et de faciliter les &eacute;changes d&rsquo;information.</p>\r\n<p>\r\n	IOcean a choisi d&#39;utiliser pour ce projet le Framework Symfony qui permet&nbsp;:</p>\r\n<ul class=\"puce bullet-orange\">\r\n	<li>\r\n		une &eacute;volutivit&eacute; de l&#39;application facilit&eacute;e par l&#39;architecture de Symfony</li>\r\n	<li>\r\n		une gestion de travail simplifi&eacute;e via les contr&ocirc;leurs Symfony</li>\r\n	<li>\r\n		une s&eacute;curit&eacute; de l&#39;application renforc&eacute;e (contre les attaques courantes type SQL injection, XSS,...)</li>\r\n	<li>\r\n		des formulaires avanc&eacute;s gr&acirc;ce au framework de formulaire (composant Symfony)</li>\r\n	<li>\r\n		une gestion des droits avec sfGuardPlugin</li>\r\n</ul>\r\n<h5>\r\n	Gestion de projet</h5>\r\n<p>\r\n	IOcean a mis en &oelig;uvre la m&eacute;thodologie <strong>SCRUM</strong> pour la gestion de ce projet. SCRUM est une m&eacute;thode Agile dont le principe est de focaliser l&rsquo;&eacute;quipe de fa&ccedil;on it&eacute;rative sur un ensemble de fonctionnalit&eacute;s &agrave; r&eacute;aliser.</p>\r\n<p>\r\n	Les m&eacute;thodes Agiles se veulent plus pragmatiques que les m&eacute;thodes traditionnelles&nbsp;: en impliquant au maximum le client, ces m&eacute;thodes permettent une grande r&eacute;activit&eacute; &agrave; ses demandes et visent la satisfaction r&eacute;elle du besoin.</p>\r\n<p>\r\n	<a href=\"http://www.iocean.fr/actualites/2010/portail-xnet-pour-formastreet-avec.html\">Pr&eacute;sentation par IOcean</a></p>\r\n"
+    description2: "<br />\r\n"
+    mini_desc1: "<p>\r\n	<strong>Formastreet.com</strong>, lanc&eacute; en juin 2010, a pour vocation de mettre en contact les salari&eacute;s ou les services formation des entreprises, &agrave; la recherche d&rsquo;une formation professionnelle, avec les organismes sp&eacute;cialis&eacute;s</p>\r\n"
+    mini_desc2: "<br />\r\n"
+    url: 'http://www.formastreet.com'
+    miniature: formastreet.png
+    bandeau: 8d88314dba8eafbfa71accc922e0d39371bbd306.png
+    annee: '2010'
+    date: '2010-06-02 00:00:00'
+    client: IOcean
+    techno: 'Symfony 1.2, PostgreSQL, Eclipse'
+    duree: '1 mois'
+    Categorie: CategorieFolio_2
+    use_alternatif: false
+    slug: formastreet
+  Creation_3:
+    titre: 'Intranet Safer'
+    sstitre: 'Gestion des activités commerciales et juridiques'
+    code: safer
+    description1: ''
+    description2: ''
+    mini_desc1: "<p>\r\n	Depuis 2001, le GIE ACTIS devenu en 2009 le GIE SIIS confie &agrave; IOcean la r&eacute;alisation de logiciels sp&eacute;cifiques de gestion et particulierement le logiciel SAFCOM qui g&egrave;re l&#39;ensemble de l&#39;activit&eacute; des&nbsp;SAFER&nbsp;et notamment les dossiers concernant les achats (acquisitions) et ventes (r&eacute;trocessions) de biens agricoles ...</p>\r\n"
+    mini_desc2: ''
+    url: ''
+    miniature: safer.png
+    bandeau: 9e3b5cba0e29ba842dece4102d6cf08de976cc83.jpg
+    annee: '2010'
+    date: '2010-04-01 00:00:00'
+    client: 'IOcean - GIE'
+    techno: 'J2EE, Liferay, Alfresco'
+    duree: '3 mois'
+    Categorie: CategorieFolio_1
+    use_alternatif: false
+    slug: intranet-safer
+  Creation_4:
+    titre: 'Transavia - Air France'
+    sstitre: 'Planning en lignes pour personnels naviguant'
+    code: transavia
+    description1: '<br />'
+    description2: '<br />'
+    mini_desc1: "<p>\r\n	<strong><span class=\"spip_surligne\">Transavia</span> </strong>est une compagnie a&eacute;rienne, filliale Low-cost d&#39;<strong>Air-France</strong>, qui compte plus de 30 avions et quelques 1500 collaborateurs. R&eacute;alisation d&#39;une <strong>interface Web</strong> avec la suite Logicielle APM permettant aux personnels navigants de<strong> v&eacute;rifier et de valider leur planning</strong>.</p>"
+    mini_desc2: '<br />'
+    url: ''
+    miniature: transavia.png
+    bandeau: null
+    annee: '2010'
+    date: '2010-05-01 00:00:00'
+    client: IOcean
+    techno: 'J2EE, JSF, JBossSeam, Hibernate'
+    duree: '3 semaines'
+    Categorie: CategorieFolio_1
+    use_alternatif: false
+    slug: transavia-air-france
+  Creation_5:
+    titre: Eredan-GT
+    sstitre: 'Jeu d''aventure en ligne, devenez le héro d''une nation'
+    code: eredan
+    description1: "<p>\r\n	D&eacute;veloppement du jeu&nbsp;ligne et multijoueur&nbsp;<strong>Eredan-GT</strong> pour la soci&eacute;t&eacute; <strong>Feerik</strong>. Il s&#39;agit d&#39;un jeu gratuit qui se joue directement dans son navigateur, ne n&eacute;cessitant ainsi&nbsp;ni&nbsp;plugin ni t&eacute;l&eacute;chargement additionnel.</p>\r\n<p>\r\n	<a href=\"http://gt.eredan.com/EREDANGT_PRESSE_FEERIK.pdf\" target=\"_blank\">Lire le communiqu&eacute; de presse</a></p>\r\n<p>\r\n	<a href=\"http://www.jeuxvideo.com/jeux/web/00035669-eredan-grand-tournoi.htm\" target=\"_blank\">Fiche sur Jeuxvideo.com</a></p>\r\n<p>\r\n	<a href=\"http://www.jeux-alternatifs.com/Eredan-GT-jeu167_generale_1_1.html\" target=\"_blank\">Fiche sur Jeux-alternatifs</a></p>\r\n<p>\r\n	<object height=\"360\" width=\"480\"><param name=\"movie\" value=\"http://www.dailymotion.com/swf/video/xdjycq?width=480&amp;theme=default&amp;foreground=%23F7FFFD&amp;highlight=%23FFC300&amp;background=%23171D1B&amp;hideInfos=1&amp;start=&amp;animatedTitle=&amp;additionalInfos=0&amp;autoPlay=0\" /><param name=\"allowFullScreen\" value=\"true\" /><param name=\"allowScriptAccess\" value=\"always\" /><embed allowfullscreen=\"true\" allowscriptaccess=\"always\" height=\"360\" src=\"http://www.dailymotion.com/swf/video/xdjycq?width=480&amp;theme=default&amp;foreground=%23F7FFFD&amp;highlight=%23FFC300&amp;background=%23171D1B&amp;hideInfos=1&amp;start=&amp;animatedTitle=&amp;additionalInfos=0&amp;autoPlay=0\" type=\"application/x-shockwave-flash\" width=\"480\"></embed></object><br />\r\n	<em><span class=\"Apple-style-span\" style=\"white-space: nowrap;\"><b>( Pr&eacute;sentation&nbsp;r&eacute;alis&eacute;e par un site ind&eacute;pendant )</b></span></em></p>\r\n<p>\r\n	&nbsp;</p>\r\n<h5>\r\n	Technologie :</h5>\r\n<p>\r\n	Le jeu a &eacute;t&eacute; d&eacute;velopp&eacute; en PHP 5 objet en se basant sur le framework &quot;maison&quot; de Feerik, tout en y rajoutant&nbsp;certaines fonctionnalit&eacute;s propres &agrave;&nbsp;mes d&eacute;veloppement :</p>\r\n<ul class=\"puce bullet-orange\">\r\n	<li>\r\n		Syst&egrave;me de cache template</li>\r\n	<li>\r\n		G&eacute;n&eacute;rateur d&#39;administration automatis&eacute;</li>\r\n	<li>\r\n		Utilisation d&#39;un &quot;mini-ORM&quot; de ma cr&eacute;ation</li>\r\n	<li>\r\n		Interface riche ( RIA ) bas&eacute;e sur jQuery-UI</li>\r\n</ul>\r\n"
+    description2: ''
+    mini_desc1: "<p>\r\n	Eredan-GT est un casual game, m&eacute;lant strat&eacute;gie, aventure et esprit communautaire autour d&#39;un sc&eacute;nario&nbsp;captivant. Prenez le contr&ocirc;le d&#39;une des 4 puissances&nbsp;et venez d&eacute;fendre votre honneur !</p>\r\n"
+    mini_desc2: ''
+    url: 'http://gt.eredan.com'
+    miniature: eredan.png
+    bandeau: cc3b52286742e3da341ed7fa171d0819619cd242.png
+    annee: '2009'
+    date: '2009-01-01 00:00:00'
+    client: Feerik
+    techno: 'PHP, jQuery'
+    duree: '4 mois'
+    Categorie: CategorieFolio_4
+    use_alternatif: false
+    slug: eredan-gt
+  Creation_6:
+    titre: 'Jogging - International'
+    sstitre: 'Magazine de course à pied'
+    code: jogging
+    description1: ''
+    description2: ''
+    mini_desc1: "<p>\r\n	<strong>Jogging-international.net </strong>est&nbsp;un magazine en ligne communautaire et novateur sous <strong>eZpublish </strong>pour le Groupe Motor Presse. D&eacute;veloppement du module Comparateur&nbsp;de chaussure en ligne&nbsp;int&eacute;gr&eacute; au portail.</p>\r\n"
+    mini_desc2: ''
+    url: 'http://www.jogging-international.net/equipement/comparateur-de-chaussures'
+    miniature: jogging.png
+    bandeau: fc81bbfeb8a993b84a4eee69a2718c6cda36e6d0.png
+    annee: '2009'
+    date: '2009-05-01 00:00:00'
+    client: 'Kaliop - Motor Press'
+    techno: 'Ez Publish, PHP, XML'
+    duree: '3 mois'
+    Categorie: CategorieFolio_2
+    use_alternatif: false
+    slug: jogging-international
+  Creation_7:
+    titre: 'Portail 2.0 du WWF France '
+    sstitre: 'Pour une planète vivante !'
+    code: wwf
+    description1: "<p>\r\n	Projet&nbsp;r&eacute;alis&eacute;&nbsp;durant mon stage IUT en Avril 2009.</p>\r\n<p>\r\n	Ma mission a pour objectif de&nbsp;participer au d&eacute;veloppement de <strong>modules&nbsp;&eacute;ditoriaux</strong>, &agrave; l&#39;int&eacute;gration&nbsp;de <strong>campagnes statistiques</strong> ainsi&nbsp;qu&#39;&agrave; la correction de nombreux bugs li&eacute;s &agrave;&nbsp;PHP et au CMF&nbsp;<strong>Ez-Publish</strong>.</p>\r\n"
+    description2: ''
+    mini_desc1: "<p>\r\n	La refonte de la communication Web du WWF estprojet ambitieux qui&nbsp;<strong style=\"padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; border-width: initial; border-color: initial; \">int&egrave;gre les nouveaux usages et outils Web 2.0 :&nbsp;</strong>&nbsp;Site d&#39;information complet, outil de promotion des dons, accueil customisable, lien avec les plateformes communautaires,Widget, Tracking, etc.</p>\r\n"
+    mini_desc2: ''
+    url: 'http://www.wwf.fr'
+    miniature: wwf.png
+    bandeau: fde6da799ca7c2bb2036c368ab8e7180ba38693e.png
+    annee: '2009'
+    date: '2009-04-01 00:00:00'
+    client: Kaliop
+    techno: 'Ez Publish, PHP'
+    duree: '2 semaines'
+    Categorie: CategorieFolio_2
+    use_alternatif: false
+    slug: portail-2-0-du-wwf-france
+  Creation_8:
+    titre: Cofinoga-shop
+    sstitre: 'Site marchand'
+    code: cofinoga
+    description1: "<p>\r\n	Mise en place du projet sur le CMF (Content management Framework)&nbsp;<strong>Ez-Publish</strong> et d&eacute;veloppement des premiers modules du site (architecture technique, architecture des pages &eacute;ditoriales,&nbsp;pr&eacute;sentation des produits, guides d&#39;achat, etc)</p>\r\n"
+    description2: ''
+    mini_desc1: "<p>\r\n	CofinogaShop&nbsp;est un m&eacute;ta catalogue de multidiffusion des offres commerciales,<strong style=\"padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; border-width: initial; border-color: initial; \">une syndication des milliers de produits pouss&eacute;e vers plusieurs sites, portlets et widgets</strong>&nbsp;.</p>\r\n"
+    mini_desc2: ''
+    url: 'http://www.cofinoga-shop.fr/'
+    miniature: cofinoga.png
+    bandeau: 6276079f5c89587c8b36b76d6abee22b97bf17a0.png
+    annee: '2009'
+    date: '2009-02-03 00:00:00'
+    client: IOcean
+    techno: 'Ez Publish, PHP, XML'
+    duree: '2 semaines'
+    Categorie: CategorieFolio_2
+    use_alternatif: false
+    slug: cofinoga-shop
+  Creation_9:
+    titre: Itix
+    sstitre: 'Application de simulation de GPS'
+    code: itix
+    description1: "<h5>\r\n	Pr&eacute;sentation&nbsp;</h5>\r\n<p>\r\n	Vous-&ecirc;tes vous d&eacute;j&agrave; retrouv&eacute; dans une situation o&ugrave; vous deviez trouver le meilleur itin&eacute;raire pour optimiser vos d&eacute;placements&nbsp;? Pouvez-vous optimiser le circuit de transmission de vos donn&eacute;s au travers des nombreux syst&egrave;mes de routage de votre parc informatique&nbsp;? Si vous souhaitez diminuer vos frais de fonctionnement ou optimiser vos syst&egrave;mes de communication, n&rsquo;h&eacute;sitez pas &agrave; consulter ce rapport de projet afin de vous informer sur les probl&egrave;mes de cheminement.</p>\r\n<p>\r\n	Dans le cadre de notre projet de seconde ann&eacute;e d&rsquo;IUT, nous avons entrepris de d&eacute;velopper une&nbsp; application permettant de d&eacute;terminer le parcours optimal entre deux sommets d&rsquo;un graphe, g&eacute;n&eacute;ralement celui dont la longueur est minimale.</p>\r\n<p>\r\n	Nous avons donc con&ccedil;u le logiciel &laquo; ITIX &raquo; capable de r&eacute;pondre &agrave; cette probl&eacute;matique, et ce, &agrave; l&rsquo;aide de diff&eacute;rents algorithmes math&eacute;matiques (Dijkstra, Ford-Bellmann, Brute-Force). Cette application permet de surcro&icirc;t de repr&eacute;senter facilement un graphe gr&acirc;ce &agrave; son &eacute;diteur visuel int&eacute;gr&eacute;.</p>\r\n<p>\r\n	Enfin, gr&acirc;ce aux tests de performance (benchmark) effectu&eacute;s avec le simulateur, nous avons pu mesurer quels sont les algorithmes les plus aptes &agrave; r&eacute;pondre au probl&egrave;me. Reportez-vous au contenu de notre rapport pour obtenir les r&eacute;sultats de ces exp&eacute;rimentations.</p>\r\n<p>\r\n	<strong>T&eacute;l&eacute;charger mon rapport de projet</strong></p>\r\n<h5>\r\n	Summary</h5>\r\n<p>\r\n	Have you ever been in a situation where you had to find the fastest itinerary so as to optimize your move? Can you optimize your data transmission circuit through the numerous routing systems constituting your IT infrastructure? Whether you are aching to reduce your operating spendings or to improve your communications network, check out this project report to keep yourself informed about information routing and reliability issues.</p>\r\n<p>\r\n	As part of our second-year project, we have undertaken to develop an application whose aim was to determine the optimal path between two graph vertices, this path usually being the one whose length is the shortest one.</p>\r\n<p>\r\n	We have consequently designed the software &quot;ITIX&quot;, able to settle such a matter. To reach our goal as well as to get the most efficient results, we used various mathematical algorithms such as Dijkstra, Bellmann-Ford, and Brute-Force. Moreover, this application allows the user to design a graph with more ease, thanks to its embedded visual editor.</p>\r\n<p>\r\n	Finally, all benchmarks set with the simulator having been considered, we were able to measure which algorithms were apt to respond to the problem. Please read our report to discover the results of this experimentation.</p>\r\n<p>\r\n	<strong>Download my project report</strong></p>\r\n"
+    description2: ''
+    mini_desc1: "<p>\r\n	Le&nbsp;logiciel &laquo; ITIX &raquo; est capable de r&eacute;pondre&nbsp;aux probl&eacute;matiques de parcours optimal dans un graphe, et ce, &agrave; l&rsquo;aide de diff&eacute;rents algorithmes math&eacute;matiques (Dijkstra, Ford-Bellmann, Brute-Force).</p>\r\n"
+    mini_desc2: ''
+    url: ''
+    miniature: itix.png
+    bandeau: 9d0044d8cae8d1d73888189d8b27c3e70042b6fe.png
+    annee: '2008'
+    date: '2009-05-01 00:00:00'
+    client: IUT
+    techno: 'Java, Swing'
+    duree: '3 mois'
+    Categorie: CategorieFolio_3
+    use_alternatif: false
+    slug: itix
+  Creation_10:
+    titre: 'Comsat 2008'
+    sstitre: 'Jeu de réflexion stratégie'
+    code: comsat
+    description1: "<p>\r\n	Ce jeu est n&eacute; suite &agrave; un challenge que je me suis lanc&eacute; : d&eacute;velopper un jeu vid&eacute;o <strong>simple </strong>mais fonctionnel dans un langage que je ne connaissais pas encore : <strong>Java</strong>.</p>\r\n<p>\r\n	Pour cela, mon jeu est bas&eacute; sur la librairie graphique <a href=\"http://slick.cokeandcode.com/\">Slick</a>, pour laquelle j&#39;ai commence l&#39;&eacute;criture d&#39;une <strong>documentation en fran&ccedil;ais</strong> disponible<a href=\"http://slick.cokeandcode.com/wiki/doku.php?id=fr-wiki\"> ici </a></p>\r\n<br />\r\n<div firebugversion=\"1.5.4\" id=\"_firebugConsole\" style=\"display: none;\">\r\n	&nbsp;</div>\r\n<br />\r\n"
+    description2: "<p>\r\n	&nbsp;</p>\r\n<br />\r\n<div firebugversion=\"1.5.4\" id=\"_firebugConsole\" style=\"display: none;\">\r\n	&nbsp;</div>\r\n<br />\r\n"
+    mini_desc1: "<p>\r\n	R&eacute;alisation d&#39;un mini-jeu de r&eacute;flexion/strat&eacute;gie en JAVA avec la librairie graphique SLICK. Code Open-Source disponible sur GoogleCode</p>"
+    mini_desc2: '<br />'
+    url: 'http://code.google.com/p/comsat2008/'
+    miniature: comsat.jpg
+    bandeau: 52911709566d425d618f808aeadfd5a318b8c6f8.png
+    annee: '2008'
+    date: '2008-08-04 00:00:00'
+    client: Personnel
+    techno: 'Java, Slick'
+    duree: '3 semaines'
+    Categorie: CategorieFolio_4
+    use_alternatif: false
+    slug: comsat-2008
+  Creation_11:
+    titre: Net-Actuality
+    sstitre: 'Décryptage de l''actualité informatique'
+    code: actuality
+    description1: "<p>\r\n	Ajout d&#39;int&eacute;ractivit&eacute; pour mettre en avant les fonctionnalit&eacute;es communautaire et collaboratif du site. A cette fin, les technologies <strong>jQuery </strong>et <strong>Ajax </strong>ont &eacute;t&eacute; utilis&eacute;es en parall&egrave;le pour atteindre une exp&eacute;rience utilisateur optimale.</p>\r\n"
+    description2: "<br />\r\n"
+    mini_desc1: "<p>\r\n	Actualit&eacute; informatique, d&eacute;bats, dossiers et esprit communautaires sont au rendez-vous sur ce site journalistique ind&eacute;pendant. D&eacute;veloppement de modules d&#39;interactivit&eacute; 2.0</p>\r\n"
+    mini_desc2: "<br />\r\n"
+    url: 'http://www.net-actuality.org'
+    miniature: actuality.png
+    bandeau: d3ed497e9e850bf49fdc90d040f50945c4976951.png
+    annee: '2009'
+    date: '2009-01-01 00:00:00'
+    client: Net-Actuality
+    techno: 'PHP, Ajax, jQuery'
+    duree: '1 mois'
+    Categorie: CategorieFolio_2
+    use_alternatif: false
+    slug: net-actuality
+  Creation_12:
+    titre: Studio-dev
+    sstitre: 'Troisième version'
+    code: studiov3
+    description1: '<br />'
+    description2: '<br />'
+    mini_desc1: "<p>\r\n	Troisi&egrave;me et avant-derni&egrave;re version de mon Portfolio, r&eacute;alis&eacute; au cours d&#39;un projet &agrave; l&#39;IUT de Montpellier. Un changement de projet professionel m&#39;a amen&eacute; &agrave; d&eacute;velopper une nouvelle version.</p>"
+    mini_desc2: '<br />'
+    url: ''
+    miniature: foliov3.png
+    bandeau: d287283afec21ff341b1b2651c774b68d08070c5.png
+    annee: '2009'
+    date: '2009-02-02 00:00:00'
+    client: Personnel
+    techno: 'PHP, Mysql'
+    duree: '2 semaines'
+    Categorie: CategorieFolio_2
+    use_alternatif: false
+    slug: studio-dev
+  Creation_13:
+    titre: 'Jeu de scrabble'
+    sstitre: 'Projet universitaire'
+    code: scrabble
+    description1: "<br />\r\n"
+    description2: "<br />\r\n"
+    mini_desc1: "<p>\r\n	Projet universitaire r&eacute;alis&eacute; durant ma premi&egrave;re ann&eacute;e d&#39;IUT Informatique &agrave; Montpellier. Il s&#39;agit d&#39;un jeu de Scrabble remix&eacute; pour les geeks.</p>\r\n"
+    mini_desc2: "<br />\r\n"
+    url: ''
+    miniature: scrabble.png
+    bandeau: a23347effa1474856dce736dd55b6ff52ffd8302.png
+    annee: '2008'
+    date: '2008-05-07 00:00:00'
+    client: IUT
+    techno: 'ADA, Jewel'
+    duree: '1 mois'
+    Categorie: CategorieFolio_3
+    use_alternatif: false
+    slug: jeu-de-scrabble
+  Creation_14:
+    titre: 'Blog Hounkpe 2.0'
+    sstitre: 'Référenceur professionel'
+    code: hounkpe
+    description1: "<br />\r\n"
+    description2: "<br />\r\n"
+    mini_desc1: "<p>\r\n	D&eacute;veloppement d&#39;un syst&egrave;me de blogging utilisant les toutes derni&egrave;res technologies du web 2.0. Navigation 100% ajax avec alternative pour garantir l&#39;accessibilit&eacute; du site.</p>\r\n"
+    mini_desc2: "<br />\r\n"
+    url: ''
+    miniature: hounkpe.png
+    bandeau: 686d93d746e11ed90009ffb73c6a8c4d14160691.png
+    annee: '2008'
+    date: '2008-02-29 00:00:00'
+    client: Hounkpe
+    techno: 'PHP, Ajax, Mysql'
+    duree: '1 mois'
+    Categorie: CategorieFolio_2
+    use_alternatif: false
+    slug: blog-hounkpe-2-0
+  Creation_15:
+    titre: Pleax
+    sstitre: 'Créez votre blog photo communautaire'
+    code: pleax
+    description1: ''
+    description2: ''
+    mini_desc1: "<p>\r\n	Cr&eacute;ez votre propre PLOG ( Photo Blog ) gratuitement. H&eacute;bergement vos photos, classez les en albums et partagez les avec les autres photographes et amateurs de design de Pleax.</p>\r\n"
+    mini_desc2: "<br />\r\n"
+    url: 'http://www.pleax.com'
+    miniature: pleax.png
+    bandeau: ed5592dbed1455c3118d5c72d929b3322e0711e9.png
+    annee: '2008'
+    date: '2008-02-13 00:00:00'
+    client: Imagup
+    techno: 'PHP, Ajax, Mysql'
+    duree: '1 mois'
+    Categorie: CategorieFolio_2
+    use_alternatif: false
+    slug: pleax
+  Creation_16:
+    titre: Chansons-paroles.com
+    sstitre: 'Annuaire musical : Paroles et clips'
+    code: paroles
+    description1: "<br />\r\n"
+    description2: "<br />\r\n"
+    mini_desc1: "<p>\r\n	D&eacute;couvrez l&#39;une des plus grande base francophone de paroles de chansons francaises et internationales. Plus de 33000 paroles de chansons des plus grandes stars avec leurs clips vid&eacute;os.H</p>\r\n"
+    mini_desc2: "<br />\r\n"
+    url: 'http://www.chansons-paroles.com/'
+    miniature: paroles.png
+    bandeau: 085cf736bf61cf47310a01b4c05e018d370c161f.png
+    annee: '2008'
+    date: '2008-01-31 00:00:00'
+    client: Hounkpe
+    techno: 'PHP, PostgreSQL'
+    duree: '1 mois'
+    Categorie: CategorieFolio_2
+    use_alternatif: false
+    slug: chansons-paroles-com
+  Creation_17:
+    titre: 'Fais ton choix'
+    sstitre: 'Et décide qui sera le vainqueur'
+    code: ftc
+    description1: ''
+    description2: ''
+    mini_desc1: "<p>\r\n	Site &eacute;v&egrave;nementiel r&eacute;alis&eacute; &agrave; l&#39;occasion&nbsp;des &eacute;lections pr&eacute;sidentielles&nbsp;de 2007. Combat entre 2 id&eacute;es&nbsp;oppos&eacute;es amenant sur un d&eacute;bat construit et enrichissant.</p>\r\n"
+    mini_desc2: ''
+    url: ''
+    miniature: ftc.png
+    bandeau: null
+    annee: '2008'
+    date: '2008-01-01 00:00:00'
+    client: Studio-Dev
+    techno: 'PHP, Ajax'
+    duree: '2 semaines'
+    Categorie: CategorieFolio_2
+    use_alternatif: false
+    slug: fais-ton-choix
+  Creation_18:
+    titre: Noway
+    sstitre: 'Application de gestion d''équipes esport'
+    code: wixpay
+    description1: ''
+    description2: ''
+    mini_desc1: "<p>\r\n	Noway est la premi&egrave;re adaptation vendue de mon&nbsp;application Ix-Team, un portail pour les &eacute;quipes de jeu en lignes. Celle-ci a &eacute;t&eacute;&nbsp;utilis&eacute;e par l&#39;&eacute;quipe r&eacute;gionale du cybercaf&eacute; D4 &agrave; Montpellier.</p>\r\n"
+    mini_desc2: ''
+    url: ''
+    miniature: noway.png
+    bandeau: 9debd72b3e4a958c0e6e67e2111fb857d985d027.png
+    annee: '2007'
+    date: '2007-08-01 00:00:00'
+    client: D4
+    techno: 'PHP, Ajax, jQuery'
+    duree: '2 mois'
+    Categorie: CategorieFolio_1
+    use_alternatif: false
+    slug: noway
+  Creation_19:
+    titre: Studio-dev
+    sstitre: 'Le commencement !'
+    code: studiov2
+    description1: ''
+    description2: ''
+    mini_desc1: "<p>\r\n	Premi&egrave;re version de mon portfolio r&eacute;alis&eacute;e&nbsp;&agrave; l&#39;occasion de la cr&eacute;ation officielle de ma soci&eacute;t&eacute;. Studio-Dev.fr a &eacute;t&eacute; lanc&eacute;e afin de pouvoir&nbsp;travailler en tant que d&eacute;veloppeur ind&eacute;pendant en parall&egrave;le des mes &eacute;tudes.</p>\r\n"
+    mini_desc2: ''
+    url: ''
+    miniature: studiov2.png
+    bandeau: 499e9d2cf74a0d696a3bca278f7cb729fb15704d.png
+    annee: '2006'
+    date: '2006-12-29 00:00:00'
+    client: Studio-Dev
+    techno: 'PHP, Ajax, jQuery'
+    duree: '2 semaines'
+    Categorie: CategorieFolio_2
+    use_alternatif: false
+    slug: studio-dev-1
+  Creation_20:
+    titre: 'Les Philharmonistes du Vaucluse'
+    sstitre: 'Orchestre associatif'
+    code: philhar
+    description1: ''
+    description2: ''
+    mini_desc1: "<p>\r\n	&nbsp;Site associatif de l&#39;orchestre philharmonique des pays du vaucluse&nbsp;auquel j&#39;ai particip&eacute; pendant plus de 5 ans en tant que clarinettiste. Nous avons entre autre&nbsp;r&eacute;alis&eacute; une tourn&eacute;e en Norv&egrave;ge.</p>\r\n"
+    mini_desc2: ''
+    url: 'http://www.philharduvaucluse.info'
+    miniature: philhar.png
+    bandeau: 1cb80a753f43a874533c6f847ebde0aa70f0e833.png
+    annee: '2006'
+    date: '2006-10-05 00:00:00'
+    client: Association
+    techno: 'PHP, Mysql'
+    duree: '1 mois'
+    Categorie: CategorieFolio_2
+    use_alternatif: false
+    slug: les-philharmonistes-du-vaucluse
+  Creation_21:
+    titre: Wixpay
+    sstitre: 'Régie publicitaire innovante'
+    code: wixpay
+    description1: ''
+    description2: ''
+    mini_desc1: "<p>\r\n	Projet (malheureusement avort&eacute;) d&#39;une r&eacute;gie publicitaire&nbsp;innovante&nbsp;bas&eacute;e&nbsp;sur le principe&nbsp;du site&nbsp;&agrave; fort succ&egrave;s TheMillionDollarHomepage</p>\r\n"
+    mini_desc2: ''
+    url: ''
+    miniature: wixpay.png
+    bandeau: ce0ba0448169778ce265cb293eb9b6893f7d20c2.png
+    annee: '2006'
+    date: '2006-11-12 00:00:00'
+    client: Projet
+    techno: 'PHP, Mysql'
+    duree: '1 mois'
+    Categorie: CategorieFolio_2
+    use_alternatif: false
+    slug: wixpay
+RelTechnoCreation:
+  RelTechnoCreation_1_1:
+    Techno: Techno_1
+    Creation: Creation_1
+  RelTechnoCreation_2_1:
+    Techno: Techno_2
+    Creation: Creation_1
+  RelTechnoCreation_8_1:
+    Techno: Techno_8
+    Creation: Creation_1
+  RelTechnoCreation_9_1:
+    Techno: Techno_9
+    Creation: Creation_1
+  RelTechnoCreation_23_1:
+    Techno: Techno_23
+    Creation: Creation_1
+  RelTechnoCreation_1_2:
+    Techno: Techno_1
+    Creation: Creation_2
+  RelTechnoCreation_2_2:
+    Techno: Techno_2
+    Creation: Creation_2
+  RelTechnoCreation_8_2:
+    Techno: Techno_8
+    Creation: Creation_2
+  RelTechnoCreation_9_2:
+    Techno: Techno_9
+    Creation: Creation_2
+  RelTechnoCreation_4_3:
+    Techno: Techno_4
+    Creation: Creation_3
+  RelTechnoCreation_11_3:
+    Techno: Techno_11
+    Creation: Creation_3
+  RelTechnoCreation_12_3:
+    Techno: Techno_12
+    Creation: Creation_3
+  RelTechnoCreation_4_4:
+    Techno: Techno_4
+    Creation: Creation_4
+  RelTechnoCreation_5_4:
+    Techno: Techno_5
+    Creation: Creation_4
+  RelTechnoCreation_18_4:
+    Techno: Techno_18
+    Creation: Creation_4
+  RelTechnoCreation_1_5:
+    Techno: Techno_1
+    Creation: Creation_5
+  RelTechnoCreation_3_5:
+    Techno: Techno_3
+    Creation: Creation_5
+  RelTechnoCreation_13_5:
+    Techno: Techno_13
+    Creation: Creation_5
+  RelTechnoCreation_15_5:
+    Techno: Techno_15
+    Creation: Creation_5
+  RelTechnoCreation_1_6:
+    Techno: Techno_1
+    Creation: Creation_6
+  RelTechnoCreation_24_6:
+    Techno: Techno_24
+    Creation: Creation_6
+  RelTechnoCreation_1_7:
+    Techno: Techno_1
+    Creation: Creation_7
+  RelTechnoCreation_24_7:
+    Techno: Techno_24
+    Creation: Creation_7
+  RelTechnoCreation_25_7:
+    Techno: Techno_25
+    Creation: Creation_7
+  RelTechnoCreation_1_8:
+    Techno: Techno_1
+    Creation: Creation_8
+  RelTechnoCreation_24_8:
+    Techno: Techno_24
+    Creation: Creation_8
+  RelTechnoCreation_4_9:
+    Techno: Techno_4
+    Creation: Creation_9
+  RelTechnoCreation_10_9:
+    Techno: Techno_10
+    Creation: Creation_9
+  RelTechnoCreation_4_10:
+    Techno: Techno_4
+    Creation: Creation_10
+  RelTechnoCreation_22_10:
+    Techno: Techno_22
+    Creation: Creation_10
+  RelTechnoCreation_1_11:
+    Techno: Techno_1
+    Creation: Creation_11
+  RelTechnoCreation_13_11:
+    Techno: Techno_13
+    Creation: Creation_11
+  RelTechnoCreation_15_11:
+    Techno: Techno_15
+    Creation: Creation_11
+  RelTechnoCreation_1_12:
+    Techno: Techno_1
+    Creation: Creation_12
+  RelTechnoCreation_3_12:
+    Techno: Techno_3
+    Creation: Creation_12
+  RelTechnoCreation_26_13:
+    Techno: Techno_26
+    Creation: Creation_13
+  RelTechnoCreation_1_14:
+    Techno: Techno_1
+    Creation: Creation_14
+  RelTechnoCreation_3_14:
+    Techno: Techno_3
+    Creation: Creation_14
+  RelTechnoCreation_13_14:
+    Techno: Techno_13
+    Creation: Creation_14
+  RelTechnoCreation_15_14:
+    Techno: Techno_15
+    Creation: Creation_14
+  RelTechnoCreation_1_15:
+    Techno: Techno_1
+    Creation: Creation_15
+  RelTechnoCreation_3_15:
+    Techno: Techno_3
+    Creation: Creation_15
+  RelTechnoCreation_15_15:
+    Techno: Techno_15
+    Creation: Creation_15
+  RelTechnoCreation_1_16:
+    Techno: Techno_1
+    Creation: Creation_16
+  RelTechnoCreation_8_16:
+    Techno: Techno_8
+    Creation: Creation_16
+  RelTechnoCreation_1_17:
+    Techno: Techno_1
+    Creation: Creation_17
+  RelTechnoCreation_15_17:
+    Techno: Techno_15
+    Creation: Creation_17
+  RelTechnoCreation_1_18:
+    Techno: Techno_1
+    Creation: Creation_18
+  RelTechnoCreation_3_18:
+    Techno: Techno_3
+    Creation: Creation_18
+  RelTechnoCreation_13_18:
+    Techno: Techno_13
+    Creation: Creation_18
+  RelTechnoCreation_1_19:
+    Techno: Techno_1
+    Creation: Creation_19
+  RelTechnoCreation_13_19:
+    Techno: Techno_13
+    Creation: Creation_19
+  RelTechnoCreation_15_19:
+    Techno: Techno_15
+    Creation: Creation_19
+  RelTechnoCreation_1_20:
+    Techno: Techno_1
+    Creation: Creation_20
+  RelTechnoCreation_3_20:
+    Techno: Techno_3
+    Creation: Creation_20
+  RelTechnoCreation_1_21:
+    Techno: Techno_1
+    Creation: Creation_21
+  RelTechnoCreation_3_21:
+    Techno: Techno_3
+    Creation: Creation_21

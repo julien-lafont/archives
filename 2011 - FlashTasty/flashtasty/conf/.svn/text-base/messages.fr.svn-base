@@ -1,0 +1,102 @@
+# Général
+
+MetsEtVins = Mets & Vins
+ArômesEtSaveur = Arômes et Saveurs
+PointDeVente = Point de vente
+OuvrirPlan = Ouvrir plan
+ConseilsDegustation = Conseils de dégustation
+
+# Traduction pour l'admin
+Required = Obligatoire
+validation.required = Obligatoire
+
+AdminCepages = Cépages
+AdminCouleursVin = Couleurs
+AdminDomaines = Domaines
+AdminProducteurs = Producteurs
+AdminRegions = Regions
+AdminVins = Vins
+AdminAppellations = Appellations
+AdminVignobles = Vignobles
+
+Cepages = Cépages
+CouleursVin = Couleurs des vins
+Regions = Régions
+photoProducteur = photo du producteur
+photoDomaine = photo du domaine
+codePostal = code postal
+lieuVente = lieu de vente courant
+photoEtiquette = photo de l'étiquette
+
+DerniersVinsFlashes = Derniers vins flashés
+
+AucunVinFlashe = Nous n'avez encore flashé aucun vin
+AucunCepage = Aucun cépage
+AucunVignoble = Aucun vignoble
+AucunDomaine = Aucun domaine
+AucunVin = Aucun vin
+
+TitreAnnuaire = Annuaire des vins FlashTasty
+AnnuaireDesVins = Annuaire des vins
+AnnuaireDesCepages = Annuaire des cépages
+AnnuaireDesVignobles = Annuaire des vignobles
+AnnuaireDesDomaines = Annuaire des domaine
+
+ListeVins = Liste des vins
+ListeDomaines = Liste des domaines
+ListeCepages = Liste des cépages
+ListeVignobles = Liste des vignobles
+
+RechercherUnVin = Rechercher un vin
+ChercherUnVinPPP = Chercher un vin ...
+
+
+# play/modules/crud (administration)
+crud.title = Administration
+crud.home = Dashboard
+crud.blank = Nouveau
+crud.index.title = Choisissez l'objet à modifier
+crud.index.objectType = Type objet
+crud.index.action = Actions
+crud.index.add = Ajouter
+crud.add = Ajouter &{%s}
+crud.list.title = &{%s}
+crud.list.size = %d &{%s}
+crud.list.totalSize = %d total
+crud.pagination.previous = « Précédent
+crud.pagination.next = Suivant »
+crud.pagination.last = Dernier »»
+crud.pagination.first = «« Premier
+crud.show.title = Modifier &{%s}
+crud.save = Enregistrer
+crud.saveAndContinue = Enregistrer et continuez à modifier
+crud.cancel = Annuler
+crud.hasErrors = Erreur lors de la validation. Merci de corriger les erreurs.
+crud.blank.title = Ajouter &{%s}
+crud.saveAndAddAnother = Enregistrer et ajouter un autre
+crud.delete = Supprimer &{%s}
+crud.created = &{%s} a été crée
+crud.saved = &{%s} est enregistré
+crud.deleted = &{%s} est supprimé
+crud.delete.error = Ne peut pas supprimer l’objet
+crud.search = Chercher
+crud.none = (aucun)
+crud.help.required = Obligatoire.
+crud.help.minlength = Longeur minimum est %d.
+crud.help.maxlength = Longeur maximum est %d.
+crud.help.email = Adresse e-mail valide
+crud.help.dateformat = En format YYYY-MM-DD.
+crud.help.numeric = Numerique.
+crud.help.min = Doit être plus grand que %d.
+crud.help.future = Dans le futur.
+crud.help.past = Dans le passé.
+crud.help.after = Après %s.
+crud.help.before = Avant %s.
+crud.help.range = Entre %d et %d
+crud.selectValue = (Sélectionnez une valeur)
+
+
+# play/modules/secure
+secure.username = Votre adresse e-mail:
+secure.password = Votre mot de passe:
+secure.signin = Connectez-vous maintenant

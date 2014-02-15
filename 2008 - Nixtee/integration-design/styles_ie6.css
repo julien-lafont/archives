@@ -1,0 +1,104 @@
+#header #logo {
+	background:none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/logo.png', sizingMethod='crop');
+}
+
+#header #pub {
+	background:none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/pub_top.png', sizingMethod='crop');
+}
+
+#bandeau .left #connexion {
+	background:none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/fond_connexion.png', sizingMethod='crop');
+}
+
+#bandeau .left #visiteurs {
+	background:none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/visiteurs.png', sizingMethod='crop');
+}
+
+#contenu .titre .g {
+	background:none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/titre_g.png', sizingMethod='crop');
+}
+
+#contenu .titre h2 {
+	background-image:url('images/titres_c_ie.png');
+
+}
+
+#contenu .titre .d {
+	background:none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/titre_d.png', sizingMethod='crop');
+}
+
+#contenu .bloc {
+	background-image:url('images/contenu_bloc.gif');
+}
+
+#contenu .b {
+	background:none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bas_bloc.png', sizingMethod='crop');	
+}
+
+#tops  .gauche .h {
+	background:none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/top_notes.png', sizingMethod='crop');
+}
+
+#tops .gauche .b {
+	background:none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/top_g_b.png', sizingMethod='crop');
+}
+
+#tops .gauche .bloc {
+	background-image:url("images/top_g.gif");
+}
+
+#tops  .droite .h {
+	background:none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/top_popularite.png', sizingMethod='crop');
+
+}
+
+#tops .droite .b {
+	background:none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/top_d_b.png', sizingMethod='crop');
+}
+
+#tops .droite .bloc {
+	background-image:url("images/top_d.gif");
+}	
+
+
+			#bandeau .right li.inscrip .image {
+				background:none;
+				filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/inscription.png', sizingMethod='crop');
+			}
+			#bandeau .right li.log .image {
+				background:none;
+				filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/log.png', sizingMethod='crop');
+			}
+			#bandeau .right li.rechercher .image {
+				background:none;
+				filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/find.png', sizingMethod='crop');
+			}
+			
+			
+			
+			
+#contenu .bloc {
+	margin-top:-9px
+}
+
+#bandeau .left #connexion input.submit {
+	background:none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/btn_connect.png', sizingMethod='crop');
+}
+
+
+	#tops .centre #presentation {
+		background:none;
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/presentation1.png', sizingMethod='crop');
+	}

@@ -1,0 +1,11 @@
+Do
+  Show line=1 text=\w       SNIPERMAN007
+  Show line=3 text=\r   VOUS SOUHAITE
+  Show line=4 text=\y   UN AGREABLE SEJOUR
+  Show line=5 text=\g   SUR SON SITE WEB
+  Show line=1 text=\w  TROIS JEUX SONT SUR MON SITE:
+  Show line=3 text=\g   MIDTOWN MADNESS II
+  Show line=4 text=\b   HALF LIFE ET ADD-ON
+  Show line=5 text=\y   ZELDA
+Sleep wait=5
+Repeat Verdana=-1

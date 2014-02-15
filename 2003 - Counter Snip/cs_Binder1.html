@@ -1,0 +1,565 @@
+<HTML>
+<HEAD>
+<TITLE>Counter Snip</TITLE>
+<META NAME="TITLE" CONTENT="Counter-Snip">
+<META NAME="identifer-URL" CONTENT="http://sniperman.free.fr">
+<META NAME="AUTHOR" lang="fr" CONTENT="Sniperman">
+<META NAME="OWNER" CONTENT="snake.spm@laposte.net">
+<META NAME="SUBJECT" CONTENT="Counter Strike">
+<META NAME="Category" CONTENT="Internet - Jeux - Cs">
+<META NAME="DESRIPTION" CONTENT="Tout sur Counter Strike et plus">
+<META NAME="KEYWORDS" CONTENT="sniperman,kirikiri,countersnip,counter-snip,cs,counter strike,counterstrike,wallpapers,fond d'écran,sms,loto,prizee,astuces,armes,skins,binds,alias,half life,maps,download,téléchargement,patchs,guide,dossier,aide,ping,fps,optimisation,mms,loteries,Orange,LAN,réseau,France,fr,hl key fr,1.5,1.3,1.4,Forum,Astuces,Console,commandes,Cheat,Hack,OGL,wallhack,liens,GBA,rom,Annuaire,">
+<META NAME="LANGUAGE" CONTENT="FR">
+<META NAME="robots" CONTENT="All">
+<STYLE TYPE=text/css>
+TD { font-family:Verdana;font-size:11px;color:white } 
+.menu { font-family:Verdana;font-size:12px;color:white } 
+.titre { font-family:Verdana;font-size:20px;color:white } 
+A.menu { font-family:Verdana;font-size:12px;color:white;text-decoration:none } 
+A:hover.menu { font-family:Verdana;font-size:12px;color:#FFCC00;font-weight:normal;text-decoration:none } 
+A { font-family:Verdana;font-size:11px;color:#FFFFFF;text-decoration:none } 
+A:hover { font-family:Verdana;font-size:11px;color:#FFCC00} 
+A.dl {color:blue;text-decoration:underline }
+A:hover.dl {color:red;text-decoration:underline overline }
+A.menu { font-family:Verdana;font-size:12px;color:white;text-decoration:none } 
+BODY {SCROLLBAR-FACE-COLOR: #ffa534; SCROLLBAR-HIGHLIGHT-COLOR: #ffd756; SCROLLBAR-SHADOW-COLOR: #ff8312; SCROLLBAR-3DLIGHT-COLOR: #000000; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #8E908D; SCROLLBAR-DARKSHADOW-COLOR: #000000}.Style1 {color: #FFFFFF}
+.Style7 {	font-size: 10px;
+	color: #FFFFFF;
+}
+.parent {font-family: verdana;font-weight: bold ;color: #CCCCCC;font-size: 12px;margin-top: 10;cursor: hand;margin-left: 6pt}
+.child {font-size: 9px;decoration: none;font-weight: normal;margin-left:10pt}
+</STYLE>
+<script language="javascript">
+<!--
+var intCount = 1;
+function DynamicMenu_addParent(strName) {
+	var strID = 'ID' + intCount++;
+	var strTemp = '<DIV ID="' + strID + '" CLASS="parent"';
+        strTemp += ' onClick="expandCollapse(this);">';
+	    strTemp += '<B>' + strName + '</B>'  
+        strTemp += '<DIV CLASS="child"></DIV>';
+        strTemp += '</DIV>';
+		this.div.innerHTML += strTemp;
+        this.currentChild = document.getElementById(strID);
+}
+
+function DynamicMenu_addChild(strName,strURL) {
+
+	var strTemp = '<A HREF="' + strURL + '"' + ' onClick="cancelBubble(arguments[0]);">' + strName + '</A><BR>';
+	if (document.all) {
+        	this.currentChild.children[1].innerHTML += strTemp;
+	} else {
+        	this.currentChild.childNodes[1].innerHTML += strTemp;
+	}
+	
+}
+
+function cancelBubble(netEvent) {
+	if (document.all) {
+		window.event.cancelBubble = true;
+	} else {
+        	netEvent.cancelBubble = true;
+	}
+}
+
+function expandCollapse(objElement) {
+
+	if (document.all) {
+        	var imgIcon = objElement.children[0];
+                objElement = objElement.children[1];
+	} else {
+        	var imgIcon = objElement.childNodes[0];
+                objElement = objElement.childNodes[2];
+	}
+	if (objElement.style.display == "none") {
+        	objElement.style.display = "block" ;
+                imgIcon.src = "bottomb.gif" ;
+	} else {
+        	objElement.style.display = "none" ;
+                imgIcon.src = "leftb.gif" ;
+	}
+}
+
+function DynamicMenu() {
+
+	var id = "Menu" + intCount++;
+        document.write('<DIV Id="' + id + '"></DIV>');		
+	this.div = document.getElementById(id);
+        this.currentChild = null;
+		
+	this.addParent = DynamicMenu_addParent;
+	
+        this.addChild = DynamicMenu_addChild;
+		
+}
+// -->
+
+</script>
+
+
+</HEAD>
+<BODY BGCOLOR=#000000 TEXT=#FFFFFF LINK=#0000FF VLINK=#800080 ALINK=#FF0000>
+
+<CENTER>
+
+<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH=774>
+  <TR>
+    <TD WIDTH=175><IMG SRC="images/haut4a.jpg" BORDER=0 WIDTH=175 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+      <TD WIDTH=579 BACKGROUND=images/top_cs.gif CLASS=titre> 
+        <!-- ICI, LE TITRE DEVOTRE SITE -->
+        Dossier Binds &amp; Alias<BR>
+        <IMG SRC="images/pixel.gif" BORDER=0 WIDTH=1 HEIGHT=13 HSPACE=0 VSPACE=0></TD>
+    <TD WIDTH=20><IMG SRC="images/top_d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+      	
+      	<!-- !!!!!!!!! DEBUT MENU !!!!!!!!!!! -->
+	  <TD WIDTH=175 BACKGROUND=images/fond_menu.gif VALIGN=top CLASS=menu> <IMG SRC="images/haut4b.jpg" BORDER=0 WIDTH=175 HEIGHT=115 HSPACE=0 VSPACE=0><BR>
+
+	<!-- DEBUT MENU 1 -->
+	<p><span class="parent"><img src="images/Puces/arrow2b.gif" width="10" height="13" align="absmiddle"> <a href="index.htm">Accueil</a></span><br>
+        <script language=Javascript type=text/javascript>
+var menu = new DynamicMenu();
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Site'); 
+menu.addChild('- Me contacter', 'site_contact.html');
+menu.addChild('- Livre d&acute;or', 'http://www.maxiservices.net/livre/livre.php3?id=2810 ');		
+menu.addChild('- Chat', 'site_chat.html'); 
+menu.addChild('- Qui suis-je', 'site_quisuisje.html');
+menu.addChild('- Pubs', 'site_pub.html');
+      
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Counter Strike'); 
+menu.addChild(' ', ' ');
+menu.addChild('- Pr&eacute;sentation', 'cs_presentation.html');
+menu.addChild('- <b>Downloads</b>', 'cs_Downloads.html');
+menu.addChild('- Astuces', 'cs_Astuces.html');
+menu.addChild('- Armes', 'cs_armes.html');
+menu.addChild('- Binds & Alias', 'cs_Binds_&_Alias.html'); 
+menu.addChild('- PodBot', 'cs_Podbot.html');
+menu.addChild('- <b>Réduire son Ping</b>', 'cs_Ping.html');
+menu.addChild('- Dossier CS - Xbox', 'cs_xbox.html');
+menu.addChild('- Servers', 'cs_server.html');
+menu.addChild('- Easter Eggs', 'cs_EasterEgg.html');
+menu.addChild('- Counter Mania', 'cs_counterMania.html');
+menu.addChild('- Commandes', 'cs_console.html');
+menu.addChild('- Cheats', 'cs_cheats.html');
+menu.addChild('- Tag', 'cs_tag2.html');
+menu.addChild('- Liens', 'cs_liens.html');
+menu.addChild('- Wallpapers', 'cs_wallpapers.html');
+menu.addChild('- Tarte à la Fraise', 'cs_tarte.html');
+
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Steam'); 
+menu.addChild('- T&eacute;l&eacute;chargement', 'steam_telechargement.html');
+menu.addChild('- <b>Pack LAN + BOT</b>', 'steam_nosteam.html'); 				 				
+menu.addChild('- Installation', 'steam_install.html');
+menu.addChild('- Utilitaires', 'steam_util.html');
+menu.addChild('- Binder 1.6', 'cs_Binder1.html');
+menu.addChild('- Lecteur MP3', 'steam_mp3.html');
+menu.addChild('- FAQ', 'steam_faq.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Half Life 2'); 
+menu.addChild('- News', 'hl_news.html');
+menu.addChild('- Histoire', 'hl_hist.html');
+menu.addChild('- Armes', 'hl_armes.html'); 
+menu.addChild('- Personnages', 'hl_pers.html');
+menu.addChild('- Packs', 'hl_pack.html');			
+menu.addChild('- Screenshot', 'hl_screen.html');
+menu.addChild('- Art-Works', 'hl_screen3.html');
+menu.addChild('- Fond d&acute;&eacute;cran', 'hl_wallpapers.html');
+
+menu.addParent('<img src="images/Puces/arrow2.gif" align="absmiddle"> Petits +'); 
+menu.addChild('- Dossier Virus', 'plus_virus.html'); 				
+menu.addChild('- SMS & MMS gratuits', 'plus_sms.html');
+menu.addChild('- Mail Anonyme', '');
+menu.addChild('- M&eacute;t&eacute;o 48h', 'plus_meteo.html');
+menu.addChild('- Programme Cin&eacute; et TV', 'plus_cine.html');
+menu.addChild('- Annuaire Invers&eacute;', 'plus_annuaire.html');
+menu.addChild('- Traduction en ligne', 'plus_trans.html');
+menu.addChild('- Horoscope', 'plus_horoscopes.html');
+menu.addChild('- Auto-Biographie ;-)', 'plus_bio.html');
+menu.addChild('- Cartes et Itin&eacute;raires', 'plus_cartes.html');
+menu.addChild('- Loteries Gratuites', 'plus_loteries.html');
+menu.addChild('- Convertisseur', 'plus_calcu.html');
+          </script>
+        <br>
+    </p>
+	<TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+      <TR>
+        <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp; T&eacute;l&eacute;chargement &nbsp;&nbsp;</B></div></TD>
+      </TR>
+    </TABLE>
+	<p align="center">
+    <MARQUEE behavior= "scroll" align= "center" direction= "up" height="80" scrollamount= "2" scrolldelay= "10" onmouseover='this.stop()' onmouseout='this.start()'>
+    <table align=center>
+      <tr>
+        <td align=center>
+          <p>- <a href="ftp://ftpclubic2.clubic.com/temp-clubic-rx1740/jeux/Counter-Strike_Mod_1.5_en_version_complete.exe"><strong>Counter Strike 1.5</strong></a> - <br>
+        127 mo </p>
+          <p>- <a href="steam_nosteam.html"><strong>Pack CS 1.6 OFFline</strong> -<br>
+              Dossier</a></p>
+          <p>- <a href="http://www.filemirrors.com/search.src?file=steaminstall_cs.exe&size=397857244" target="_blank"><strong>Counter Strike 1.6</strong></a> - <br>
+        Full 388 mo </p>
+          <p>- <a href="ftp://ftp.vugames.fr/pub/half-life/fhl1110.exe"><strong>Half life 1.1.1.0</strong></a> - <br>
+        Full 84 mo </p>
+          <p>- <a href="ftp://ftp.trusted-network.de/pub/games/pod25ins.exe"><strong>Pod Bot 2.5</strong></a> - <br>
+        2 mo</p>
+          <p>- <a href="http://akimbot.nuclearbox.com/akimbot030.zip"><strong>Akimbot Bot 3.0</strong></a> - <br>
+        0.3 mo </p>
+          <p>- <a href="Fichiers/SteamCustomizerv104.rar"><strong>Steam Customizer</strong></a> - <br>
+        0.3 mo </p>
+          <p class="Style1"><strong>- <a href="http://www.udpsoft.com/eye/download/newer/EyeInstaller.exe">All-Seeing Eyes</a> -</strong></p></td>
+      </tr>
+    </table>
+    </MARQUEE>
+    <br>
+    <br>
+    <TABLE WIDTH=175 HEIGHT=26 CELLPADDING=0 CELLSPACING=0 background="images/menu_bleu9.gif" bgcolor="#B5B6B8">
+      <TR>
+        <TD WIDTH=175 CLASS=menu><div align="center"><B>&nbsp; Wallpapers : &nbsp;&nbsp;</B></div></TD>
+      </TR>
+    </TABLE>
+    <p align="center"><a href="images/Wallpapers/cs_99.jpg"><img src="images/Wallpapers/small/TN_cs_99.JPG" width="128" height="96" border="0"></a> <br>
+        <span class="Style7"><a href="cs_wallpapers.html">Tous les Wallpapers</a></span></p>
+    <BR>
+		<!-- !!!!!!!! FIN MENU GAUCHE !!!!!!!!!! -->
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      </TD>
+    <TD WIDTH=579 BGCOLOR=#364132 VALIGN=top ALIGN=center>
+	
+<!-- FIN HEADER -->
+	
+	<!-- DEBUT CADRE DE CONTENU 1 -->
+	<TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=575>
+  		<TR>
+    		<TD WIDTH=25><IMG SRC="images/cad_bleu_hg.gif" BORDER=0 WIDTH=25 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+    		<TD BACKGROUND=images/cad_bleue_h.gif WIDTH=523 CLASS=menu><B>Binder Automatique
+    		    CS 1.6.</B></TD>
+    		<TD WIDTH=27><IMG SRC="images/cad_bleu_hd.gif" BORDER=0 WIDTH=27 HEIGHT=37 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  		<TR>
+    		<TD WIDTH=25 BACKGROUND=images/cad_g.gif><IMG SRC="images/cad_g.gif" BORDER=0 WIDTH=25 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+    		<td WIDTH=523 BGCOLOR=#4D574A><div align="left"></div>
+              <div align="left">
+                <form name="form">
+                <table width="100%" border="0" bgcolor="#000000">
+                  <tr>
+                    <td bgcolor="#CCCCCC"><p align="center"><strong><font color="#FF0000" size="2"><img src="images/Autres/new_a.gif" width="25" height="9"> BINDER
+                            CS 1.6 <img src="images/Autres/new_a.gif" width="25" height="9"></font></strong></p>
+                        <p><b><font color="#000099">Arme Principale :&nbsp;</font></b>&nbsp;
+                          <select name=primary>
+                            <option selected>- Aucune -
+                            <option value="">---&gt; SUB-MACHINE GUN &lt;---
+                            <option value="mp5; ">H&amp;K MP5-Navy
+                            <option value="tmp; ">Steyr Tactical Machine Pistol
+                            <option value="p90; ">FN P90
+                            <option value="mac10; ">Ingram MAC-10
+                            <option value="ump45; ">H&amp;K UMP45
+                            <option value="">-------&gt; SHOTGUNS &lt;-------
+                            <option value="m3; ">Benelli M3 Super90
+                            <option value="xm1014; ">Benelli XM1014
+                            <option value="">---------&gt; RIFLES &lt;----------
+                            <option value="famas; ">Famas
+                            <option value="galil; ">Galil
+                            <option value="m4a1; ">Colt M4A1 Carbine
+                            <option value="ak47; ">AK-47
+                            <option value="aug; ">Steyr Aug
+                            <option value="sg552; ">Sig SG-552 Commando
+                            <option value="scout; ">Steyr Scout
+                            <option value="awp; ">AI Arctic Warfare/Magnum
+                            <option value="sg550; ">Sig SG-550 Sniper
+                            <option value="g3sg1; ">H&amp;K G3/SG-1 Sniper Rifle
+                            <option value="">-----&gt; MACHINE GUNS &lt;-----
+                            <option value="m249; ">FN M249 Para                            
+                          </select>
+                            <br>
+                            <b><font color="#000099">Arme Secondaire :</font>
+                            <select size=1 name=secondary>
+                              <option selected>- Aucune -
+                              <option value="">---------&gt; HANDGUNS &lt;---------
+                              <option value="usp; ">H&amp;K USP .45 Tactical
+                              <option value="glock; ">Glock18 Select Fire
+                              <option value="deagle; ">Desert Eagle .50AE
+                              <option value="p228; ">Sig P228
+                              <option value="elites; ">Dual Beretta 96G Elite
+                              <option value="fn57; ">FN Five-Seven
+                            </select>
+                            </b><br>
+                            <b><font color="#000099">Touche :</font>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <select name=key>
+                              <option value="F1" selected>F1
+                              <option value="F2">F2
+                              <option value="F3">F3
+                              <option value="F4">F4
+                              <option value="F5">F5
+                              <option value="F6">F6
+                              <option value="F7">F7
+                              <option value="F8">F8
+                              <option value="F9">F9
+                              <option value="F10">F10
+                              <option value="F11">F11
+                              <option value="F12">F12
+                              <option value="ESCAPE">Escape
+                              <option value="SHIFT">Shift
+                              <option value="ENTER">Enter
+                              <option value="PAUSE">Pause
+                              <option value="BACKSPACE">Backspace
+                              <option value="TAB">Tab
+                              <option value="CTRL">Control
+                              <option value="ALT">Alt
+                              <option value="SPACE">Space
+                              <option value="1">1
+                              <option value="2">2
+                              <option value="3">3
+                              <option value="4">4
+                              <option value="5">5
+                              <option value="6">6
+                              <option value="7">7
+                              <option value="9">9
+                              <option value="0">0
+                              <option value="a">A
+                              <option value="b">B
+                              <option value="c">C
+                              <option value="d">D
+                              <option value="e">E
+                              <option value="f">F
+                              <option value="g">G
+                              <option value="h">H
+                              <option value="i">I
+                              <option value="j">J
+                              <option value="k">K
+                              <option value="l">L
+                              <option value="m">M
+                              <option value="n">N
+                              <option value="o">O
+                              <option value="p">P
+                              <option value="q">Q
+                              <option value="r">R
+                              <option value="s">S
+                              <option value="t">T
+                              <option value="u">U
+                              <option value="v">V
+                              <option value="w">W
+                              <option value="x">X
+                              <option value="y">Y
+                              <option value="z">Z
+                              <option value="UPARROW">Up Arrow
+                              <option value="DOWNARROW">Down Arrow
+                              <option value="RIGHTARROW">Right Arrow
+                              <option value="LEFTARROW">Left Arrow
+                              <option value="INS">Insert
+                              <option value="HOME">Home
+                              <option value="PGUP">Page Up
+                              <option value="PGDN">Page Down
+                              <option value="DEL">Delete
+                              <option value="END">End
+                              <option value="KP_UPARROW">Key Pad Up Arrow
+                              <option value="KP_PGUP">Key Pad Page Up
+                              <option value="KP_LEFTARROW">Key Pad Left Arrow
+                              <option value="KP_5">Key Pad 5
+                              <option value="KP_PGUP">Key Pad Page Up
+                              <option value="KP_END">Key Pad End
+                              <option value="KP_DOWNARROW">Key Pad Down Arrow
+                              <option value="KP_PGDN">Key Pad Page Down
+                              <option value="KP_ENTER">Key Pad Enter
+                              <option value="KP_INS">Key Pad Insert
+                              <option value="KP_DEL">Key Pad Delete
+                              <option value="KP_SLASH">Key Pad /
+                              <option value="KP_MINUS">Key Pad -
+                              <option value="KP_PLUS">Key Pad +
+                              <option value="KP_END">Key Pad End
+                              <option value="MOUSE1">Mouse 1
+                              <option value="MOUSE2">Mouse 2
+                              <option value="MOUSE3">Mouse 3
+                              <option value="MOUSE4">Mouse 4
+                              <option value="MOUSE5">Mouse 5
+                              <option value="MWHEELUP">Mouse Wheel Up
+                              <option value="MWHEELDOWN">Mouse Wheel Down
+                              <option value="CAPSLOCK">Caps Lock
+                              <option value="`">`
+                              <option value="-">-
+                              <option value="=">=
+                              <option value="]">]
+                              <option value="[">[
+                              <option value="\">\
+                              <option value=";">;
+                              <option value="'">'
+                              <option value=",">,                              
+                                                
+                                                                            
+                                                  
+                          /
+                          
+                          
+                            </select>
+                            </b><br>
+                            <br>
+                            <input type=checkbox checked 
+                        name=ammo>
+                            <b><font color="#000099">Munitions primaire et secondaire</font><font color="#33FF00"><br>
+                            </font></b><br>
+                            <b><font color="#FF0000">Equipements :</font></b><br>
+                            <input type=checkbox name=kev>
+                            <font color="#000000">Kevlar Vest<br>
+                            <input 
+                        type=checkbox name=kevhelm>
+        Kevlar Vest And Helmet<br>
+        <input type=checkbox name=he>
+        HE Grenade<br>
+        <input type=checkbox name=fb>
+        Flashbang<br>
+        <input type=checkbox name=sg>
+        Smoke Grenade<br>
+        <input type=checkbox name=dk>
+        Defuse Kit<br>
+        <input type=checkbox name=nv>
+        Nightvision<br>
+        <input type=checkbox name=sh>
+        Tactical Shield</font>                        
+                        <p>
+                          <center>
+                            <input name="button" type=button onClick=NewScript(); value="Generer Script">
+                            <br>
+                            <br>
+                            <textarea name=text1 rows=8 cols=50></textarea>
+                            <br>
+                            <input onClick="window.document.form.text1.value = '';" type=button value=Effacer name=button>
+                            <input name="button" type=button onClick=AddScript(); value=Ajouter>
+                            <br>
+                            <br>
+                            <big><b>Script Box</b></big><br>
+                            <textarea name=text2 rows=8 cols=50></textarea>
+                            <br>
+                            <input onClick="window.document.form.text2.value = '';" type=button value=Effacer name=button>
+                          </center>
+                        </p>
+                        <center>
+                          <script language=javaScript>
+function NewScript() { 
+var Key = document.form.key.value;
+
+if (document.form.kev.checked == true){
+var Vest = 'vest; ';
+}else{
+var Vest = '';
+}
+
+if (document.form.kevhelm.checked == true){
+var VestHelm = 'vesthelm; ';
+}else{
+var VestHelm = '';
+}
+
+if (document.form.he.checked == true){
+var Hegren = 'hegren; ';
+}else{
+var Hegren = '';
+}
+
+if (document.form.fb.checked == true){
+var Flash = 'flash; ';
+}else{
+var Flash = '';
+}
+
+if (document.form.sg.checked == true){
+var Smoke = 'Sgren; ';
+}else{
+var Smoke = '';
+}
+
+if (document.form.dk.checked == true){
+var Defuse = 'defuser; ';
+}else{
+var Defuse = '';
+}
+
+if (document.form.nv.checked == true){
+var Nvision = 'Nvgs; ';
+}else{
+var Nvision = '';
+}
+
+if (document.form.sh.checked == true){
+var Shield = 'shield; ';
+}else{
+var Shield = '';
+}
+ 
+var Equip = Vest + VestHelm + Hegren + Flash + Smoke + Defuse + Nvision + Shield;
+
+if (document.form.ammo.checked == true && document.form.primary.value!= ''){
+var Gun1 = document.form.primary.value + 'primammo; ';
+}else if(document.form.primary.value!= ''){
+var Gun1 = document.form.primary.value;
+}else{
+var Gun1='';
+}
+
+if (document.form.ammo.checked == true && document.form.secondary.value!= ''){
+var Gun2 = document.form.secondary.value + 'secammo; ';
+}else if(document.form.secondary.value!= ''){
+var Gun2 = document.form.secondary.value;
+}else{
+var Gun2='';
+}
+
+document.form.text1.value = 'bind "'+ Key +'" "'+ Gun1 + Gun2 + Equip +'"';
+}
+
+
+function AddScript() { 
+var Script = document.form.text1.value;
+if(document.form.text2.value!= ''){
+var Script2 = document.form.text2.value + '\n';
+}else{
+var Script2=''
+}
+document.form.text2.value = Script2 +Script;
+document.form.text1.value = '';
+}
+                  </script>
+                        </center>
+                    </td>
+                  </tr>
+                </table>
+                </form>
+              </div>
+            </td>
+    		<TD WIDTH=27 BACKGROUND=images/cad_d.gif>&nbsp;</TD>
+  		</TR>
+  		<TR>
+    		<TD COLSPAN=3><IMG SRC="images/cad_b.gif" BORDER=0 WIDTH=575 HEIGHT=20 HSPACE=0 VSPACE=0></TD>
+  		</TR>
+  	</TABLE><BR>        <a href="http://www.xiti.com/xiti.asp?s=98910" TARGET="_top">
+    </a></TD>
+    <TD WIDTH=20 BACKGROUND=images/d.gif><IMG SRC="images/d.gif" BORDER=0 WIDTH=20 HEIGHT=61 HSPACE=0 VSPACE=0></TD>
+  </TR>
+  <TR>
+  	<TD COLSPAN=3><IMG SRC="images/bas.jpg" BORDER=0 WIDTH=774 HEIGHT=32 USEMAP="#bas"></TD>
+  </TR>
+</TABLE>
+<br>
+<a href="http://www.xiti.com/xiti.asp?s=98910" TARGET="_top">
+<script language="JavaScript1.1">
+<!--
+hsh = new Date();
+hsd = document;
+hsr = hsd.referrer.replace(/[<>]/g, '');
+hsi = '<img width="39" height="25" border=0 ';
+hsi += 'src="http://logv20.xiti.com/hit.xiti?s=98910';
+hsi += '&p=Binder';
+hsi += '&hl=' + hsh.getHours() + 'x' + hsh.getMinutes() + 'x' + hsh.getSeconds();
+if(parseFloat(navigator.appVersion)>=4)
+{Xiti_s=screen;hsi += '&r=' + Xiti_s.width + 'x' + Xiti_s.height + 'x' + Xiti_s.pixelDepth + 'x' + Xiti_s.colorDepth;}
+hsd.writeln(hsi + '&ref=' + hsr.replace(/&/g, '$') + '" title="Mesurez votre audience"><\!--');
+//-->
+    
+</script>
+</a>
+<noscript>
+<a href="http://www.xiti.com/xiti.asp?s=98910" target="_top"><img width="39" height="25" border=0 src="http://logv20.xiti.com/hit.xiti?s=98910&p=Binder&" title="Mesurez votre audience"></a>
+</noscript>
+</CENTER>
+</BODY>
+</HTML>
+<!-- FIN FOOTER -->

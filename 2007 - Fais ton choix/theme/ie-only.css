@@ -1,0 +1,83 @@
+#fleche_gauche { 
+	clear:both;
+	float:none; margin:0;
+	position:absolute;
+	top:3px;
+	left:10px;
+
+
+}
+#fleche_droite {
+	clear:both;
+	float:none; margin:0;
+	position:absolute;
+	top:3px;
+	right:10px;
+}
+
+#top {
+	background:url(images/topie.gif) no-repeat;
+	background-color:#eaeaea;
+}
+#container {
+	background:url(images/bgie.gif) repeat-y;
+	
+}
+#bottom {
+	background:url(images/bottomie.png) no-repeat;
+	background-color:#eaeaea
+}
+
+#main {
+	margin-top:0;
+	width:716px;
+	margin-top:0;
+}
+#duel {
+	margin-top:-35px
+}
+#banner {
+	width:409px;
+	height:51px;
+	margin:-13px auto 0px auto;
+	overflow:visible
+}
+
+
+#topL {
+	background:url(images/topLie.png) no-repeat;
+}
+#containerLarge {
+	background:url(images/bgLie.png) repeat-y;
+}
+#bottomL {
+	background:url(images/bottomLie.png) no-repeat;
+	background-color:#eaeaea;
+}
+
+
+.barre_pourcentage {
+	padding-bottom:0px
+} 
+
+.barre_couleur {
+	 margin-bottom:-1px
+}
+
+#lien_principe {
+	position:absolute;
+	left:10px;
+	top:65px;
+	width:128px;
+	height:41px;
+	background-image:url(images/principeIE.png);
+}
+#lien_avenir {
+	position:absolute;
+	right:10px;
+	top:65px;
+	width:133px;
+	height:41px;
+	background-image:url(images/avenirIE.png);
+}
+

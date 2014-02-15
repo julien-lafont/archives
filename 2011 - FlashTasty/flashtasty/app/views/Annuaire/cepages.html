@@ -1,0 +1,27 @@
+#{extends 'layout-complet.html' /}
+#{set title:'Annuaire : Cépages' /}
+
+<div data-role="page">
+	<div data-role="header">
+		#{header lang:lang, retour:true /}
+	</div>
+
+
+	<div data-role="content">
+		<ul data-role="listview"  >
+			<li  data-role="list-divider">&{'AnnuaireDesCepages'}</li>
+			#{list items:liste, as: 'cepage'}
+				<li>
+					<a href="@{Annuaire.cepagesVins(cepage.id)}">
+						<h3>${cepage.nom}</h3>
+					</a>
+				</li>
+			#{/list}
+			#{else}
+			<li>&{'AucunCepage'}</li>
+			#{/else}
+		</ul>
+
+	</div>
+
+</div>
